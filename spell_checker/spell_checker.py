@@ -1,0 +1,49 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Mon May 22 06:27:21 2017
+
+@author: kim
+"""
+import sys
+reload(sys)  
+sys.setdefaultencoding('utf8')
+import os
+from binaryornot.check import is_binary #check if this is binary file or not
+import language_check
+tool = language_check.LanguageTool('en-US')
+
+#MORFOLOGIK_RULE_EN_US
+
+FIXDIR = './fix/'
+
+def dirCheck(DIRPATH) :
+    dirList = os.listdir(DIRPATH)
+    for inFile in dirList :
+        if(os.path.isdir(DIRPATH+inFile)) :
+            dirCheck(DIRPATH+inFile+'/')
+        elif(is_binary(DIRPATH+inFile)) :
+            continue
+        else :
+            nLine = 0
+            f = open(DIRPATH+inFile,'r')
+            fw = open(FIXDIR+inFile+'.fix','w')
+            while True:
+                line = f.readline()
+                if not line: break
+                matches = tool.check(line.decode('utf-8'))
+                for idx in range(len(matches)) :
+                    print str(matches[idx]), matches[idx].ruleId
+                    data = str(nLine)+' | '+str(matches[idx].fromx)+' '+str(matches[idx].tox)+' | '+line[matches[idx].fromx:matches[idx].tox]+' | '+matches[idx].msg+'\n'
+                    print data
+                    fw.write(str(matches[idx]).encode("utf8")+'\n')
+                    fw.write(data.encode("utf8")+'\n')
+                nLine += 1
+            fw.close()
+            f.close()
+
+DIR = './testdir/'
+print DIR
+dirCheck(DIR)
+
+
