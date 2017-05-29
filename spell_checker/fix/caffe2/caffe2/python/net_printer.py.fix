@@ -1,0 +1,154 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Map
+    map(analyzer, net.Proto().op) 
+    ^^^
+80 | 4 7 | map | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+    proto = step.Proto() 
+    ^^^^^
+85 | 4 9 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Substeps
+    substeps = step.Substeps() + [step.get_net(n) fo...
+    ^^^^^^^^
+90 | 4 12 | substeps | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+    plan.AddStep(step) 
+    ^^^^
+110 | 4 8 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto_len
+    proto_len = len(plan.Proto().SerializeToString())...
+    ^^^^^^^^^
+111 | 4 13 | proto_len | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Than
+        'than 64Mb, but this task has {} bytes.' % pr...
+         ^^^^
+114 | 9 13 | than | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if arg.HasField('f'): 
+    ^^
+183 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if arg.HasField('i'): 
+    ^^
+185 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if arg.HasField('s'): 
+    ^^
+187 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 27, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+        inputs_v = [a for a in inputs if not isinstance(a, tuple)] ...
+                          ^
+221 | 26 27 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 28, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+        inputs_kv = [a for a in inputs if isinstance(a, tuple)] 
+                           ^
+222 | 27 28 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 53, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...(op.input) + [(a.name, _arg_val(a)) for a in op.arg], 
+                                           ^
+236 | 52 53 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for op in net.Proto().op: 
+    ^^^
+244 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+    proto = step.Proto() 
+    ^^^^^
+249 | 4 9 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Concurrent
+    concurrent = proto.concurrent_substeps and len(ste...
+    ^^^^^^^^^^
+254 | 4 14 | concurrent | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+    proto = step.Proto() 
+    ^^^^^
+264 | 4 9 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Substeps
+        substeps = step.Substeps() + [step.get_net(n) fo...
+        ^^^^^^^^
+270 | 8 16 | substeps | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Substep
+                    substep.Proto().run_every_ms): 
+                    ^^^^^^^
+273 | 20 27 | substep | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Before
+    before each operator execution. Use for debugg...
+    ^^^^^^
+330 | 4 10 | before | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for op in net.Proto().op: 
+    ^^^
+335 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Debug_net
+        debug_net.LogInfo(str(text)) 
+        ^^^^^^^^^
+338 | 8 17 | debug_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Debug_net
+        debug_net.Proto().op.extend([op]) 
+        ^^^^^^^^^
+339 | 8 17 | debug_net | This sentence does not start with an uppercase letter
+

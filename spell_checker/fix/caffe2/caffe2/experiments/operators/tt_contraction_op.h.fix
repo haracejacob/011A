@@ -1,0 +1,14 @@
+Line 1, column 17, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+    const auto& A = Input(0); 
+                ^
+24 | 16 17 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 17, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+    const auto& A = Input(1); 
+                ^
+87 | 16 17 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

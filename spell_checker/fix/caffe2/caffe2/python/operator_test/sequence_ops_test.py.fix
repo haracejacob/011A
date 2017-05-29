@@ -1,0 +1,70 @@
+Line 1, column 15, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun if seems to be countable, so consider using: '4 ifs'.
+Suggestion: 4 ifs
+    min_len = 4 if is_remove else 0 
+              ^^^^
+27 | 14 18 | 4 if | Possible agreement error. The noun if seems to be countable, so consider using: '4 ifs'.
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestSequenceOps(hu.HypothesisTestCase):...
+^^^^^
+96 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+104 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+121 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+137 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+156 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+176 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+198 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+233 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+268 | 8 10 | op | This sentence does not start with an uppercase letter
+

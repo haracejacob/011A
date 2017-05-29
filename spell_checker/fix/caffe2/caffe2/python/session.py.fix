@@ -1,0 +1,119 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Add([net.Const(1), net.Const(2)]) 
+        ^^^
+30 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net2
+        net2 = net.Clone() 
+        ^^^^
+32 | 8 12 | net2 | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N1setup
+                n1setup = net.Net('n1setup') 
+                ^^^^^^^
+37 | 16 23 | n1setup | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N1msg
+                n1msg = n1setup.Const('Hello from node 1.') 
+                ^^^^^
+38 | 16 21 | n1msg | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N1
+                n1 = net.Net('n1') 
+                ^^
+43 | 16 18 | n1 | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N1
+                n1.Print(n1msg, 0) 
+                ^^
+44 | 16 18 | n1 | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N2
+                n2 = net.Net('n2') 
+                ^^
+47 | 16 18 | n2 | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N2
+                n2.Print(n2.Const('Hello from node 2.'), 0...
+                ^^
+48 | 16 18 | n2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Access
+        access each other's blobs. On the other hand, ...
+        ^^^^^^
+70 | 8 14 | access | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+            elif isinstance(runnable, core.ExecutionStep...
+            ^^^^
+100 | 12 16 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: But
+    but this behavior may change in the future....
+    ^^^
+147 | 4 7 | but | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._ws = ws or workspace.C.Workspace.curre...
+        ^^^^
+152 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan = core.Plan('task_group_plan') 
+        ^^^^
+158 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(task.get_step()) 
+        ^^^^
+159 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outputs
+            outputs.append(core.BlobReference(str(name))) 
+            ^^^^^^^
+169 | 12 19 | outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.C.Workspace(self._ws) 
+            ^^^^^^^^^
+172 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with workspace.WorkspaceGuard(task_ws): 
+        ^^^^
+174 | 8 12 | with | This sentence does not start with an uppercase letter
+

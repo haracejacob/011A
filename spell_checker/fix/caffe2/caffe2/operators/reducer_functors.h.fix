@@ -1,0 +1,84 @@
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input
+      "input slices. Operation doesn't change the sh...
+       ^^^^^
+126 | 7 12 | input | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input
+      "input slices. Operation doesn't change the sh...
+       ^^^^^
+188 | 7 12 | input | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elements
+      "elements in the input slices. Operation doesn't ...
+       ^^^^^^^^
+246 | 7 15 | elements | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elements
+      "elements in the input slices. Operation doesn't ...
+       ^^^^^^^^
+310 | 7 15 | elements | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Individual
+      "individual blocks. This implementation imitates to...
+       ^^^^^^^^^^
+311 | 7 17 | individual | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+      "the first occurence of value. When computin...
+       ^^^
+313 | 7 10 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: First_dim
+      first_dim ? block_shape.assign(dims.begin() + ski...
+      ^^^^^^^^^
+338 | 6 15 | first_dim | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Block_size
+      block_size = first_dim ? value.size_from_dim(skip_...
+      ^^^^^^^^^^
+340 | 6 16 | block_size | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: First_dim
+      first_dim ? block_shape.assign(dims.begin() + ski...
+      ^^^^^^^^^
+384 | 6 15 | first_dim | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor for the ...
+    ^^^^^^
+617 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+618 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg( 
+    ^^^^^^
+623 | 4 10 | schema | This sentence does not start with an uppercase letter
+

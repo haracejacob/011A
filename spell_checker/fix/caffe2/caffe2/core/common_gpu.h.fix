@@ -1,0 +1,7 @@
+Line 1, column 41, Rule ID: THERE_RE_MANY[4]
+Message: Did you mean 'there are hardwares'?
+Suggestion: there are hardwares
+... * cuda gpus present in the machine, or there are hardware configuration 
+                                           ^^^^^^^^^^^^^^^^^^
+59 | 40 58 | there are hardware | Did you mean 'there are hardwares'?
+

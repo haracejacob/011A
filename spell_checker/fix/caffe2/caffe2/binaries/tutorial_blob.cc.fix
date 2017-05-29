@@ -1,0 +1,42 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int*
+  int* myint = myblob.GetMutable<int>(); 
+  ^^^^
+23 | 2 6 | int* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int& myint_const = myblob.Get<int>(); 
+  ^^^^^
+34 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const float& myfloat = myblob.Get<float>(); 
+    ^^^^^
+43 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Content
+      "content) by calling GetMutable. Let's change it...
+       ^^^^^^^
+53 | 7 14 | content | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Double*
+  double* mydouble = myblob.GetMutable<double>();...
+  ^^^^^^^
+55 | 2 9 | double* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Myblob
+  myblob.Reset(pvec); // no need to release pvec...
+  ^^^^^^
+65 | 2 8 | myblob | This sentence does not start with an uppercase letter
+

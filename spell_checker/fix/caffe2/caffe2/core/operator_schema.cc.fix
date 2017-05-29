@@ -1,0 +1,14 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+        out << "  " << i << ", " << (p.first ? p.fi...
+        ^^^
+269 | 8 11 | out | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+        out << "  " << i << ", " << (p.first ? p.fi...
+        ^^^
+281 | 8 11 | out | This sentence does not start with an uppercase letter
+

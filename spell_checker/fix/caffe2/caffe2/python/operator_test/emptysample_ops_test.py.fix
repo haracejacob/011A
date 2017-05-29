@@ -1,0 +1,49 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob( 
+            ^^^^^^^^^
+37 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob( 
+            ^^^^^^^^^
+40 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob( 
+            ^^^^^^^^^
+43 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(PadEmptyTest) 
+            ^^^^^^^^^
+46 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.FetchBlob('out_lengths'), 
+                ^^^^^^^^^
+49 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.FetchBlob('out_features1'), 
+                ^^^^^^^^^
+53 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.FetchBlob('out_features2'), 
+                ^^^^^^^^^
+57 | 16 25 | workspace | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Send
+        "send the tensor with. This overrides the 'ta...
+         ^^^^
+84 | 9 13 | send | This sentence does not start with an uppercase letter
+
+Line 1, column 51, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+... should have pre-allocated data and type..") 
+                                           ^^
+106 | 50 52 | .. | Two consecutive dots
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Send
+        "send the tensor with. This overrides the 'ta...
+         ^^^^
+116 | 9 13 | send | This sentence does not start with an uppercase letter
+

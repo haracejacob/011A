@@ -1,0 +1,378 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+37 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int*
+  int* int_unused UNUSED_VARIABLE = blob.GetMu...
+  ^^^^
+39 | 2 6 | int* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+49 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.GetMutable<int>(&is_new_object); 
+  ^^^^
+53 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.GetMutable<int>(&is_new_object); 
+  ^^^^
+55 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.GetMutable<BlobTestFoo>(&is_new_object)...
+  ^^^^
+58 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.GetMutable<BlobTestFoo>(&is_new_object)...
+  ^^^^
+60 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+65 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+70 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+80 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.Reset(); 
+  ^^^^
+84 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+101 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.Reset(); 
+  ^^^^
+106 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+110 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.Reset(); 
+  ^^^^
+115 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+120 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string serialized = blob.Serialize("test"); 
+  ^^^^^^
+123 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(dims); 
+  ^^^^^^
+160 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(dims); 
+  ^^^^^^
+186 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(dims); 
+  ^^^^^^
+226 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Other_tensor
+  other_tensor.ShareData(tensor); 
+  ^^^^^^^^^^^^
+254 | 2 14 | other_tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.ShareExternalPointer(raw_buffer.get());...
+  ^^^^^^
+272 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.ShareExternalPointer(raw_buffer.get(), ...
+  ^^^^^^
+290 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Other_tensor
+  other_tensor.ShareData(tensor); 
+  ^^^^^^^^^^^^
+316 | 2 14 | other_tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Other_tensor
+  other_tensor.ShareData(tensor); 
+  ^^^^^^^^^^^^
+338 | 2 14 | other_tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(dims); 
+  ^^^^^^
+343 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(3, 4, 6); 
+  ^^^^^^
+356 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(1, 2, 4); 
+  ^^^^^^
+361 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(3, 0, 6); 
+  ^^^^^^
+366 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(2, 3, 5); 
+  ^^^^^^
+368 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(1, 7, 8); 
+  ^^^^^^
+383 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(1, 1, 8); 
+  ^^^^^^
+388 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(large_number, 100); 
+  ^^^^^^
+443 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+    Blob blob;                                       ...
+    ^^^^^^^^^
+461 | 4 13 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+    string serialized = blob.Serialize("test");   ...
+    ^^^^^^
+467 | 4 10 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const TensorCPU& new_tensor = blob.Get<Tensor...
+    ^^^^^
+484 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+    Blob blob;                                       ...
+    ^^^^^^^^^
+495 | 4 13 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+    string serialized = blob.Serialize("test");   ...
+    ^^^^^^
+499 | 4 10 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const TensorCPU& new_tensor = blob.Get<Tensor...
+    ^^^^^
+513 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+530 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string serialized = blob.Serialize("test"); 
+  ^^^^^^
+545 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_blob
+  new_blob.Deserialize(serialized); 
+  ^^^^^^^^
+559 | 2 10 | new_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const QTensor<CPUContext>& new_qtensor = blob...
+  ^^^^^
+561 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  VectorDB(const string& source, db::Mode mode) 
+                                     ^^^^^^^^^
+603 | 37 46 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+    Blob blob; 
+    ^^^^^^^^^
+654 | 4 13 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 10, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: mutex
+    std::mutex mutex; 
+         ^^^^^^^^^^^
+664 | 9 20 | mutex mutex | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    blob.Serialize("test", acceptor); 
+    ^^^^
+671 | 4 8 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 27, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Reading) must be used with a third-person verb: 'blobs'.
+Suggestion: blobs
+    LOG(INFO) << "Reading blob from workspace"; 
+                          ^^^^
+696 | 26 30 | blob | The proper name in singular (Reading) must be used with a third-person verb: 'blobs'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto new_blob = ws.GetBlob("test"); 
+    ^^^^
+697 | 4 8 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+717 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 8, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: mutex
+  std::mutex mutex; 
+       ^^^^^^^^^^^
+721 | 7 18 | mutex mutex | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.Serialize("test", acceptor, size); 
+  ^^^^
+727 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.Serialize("test", acceptor, (size / 2) ...
+  ^^^^
+731 | 2 6 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+  blob.Serialize("test", acceptor, kNoChunking...
+  ^^^^
+735 | 2 6 | blob | This sentence does not start with an uppercase letter
+

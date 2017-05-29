@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) 
+  ^^
+14 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+  context.FinishDeviceComputation(); 
+  ^^^^^^^
+55 | 2 9 | context | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+  context.FinishDeviceComputation(); 
+  ^^^^^^^
+60 | 2 9 | context | This sentence does not start with an uppercase letter
+

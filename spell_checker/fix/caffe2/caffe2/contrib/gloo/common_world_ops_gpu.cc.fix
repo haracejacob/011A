@@ -1,0 +1,7 @@
+Line 1, column 29, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: attr
+    ::gloo::transport::tcp::attr attr; 
+                            ^^^^^^^^^
+24 | 28 37 | attr attr | Possible typo: you repeated a word
+

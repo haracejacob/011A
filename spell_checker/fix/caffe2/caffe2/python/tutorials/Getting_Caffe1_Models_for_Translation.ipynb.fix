@@ -1,0 +1,14 @@
+Line 1, column 14, Rule ID: CAN_SETUP[1]
+Message: Did you mean 'can set up'?
+Suggestion: can set up
+    "Now you can setup your root folder for Caffe below if you...
+             ^^^^^^^^^
+33 | 13 22 | can setup | Did you mean 'can set up'?
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "    print(CAFFE_PRETRAINED + \" not found. Attemp...
+         ^^^^^
+90 | 9 14 | print | This sentence does not start with an uppercase letter
+

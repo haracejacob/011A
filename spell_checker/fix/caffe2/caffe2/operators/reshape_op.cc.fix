@@ -1,0 +1,21 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+          if (!helper.HasArgument("shape")) { 
+          ^^
+19 | 10 12 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto actualNewShape = helper.GetRepeatedArgu...
+          ^^^^
+36 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inferred
+inferred from the size of the tensor and the rem...
+^^^^^^^^
+114 | 0 8 | inferred | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 41, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...CAFFE2_ROOT="$( cd "$(dirname -- "$0")"/.. ; pwd -P)" 
+                                           ^^
+9 | 40 42 | .. | Two consecutive dots
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cmake
+cmake .. \ 
+^^^^^
+36 | 0 5 | cmake | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+cmake .. \ 
+      ^^
+36 | 6 8 | .. | Two consecutive dots
+

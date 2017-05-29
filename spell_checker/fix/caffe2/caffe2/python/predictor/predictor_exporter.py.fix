@@ -1,0 +1,245 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+    predict_net can be either core.Net, NetDef, PlanDef...
+    ^^^^^^^^^^^
+26 | 4 15 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(predict_net, (core.Net, core...
+        ^^
+53 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+            predict_net = predict_net.Proto() 
+            ^^^^^^^^^^^
+54 | 12 23 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(predict_net, (caffe2_pb2.Net...
+        ^^^^^^
+56 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_init_net
+    global_init_net = utils.GetNet( 
+    ^^^^^^^^^^^^^^^
+101 | 4 19 | global_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunNetOnce(global_init_net) 
+    ^^^^^^^^^
+103 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_init_net
+    predict_init_net = utils.GetNet( 
+    ^^^^^^^^^^^^^^^^
+105 | 4 20 | predict_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunNetOnce(predict_init_net) 
+    ^^^^^^^^^
+107 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+    predict_net = core.Net( 
+    ^^^^^^^^^^^
+109 | 4 15 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+        utils.GetNet(metanet_def, predictor_constants...
+        ^^^^^
+110 | 8 13 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.CreateNet(predict_net) 
+    ^^^^^^^^^
+111 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net = core.Net("global-init") 
+    ^^^
+117 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net.Load( 
+    ^^^
+118 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net.Proto().external_input.extend([predicto...
+    ^^^
+121 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net.Proto().external_output.extend(predicto...
+    ^^^
+122 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return net.Proto() 
+    ^^^^^^
+123 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+    ws = ws or workspace.C.Workspace.current 
+    ^^
+130 | 4 6 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Meta_net_def
+    meta_net_def = metanet_pb2.MetaNetDef() 
+    ^^^^^^^^^^^^
+133 | 4 16 | meta_net_def | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    utils.AddNet(meta_net_def, predictor_export_m...
+    ^^^^^
+134 | 4 9 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    utils.AddNet(meta_net_def, predictor_export_m...
+    ^^^^^
+136 | 4 9 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    utils.AddNet(meta_net_def, predictor_export_m...
+    ^^^^^
+138 | 4 9 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    utils.AddBlobs(meta_net_def, predictor_export...
+    ^^^^^
+140 | 4 9 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    utils.AddBlobs(meta_net_def, predictor_export...
+    ^^^^^
+142 | 4 9 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    utils.AddBlobs(meta_net_def, predictor_export...
+    ^^^^^
+144 | 4 9 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert isinstance(meta_net_def, metanet_pb2.Me...
+    ^^^^^^
+150 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with core.DeviceScope(core.DeviceOption(caff...
+    ^^^^
+158 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+159 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+    op = core.CreateOperator( 
+    ^^
+166 | 4 6 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunOperatorOnce(op) 
+    ^^^^^^^^^
+172 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Create_db
+    create_db = core.CreateOperator( 
+    ^^^^^^^^^
+178 | 4 13 | create_db | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert workspace.RunOperatorOnce(create_db), (...
+    ^^^^^^
+182 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Load_meta_net_def
+    load_meta_net_def = core.CreateOperator( 
+    ^^^^^^^^^^^^^^^^^
+186 | 4 21 | load_meta_net_def | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert workspace.RunOperatorOnce(load_meta_net...
+    ^^^^^^
+190 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Str
+        str(workspace.FetchBlob(predictor_constants...
+        ^^^
+193 | 8 11 | str | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Metanet_pb2
+        metanet_pb2.MetaNetDef) 
+        ^^^^^^^^^^^
+194 | 8 19 | metanet_pb2 | This sentence does not start with an uppercase letter
+

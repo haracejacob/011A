@@ -1,0 +1,56 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Oc
+      oc.offset >= 0 ? oc.offset : src->dim(0) +...
+      ^^
+70 | 6 8 | oc | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+      auto g = param.cellGradient.empty() ? param....
+      ^^^^
+529 | 6 10 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+      auto agBlob = sharedBlobsWs.CreateBlob(param...
+      ^^^^
+578 | 6 10 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 31, Rule ID: THERE_RE_MANY[5]
+Message: Possible agreement error. Did you mean 'there are several inputs'?
+Suggestion: there are several inputs
+    // This code assumes that there are several input 
+                              ^^^^^^^^^^^^^^^^^^^^^^^
+606 | 30 53 | there are several input | Possible agreement error. Did you mean 'there are several inputs'?
+
+Line 1, column 41, Rule ID: MANY_NN[1]
+Message: Possible agreement error. The noun input seems to be countable; consider using: 'several inputs'.
+Suggestion: several inputs
+...    // This code assumes that there are several input 
+                                           ^^^^^^^^^^^^^
+606 | 40 53 | several input | Possible agreement error. The noun input seems to be countable; consider using: 'several inputs'.
+
+Line 1, column 35, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+      // are from GO. Then all I(0..N). 
+                                  ^^
+611 | 34 36 | .. | Two consecutive dots
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+      auto accGradBlob = sharedBlobsWs.GetBlob(par...
+      ^^^^
+681 | 6 10 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+        "Accumulation source address out of bounds"); 
+                                     ^^^^^^^^^^^^^
+769 | 37 50 | out of bounds | This word is normally spelled with hyphen.
+

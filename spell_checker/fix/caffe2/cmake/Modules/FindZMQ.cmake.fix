@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Caffe2 requires zmq version 3 ...
+    ^^^^^^^
+26 | 4 11 | message | This sentence does not start with an uppercase letter
+

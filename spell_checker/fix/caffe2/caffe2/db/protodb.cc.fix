@@ -1,0 +1,14 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string value() override { return proto_->proto...
+  ^^^^^^
+22 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 33, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  ProtoDB(const string& source, Mode mode) 
+                                ^^^^^^^^^
+67 | 32 41 | Mode mode | Possible typo: you repeated a word
+

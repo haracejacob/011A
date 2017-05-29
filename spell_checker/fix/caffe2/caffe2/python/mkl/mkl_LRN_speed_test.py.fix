@@ -1,0 +1,189 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestMKLBasic(test_util.TestCase): 
+^^^^^
+12 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mkl_do
+        mkl_do = core.DeviceOption(caffe2_pb2.MKLDNN) ...
+        ^^^^^^
+18 | 8 14 | mkl_do | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("X", X) 
+        ^^^^^^^^^
+20 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("X_mkl", X, device_option=mkl_...
+        ^^^^^^^^^
+21 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = core.Net("test") 
+        ^^^
+22 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.CreateNet(net) 
+        ^^^^^^^^^
+26 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNet(net) 
+        ^^^^^^^^^
+27 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("Y"), 
+            ^^^^^^^^^
+31 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("Y_mkl"), 
+            ^^^^^^^^^
+32 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Runtime
+        runtime = workspace.BenchmarkNet(net.Proto().na...
+        ^^^^^^^
+35 | 8 15 | runtime | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mkl_do
+        mkl_do = core.DeviceOption(caffe2_pb2.MKLDNN) ...
+        ^^^^^^
+47 | 8 14 | mkl_do | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("X", X) 
+        ^^^^^^^^^
+49 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("W", W) 
+        ^^^^^^^^^
+50 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("b", b) 
+        ^^^^^^^^^
+51 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("X_mkl", X, device_option=mkl_...
+        ^^^^^^^^^
+52 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("W_mkl", W, device_option=mkl_...
+        ^^^^^^^^^
+53 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("b_mkl", b, device_option=mkl_...
+        ^^^^^^^^^
+54 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = core.Net("test") 
+        ^^^
+56 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Conv(["X", "W", "b"], "C", pad=1, strid...
+        ^^^
+58 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Conv(["X_mkl", "W_mkl", "b_mkl"], "C_mk...
+        ^^^
+59 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Relu("C", "R") 
+        ^^^
+61 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Relu("C_mkl", "R_mkl", device_option=mk...
+        ^^^
+62 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.CreateNet(net) 
+        ^^^^^^^^^
+66 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNet(net) 
+        ^^^^^^^^^
+67 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("Y"), 
+            ^^^^^^^^^
+70 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("Y_mkl"), 
+            ^^^^^^^^^
+71 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Runtime
+        runtime = workspace.BenchmarkNet(net.Proto().na...
+        ^^^^^^^
+74 | 8 15 | runtime | This sentence does not start with an uppercase letter
+

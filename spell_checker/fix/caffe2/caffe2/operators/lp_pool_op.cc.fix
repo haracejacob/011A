@@ -1,0 +1,42 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+          float scale = 1. / (hend - hstart) / (wend - ...
+          ^^^^^
+141 | 10 15 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+        float scale = 1. / (hend - hstart) / (wend - ...
+        ^^^^^
+198 | 8 13 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Depend
+        "depend on whether the NCHW or NHWC operators a...
+         ^^^^^^
+246 | 9 15 | depend | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+        "of the data. The corresponding permutation...
+         ^^
+249 | 9 11 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Latter
+        "latter case. ") 
+         ^^^^^^
+250 | 9 15 | latter | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+        "tensor. Dimensions will vary based on various ...
+         ^^^^^^
+255 | 9 15 | tensor | This sentence does not start with an uppercase letter
+

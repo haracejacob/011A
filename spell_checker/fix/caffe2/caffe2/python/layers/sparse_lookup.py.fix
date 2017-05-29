@@ -1,0 +1,98 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Scalar( 
+        ^^^^
+46 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.NextScopedBlob(name + '_output'), 
+            ^^^^^
+48 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.w = model.net.NextScopedBlob(name + "_w...
+        ^^^^
+56 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                initializer=core.CreateOperator(self.weight_init[0], 
+                ^^^^^^^^^^^^^^^^
+71 | 16 32 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.pos_w = model.net.NextScopedBlob(name +...
+            ^^^^
+85 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                    initializer=core.CreateOperator('ConstantFill', 
+                    ^^^^^^^^^^^^^^^^
+89 | 20 36 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inc_seq
+                inc_seq = net.LengthsRangeFill( 
+                ^^^^^^^
+117 | 16 23 | inc_seq | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gather_pos_w
+                gather_pos_w = net.Gather( 
+                ^^^^^^^^^^^^
+121 | 16 28 | gather_pos_w | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.SparseLengthsWeightedSum( 
+                ^^^
+124 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sqrt_weight
+                sqrt_weight = net.LengthsToWeights( 
+                ^^^^^^^^^^^
+136 | 16 27 | sqrt_weight | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.SparseLengthsWeightedSum( 
+                ^^^
+141 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Table_rows
+                table_rows = net.Gather([self.w, self.input_record...
+                ^^^^^^^^^^
+152 | 16 26 | table_rows | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Segment_ids
+                segment_ids = net.LengthsToSegmentIds( 
+                ^^^^^^^^^^^
+153 | 16 27 | segment_ids | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+                raise "Only Sum, Mean is supported for IdScor...
+                ^^^^^
+174 | 16 21 | raise | This sentence does not start with an uppercase letter
+

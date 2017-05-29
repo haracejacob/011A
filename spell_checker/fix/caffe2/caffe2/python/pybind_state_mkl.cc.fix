@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const MKLMemory<T>& src = blob.Get<MKLMemory<...
+    ^^^^^
+25 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Src
+    src.CopyTo(ptr); 
+    ^^^
+41 | 4 7 | src | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (meta.Match<float>()) { 
+    ^^
+56 | 4 6 | if | This sentence does not start with an uppercase letter
+

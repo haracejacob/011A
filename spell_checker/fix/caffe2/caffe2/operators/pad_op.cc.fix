@@ -1,0 +1,28 @@
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Depend
+        "depend on whether the NCHW or NHWC operators a...
+         ^^^^^^
+434 | 9 15 | depend | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+        "of the data. The corresponding permutation...
+         ^^
+437 | 9 11 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Latter
+        "latter case. ") 
+         ^^^^^^
+438 | 9 15 | latter | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+        "the tensor. Dimensions will vary based on v...
+         ^^^
+443 | 9 12 | the | This sentence does not start with an uppercase letter
+

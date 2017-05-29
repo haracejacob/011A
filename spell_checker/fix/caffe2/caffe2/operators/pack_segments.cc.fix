@@ -1,0 +1,7 @@
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pad_minf
+        "pad_minf", "Padding number in the packed segment...
+         ^^^^^^^^
+27 | 9 17 | pad_minf | This sentence does not start with an uppercase letter
+

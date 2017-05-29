@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Option
+option(USE_LITE_PROTO "Use lite protobuf inste...
+^^^^^^
+36 | 0 6 | option | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Set
+    set(CMAKE_BUILD_TYPE "Release" CACHE STRING...
+    ^^^
+67 | 4 7 | set | This sentence does not start with an uppercase letter
+

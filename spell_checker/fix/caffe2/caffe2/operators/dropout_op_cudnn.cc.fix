@@ -1,0 +1,21 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.Copy<T, CUDAContext, CUDAContext>( 
+      ^^^^^^^^
+142 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (X.IsType<float>()) { 
+  ^^
+166 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (dY.IsType<float>()) { 
+  ^^
+233 | 2 4 | if | This sentence does not start with an uppercase letter
+

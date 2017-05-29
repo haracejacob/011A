@@ -1,0 +1,14 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return (x == 0 ? 0 : (x < 0 ? -1 : 1)); 
+  ^^^^^^
+6 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 43, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+...  DCHECK(0 <= idx && idx < N) << "Index out of bounds: " << idx 
+                                           ^^^^^^^^^^^^^
+105 | 42 55 | out of bounds | This word is normally spelled with hyphen.
+

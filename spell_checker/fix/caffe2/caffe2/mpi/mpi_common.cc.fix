@@ -1,0 +1,21 @@
+Line 1, column 25, Rule ID: CAN_SETUP[1]
+Message: Did you mean 'to set up'?
+Suggestion: to set up
+ * Helper function used to setup MPI intercommunicator. 
+                        ^^^^^^^^
+43 | 24 32 | to setup | Did you mean 'to set up'?
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int high = (MPI_COMM_NULL == intra) ? 1 : 0...
+  ^^^
+51 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+    while (!ReadStringFromFile(job_path.c_str(), ...
+    ^^^^^
+142 | 4 9 | while | This sentence does not start with an uppercase letter
+

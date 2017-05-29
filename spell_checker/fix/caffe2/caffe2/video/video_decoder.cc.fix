@@ -1,0 +1,28 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: OutWidth
+    outWidth = params.outputWidth_ == -1 ? videoCode...
+    ^^^^^^^^
+131 | 4 12 | outWidth | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: OutHeight
+    outHeight = params.outputHeight_ == -1 ? videoCod...
+    ^^^^^^^^^
+133 | 4 13 | outHeight | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: META_DATA[1]
+Message: Did you mean 'metadata'?
+Suggestion: metadata
+  // Getting video meta data 
+                   ^^^^^^^^^
+153 | 19 28 | meta data | Did you mean 'metadata'?
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: VideoMeta
+  VideoMeta videoMeta; 
+  ^^^^^^^^^^^^^^^^^^^
+154 | 2 21 | VideoMeta videoMeta | Possible typo: you repeated a word
+

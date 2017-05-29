@@ -1,0 +1,133 @@
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+                       "a local db reader. Consider moving to the...
+                        ^
+139 | 24 25 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scale_
+    scale_ > 0 ? scale_ : minsize_, 
+    ^^^^^^
+155 | 4 10 | scale_ | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: x
+              << ") x X [" 
+                    ^^^
+193 | 20 23 | x X | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mean_gpu_
+      mean_gpu_.Resize(mean_.size()); 
+      ^^^^^^^^^
+229 | 6 15 | mean_gpu_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std_gpu_
+      std_gpu_.Resize(std_.size()); 
+      ^^^^^^^^
+230 | 6 14 | std_gpu_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_image_
+  prefetched_image_.Resize( 
+  ^^^^^^^^^^^^^^^^^
+239 | 2 19 | prefetched_image_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_label_
+  prefetched_label_.Resize(vector<TIndex>(1, batch_size_));...
+  ^^^^^^^^^^^^^^^^^
+244 | 2 19 | prefetched_label_ | This sentence does not start with an uppercase letter
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Datum
+    caffe::Datum datum; 
+           ^^^^^^^^^^^
+264 | 11 22 | Datum datum | Possible typo: you repeated a word
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Color_
+          color_ ? CV_LOAD_IMAGE_COLOR : CV_LOAD_IMAGE_G...
+          ^^^^^^
+276 | 10 16 | color_ | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Datum
+          datum.height(), datum.width(), (src_c == 3) ?...
+          ^^^^^
+283 | 10 15 | datum | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Color_
+          color_ ? CV_LOAD_IMAGE_COLOR : CV_LOAD_IMAGE_G...
+          ^^^^^^
+333 | 10 16 | color_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+      int src_c = (image_proto.dims_size() == 3) ...
+      ^^^
+336 | 6 9 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int out_c = color_ ? 3 : 1; 
+  ^^^
+369 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cv
+    cv::cvtColor(src, *img, (out_c == 1) ? CV_...
+    ^^
+373 | 4 6 | cv | This sentence does not start with an uppercase letter
+
+Line 1, column 23, Rule ID: DID_BASEFORM[1]
+Message: The verb 'Did' requires base form of the verb: 'bound'.
+Suggestion: bound
+    LOG(INFO) << "Did bounding with ymin:" 
+                      ^^^^^^^^
+397 | 22 30 | bounding | The verb 'Did' requires base form of the verb: 'bound'.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int scale_to_use = scale_ > 0 ? scale_ : mi...
+  ^^^
+410 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int channels = color_ ? 3 : 1; 
+  ^^^^^
+593 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_image_on_device_
+    prefetched_image_on_device_.CopyFrom(prefetched_image_, &context_);...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+670 | 4 31 | prefetched_image_on_device_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_label_on_device_
+    prefetched_label_on_device_.CopyFrom(prefetched_label_, &context_);...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+671 | 4 31 | prefetched_label_on_device_ | This sentence does not start with an uppercase letter
+

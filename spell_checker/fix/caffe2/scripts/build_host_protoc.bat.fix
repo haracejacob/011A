@@ -1,0 +1,14 @@
+Line 1, column 23, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+SET CAFFE2_ROOT=%~dp0%.. 
+                      ^^
+13 | 22 24 | .. | Two consecutive dots
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+cmake ..\third_party\protobuf\cmake ^ 
+      ^^
+36 | 6 8 | .. | Two consecutive dots
+

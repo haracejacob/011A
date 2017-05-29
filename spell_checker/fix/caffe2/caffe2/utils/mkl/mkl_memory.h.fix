@@ -1,0 +1,126 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename Creator, typename FirstArg, t...
+  ^^^^^^^^
+28 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Creator
+  PrimitiveWrapper(Creator creator, FirstArg&& arg, Args&&... args) { 
+                   ^^^^^^^^^^^^^^^
+29 | 19 34 | Creator creator | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename Creator, typename... Args> 
+  ^^^^^^^^
+39 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Creator
+  void Reset(Creator creator, Args&&... args) { 
+             ^^^^^^^^^^^^^^^
+40 | 13 28 | Creator creator | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides[i] = (i == 0) ? 1 : strides[i - 1] * si...
+      ^^^^^^^
+94 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 44, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'threaded'.
+Suggestion: threaded
+...Most of the MKLMemory functions are not thread safe. 
+                                           ^^^^^^
+133 | 43 49 | thread | Consider using a past participle here: 'threaded'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: User_layout_
+    user_layout_.Reset(dimension, size, strides); 
+    ^^^^^^^^^^^^
+177 | 4 16 | user_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Layout_
+      layout_.Reset(primitive, type); 
+      ^^^^^^^
+179 | 6 13 | layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Layout_
+      layout_.Reset(dimension, size, strides); 
+      ^^^^^^^
+181 | 6 13 | layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Convert_in_
+    convert_in_.Reset(dnnConversionCreate<T>, user_layo...
+    ^^^^^^^^^^^
+183 | 4 15 | convert_in_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Convert_out_
+    convert_out_.Reset(dnnConversionCreate<T>, layout_, ...
+    ^^^^^^^^^^^^
+184 | 4 16 | convert_out_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides[i] = (i == 0) ? 1 : strides[i - 1] * si...
+      ^^^^^^^
+213 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: User_layout_
+    user_layout_.Reset(dims.size(), size.data(), strides...
+    ^^^^^^^^^^^^
+215 | 4 16 | user_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Layout_
+      layout_.Reset(primitive, type); 
+      ^^^^^^^
+217 | 6 13 | layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Layout_
+      layout_.Reset(dimension, size.data(), strides.d...
+      ^^^^^^^
+219 | 6 13 | layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Convert_in_
+    convert_in_.Reset(dnnConversionCreate<T>, user_layo...
+    ^^^^^^^^^^^
+221 | 4 15 | convert_in_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Convert_out_
+    convert_out_.Reset(dnnConversionCreate<T>, layout_, ...
+    ^^^^^^^^^^^^
+222 | 4 16 | convert_out_ | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'threaded'.
+Suggestion: threaded
+        // This is not thread safe, so we might want to double check ...
+                       ^^^^^^
+428 | 23 29 | thread | Consider using a past participle here: 'threaded'.
+

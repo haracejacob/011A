@@ -1,0 +1,35 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int N = X.ndim() > 0 ? X.dim32(0) : 0; 
+  ^^^
+32 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+      auto sign = labelData[i] > labelData[j] ? 1 ...
+      ^^^^
+53 | 6 10 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int N = X.ndim() > 0 ? X.dim32(0) : 0; 
+  ^^^
+69 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+      auto sign = labelData[i] > labelData[j] ? 1 ...
+      ^^^^
+95 | 6 10 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Where
+        "where N is the batch size. For more info: " 
+         ^^^^^
+127 | 9 14 | where | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,28 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Handler-
+  handler->set(name, InputBlob(DATA).Serialize(nam...
+  ^^^^^^^^
+22 | 2 10 | handler- | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+is the data in that blob. The key can be o...
+^^
+32 | 0 2 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializes
+initializes it to 0 and then performs the add opera...
+^^^^^^^^^^^
+92 | 0 11 | initializes | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (InputSize() == 2 && Input(1).IsType<st...
+  ^^
+107 | 2 4 | if | This sentence does not start with an uppercase letter
+

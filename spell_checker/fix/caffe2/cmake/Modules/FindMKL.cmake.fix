@@ -1,0 +1,42 @@
+Line 1, column 23, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: lib
+  set(__path_suffixes lib lib/ia32)  
+                      ^^^^^^^
+31 | 22 29 | lib lib | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: lib
+  set(__path_suffixes lib lib/intel64)  
+                      ^^^^^^^
+33 | 22 29 | lib lib | Possible typo: you repeated a word
+
+Line 1, column 47, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...  PATHS ${MKL_ROOT} "${MKL_INCLUDE_DIR}/.."  
+                                           ^^
+70 | 46 48 | .. | Two consecutive dots
+
+Line 1, column 65, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...OOT} ${INTEL_ROOT}/compiler ${MKL_ROOT}/.. ${MKL_ROOT}/../compiler  
+                                           ^^
+93 | 64 66 | .. | Two consecutive dots
+
+Line 1, column 80, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...OT}/compiler ${MKL_ROOT}/.. ${MKL_ROOT}/../compiler  
+                                           ^^
+93 | 79 81 | .. | Two consecutive dots
+
+Line 1, column 11, Rule ID: PHRASE_REPETITION[1]
+Message: This phrase is duplicated. You should probably leave only 'Path to'.
+Suggestion: Path to
+     DOC "Path to Path to OpenMP runtime library")  
+          ^^^^^^^^^^^^^^^
+95 | 10 25 | Path to Path to | This phrase is duplicated. You should probably leave only 'Path to'.
+

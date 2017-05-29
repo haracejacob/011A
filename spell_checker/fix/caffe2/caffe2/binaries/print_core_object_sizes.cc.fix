@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std
+  std::cout << "Size of " #cls ": " << sizeof...
+  ^^^
+9 | 2 5 | std | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,91 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Evaluation
+    evaluation and prediction. Unseen keys will be ass...
+    ^^^^^^^^^^
+15 | 4 14 | evaluation | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(input_record, schema.Scalar)...
+        ^^^^^^
+28 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.handler = model.net.NextScopedBlob(name...
+        ^^^^
+31 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                initializer=core.CreateOperator("LongIndexCreate", 
+                ^^^^^^^^^^^^^^^^
+36 | 16 32 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Optimizer=model
+                optimizer=model.NoOptim, 
+                ^^^^^^^^^^^^^^^
+41 | 16 31 | optimizer=model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Scalar( 
+        ^^^^
+45 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Np
+            np.int64, model.net.NextScopedBlob(name + ...
+            ^^
+46 | 12 14 | np | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Keys
+            keys = net.Cast( 
+            ^^^^
+51 | 12 16 | keys | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.NextScopedBlob("indices"), 
+                ^^^
+53 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To=core
+                to=core.DataType.INT64 
+                ^^^^^^^
+54 | 16 23 | to=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = net.IndexGet([self.handler, keys], 
+        ^^^^^^^
+60 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.StopGradient(indices, indices) 
+        ^^^
+63 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.IndexFreeze(self.handler, self.handler)...
+        ^^^
+66 | 8 11 | net | This sentence does not start with an uppercase letter
+

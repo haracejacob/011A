@@ -1,0 +1,784 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestShapeInference(test_util.TestCase):...
+^^^^^
+12 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: M
+        m = model_helper.ModelHelper(name="test_m...
+        ^
+15 | 8 9 | m | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+34 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.SquaredL2Distance(["x", "y"], "zsq") 
+        ^^^^^
+35 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.CosineSimilarity(["x", "y"], "zcos") 
+        ^^^^^
+36 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.DotProduct(["x", "y"], "zdot") 
+        ^^^^^
+37 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("x", np.random.rand(10).astype...
+        ^^^^^^^^^
+39 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("y", np.random.rand(10).astype...
+        ^^^^^^^^^
+40 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+41 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="convte...
+        ^^^^^
+44 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.Sigmoid('fc', 'fc_sigm') 
+        ^^^^^
+53 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.LabelCrossEntropy(['softmax', 'label'],...
+        ^^^^^
+55 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = model.AveragedLoss('xent', 'loss') 
+        ^^^^
+56 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.AddGradientOperators([loss]) 
+        ^^^^^
+58 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for param in model.GetParams(): 
+        ^^^
+64 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param_momentum
+            param_momentum = model.param_init_net.ConstantFill( 
+            ^^^^^^^^^^^^^^
+66 | 12 26 | param_momentum | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.MomentumSGDUpdate( 
+            ^^^^^
+69 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+74 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+78 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+82 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+88 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+91 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+93 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+104 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.InferTensorRunAndCompare(model) 
+        ^^^^^^
+114 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="padtes...
+        ^^^^^
+117 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.PadImage("data", 'padded', pad_t=100, p...
+        ^^^^^
+118 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+121 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+126 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="twocla...
+        ^^^^^
+129 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.MakeTwoClass("v", "v2") 
+        ^^^^^
+130 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("v", np.random.rand(32).astype...
+        ^^^^^^^^^
+131 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+132 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="padtes...
+        ^^^^^
+135 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.PadImage("data", 'padded', pad=0, mode=...
+        ^^^^^
+136 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+139 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+144 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+147 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.MatMul(["x", "y"], "MatMul") 
+        ^^^^^
+149 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("x", np.random.rand(10, 5).ast...
+        ^^^^^^^^^
+151 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("y", np.random.rand(5, 10).ast...
+        ^^^^^^^^^
+152 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+154 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+157 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.SoftmaxWithLoss( 
+        ^^^^^
+159 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+165 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+171 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+175 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+178 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+183 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+187 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.SoftmaxWithLoss( 
+        ^^^^^
+190 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+195 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+200 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+205 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+209 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+212 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+213 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+217 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.SpatialSoftmaxWithLoss( 
+        ^^^^^
+221 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+225 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+229 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.Im2Col("X", "Y", pad=1, kernel=4, dilat...
+        ^^^^^
+230 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+233 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+238 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+241 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.Im2Col("X", "Y", pad=1, kernel=4, dilat...
+        ^^^^^
+242 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+245 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+250 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+253 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.Im2Col("X", "Y", pad=1, kernel_h=8, ker...
+        ^^^^^
+254 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+257 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+262 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: M
+        m = model_helper.ModelHelper(name="test_m...
+        ^
+265 | 8 9 | m | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob( 
+        ^^^^^^^^^
+267 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(m) 
+        ^^^^
+276 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+279 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.FlattenToVec("X", "FlatVec") 
+        ^^^^^
+280 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("X", np.random.rand(17, 5, 13)...
+        ^^^^^^^^^
+281 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+283 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+285 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.Flatten("X", "Flat") 
+        ^^^^^
+286 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("X", np.random.rand(17, 5, 13)...
+        ^^^^^^^^^
+287 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+289 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+292 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.Reshape("X", ["Reshaped", "Old_Shape"],...
+        ^^^^^
+293 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("X", np.random.rand(4, 26, 32)...
+        ^^^^^^^^^
+294 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+296 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test_m...
+        ^^^^^
+299 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob(xname, np.random.rand(1).astyp...
+            ^^^^^^^^^
+318 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                model.Cast(xname, yname, to=yc2) 
+                ^^^^^
+321 | 16 21 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.InferTensorRunAndCompare(model) 
+        ^^^^
+323 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model = model_helper.ModelHelper(name="test_m...
+            ^^^^^
+327 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.RoIPool( 
+            ^^^^^
+329 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob( 
+            ^^^^^^^^^
+331 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob( 
+            ^^^^^^^^^
+334 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.InferTensorRunAndCompare(model) 
+            ^^^^
+337 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+        # .. Create net 
+          ^^
+348 | 10 12 | .. | Two consecutive dots
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(model.param_init_net) 
+        ^^^^^^^^^
+349 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.CreateNet(model.net, True) 
+        ^^^^^^^^^
+350 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNet(model.Proto().name) 
+        ^^^^^^^^^
+351 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for b in workspace.Blobs(): 
+        ^^^
+356 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Arr
+            arr = workspace.FetchBlob(b) 
+            ^^^
+357 | 12 15 | arr | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.FLOAT 
+                    ^^^^^^^^^^^^^
+361 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.INT32 
+                    ^^^^^^^^^^^^^
+363 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.BOOL 
+                    ^^^^^^^^^^^^^
+367 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.UINT8 
+                    ^^^^^^^^^^^^^
+369 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.INT8 
+                    ^^^^^^^^^^^^^
+371 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.UINT16 
+                    ^^^^^^^^^^^^^
+373 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.INT16 
+                    ^^^^^^^^^^^^^
+375 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.INT64 
+                    ^^^^^^^^^^^^^
+377 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.FLOAT16 
+                    ^^^^^^^^^^^^^
+379 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Correct_types
+                    correct_types[b] = caffe2_pb2.TensorProto.DOUBLE 
+                    ^^^^^^^^^^^^^
+381 | 20 33 | correct_types | This sentence does not start with an uppercase letter
+

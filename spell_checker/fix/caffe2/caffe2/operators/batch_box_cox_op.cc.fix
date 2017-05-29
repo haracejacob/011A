@@ -1,0 +1,7 @@
+Line 1, column 17, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+Input `data` is a N * D matrix. Apply box-cox transform f...
+                ^
+62 | 16 17 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

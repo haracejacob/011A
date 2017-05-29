@@ -1,0 +1,49 @@
+Line 1, column 2115, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: 15px
+...n:all 0.3s}blockquote{padding:15px 30px 15px 15px;margin:20px 0 15px 10px;background-colo...
+                                           ^^^^^^^^^
+0 | 2114 2123 | 15px 15px | Possible typo: you repeated a word
+
+Line 1, column 24359, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: 10px
+...on .navGroups{display:none;padding:40px 10px 10px}nav.toc .toggleNav{background:#d9d9d9;c...
+                                           ^^^^^^^^^
+0 | 24358 24367 | 10px 10px | Possible typo: you repeated a word
+
+Line 1, column 25072, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: 5px
+...x;background:transparent;border-width:0 5px 5px;border-style:solid;border-color:transpa...
+                                           ^^^^^^^
+0 | 25071 25078 | 5px 5px | Possible typo: you repeated a word
+
+Line 1, column 25240, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: 5px
+...gleNav .navToggle i::after{border-width:5px 5px 0;margin-top:2px}nav.toc .toggleNav .na...
+                                           ^^^^^^^
+0 | 25239 25246 | 5px 5px | Possible typo: you repeated a word
+
+Line 1, column 27228, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: 40px
+...ox-sizing:border-box;height:auto;margin:40px 40px 0 0;overflow-y:auto;position:relative;w...
+                                           ^^^^^^^^^
+0 | 27227 27236 | 40px 40px | Possible typo: you repeated a word
+
+Line 1, column 27776, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: 20px
+...lid #FFF;border-radius:3px;padding:10px 20px 20px}.blogContainer .lonePost{margin-top:60p...
+                                           ^^^^^^^^^
+0 | 27775 27784 | 20px 20px | Possible typo: you repeated a word
+
+Line 1, column 27871, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: 0px
+...gContainer .lonePost .post{padding:10px 0px 0px}.blogContainer .post-header h1{text-ali...
+                                           ^^^^^^^
+0 | 27870 27877 | 0px 0px | Possible typo: you repeated a word
+

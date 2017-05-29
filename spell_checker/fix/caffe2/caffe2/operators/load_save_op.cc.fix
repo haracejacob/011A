@@ -1,0 +1,49 @@
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+        "is specified in the serialized BlobProto. ...
+         ^^
+65 | 9 11 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+        "blob names, to specify which blobs in the db...
+         ^^^^
+78 | 9 13 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of inputs and has no output. The contents ...
+^^
+86 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+        "blob names. Must be the same length as numbe...
+         ^^^^
+102 | 9 13 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Count
+count. It takes [1, infinity) number of input...
+^^^^^
+112 | 0 5 | count | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Counter
+counter). This is determined whether we need to...
+^^^^^^^
+114 | 0 7 | counter | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iteration
+        "iteration to create the final db name. For exampl...
+         ^^^^^^^^^
+123 | 9 18 | iteration | This sentence does not start with an uppercase letter
+

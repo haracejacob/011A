@@ -1,0 +1,91 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Linear
+linear functions are stored in bounds, slopes ...
+^^^^^^
+14 | 0 6 | linear | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Transformed
+transformed by the piecewise linear functions. Each...
+^^^^^^^^^^^
+16 | 0 11 | transformed | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Its
+its own piecewise linear transformation fun...
+^^^
+17 | 0 3 | its | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Binary
+binary predictions where only the positive pre...
+^^^^^^
+19 | 0 6 | binary | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Each
+each piece, low bound is excluded while high...
+^^^^
+20 | 0 4 | each | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Upper
+        "upper bounds of each piece of linear function...
+         ^^^^^
+37 | 9 14 | upper | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Treat
+        "treat it the same as the left most functions....
+         ^^^^^
+39 | 9 14 | treat | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: DID_BASEFORM[1]
+Message: The verb 'can' requires base form of the verb: 'pass'.
+Suggestion: pass
+        "intercepts) can passed through either arg or input blobs.") 
+                         ^^^^^^
+40 | 25 31 | passed | The verb 'can' requires base form of the verb: 'pass'.
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+        "tensor, it is positive predictions. If the inp...
+         ^^^^^^
+52 | 9 15 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+        "and negative + positive = 1. We just need o...
+         ^^^
+54 | 9 12 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 62, Rule ID: DID_BASEFORM[1]
+Message: The verb 'can' requires base form of the verb: 'pass'.
+Suggestion: pass
+...n Arg. (bounds, slopes, intercepts) can passed through " 
+                                           ^^^^^^
+64 | 61 67 | passed | The verb 'can' requires base form of the verb: 'pass'.
+
+Line 1, column 62, Rule ID: DID_BASEFORM[1]
+Message: The verb 'can' requires base form of the verb: 'pass'.
+Suggestion: pass
+...n Arg. (bounds, slopes, intercepts) can passed through " 
+                                           ^^^^^^
+69 | 61 67 | passed | The verb 'can' requires base form of the verb: 'pass'.
+
+Line 1, column 66, Rule ID: DID_BASEFORM[1]
+Message: The verb 'can' requires base form of the verb: 'pass'.
+Suggestion: pass
+...n Arg. (bounds, slopes, intercepts) can passed " 
+                                           ^^^^^^
+74 | 65 71 | passed | The verb 'can' requires base form of the verb: 'pass'.
+

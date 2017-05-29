@@ -1,0 +1,34 @@
+Line 1, column 24, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Variable
+                      "variable CUDA_VISIBLE_DEVICES after program star...
+                       ^^^^^^^^
+43 | 23 31 | variable | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+                      "a result we will simply shut down CUDA su...
+                       ^
+52 | 23 24 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: That
+                      "that might have already set an error? Error:...
+                       ^^^^
+61 | 23 27 | that | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: That
+                      "that might have already set an error? Error:...
+                       ^^^^
+68 | 23 27 | that | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+  ss << "Kernel execution timeout:      " 
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+152 | 9 33 | Kernel execution timeout | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+

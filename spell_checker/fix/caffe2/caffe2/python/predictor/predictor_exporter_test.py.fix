@@ -1,0 +1,224 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class PredictorExporterTest(unittest.TestCase...
+^^^^^
+15 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight_init=m
+             weight_init=m.XavierInit, 
+             ^^^^^^^^^^^^^
+20 | 13 26 | weight_init=m | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_init=m
+             bias_init=m.XavierInit) 
+             ^^^^^^^^^^^
+21 | 13 24 | bias_init=m | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.predictor_export_meta = pe.PredictorExp...
+        ^^^^
+28 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net=m
+            predict_net=m.net.Proto(), 
+            ^^^^^^^^^^^^^
+29 | 12 25 | predict_net=m | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(m.param_init_net) 
+        ^^^^^^^^^
+35 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param
+            param: workspace.FetchBlob(param) 
+            ^^^^^
+38 | 12 17 | param | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.ResetWorkspace() 
+        ^^^^^^^^^
+41 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pe
+        pe.PredictorExportMeta( 
+        ^^
+48 | 8 10 | pe | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob(param, value) 
+            ^^^^^^^^^
+58 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Extra_init_net
+        extra_init_net = core.Net('extra_init') 
+        ^^^^^^^^^^^^^^
+60 | 8 22 | extra_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Extra_init_net
+        extra_init_net.ConstantFill('data', 'data', value=1.0)...
+        ^^^^^^^^^^^^^^
+61 | 8 22 | extra_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pem
+        pem = pe.PredictorExportMeta( 
+        ^^^
+62 | 8 11 | pem | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Db_file
+        db_file = tempfile.NamedTemporaryFile( 
+        ^^^^^^^
+73 | 8 15 | db_file | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.ResetWorkspace() 
+        ^^^^^^^^^
+80 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue("data" not in workspace.Blob...
+        ^^^^
+87 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue("y" not in workspace.Blobs()...
+        ^^^^
+88 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+        init_net = pred_utils.GetNet(meta_net_def, pc.PR...
+        ^^^^^^^^
+90 | 8 16 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(init_net) 
+        ^^^^^^^^^
+93 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue("data" in workspace.Blobs())...
+        ^^^^
+95 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue("y" in workspace.Blobs()) 
+        ^^^^
+96 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+        print(workspace.FetchBlob("data")) 
+        ^^^^^
+98 | 8 13 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("data"), np.ones(shape=(1, 5)...
+            ^^^^^^^^^
+100 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("y"), np.zeros(shape=(1, 10))...
+            ^^^^^^^^^
+102 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_init_net
+        global_init_net = pred_utils.GetNet(meta_net_def, 
+        ^^^^^^^^^^^^^^^
+105 | 8 23 | global_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(global_init_net) 
+        ^^^^^^^^^
+107 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("data", np.random.randn(2, 5)....
+        ^^^^^^^^^
+111 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+        predict_net = pred_utils.GetNet(meta_net_def, pc.PR...
+        ^^^^^^^^^^^
+112 | 8 19 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(predict_net) 
+        ^^^^^^^^^
+114 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("y"), 
+            ^^^^^^^^^
+116 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob("data").dot(self.params["y_w"...
+            ^^^^^^^^^
+117 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Db_file
+                db_file = tempfile.NamedTemporaryFile( 
+                ^^^^^^^
+123 | 16 23 | db_file | This sentence does not start with an uppercase letter
+

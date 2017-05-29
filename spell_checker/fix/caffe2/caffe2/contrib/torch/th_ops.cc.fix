@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ctx
+  ctx.Copy<float, CPUContext, CPUContext>( 
+  ^^^
+51 | 2 5 | ctx | This sentence does not start with an uppercase letter
+

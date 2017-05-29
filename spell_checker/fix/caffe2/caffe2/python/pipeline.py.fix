@@ -1,0 +1,182 @@
+Line 1, column 64, Rule ID: MASS_AGREEMENT[2]
+Message: Possible agreement error - use third-person verb forms for singular and mass nouns: 'cans'.
+Suggestion: cans
+...lt of a processor function. A processor can either 
+                                           ^^^
+16 | 63 66 | can | Possible agreement error - use third-person verb forms for singular and mass nouns: 'cans'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(nets, core.Net): 
+        ^^
+26 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out_queue
+        out_queue = queue_util.Queue( 
+        ^^^^^^^^^
+46 | 8 17 | out_queue | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif isinstance(processor, core.Net): 
+    ^^^^
+60 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Isinstance
+            isinstance(output[1], core.BlobReference)) 
+            ^^^^^^^^^^
+81 | 12 22 | isinstance | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: NOW[1]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: now
+        """ Processor returned nets, no output """ 
+                                     ^^
+89 | 37 39 | no | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 58, Rule ID: NEITHER_NOR[1]
+Message: Use 'nor' with neither.
+Suggestion: nor
+...    writen to as long as neither reader or writer signal 
+                                           ^^
+108 | 57 59 | or | Use 'nor' with neither.
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+                     a stop condition. If output is not provid...
+                     ^
+109 | 21 22 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Piping
+                     piping. If set to 0, no Task is created, and a...
+                     ^^^^^^
+112 | 21 27 | piping | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Between
+                     between read and write steps. If the processor ...
+                     ^^^^^^^
+117 | 21 28 | between | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Records
+                     records properly set. In that case, a NetProces...
+                     ^^^^^^^
+120 | 21 28 | records | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_exit_net
+        global_exit_net = core.Net('exit') 
+        ^^^^^^^^^^^^^^^
+209 | 8 23 | global_exit_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_init_net
+        global_init_net = core.Net('init') 
+        ^^^^^^^^^^^^^^^
+210 | 8 23 | global_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+                init_net = core.Net('init') 
+                ^^^^^^^^
+219 | 16 24 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Exit_net
+                exit_net = core.Net('exit') 
+                ^^^^^^^^
+220 | 16 24 | exit_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer_start_net
+                timer_start_net = core.Net('timer_start') 
+                ^^^^^^^^^^^^^^^
+237 | 16 31 | timer_start_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+                timer = timer_start_net.TimerBegin([], counte...
+                ^^^^^
+238 | 16 21 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer_end_net
+                timer_end_net = core.Net('timer_end') 
+                ^^^^^^^^^^^^^
+239 | 16 29 | timer_end_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer_end_net
+                timer_end_net.TimerEnd(timer, []) 
+                ^^^^^^^^^^^^^
+240 | 16 29 | timer_end_net | This sentence does not start with an uppercase letter
+
+Line 1, column 28, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    Reader that reads from a upstream reader, calls the processor, a...
+                           ^
+259 | 27 28 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stop_net
+            stop_net = core.Net('stop_net') 
+            ^^^^^^^^
+281 | 12 20 | stop_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stop_net
+            stop_net.Copy([result.should_stop], [status]) 
+            ^^^^^^^^
+282 | 12 20 | stop_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+    the cloned net as the processor. It require...
+    ^^^
+294 | 4 7 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(net, core.Net) 
+        ^^^^^^
+299 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stop_signal
+            stop_signal, core.BlobReference) 
+            ^^^^^^^^^^^
+301 | 12 23 | stop_signal | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stop_signal
+            stop_signal = core.BlobReference( 
+            ^^^^^^^^^^^
+331 | 12 23 | stop_signal | This sentence does not start with an uppercase letter
+

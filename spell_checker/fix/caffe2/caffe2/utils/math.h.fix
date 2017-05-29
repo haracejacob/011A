@@ -1,0 +1,21 @@
+Line 1, column 64, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+... max of a N*D matrix X, and write it to a N 
+                                           ^
+129 | 63 64 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 14, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+// parameter a is greater or equal to zero and lower t...
+             ^
+351 | 13 14 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 11, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+// Rounds a up to the next highest multiple of b. U...
+          ^
+369 | 10 11 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

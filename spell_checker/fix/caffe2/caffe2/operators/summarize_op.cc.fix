@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Standard_deviation
+  standard_deviation = N == 1 ? 0 : std::sqrt(standard_devia...
+  ^^^^^^^^^^^^^^^^^^
+27 | 2 20 | standard_deviation | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Max
+max, mean and standard deviation. The outpu...
+^^^
+54 | 0 3 | max | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Size
+size 4 if an output tensor is provided. Else...
+^^^^
+55 | 0 4 | size | This sentence does not start with an uppercase letter
+

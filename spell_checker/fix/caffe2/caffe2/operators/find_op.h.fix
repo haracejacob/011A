@@ -1,0 +1,7 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Res_data
+        res_data[i] = (it == idx_map.end() ? missing_val...
+        ^^^^^^^^
+63 | 8 16 | res_data | This sentence does not start with an uppercase letter
+

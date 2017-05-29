@@ -1,0 +1,63 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float total_dist = BlockReduce(temp_storage)....
+    ^^^^^
+25 | 4 9 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int N = X.ndim() > 0 ? X.dim32(0) : 1; 
+  ^^^
+43 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int N = X.ndim() > 0 ? X.dim32(0) : 1; 
+  ^^^
+73 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int D = N > 0 ? X.size() / N : 0; 
+  ^^^
+74 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float aggregate = BlockReduce(temp_storage).S...
+    ^^^^^
+126 | 4 9 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int N = X.ndim() > 0 ? X.dim32(0) : 1; ...
+  ^^^^^
+144 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int D = N > 0 ? X.size() / N : 0; 
+  ^^^^^
+145 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int N = X.ndim() > 0 ? X.dim32(0) : 1; ...
+  ^^^^^
+204 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int D = N > 0 ? X.size() / N : 0; 
+  ^^^^^
+205 | 2 7 | const | This sentence does not start with an uppercase letter
+

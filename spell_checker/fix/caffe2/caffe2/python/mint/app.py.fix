@@ -1,0 +1,28 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: App
+app = flask.Flask( 
+^^^
+14 | 0 3 | app | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Parser
+    parser = argparse.ArgumentParser("The mint vis...
+    ^^^^^^
+141 | 4 10 | parser | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Help=
+        help="Sample every given number of data point...
+        ^^^^^
+173 | 8 13 | help= | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Whole
+        "whole curve. Default 100 points." 
+         ^^^^^
+175 | 9 14 | whole | This sentence does not start with an uppercase letter
+

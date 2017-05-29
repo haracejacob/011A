@@ -1,0 +1,28 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lua_State*
+    lua_State* L = state_.L(); 
+    ^^^^^^^^^^
+188 | 4 14 | lua_State* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lua_State*
+    lua_State* L = state_.L(); 
+    ^^^^^^^^^^
+238 | 4 14 | lua_State* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lua_State*
+    lua_State* L = state_.L(); 
+    ^^^^^^^^^^
+371 | 4 14 | lua_State* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lua_State*
+    lua_State* L = state_.L(); 
+    ^^^^^^^^^^
+467 | 4 14 | lua_State* | This sentence does not start with an uppercase letter
+

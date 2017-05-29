@@ -1,0 +1,581 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const SIndex K = N > 0 ? s_ids[N - 1] + 1 : 0...
+    ^^^^^
+73 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor to be ag...
+    ^^^^^^
+212 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+213 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+        "and values in the range 0..K-1 and in incre...
+         ^^^
+217 | 9 12 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 35, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+        "and values in the range 0..K-1 and in increasing order that " 
+                                  ^^
+217 | 34 36 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output( 
+    ^^^^^^
+219 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+ *   1..P: AUX_ARG_<I> - optional additional arg...
+      ^^
+266 | 6 8 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int num_blocks = block_size > 0 ? data....
+    ^^^^^
+331 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Applying
+applying '{op}'. This op acts in a similar way t...
+^^^^^^^^
+435 | 0 8 | applying | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+441 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Applying
+applying '{op}'. This op acts in a similar way t...
+^^^^^^^^
+492 | 0 8 | applying | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+498 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+ *   1..P: AUX_ARG_<I> - optional additional arg...
+      ^^
+551 | 6 8 | .. | Two consecutive dots
+
+Line 1, column 18, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: have
+          " must have have the same first dim as SEGMENT_IDS"); 
+                 ^^^^^^^^^
+620 | 17 26 | have have | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: HAVE_PART_AGREEMENT[1]
+Message: Use past participle here: 'had'.
+Suggestion: had
+          " must have have the same first dim as SEGMENT_IDS"); 
+                      ^^^^
+620 | 22 26 | have | Use past participle here: 'had'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const SIndex K = N > 0 ? s_ids[N - 1] + 1 : 0...
+    ^^^^^
+632 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+              "Index out of bounds: ", 
+                     ^^^^^^^^^^^^^
+656 | 21 34 | out of bounds | This word is normally spelled with hyphen.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Static
+  static constexpr int kSelfInputs = SparseFused...
+  ^^^^^^
+684 | 2 8 | static | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: have
+          " must have have the same first dim as SEGMENT_IDS"); 
+                 ^^^^^^^^^
+723 | 17 26 | have have | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: HAVE_PART_AGREEMENT[1]
+Message: Use past participle here: 'had'.
+Suggestion: had
+          " must have have the same first dim as SEGMENT_IDS"); 
+                      ^^^^
+723 | 22 26 | have | Use past participle here: 'had'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+        string(Sorted ? "SortedSegment" : "UnsortedSeg...
+        ^^^^^^
+808 | 8 14 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+        vector<string>{SparseFused ? GI_V(0) : GI(0)})...
+        ^^^^^^
+813 | 8 14 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Contiguous
+contiguous. See also UnsortedSegment{op} that does...
+^^^^^^^^^^
+827 | 0 10 | contiguous | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor, slices ...
+    ^^^^^^
+839 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+840 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+        "and values in the range 0..K-1 and in incre...
+         ^^^
+844 | 9 12 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 35, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+        "and values in the range 0..K-1 and in increasing order that " 
+                                  ^^
+844 | 34 36 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output( 
+    ^^^^^^
+846 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'gathered'.
+Suggestion: Gathered
+This op is basically Gather and SortedSegment{op} fused together. 
+                     ^^^^^^
+876 | 21 27 | Gather | Consider using a past participle here: 'gathered'.
+
+Line 1, column 43, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...DICES should contain integers in range 0..N-1 where N is the first dimension 
+                                           ^^
+878 | 42 44 | .. | Two consecutive dots
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of DATA. INDICES represent which slices of...
+^^
+879 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Particular
+particular group (segment). Values belonging to th...
+^^^^^^^^^^
+882 | 0 10 | particular | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Together
+together. SEGMENT_IDS should have the same dimen...
+^^^^^^^^
+883 | 0 8 | together | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor, slices ...
+    ^^^^^^
+891 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+892 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+897 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+        "0..K-1 and in increasing order that maps ea...
+          ^^
+901 | 10 12 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output( 
+    ^^^^^^
+903 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+ *   1..P: AUX_ARG_<I> - optional additional arg...
+      ^^
+936 | 6 8 | .. | Two consecutive dots
+
+Line 1, column 18, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: have
+          " must have have the same first dim as SEGMENT_IDS"); 
+                 ^^^^^^^^^
+1013 | 17 26 | have have | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: HAVE_PART_AGREEMENT[1]
+Message: Use past participle here: 'had'.
+Suggestion: had
+          " must have have the same first dim as SEGMENT_IDS"); 
+                      ^^^^
+1013 | 22 26 | have | Use past participle here: 'had'.
+
+Line 1, column 20, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+            "Index out of bounds: ", 
+                   ^^^^^^^^^^^^^
+1062 | 19 32 | out of bounds | This word is normally spelled with hyphen.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Static
+  static constexpr int kSelfInputs = SparseFused...
+  ^^^^^^
+1086 | 2 8 | static | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: have
+          " must have have the same first dim as SEGMENT_IDS"); 
+                 ^^^^^^^^^
+1128 | 17 26 | have have | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: HAVE_PART_AGREEMENT[1]
+Message: Use past participle here: 'had'.
+Suggestion: had
+          " must have have the same first dim as SEGMENT_IDS"); 
+                      ^^^^
+1128 | 22 26 | have | Use past participle here: 'had'.
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the output. Otherwise, it'd be dynamically ...
+^^^
+1211 | 0 3 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg( 
+    ^^^^^^
+1218 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor, slices ...
+    ^^^^^^
+1222 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+1223 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output( 
+    ^^^^^^
+1228 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'gathered'.
+Suggestion: Gathered
+This op is basically Gather and UnsortedSegment{op} fused together....
+                     ^^^^^^
+1263 | 21 27 | Gather | Consider using a past participle here: 'gathered'.
+
+Line 1, column 43, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...DICES should contain integers in range 0..N-1 where N is the first dimension 
+                                           ^^
+1265 | 42 44 | .. | Two consecutive dots
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of DATA. INDICES represent which slices of...
+^^
+1266 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Particular
+particular group (segment). Values belonging to th...
+^^^^^^^^^^
+1269 | 0 10 | particular | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Together
+together. SEGMENT_IDS should have the same dimen...
+^^^^^^^^
+1270 | 0 8 | together | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the output. Otherwise, it'd be dynamically ...
+^^^
+1273 | 0 3 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor, slices ...
+    ^^^^^^
+1280 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+1281 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+1286 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output( 
+    ^^^^^^
+1291 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+ *   1..P: AUX_ARG_<I> - optional additional arg...
+      ^^
+1322 | 6 8 | .. | Two consecutive dots
+
+Line 1, column 18, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: have
+          " must have have the same first dim as SEGMENT_IDS"); 
+                 ^^^^^^^^^
+1390 | 17 26 | have have | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: HAVE_PART_AGREEMENT[1]
+Message: Use past participle here: 'had'.
+Suggestion: had
+          " must have have the same first dim as SEGMENT_IDS"); 
+                      ^^^^
+1390 | 22 26 | have | Use past participle here: 'had'.
+
+Line 1, column 7, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Reducer
+      Reducer reducer(ctx, out + out_block_size * rangeIndex,...
+      ^^^^^^^^^^^^^^^
+1412 | 6 21 | Reducer reducer | Possible typo: you repeated a word
+
+Line 1, column 20, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+              " is out of bounds: ", 
+                   ^^^^^^^^^^^^^
+1422 | 19 32 | out of bounds | This word is normally spelled with hyphen.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Static
+  static constexpr int kSelfInputs = SparseFused...
+  ^^^^^^
+1452 | 2 8 | static | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: have
+          " must have have the same first dim as SEGMENT_IDS"); 
+                 ^^^^^^^^^
+1498 | 17 26 | have have | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: HAVE_PART_AGREEMENT[1]
+Message: Use past participle here: 'had'.
+Suggestion: had
+          " must have have the same first dim as SEGMENT_IDS"); 
+                      ^^^^
+1498 | 22 26 | have | Use past participle here: 'had'.
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+      auto* aux_grad = aux_num < OutputSize() ? Out...
+      ^^^^^
+1583 | 6 11 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_outs
+    grad_outs.push_back({SparseFused ? GI_V(0) : GI(0...
+    ^^^^^^^^^
+1675 | 4 13 | grad_outs | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+        string(SparseFused ? "SparseLengths" : "Length...
+        ^^^^^^
+1681 | 8 14 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 56, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...GTHS = [2, 1] stands for segments DATA[0..1] and DATA[2] 
+                                           ^^
+1705 | 55 57 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor, slices ...
+    ^^^^^^
+1713 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+1714 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output( 
+    ^^^^^^
+1718 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'gathered'.
+Suggestion: Gathered
+This op is basically Gather and Lengths{op} fused together. 
+                     ^^^^^^
+1751 | 21 27 | Gather | Consider using a past participle here: 'gathered'.
+
+Line 1, column 43, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...DICES should contain integers in range 0..N-1 where N is the first dimension 
+                                           ^^
+1753 | 42 44 | .. | Two consecutive dots
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of DATA. INDICES represent which slices of...
+^^
+1754 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Belonging
+belonging to the same segment are aggregated toge...
+^^^^^^^^^
+1757 | 0 9 | belonging | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "DATA", "Input tensor, slices ...
+    ^^^^^^
+1766 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+1767 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+1772 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output( 
+    ^^^^^^
+1776 | 4 10 | schema | This sentence does not start with an uppercase letter
+

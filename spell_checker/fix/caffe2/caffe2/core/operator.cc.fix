@@ -1,0 +1,28 @@
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Implementation
+      "implementation code. If Python frontend is used it mig...
+       ^^^^^^^^^^^^^^
+107 | 7 21 | implementation | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dyndep
+      "dyndep.InitOpsLibrary call is missing. Operato...
+       ^^^^^^
+108 | 7 13 | dyndep | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!grad.IsDense() && !grad.IsSparse()) {...
+    ^^
+175 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 71, Rule ID: BEEN_PART_AGREEMENT[1]
+Message: Consider using a past participle here: 'bitten'.
+Suggestion: bitten
+...as the corresponding variables. This is bit 
+                                           ^^^
+257 | 70 73 | bit | Consider using a past participle here: 'bitten'.
+

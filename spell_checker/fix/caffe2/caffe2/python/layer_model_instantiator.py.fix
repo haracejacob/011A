@@ -1,0 +1,35 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Exists
+    exists = [net.BlobIsDefined(blob) for blob in ...
+    ^^^^^^
+22 | 4 10 | exists | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+    predict_net = core.Net('predict_net') 
+    ^^^^^^^^^^^
+44 | 4 15 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Eval_net
+    eval_net = core.Net('eval_net') 
+    ^^^^^^^^
+60 | 4 12 | eval_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+    train_net = core.Net('train_net') 
+    ^^^^^^^^^
+76 | 4 13 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_map
+    grad_map = train_net.AddGradientOperators(loss.f...
+    ^^^^^^^^
+101 | 4 12 | grad_map | This sentence does not start with an uppercase letter
+

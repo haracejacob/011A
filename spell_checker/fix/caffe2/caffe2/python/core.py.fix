@@ -1,0 +1,1182 @@
+Line 1, column 12, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Error
+          'error warning you that malloc_zone_unregister...
+           ^^^^^
+21 | 11 16 | error | This sentence does not start with an uppercase letter
+
+Line 1, column 12, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Incompatible
+          'incompatible memory allocator. It does not affect us...
+           ^^^^^^^^^^^^
+23 | 11 23 | incompatible | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for name, value in caffe2_pb2.TensorProto.D...
+    ^^^
+36 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return set(workspace.RegisteredOperators()) 
+    ^^^^^^
+44 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Option
+    option = caffe2_pb2.DeviceOption() 
+    ^^^^^^
+96 | 4 10 | option | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Generated
+    generated from. Note that blobs are, essentially,...
+    ^^^^^^^^^
+111 | 4 13 | generated | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Relu([b], ...) 
+            ^^^
+180 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Source
+                'source to create operators. Create the operato...
+                 ^^^^^^
+187 | 17 23 | source | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return scope.CurrentNameScope() + name 
+    ^^^^^^
+213 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+    operator type. The type should be a string corre...
+    ^^^^^^^^
+265 | 4 12 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+    operator = caffe2_pb2.OperatorDef() 
+    ^^^^^^^^
+268 | 4 12 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+        operator.device_option.CopyFrom(device_option) 
+        ^^^^^^^^
+285 | 8 16 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif scope.CurrentDeviceScope() is not None:...
+    ^^^^
+286 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+        operator.device_option.CopyFrom(scope.CurrentDev...
+        ^^^^^^^^
+287 | 8 16 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+        operator.arg.add().CopyFrom(utils.MakeArgument(k...
+        ^^^^^^^^
+300 | 8 16 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if workspace.IsImmediate(): 
+    ^^
+302 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorImmediate(operator) 
+        ^^^^^^^^^
+303 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+    is going to run on. This is potentially da...
+    ^^
+341 | 4 6 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.Play(op) 
+            ^^^^
+401 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Version
+                    'version %d.' % ( 
+                     ^^^^^^^
+436 | 21 28 | version | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gradient
+                    'gradient operators.' % (grad_op_input, str(forwa...
+                     ^^^^^^^^
+469 | 21 29 | gradient | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.CheckGradientOperatorInput( 
+                ^^^^
+505 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.AppendSparseGenerators(sparse_generator...
+        ^^^^
+537 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+                if grad_op.HasField('device_option'): 
+                ^^
+596 | 16 18 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                        op.device_option.CopyFrom(grad_op.device_o...
+                        ^^
+598 | 24 26 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Values
+        # indices (resp. values) tensors together. We don't do any dedu...
+                         ^^^^^^
+661 | 25 31 | values | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+        # Check if all grad op device options are the same. 
+                       ^^^^^^^^^^^^^^
+731 | 23 37 | grad op device | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Add
+        add gradient accumulation. If so, do gradie...
+        ^^^
+740 | 8 11 | add | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gradient_ops
+            gradient_ops, g_input = GradientRegistry.GetGradient...
+            ^^^^^^^^^^^^
+810 | 12 24 | gradient_ops | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.BuildGradientGenerators( 
+            ^^^^
+814 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Derivatives
+              derivatives of. If the input is a list, we will aut...
+              ^^^^^^^^^^^
+834 | 14 25 | derivatives | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: HE_VERB_AGR[11]
+Message: The singular proper name None must be used with 'is'.
+Suggestion: is
+              that are None, we will auto-fill them with 1. 
+                   ^^^
+838 | 19 22 | are | The singular proper name None must be used with 'is'.
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Additional_sum_ops
+            additional_sum_ops, grad_map = self.DoGradientAccumulation...
+            ^^^^^^^^^^^^^^^^^^
+864 | 12 30 | additional_sum_ops | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: W
+                w = C.GradientWrapper() 
+                ^
+904 | 16 17 | w | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: W
+                w = C.GradientWrapper() 
+                ^
+909 | 16 17 | w | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: W
+                w = C.GradientWrapper() 
+                ^
+915 | 16 17 | w | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op_def
+            op_def.SerializeToString(), g_output) 
+            ^^^^^^
+922 | 12 18 | op_def | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_def
+            grad_def = caffe2_pb2.OperatorDef() 
+            ^^^^^^^^
+935 | 12 20 | grad_def | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_def
+            grad_def.ParseFromString(grad_def_str) 
+            ^^^^^^^^
+936 | 12 20 | grad_def | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'listed'.
+Suggestion: listed
+        if type(gradient_ops) is not list: 
+                                     ^^^^
+957 | 37 41 | list | Consider using a past participle here: 'listed'.
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Derivatives
+                derivatives of. If the input is a list, we will aut...
+                ^^^^^^^^^^^
+968 | 16 27 | derivatives | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: HE_VERB_AGR[11]
+Message: The singular proper name None must be used with 'is'.
+Suggestion: is
+                that are None, we will auto-fill them with 1. 
+                     ^^^
+972 | 21 24 | are | The singular proper name None must be used with 'is'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return ir.GetBackwardPass(ys) 
+        ^^^^^^
+979 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+                        blob names. If not provided or blob not foun...
+                        ^^^^
+990 | 24 28 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+                        for each op in the net. A versioned input i...
+                        ^^^
+995 | 24 27 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+    proto = net.Proto() if isinstance(net, Net) e...
+    ^^^^^
+1000 | 4 9 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert isinstance(proto, caffe2_pb2.NetDef) 
+    ^^^^^^
+1001 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+    the blob. A versioned blob is a tuple (blob...
+    ^^^
+1038 | 4 7 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Values
+                    values for the cloned net. Must be compatible ...
+                    ^^^^^^
+1081 | 20 26 | values | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Remapped
+                     remapped accordingly. otherwise, the schema will...
+                     ^^^^^^^^
+1084 | 21 29 | remapped | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(inputs, schema.Field) 
+        ^^^^^^
+1096 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Diff=diff
+                diff=diff, name=net.Name(), original=original.fie...
+                ^^^^^^^^^
+1105 | 16 25 | diff=diff | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+    proto = net.Proto() 
+    ^^^^^
+1114 | 4 9 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cloned_net
+    cloned_net = net.Clone(name, blob_remap, keep_sche...
+    ^^^^^^^^^^
+1125 | 4 14 | cloned_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Name_or_proto
+            name_or_proto:  If a NetDef is provided, clone it. Ot...
+            ^^^^^^^^^^^^^
+1163 | 12 25 | name_or_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if type(name_or_proto) is caffe2_pb2.NetDe...
+        ^^
+1175 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self._net = caffe2_pb2.NetDef() 
+            ^^^^
+1179 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self._net.CopyFrom(proto) 
+            ^^^^
+1180 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self._net = caffe2_pb2.NetDef() 
+            ^^^^
+1212 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for i in net.Proto().external_input: 
+        ^^^
+1220 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: I
+                i not in self.Proto().external_input and ...
+                ^
+1222 | 16 17 | i | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.Proto().external_input.append(i) 
+                ^^^^
+1225 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.Proto().external_output.extend( 
+        ^^^^
+1227 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: O
+                o for o in net.Proto().external_output 
+                ^
+1229 | 16 17 | o | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+                if o not in self.Proto().external_output 
+                ^^
+1230 | 16 18 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._ExtendOps(net.Proto().op) 
+        ^^^^
+1233 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+                blob = self.GivenTensorStringFill( 
+                ^^^^
+1239 | 16 20 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.Print(blob, []) 
+            ^^^^
+1244 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for i, op in enumerate(self.Proto().op): 
+        ^^^
+1269 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.Name() 
+        ^^^^^^
+1282 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return self.ConstantFill( 
+            ^^^^^^
+1286 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return do_set(self.GivenTensorIntFill) 
+            ^^^^^^
+1305 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return do_set(self.GivenTensorInt64Fill) 
+            ^^^^^^
+1307 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return do_set(self.GivenTensorStringFill) 
+            ^^^^^^
+1309 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return do_set(self.GivenTensorFill) 
+            ^^^^^^
+1311 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To
+        to it. If the blob is not produced by any ...
+        ^^
+1338 | 8 10 | to | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if not self.BlobIsDefined(blob_name): 
+        ^^
+1342 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+                         the cloned net. If not provided, all ops ar...
+                         ^^^
+1360 | 25 28 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_proto
+        new_proto = caffe2_pb2.NetDef() 
+        ^^^^^^^^^
+1365 | 8 17 | new_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_proto
+        new_proto.CopyFrom(proto) 
+        ^^^^^^^^^
+1366 | 8 17 | new_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_op
+            new_op = caffe2_pb2.OperatorDef() 
+            ^^^^^^
+1384 | 12 18 | new_op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_op
+            new_op.CopyFrom(op) 
+            ^^^^^^
+1385 | 12 18 | new_op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Compute
+        compute `outputs` given `inputs`. Return refere...
+        ^^^^^^^
+1423 | 8 15 | compute | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outputs
+        outputs. Internal blobs (blobs that are produce...
+        ^^^^^^^
+1424 | 8 15 | outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: In
+                     in the partially cloned net. If `inputs` i...
+                     ^^
+1432 | 21 23 | in | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert self.BlobIsDefined(output) 
+            ^^^^^^
+1449 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_net
+        new_net = self.Clone(name, blob_mapping, used_o...
+        ^^^^^^^
+1473 | 8 15 | new_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Del
+        del new_net.Proto().external_input[:] 
+        ^^^
+1477 | 8 11 | del | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_net
+        new_net.Proto().external_input.extend(new_in) 
+        ^^^^^^^
+1478 | 8 15 | new_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Del
+        del new_net.Proto().external_output[:] 
+        ^^^
+1480 | 8 11 | del | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_net
+        new_net.Proto().external_output.extend(new_out)...
+        ^^^^^^^
+1481 | 8 15 | new_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return new_net, [new_net.GetBlobRef(o) for o i...
+        ^^^^^^
+1482 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Current
+        current net. It returns `ScopedBlobReference(pr...
+        ^^^^^^^
+1490 | 8 15 | current | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Otherwise
+        otherwise `ScopedBlobReference(prefix) + '_auto_'...
+        ^^^^^^^^^
+1491 | 8 17 | otherwise | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.NextBlob(output_blob_base) 
+        ^^^^^^
+1495 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Current
+        current net. It returns `BlobReference(prefix)`...
+        ^^^^^^^
+1499 | 8 15 | current | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Otherwise
+        otherwise `BlobReference(prefix) + '_auto_' + ?`....
+        ^^^^^^^^^
+1500 | 8 17 | otherwise | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.BlobIsDefined(output_blob)): 
+                ^^^^
+1506 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Name
+        name your blob. [Deprecated, use NextBlob, N...
+        ^^^^
+1515 | 8 12 | name | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+            while self.BlobIsDefined(str(ScopedBlobRefere...
+            ^^^^^
+1522 | 12 17 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Derivatives
+              derivatives of. If the input is a list, we will aut...
+              ^^^^^^^^^^^
+1574 | 14 25 | derivatives | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: HE_VERB_AGR[11]
+Message: The singular proper name None must be used with 'is'.
+Suggestion: is
+              that are None, we will auto-fill them with 1. 
+                   ^^^
+1578 | 19 22 | are | The singular proper name None must be used with 'is'.
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Skip
+          skip: skips the first n operators. This is p...
+          ^^^^
+1579 | 10 14 | skip | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_ops
+        grad_ops, input_to_grad = GradientRegistry.GetBa...
+        ^^^^^^^^
+1592 | 8 16 | grad_ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if workspace.IsImmediate(): 
+        ^^
+1597 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.RunOperatorImmediate(op) 
+                ^^^^^^^^^
+1599 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert self.BlobIsDefined(output) 
+            ^^^^^^
+1621 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.Proto().external_output.extend([str(out...
+            ^^^^
+1623 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.AddExternalInput( 
+        ^^^^^^
+1626 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.AddExternalOutput( 
+        ^^^^^^
+1631 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with NameScope(self.Name()): 
+            ^^^^
+1648 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self._input_record = schema.NewRecord(self, ...
+                ^^^^
+1649 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                    self.AddExternalInput(blob) 
+                    ^^^^
+1654 | 20 24 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert self.BlobIsDefined(blob), "{} is not de...
+            ^^^^^^
+1661 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.AddExternalOutput(blob) 
+            ^^^^
+1663 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert self.BlobIsDefined(blob) 
+            ^^^^^^
+1672 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.AddExternalOutput(blob) 
+            ^^^^
+1674 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._output_record = self._output_record + ...
+        ^^^^
+1675 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.AddExternalInput(*inputs) 
+        ^^^^^^
+1686 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.AddExternalOutput(*outputs) 
+        ^^^^
+1689 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Unique
+        unique, remapping = self.Unique([g.indices], 2...
+        ^^^^^^
+1693 | 8 14 | unique | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_g
+            new_g = self.UnsortedSegmentSum([g.values, re...
+            ^^^^^
+1695 | 12 17 | new_g | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_g
+            new_g = self.UnsortedSegmentMean([g.values, r...
+            ^^^^^
+1697 | 12 17 | new_g | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+1704 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._net.device_option.CopyFrom(device_opti...
+        ^^^^
+1707 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+1713 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._net.device_option.CopyFrom(device_opti...
+        ^^^^
+1715 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+            if not self.BlobIsDefined(input): 
+            ^^
+1722 | 12 14 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+                assert input.Net() != self 
+                ^^^^^^
+1723 | 16 22 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.AddExternalInput(input) 
+                ^^^^
+1724 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outputs
+            outputs = self.NextName(prefix=op_type) 
+            ^^^^^^^
+1728 | 12 19 | outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.NextName(prefix=op_type, output_id=i) 
+                ^^^^
+1733 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outputs
+              outputs are a list of CPUTensor objects. This f...
+              ^^^^^^^
+1775 | 14 21 | outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: An
+              an argument list, and kwargs is a dict lis...
+              ^^
+1778 | 14 16 | an | This sentence does not start with an uppercase letter
+
+Line 1, column 33, Rule ID: KIND_OF_A[1]
+Message: Don't include 'an' after a classification term. Use simply 'type of'.
+Suggestion: type of
+        `python_func_type` is a type of an object that constructed as 
+                                ^^^^^^^^^^
+1787 | 32 42 | type of an | Don't include 'an' after a classification term. Use simply 'type of'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward
+        backward functions. Its useful in such a case wh...
+        ^^^^^^^^
+1789 | 8 16 | backward | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+        is going to run on. This is potentially da...
+        ^^
+1794 | 8 10 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Name=
+            name='%s:%d' % (str(self), len(self.Proto().o...
+            ^^^^^
+1808 | 12 17 | name= | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return netlike.Proto().name 
+        ^^^^^^
+1816 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif isinstance(netlike, caffe2_pb2.NetDef):...
+    ^^^^
+1817 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._step = caffe2_pb2.ExecutionStep() 
+        ^^^^
+1866 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Siblings
+        siblings are still running. It is guaranteed tha...
+        ^^^^^^^^
+1930 | 8 16 | siblings | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert not self.HasNets(), 'Cannot have both n...
+        ^^^^^^
+1946 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+            if not substep.HasNets() and not substep.H...
+            ^^
+1949 | 12 14 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+            for net in substep.Nets(): 
+            ^^^
+1951 | 12 15 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+            proto = substep.Proto() 
+            ^^^^^
+1954 | 12 17 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._step.substep.add().CopyFrom(proto) 
+        ^^^^
+1957 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert not self.HasNets(), 'Cannot have both n...
+        ^^^^^^
+1962 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert not self.HasSubsteps(), 'Cannot have bo...
+        ^^^^^^
+1967 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: all the
+        all of the nets used in this execution step and it...
+        ^^^^^^^^^^
+1976 | 8 18 | all of the | Simply use 'all the'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+    proto = step.Proto() 
+    ^^^^^
+1985 | 4 9 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for substep in step.Substeps(): 
+    ^^^
+1986 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._plan = caffe2_pb2.PlanDef() 
+        ^^^^
+2001 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self._plan.name = name_or_step.Name() 
+            ^^^^
+2004 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.AddStep(name_or_step) 
+            ^^^^
+2005 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self._plan.network.add().CopyFrom(net.Proto(...
+                ^^^^
+2021 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if not step.HasNets() and not step.HasSubs...
+        ^^
+2029 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._plan.execution_step.add().CopyFrom(ste...
+        ^^^^
+2031 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.AddNets([step.get_net(n) for n in net_l...
+        ^^^^
+2035 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: all the
+        all of the nets used in this plan. 
+        ^^^^^^^^^^
+2040 | 8 18 | all of the | Simply use 'all the'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.SetShouldStopBlob(should_stop_blob) 
+        ^^^^
+2092 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.SetIter(num_iter) 
+        ^^^^
+2094 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.SetOnlyOnce(only_once) 
+        ^^^^
+2096 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.SetConcurrentSubsteps(concurrent_subste...
+        ^^^^
+2098 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.SetReportNet(report_net, report_interva...
+        ^^^^
+2101 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.AddSubstep(steps_or_nets) 
+        ^^^^
+2104 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.AddNet(steps_or_nets) 
+        ^^^^
+2106 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Map
+            map(step.AddNet, steps_or_nets) 
+            ^^^
+2109 | 12 15 | map | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Map
+            map(step.AddSubstep, map(to_execution_step,...
+            ^^^
+2111 | 12 15 | map | This sentence does not start with an uppercase letter
+

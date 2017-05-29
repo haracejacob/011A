@@ -1,0 +1,70 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+81 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+83 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename... Args> 
+  ^^^^^^^^
+105 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename... Args> 
+  ^^^^^^^^
+108 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename... Args> 
+  ^^^^^^^^
+120 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename... Args> 
+  ^^^^^^^^
+123 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Func_
+      func_.Compile( 
+      ^^^^^
+201 | 6 11 | func_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Func_
+    func_.Launch(CAFFE_GET_BLOCKS(Y->size()), 1, ...
+    ^^^^^
+217 | 4 9 | func_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Func_
+      func_.Compile( 
+      ^^^^^
+253 | 6 11 | func_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Func_
+    func_.Launch(CAFFE_GET_BLOCKS(X.size()), 1, 1...
+    ^^^^^
+269 | 4 9 | func_ | This sentence does not start with an uppercase letter
+

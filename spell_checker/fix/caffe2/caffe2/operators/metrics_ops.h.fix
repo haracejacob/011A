@@ -1,0 +1,28 @@
+Line 1, column 8, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: mutex
+  std::mutex mutex; 
+       ^^^^^^^^^^^
+16 | 7 18 | mutex mutex | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: WindowSeconds
+      windowSeconds = metricsBlob.windowTimer.Seconds(); 
+      ^^^^^^^^^^^^^
+84 | 6 19 | windowSeconds | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: LifetimeSeconds
+      lifetimeSeconds = metricsBlob.lifetimeTimer.Seconds(); ...
+      ^^^^^^^^^^^^^^^
+85 | 6 21 | lifetimeSeconds | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: MetricsBlob
+      metricsBlob.windowTimer.Start(); 
+      ^^^^^^^^^^^
+89 | 6 17 | metricsBlob | This sentence does not start with an uppercase letter
+

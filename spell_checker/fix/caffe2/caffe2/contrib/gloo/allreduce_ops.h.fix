@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+    Mode mode = HALVING_DOUBLING; 
+    ^^^^^^^^^
+57 | 4 13 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 37, Rule ID: HAVE_PART_AGREEMENT[2]
+Message: Possible agreement error -- use past participle here: 'typed'.
+Suggestion: typed
+    // Verify tensors all have same type 
+                                    ^^^^
+84 | 36 40 | type | Possible agreement error -- use past participle here: 'typed'.
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+      return meta.Match<T>(); 
+      ^^^^^^
+145 | 6 12 | return | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,28 @@
+Line 1, column 42, Rule ID: MUST_HAVE_TO[1]
+Message: After 'must', the verb is used without 'to'. Probably, you should use 'must' or 'have to' here.
+Suggestion: must; have to
+... // full array. When not used full data must to be present 
+                                           ^^^^^^^
+56 | 41 48 | must to | After 'must', the verb is used without 'to'. Probably, you should use 'must' or 'have to' here.
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Segment
+  optional Segment segment = 11; 
+           ^^^^^^^^^^^^^^^
+61 | 11 26 | Segment segment | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Optional
+  optional TensorProto.DataType data_type = 2 [def...
+  ^^^^^^^^
+83 | 2 10 | optional | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Optional
+  optional string name = 3; // the operator name. ...
+  ^^^^^^^^
+134 | 2 10 | optional | This sentence does not start with an uppercase letter
+

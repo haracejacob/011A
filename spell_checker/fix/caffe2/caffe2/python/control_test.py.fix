@@ -1,0 +1,1057 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestControl(test_util.TestCase): 
+^^^^^
+11 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.N_ = 10 
+        ^^^^
+14 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.init_net_ = core.Net("init-net") 
+        ^^^^
+16 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cnt
+        cnt = self.init_net_.CreateCounter([], init...
+        ^^^
+17 | 8 11 | cnt | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const_n
+        const_n = self.init_net_.ConstantFill( 
+        ^^^^^^^
+18 | 8 15 | const_n | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const_0
+        const_0 = self.init_net_.ConstantFill( 
+        ^^^^^^^
+20 | 8 15 | const_0 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cnt_net_ = core.Net("cnt-net") 
+        ^^^^
+23 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cnt_net_.CountUp([cnt]) 
+        ^^^^
+24 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Curr_cnt
+        curr_cnt = self.cnt_net_.RetrieveCount([cnt]) 
+        ^^^^^^^^
+25 | 8 16 | curr_cnt | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.init_net_.ConstantFill( 
+        ^^^^
+26 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cnt_net_.AddExternalOutput(curr_cnt) 
+        ^^^^
+28 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cnt_2_net_ = core.Net("cnt-2-net") 
+        ^^^^
+30 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cnt_2_net_.CountUp([cnt]) 
+        ^^^^
+31 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cnt_2_net_.CountUp([cnt]) 
+        ^^^^
+32 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Curr_cnt_2
+        curr_cnt_2 = self.cnt_2_net_.RetrieveCount([cnt]) ...
+        ^^^^^^^^^^
+33 | 8 18 | curr_cnt_2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.init_net_.ConstantFill( 
+        ^^^^
+34 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cnt_2_net_.AddExternalOutput(curr_cnt_2...
+        ^^^^
+36 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cond_net_ = core.Net("cond-net") 
+        ^^^^
+38 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.cond_net_.AddExternalOutput(cond_blob) ...
+        ^^^^
+40 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.not_cond_net_ = core.Net("not-cond-net"...
+        ^^^^
+42 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.not_cond_net_.AddExternalOutput(cond_bl...
+        ^^^^
+44 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.true_cond_net_ = core.Net("true-cond-ne...
+        ^^^^
+46 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.true_cond_net_.AddExternalOutput(true_b...
+        ^^^^
+48 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.false_cond_net_ = core.Net("false-cond-...
+        ^^^^
+50 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.false_cond_net_.AddExternalOutput(false...
+        ^^^^
+52 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.idle_net_ = core.Net("idle-net") 
+        ^^^^
+54 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.idle_net_.ConstantFill( 
+        ^^^^
+55 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+            output = workspace.FetchBlob( 
+            ^^^^^^
+64 | 12 18 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.Proto().external_output[-1]) 
+                ^^^
+65 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(len(net.Proto().external_ou...
+        ^^^^
+73 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+            output = workspace.FetchBlob( 
+            ^^^^^^
+75 | 12 18 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.Proto().external_output[i]) 
+                ^^^
+76 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan = core.Plan("test") 
+        ^^^^
+80 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(control.Do('init', self.init_ne...
+        ^^^^
+81 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(step) 
+        ^^^^
+82 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(workspace.RunPlan(plan), Tr...
+        ^^^^
+83 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.For('myFor', nets_or_steps, s...
+        ^^^^
+86 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+87 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, self.N_...
+        ^^^^
+88 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.ForLoopTest(self.cnt_net_) 
+        ^^^^
+91 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.ForLoopTest([self.cnt_net_, self.idle_n...
+        ^^^^
+92 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('count', self.cnt_net_) 
+        ^^^^
+95 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.ForLoopTest(step) 
+        ^^^^
+96 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.ForLoopTest([step, self.idle_net_]) 
+        ^^^^
+97 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.While('myWhile', self.cond_ne...
+        ^^^^
+100 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+101 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, self.N_...
+        ^^^^
+102 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.WhileLoopTest(self.cnt_net_) 
+        ^^^^
+105 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.WhileLoopTest([self.cnt_net_, self.idle...
+        ^^^^
+106 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('count', self.cnt_net_) 
+        ^^^^
+109 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.WhileLoopTest(step) 
+        ^^^^
+110 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.WhileLoopTest([step, self.idle_net_]) 
+        ^^^^
+111 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Until('myUntil', self.not_con...
+        ^^^^
+114 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+115 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, self.N_...
+        ^^^^
+116 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.UntilLoopTest(self.cnt_net_) 
+        ^^^^
+119 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.UntilLoopTest([self.cnt_net_, self.idle...
+        ^^^^
+120 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('count', self.cnt_net_) 
+        ^^^^
+123 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.UntilLoopTest(step) 
+        ^^^^
+124 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.UntilLoopTest([step, self.idle_net_]) 
+        ^^^^
+125 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.DoWhile('myDoWhile', self.con...
+        ^^^^
+128 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+129 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, self.N_...
+        ^^^^
+130 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoWhileLoopTest(self.cnt_net_) 
+        ^^^^
+133 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoWhileLoopTest([self.idle_net_, self.c...
+        ^^^^
+134 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('count', self.cnt_net_) 
+        ^^^^
+137 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoWhileLoopTest(step) 
+        ^^^^
+138 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoWhileLoopTest([self.idle_net_, step])...
+        ^^^^
+139 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.DoUntil('myDoUntil', self.not...
+        ^^^^
+142 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+143 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, self.N_...
+        ^^^^
+144 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoUntilLoopTest(self.cnt_net_) 
+        ^^^^
+147 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoUntilLoopTest([self.cnt_net_, self.id...
+        ^^^^
+148 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('count', self.cnt_net_) 
+        ^^^^
+151 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoUntilLoopTest(step) 
+        ^^^^
+152 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.DoUntilLoopTest([self.idle_net_, step])...
+        ^^^^
+153 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.Do( 
+            ^^^^
+157 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.Do('count', cond_net), 
+                ^^^^^^^
+159 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.If('myIf', cond_net.Proto().external_ou...
+                ^^^^^^^
+160 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.If('myIf', cond_net, self.cnt...
+            ^^^^
+163 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+164 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, expect)...
+        ^^^^
+165 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfCondTest(self.true_cond_net_, 1, Fals...
+        ^^^^
+168 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfCondTest(self.true_cond_net_, 1, True...
+        ^^^^
+171 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfCondTest(self.false_cond_net_, 0, Fal...
+        ^^^^
+174 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfCondTest(self.false_cond_net_, 0, Tru...
+        ^^^^
+177 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.Do( 
+            ^^^^
+185 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.Do('count', cond_net), 
+                ^^^^^^^
+187 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.If('myIfElse', cond_net.Proto().externa...
+                ^^^^^^^
+188 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.If('myIfElse', cond_net, 
+            ^^^^
+191 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+193 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(run_net, expect)]) 
+        ^^^^
+194 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfElseCondTest(self.true_cond_net_, Tru...
+        ^^^^
+197 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfElseCondTest(self.true_cond_net_, Tru...
+        ^^^^
+200 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfElseCondTest(self.false_cond_net_, Fa...
+        ^^^^
+203 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfElseCondTest(self.false_cond_net_, Fa...
+        ^^^^
+206 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.Do( 
+            ^^^^
+210 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.Do('count', cond_net), 
+                ^^^^^^^
+212 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.IfNot('myIfNot', cond_net.Proto().exter...
+                ^^^^^^^
+213 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.IfNot('myIfNot', cond_net, se...
+            ^^^^
+216 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+217 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, expect)...
+        ^^^^
+218 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotCondTest(self.true_cond_net_, 0, F...
+        ^^^^
+221 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotCondTest(self.true_cond_net_, 0, T...
+        ^^^^
+224 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotCondTest(self.false_cond_net_, 1, ...
+        ^^^^
+227 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotCondTest(self.false_cond_net_, 1, ...
+        ^^^^
+230 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.Do( 
+            ^^^^
+238 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.Do('count', cond_net), 
+                ^^^^^^^
+240 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Control
+                control.IfNot('myIfNotElse', 
+                ^^^^^^^
+241 | 16 23 | control | This sentence does not start with an uppercase letter
+
+Line 1, column 31, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cond_net
+                              cond_net.Proto().external_output[-1], 
+                              ^^^^^^^^
+242 | 30 38 | cond_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+            step = control.IfNot('myIfNotElse', cond_net...
+            ^^^^
+245 | 12 16 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+247 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(run_net, expect)]) 
+        ^^^^
+248 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotElseCondTest(self.true_cond_net_, ...
+        ^^^^
+251 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotElseCondTest(self.true_cond_net_, ...
+        ^^^^
+254 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotElseCondTest(self.false_cond_net_,...
+        ^^^^
+257 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.IfNotElseCondTest(self.false_cond_net_,...
+        ^^^^
+260 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Switch( 
+        ^^^^
+263 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+268 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, 0), (se...
+        ^^^^
+269 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.SwitchNot( 
+        ^^^^
+272 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+277 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(self.cnt_net_, 1), (se...
+        ^^^^
+278 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool_net
+        bool_net = control.BoolNet(('a', True)) 
+        ^^^^^^^^
+281 | 8 16 | bool_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('bool', bool_net) 
+        ^^^^
+282 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+283 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetAllOutput(bool_net, [True]) 
+        ^^^^
+284 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool_net
+        bool_net = control.BoolNet(('a', True), ('b', Fa...
+        ^^^^^^^^
+286 | 8 16 | bool_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('bool', bool_net) 
+        ^^^^
+287 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+288 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetAllOutput(bool_net, [True, Fals...
+        ^^^^
+289 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool_net
+        bool_net = control.BoolNet([('a', True), ('b', F...
+        ^^^^^^^^
+291 | 8 16 | bool_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('bool', bool_net) 
+        ^^^^
+292 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+293 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetAllOutput(bool_net, [True, Fals...
+        ^^^^
+294 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Combine_net
+        combine_net = control.CombineConditions( 
+        ^^^^^^^^^^^
+298 | 8 19 | combine_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('combine', 
+        ^^^^
+300 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+304 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(combine_net, True)]) 
+        ^^^^
+305 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Combine_net
+        combine_net = control.CombineConditions( 
+        ^^^^^^^^^^^
+308 | 8 19 | combine_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('combine', 
+        ^^^^
+310 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+314 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(combine_net, False)]) ...
+        ^^^^
+315 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Merge_net
+        merge_net = control.MergeConditionNets( 
+        ^^^^^^^^^
+319 | 8 17 | merge_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('merge', merge_net) 
+        ^^^^
+321 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+322 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(merge_net, True)]) 
+        ^^^^
+323 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Merge_net
+        merge_net = control.MergeConditionNets( 
+        ^^^^^^^^^
+326 | 8 17 | merge_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step = control.Do('merge', merge_net) 
+        ^^^^
+328 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.BuildAndRunPlan(step) 
+        ^^^^
+329 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.CheckNetOutput([(merge_net, False)]) 
+        ^^^^
+330 | 8 12 | self | This sentence does not start with an uppercase letter
+

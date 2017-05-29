@@ -1,0 +1,42 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Params
+  Params params; 
+  ^^^^^^^^^^^^^
+383 | 2 15 | Params params | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Params
+  params.outputHeight_ = height ? height : -1; 
+  ^^^^^^
+387 | 2 8 | params | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Params
+  params.outputWidth_ = width ? width : -1; 
+  ^^^^^^
+388 | 2 8 | params | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Params
+  Params params; 
+  ^^^^^^^^^^^^^
+441 | 2 15 | Params params | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Params
+  params.outputHeight_ = height ? height : -1; 
+  ^^^^^^
+445 | 2 8 | params | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Params
+  params.outputWidth_ = width ? width : -1; 
+  ^^^^^^
+446 | 2 8 | params | This sentence does not start with an uppercase letter
+

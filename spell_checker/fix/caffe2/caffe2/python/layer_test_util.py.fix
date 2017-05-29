@@ -1,0 +1,140 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class LayersTestCase(test_util.TestCase): 
+^^^^^
+29 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.ResetWorkspace() 
+        ^^^^^^^^^
+40 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_feature_schema
+        input_feature_schema = input_feature_schema or schema.Struct...
+        ^^^^^^^^^^^^^^^^^^^^
+44 | 8 28 | input_feature_schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trainer_extra_schema
+        trainer_extra_schema = trainer_extra_schema or schema.Struct...
+        ^^^^^^^^^^^^^^^^^^^^
+47 | 8 28 | trainer_extra_schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.model = layer_model_helper.LayerModelHe...
+        ^^^^
+48 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return schema.NewRecord(self.model.net, schema...
+        ^^^^^^
+54 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+        train_net = core.Net('train_net') 
+        ^^^^^^^^^
+63 | 8 17 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_init_net
+        train_init_net = core.Net('train_init_net') 
+        ^^^^^^^^^^^^^^
+64 | 8 22 | train_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.model.output_schema = schema.Struct() 
+        ^^^^
+76 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_init_net) 
+        ^^^^^^^^^
+79 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_net) 
+        ^^^^^^^^^
+80 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.model.output_schema = schema.Struct() 
+        ^^^^
+83 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_init_net) 
+        ^^^^^^^^^
+87 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_net) 
+        ^^^^^^^^^
+88 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Spec_blobs
+        spec_blobs can either be None or a list of blob na...
+        ^^^^^^^^^^
+92 | 8 18 | spec_blobs | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Then
+        then no assertion is performed. The elements...
+        ^^^^
+93 | 8 12 | then | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+            operator = caffe2_pb2.OperatorDef() 
+            ^^^^^^^^
+108 | 12 20 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Arg
+                arg = utils.MakeArgument(k, v) 
+                ^^^
+110 | 16 19 | arg | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+                operator.arg.add().CopyFrom(arg) 
+                ^^^^^^^^
+111 | 16 24 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops = net.Proto().op 
+        ^^^
+120 | 8 11 | ops | This sentence does not start with an uppercase letter
+

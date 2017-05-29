@@ -1,0 +1,21 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Local_input_blobs_
+      local_input_blobs_.push_back(local_ws_.CreateBlob(name)); ...
+      ^^^^^^^^^^^^^^^^^^
+51 | 6 24 | local_input_blobs_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Local_output_blobs_
+      local_output_blobs_.push_back(local_ws_.GetBlob(name)); 
+      ^^^^^^^^^^^^^^^^^^^
+56 | 6 25 | local_output_blobs_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.FinishDeviceComputation(); 
+      ^^^^^^^^
+81 | 6 14 | context_ | This sentence does not start with an uppercase letter
+

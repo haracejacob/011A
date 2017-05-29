@@ -1,0 +1,63 @@
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                op = core.CreateOperator( 
+                ^^
+52 | 16 18 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 27, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+                          with default indices=[0,1,...N] 
+                          ^^^^
+109 | 26 30 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestSegmentOps(hu.HypothesisTestCase): ...
+^^^^^
+250 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("UnsortedSegmentS...
+        ^^
+337 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("UnsortedSegmentM...
+        ^^
+345 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("LengthsSum", ["X...
+        ^^
+352 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("LengthsSumGradie...
+        ^^
+358 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("SparseLengthsSum...
+        ^^
+366 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("SparseLengthsSum...
+        ^^
+373 | 8 10 | op | This sentence does not start with an uppercase letter
+

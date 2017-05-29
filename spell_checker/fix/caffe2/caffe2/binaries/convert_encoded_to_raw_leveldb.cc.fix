@@ -1,0 +1,49 @@
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Options
+    leveldb::Options options; 
+             ^^^^^^^^^^^^^^^
+41 | 13 28 | Options options | Possible typo: you repeated a word
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Status
+    leveldb::Status status = leveldb::DB::Open( 
+             ^^^^^^^^^^^^^
+44 | 13 26 | Status status | Possible typo: you repeated a word
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Options
+    leveldb::Options options; 
+             ^^^^^^^^^^^^^^^
+55 | 13 28 | Options options | Possible typo: you repeated a word
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Status
+    leveldb::Status status = leveldb::DB::Open( 
+             ^^^^^^^^^^^^^
+60 | 13 26 | Status status | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2
+        caffe2::FLAGS_color ? CV_LOAD_IMAGE_COLOR : CV...
+        ^^^^^^
+95 | 8 14 | caffe2 | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scaled_height
+                        scaled_height * scaled_width * (caffe2::FLAGS_color ?...
+                        ^^^^^^^^^^^^^
+114 | 24 37 | scaled_height | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_protos
+    output_protos.SerializeToString(&value); 
+    ^^^^^^^^^^^^^
+115 | 4 17 | output_protos | This sentence does not start with an uppercase letter
+

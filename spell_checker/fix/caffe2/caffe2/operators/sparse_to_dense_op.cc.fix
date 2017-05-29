@@ -1,0 +1,21 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Max
+max index. Missing values are filled with z...
+^^^
+18 | 0 3 | max | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Values
+values. This behavior is useful for converting...
+^^^^^^
+21 | 0 6 | values | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun if seems to be countable, so consider using: '0 ifs'.
+Suggestion: 0 ifs
+output[j, ...] = 0 if j not in indices 
+                 ^^^^
+28 | 17 21 | 0 if | Possible agreement error. The noun if seems to be countable, so consider using: '0 ifs'.
+

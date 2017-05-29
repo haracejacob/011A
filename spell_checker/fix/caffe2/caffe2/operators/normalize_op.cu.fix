@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float reduce_result = BlockReduce(temp_storag...
+    ^^^^^
+18 | 4 9 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float reduce_result = BlockReduce(temp_storag...
+    ^^^^^
+51 | 4 9 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float reduce_norm = BlockReduce(temp_storage_...
+    ^^^^^
+52 | 4 9 | float | This sentence does not start with an uppercase letter
+

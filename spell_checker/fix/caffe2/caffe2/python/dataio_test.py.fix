@@ -1,0 +1,35 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+        ws = workspace.C.Workspace() 
+        ^^
+18 | 8 10 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Src_init
+        src_init = core.Net('src_init') 
+        ^^^^^^^^
+22 | 8 16 | src_init | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope('src'): 
+        ^^^^
+23 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dst_init
+        dst_init = core.Net('dst_init') 
+        ^^^^^^^^
+31 | 8 16 | dst_init | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope('dst'): 
+        ^^^^
+32 | 8 12 | with | This sentence does not start with an uppercase letter
+

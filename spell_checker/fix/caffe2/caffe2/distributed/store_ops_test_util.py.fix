@@ -1,0 +1,49 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob(blob, value) 
+            ^^^^^^^^^
+24 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce( 
+            ^^^^^^^^^
+25 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+                core.CreateOperator( 
+                ^^^^
+26 | 16 20 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorOnce( 
+        ^^^^^^^^^
+33 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+            core.CreateOperator( 
+            ^^^^
+34 | 12 16 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Np
+            np.testing.assert_array_equal(workspace.Fe...
+            ^^
+41 | 12 14 | np | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.ResetWorkspace() 
+        ^^^^^^^^^
+45 | 8 17 | workspace | This sentence does not start with an uppercase letter
+

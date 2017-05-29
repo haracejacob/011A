@@ -1,0 +1,35 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+output = net.BooleanUnmask([mask1, values1, ma...
+^^^^^^
+81 | 0 6 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Field
+field there are multiple True's, we will acce...
+^^^^^
+87 | 0 5 | field | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: THERE_RE_MANY[5]
+Message: Possible agreement error. Did you mean 'there are multiple (True)'?
+Suggestion: there are multiple (True)
+field there are multiple True's, we will accept the first value. For ...
+      ^^^^^^^^^^^^^^^^^^^^^^^
+87 | 6 29 | there are multiple True | Possible agreement error. Did you mean 'there are multiple (True)'?
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+output = net.BooleanUnmask([mask1, values1, ma...
+^^^^^^
+96 | 0 6 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+output = net.BooleanUnmask([mask1, values1, ma...
+^^^^^^
+104 | 0 6 | output | This sentence does not start with an uppercase letter
+

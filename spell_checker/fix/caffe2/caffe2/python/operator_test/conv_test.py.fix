@@ -1,0 +1,84 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestConvolution(hu.HypothesisTestCase):...
+^^^^^
+13 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+40 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator( 
+            ^^
+106 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if (workspace.GetCuDNNVersion() < 6000): 
+        ^^
+156 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+160 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+196 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+280 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_v6p
+            cudnn_v6p = workspace.GetCuDNNVersion() >= 6000 
+            ^^^^^^^^^
+336 | 12 21 | cudnn_v6p | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                op = core.CreateOperator( 
+                ^^
+344 | 16 18 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+                return o.Y 
+                ^^^^^^
+378 | 16 22 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.ResetWorkspace() 
+        ^^^^^^^^^
+403 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_to_grad
+        input_to_grad = m.AddGradientOperators(["loss"]) 
+        ^^^^^^^^^^^^^
+442 | 8 21 | input_to_grad | This sentence does not start with an uppercase letter
+

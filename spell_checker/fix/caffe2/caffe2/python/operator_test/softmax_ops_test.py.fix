@@ -1,0 +1,203 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestSoftmaxOps(hu.HypothesisTestCase): ...
+^^^^^
+13 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+39 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+72 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+118 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+164 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+228 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                op = core.CreateOperator( 
+                ^^
+277 | 16 18 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+324 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+375 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+429 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+496 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+551 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+590 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with larger examples. This is mainly to test...
+        ^^^^
+608 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gpuop
+            gpuop = core.CreateOperator( 
+            ^^^^^
+614 | 12 17 | gpuop | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=core
+                device_option=core.DeviceOption(caffe2_pb2.CUDA, 0) 
+                ^^^^^^^^^^^^^^^^^^
+618 | 16 34 | device_option=core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cpuop
+            cpuop = core.CreateOperator( 
+            ^^^^^
+621 | 12 17 | cpuop | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=core
+                device_option=core.DeviceOption(caffe2_pb2.CPU) 
+                ^^^^^^^^^^^^^^^^^^
+625 | 16 34 | device_option=core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gpu0
+            gpu0 = core.DeviceOption(caffe2_pb2.CUDA, 0)...
+            ^^^^
+641 | 12 16 | gpu0 | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("X_cpu", X) 
+            ^^^^^^^^^
+642 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("label_cpu", label) 
+            ^^^^^^^^^
+643 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("X_gpu", X, device_option=gpu0...
+            ^^^^^^^^^
+644 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("label_gpu", label, device_opt...
+            ^^^^^^^^^
+645 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(gpuop) 
+            ^^^^^^^^^
+647 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(cpuop) 
+            ^^^^^^^^^
+648 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Probs_gpu
+            probs_gpu = workspace.FetchBlob("probs_gpu") 
+            ^^^^^^^^^
+650 | 12 21 | probs_gpu | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Probs_cpu
+            probs_cpu = workspace.FetchBlob("probs_cpu") 
+            ^^^^^^^^^
+651 | 12 21 | probs_cpu | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss_gpu
+            loss_gpu = workspace.FetchBlob("avgloss_gpu") 
+            ^^^^^^^^
+652 | 12 20 | loss_gpu | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss_cpu
+            loss_cpu = workspace.FetchBlob("avgloss_cpu") 
+            ^^^^^^^^
+653 | 12 20 | loss_cpu | This sentence does not start with an uppercase letter
+

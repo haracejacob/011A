@@ -1,0 +1,7 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+      auto multiplier = scale == 0 ? 1.0 : 1 / std...
+      ^^^^
+38 | 6 10 | auto | This sentence does not start with an uppercase letter
+

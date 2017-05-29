@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out_net
+    out_net = caffe2_pb2.NetDef() 
+    ^^^^^^^
+9 | 4 11 | out_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out_net
+        out_net.ParseFromString(f.read()) 
+        ^^^^^^^
+14 | 8 15 | out_net | This sentence does not start with an uppercase letter
+

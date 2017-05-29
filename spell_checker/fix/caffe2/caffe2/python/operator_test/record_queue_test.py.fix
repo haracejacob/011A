@@ -1,0 +1,63 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = core.Net('init') 
+        ^^^
+29 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(net) 
+        ^^^^^^^^^
+43 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_f
+                new_f = net.Copy(f) 
+                ^^^^^
+50 | 16 21 | new_f | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_consume
+            net_consume = core.Net(name) 
+            ^^^^^^^^^^^
+61 | 12 23 | net_consume | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_dataset
+            net_dataset = core.Net(name) 
+            ^^^^^^^^^^^
+66 | 12 23 | net_dataset | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan = core.Plan('test') 
+        ^^^^
+81 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(work_steps) 
+        ^^^^
+82 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+        core.workspace.RunPlan(plan) 
+        ^^^^
+83 | 8 12 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+        data = workspace.FetchBlobs(rec_dataset.get_...
+        ^^^^
+84 | 8 12 | data | This sentence does not start with an uppercase letter
+

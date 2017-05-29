@@ -1,0 +1,77 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+    predict_net = caffe2_pb2.NetDef() 
+    ^^^^^^^^^^^
+14 | 4 15 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+    predict_net.CopyFrom(net.Proto()) 
+    ^^^^^^^^^^^
+15 | 4 15 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+    init_net = caffe2_pb2.NetDef() 
+    ^^^^^^^^
+16 | 4 12 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+        blob = workspace.FetchBlob(blob_name) 
+        ^^^^
+34 | 8 12 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+                core.CreateOperator( 
+                ^^^^
+37 | 16 20 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+                        utils.MakeArgument("shape", blob.shape), 
+                        ^^^^^
+40 | 24 29 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+                        utils.MakeArgument("values", blob) 
+                        ^^^^^
+41 | 24 29 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+                core.CreateOperator( 
+                ^^^^
+52 | 16 20 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+                        utils.MakeArgument("shape", [1, 1]), 
+                        ^^^^^
+55 | 24 29 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+                        utils.MakeArgument("values", [0.0]) 
+                        ^^^^^
+56 | 24 29 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+    predict_net.external_input.extend(net.Proto().exter...
+    ^^^^^^^^^^^
+66 | 4 15 | predict_net | This sentence does not start with an uppercase letter
+

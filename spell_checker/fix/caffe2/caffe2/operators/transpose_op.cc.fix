@@ -1,0 +1,14 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+      vector<int> axes = helper.GetRepeatedArgument<...
+      ^^^^^^
+105 | 6 12 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+          out[0].add_dims(in[0].dims().Get(*axis)); 
+          ^^^
+127 | 10 13 | out | This sentence does not start with an uppercase letter
+

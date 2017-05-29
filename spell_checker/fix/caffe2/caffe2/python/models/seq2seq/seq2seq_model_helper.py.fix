@@ -1,0 +1,49 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_value
+            init_value: int, float or str. Can be used instead...
+            ^^^^^^^^^^
+26 | 12 22 | init_value | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param
+            param = self.net.AddExternalInput(name) 
+            ^^^^^
+45 | 12 17 | param | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Namescope
+            namescope = scope.CurrentNameScope() 
+            ^^^^^^^^^
+59 | 12 21 | namescope | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+                if p.GetNameScope() == namescope 
+                ^^
+69 | 16 18 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.GetParams(namescope) + 
+            ^^^^
+74 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.GetComputedParams(namescope) + 
+            ^^^^
+75 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.GetNonTrainableParams(namescope) 
+            ^^^^
+76 | 12 16 | self | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,84 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with scope.NameScope(self.name): 
+        ^^^^
+31 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.output_schema = schema.NewRecord( 
+                ^^^^
+33 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                    model.net, schema.RawTuple(output_names_or_nu...
+                    ^^^^^
+34 | 20 25 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+            elif isinstance(output_names_or_num, schema....
+            ^^^^
+35 | 12 16 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.output_schema = schema.NewRecord( 
+                ^^^^
+42 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                    model.net, schema.Struct(*out_tuple)) 
+                    ^^^^^
+43 | 20 25 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Type_net
+            type_net = core.Net('_temp_type_and_shape_infere...
+            ^^^^^^^^
+61 | 12 20 | type_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.InitEmptyRecord(type_net, input_record,...
+            ^^^^^^
+62 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+                if types[blob] == caffe2_pb2.TensorProto.D...
+                ^^
+85 | 16 18 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+                elif types[blob] == caffe2_pb2.TensorProto.F...
+                ^^^^
+87 | 16 20 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+                elif types[blob] == caffe2_pb2.TensorProto.I...
+                ^^^^
+89 | 16 20 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+                elif types[blob] == caffe2_pb2.TensorProto.I...
+                ^^^^
+91 | 16 20 | elif | This sentence does not start with an uppercase letter
+

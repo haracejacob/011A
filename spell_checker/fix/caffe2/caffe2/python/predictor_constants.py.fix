@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predictor_constants
+predictor_constants = predictor_consts.PredictorConsts() 
+^^^^^^^^^^^^^^^^^^^
+8 | 0 19 | predictor_constants | This sentence does not start with an uppercase letter
+

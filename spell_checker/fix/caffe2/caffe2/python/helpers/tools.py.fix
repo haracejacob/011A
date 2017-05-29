@@ -1,0 +1,28 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+            data, label = model.net.ImageInput( 
+            ^^^^
+15 | 12 16 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+            data, label = model.net.ImageInput( 
+            ^^^^
+20 | 12 16 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+        data, label = model.net.ImageInput(blob_in, ...
+        ^^^^
+25 | 8 12 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    data, label = model.net.VideoInput(blob_in, ...
+    ^^^^
+30 | 4 8 | data | This sentence does not start with an uppercase letter
+

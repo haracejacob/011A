@@ -1,0 +1,35 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(input_record, schema.Struct)...
+        ^^^^^^
+20 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert isinstance(field_type, schema.Scalar),\...
+            ^^^^^^
+26 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Scalar( 
+        ^^^^
+52 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.NextScopedBlob(name + '_output')) 
+            ^^^^^
+54 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Concat( 
+        ^^^
+57 | 8 11 | net | This sentence does not start with an uppercase letter
+

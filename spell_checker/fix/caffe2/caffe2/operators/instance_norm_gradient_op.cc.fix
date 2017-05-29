@@ -1,0 +1,56 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto& mean = InputSize() >= 5 ? Input(M...
+  ^^^^^
+10 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto& inv_stdev = InputSize() >= 6 ? In...
+  ^^^^^
+11 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mean_
+    mean_.Resize(N, C); 
+    ^^^^^
+42 | 4 9 | mean_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inv_stdev_
+    inv_stdev_.Resize(N, C); 
+    ^^^^^^^^^^
+45 | 4 14 | inv_stdev_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto& mean = InputSize() >= 5 ? Input(M...
+  ^^^^^
+131 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto& inv_stdev = InputSize() >= 6 ? In...
+  ^^^^^
+132 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mean_
+    mean_.Resize(N, C); 
+    ^^^^^
+169 | 4 9 | mean_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inv_stdev_
+    inv_stdev_.Resize(N, C); 
+    ^^^^^^^^^^
+184 | 4 14 | inv_stdev_ | This sentence does not start with an uppercase letter
+

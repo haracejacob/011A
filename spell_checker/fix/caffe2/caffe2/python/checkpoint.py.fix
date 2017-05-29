@@ -1,0 +1,217 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+    of the stopping criterias for `epoch_group...
+    ^^
+35 | 4 6 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(output, core.BlobReference):...
+        ^^
+99 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._net = core.Net('!!checkpoint_mngr') 
+        ^^^^
+116 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._blob_names = self._net.AddExternalInpu...
+        ^^^^
+117 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+                ops.GetAllBlobNames( 
+                ^^^
+131 | 16 19 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+                ops.Load( 
+                ^^^
+136 | 16 19 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Resumed
+        resumed from a given epoch. This task will run ...
+        ^^^^^^^
+154 | 8 15 | resumed | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+            ops.Load( 
+            ^^^
+159 | 12 15 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+        the given epoch. The necessary blobs are gi...
+        ^^^
+170 | 8 11 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_names
+            blob_names: A list of strings. Each string is the ...
+            ^^^^^^^^^^
+174 | 12 22 | blob_names | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+            ops.Load( 
+            ^^^
+184 | 12 15 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Existence
+            existence = ops.Const(False) 
+            ^^^^^^^^^
+196 | 12 21 | existence | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Epoch
+        epoch is run. This will execute a Save ops to...
+        ^^^^^
+209 | 8 13 | epoch | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+            ops.Save( 
+            ^^^
+214 | 12 15 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_names
+            blob_names: A list of strings. Each string is the ...
+            ^^^^^^^^^^
+264 | 12 22 | blob_names | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Epoch
+            epoch: An integer. The checkpoint epoch to lo...
+            ^^^^^
+266 | 12 17 | epoch | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Logger
+                logger.info('DB %s does not exist!' % manager....
+                ^^^^^^
+285 | 16 22 | logger | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Epoch
+    epoch. Can be used to run either single-host ...
+    ^^^^^
+299 | 4 9 | epoch | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: As
+    as argument. This call will block until th...
+    ^^
+301 | 4 6 | as | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initialization
+    initialization and after each epoch execution. If, in ...
+    ^^^^^^^^^^^^^^
+304 | 4 18 | initialization | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Be
+    be loaded and job execution will continue ...
+    ^^
+306 | 4 6 | be | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Logger
+            logger.info('Starting epoch %d.' % epoch) 
+            ^^^^^^
+338 | 12 18 | logger | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Logger
+            logger.info('Ran epoch %d.' % epoch) 
+            ^^^^^^
+340 | 12 18 | logger | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Checkpoints
+        checkpoints. One common scenario is to load only th...
+        ^^^^^^^^^^^
+360 | 8 19 | checkpoints | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+        the checkpoints for evaluation purpose. Giv...
+        ^^^
+361 | 8 11 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_names
+            blob_names: A list of strings. Each string is the ...
+            ^^^^^^^^^^
+367 | 12 22 | blob_names | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Epoch
+            epoch: An integer. The checkpoint epoch to lo...
+            ^^^^^
+369 | 12 17 | epoch | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+        init_net = core.Net('epoch_counter_init') 
+        ^^^^^^^^
+388 | 8 16 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Counter
+        counter = init_net.CreateCounter([], init_count...
+        ^^^^^^^
+389 | 8 15 | counter | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Epoch_net
+    epoch_net = core.Net('epoch_countdown') 
+    ^^^^^^^^^
+391 | 4 13 | epoch_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Finished
+    finished = epoch_net.CountDown(counter) 
+    ^^^^^^^^
+392 | 4 12 | finished | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,77 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dyndep
+dyndep.InitOpsLibrary("@/caffe2/caffe2/contrib...
+^^^^^^
+15 | 0 6 | dyndep | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+    plan = core.Plan("plan") 
+    ^^^^
+23 | 4 8 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+    plan.AddStep(core.ExecutionStep("test-step",...
+    ^^^^
+24 | 4 8 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Except
+    except subprocess.CalledProcessError: 
+    ^^^^^^
+38 | 4 10 | except | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class NNPackOpsTest(hu.HypothesisTestCase): 
+^^^^^
+44 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator( 
+            ^^
+68 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun stride seems to be countable, so consider using: '2 strides'.
+Suggestion: 2 strides
+        # only 2 * 2 stride and 2 * 2 pool is supported in NNPack n...
+                   ^^^^^^^^
+98 | 19 27 | 2 stride | Possible agreement error. The noun stride seems to be countable, so consider using: '2 strides'.
+
+Line 1, column 37, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun pool seems to be countable, so consider using: '2 pools'.
+Suggestion: 2 pools
+        # only 2 * 2 stride and 2 * 2 pool is supported in NNPack now 
+                                    ^^^^^^
+98 | 36 42 | 2 pool | Possible agreement error. The noun pool seems to be countable, so consider using: '2 pools'.
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator( 
+            ^^
+104 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net = core.Net(engine + "_test") 
+            ^^^
+143 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Conv( 
+            ^^^
+144 | 12 15 | net | This sentence does not start with an uppercase letter
+

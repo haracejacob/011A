@@ -1,0 +1,7 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+      return meta.Match<T>(); 
+      ^^^^^^
+120 | 6 12 | return | This sentence does not start with an uppercase letter
+

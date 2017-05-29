@@ -1,0 +1,294 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: X
+    x = ops.Const(5) 
+    ^
+14 | 4 5 | x | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Y
+    y = ops.Const(0) 
+    ^
+15 | 4 5 | y | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops.stop_if(ops.EQ([x, ops.Const(0)])) 
+        ^^^
+17 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops.Add([x, ops.Const(-1)], [x]) 
+        ^^^
+18 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops.Add([y, ops.Const(1)], [y]) 
+        ^^^
+19 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+    ops.stop_if(ops.LT([x, ops.Const(5)])) 
+    ^^^
+24 | 4 7 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: X
+    x = ops.Const(10) 
+    ^
+28 | 4 5 | x | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Y
+    y = ops.Const(3) 
+    ^
+34 | 4 5 | y | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops.Const(0) 
+        ^^^
+40 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Y
+    y = ops.Const(1) 
+    ^
+51 | 4 5 | y | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with ops.If(ops.GT([x, ops.Const(50)])): 
+    ^^^^
+52 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops.Const(2, blob_out=y) 
+        ^^^
+53 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with ops.If(ops.LT([x, ops.Const(50)])): 
+    ^^^^
+54 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops.Const(3, blob_out=y) 
+        ^^^
+55 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops.Const(4, blob_out=y) 
+        ^^^
+57 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestNetBuilder(unittest.TestCase): 
+^^^^^
+61 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: P
+            p = _test_if(ops.Const(75)) 
+            ^
+66 | 12 13 | p | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Q
+            q = _test_if(ops.Const(25)) 
+            ^
+67 | 12 13 | q | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(to_execution_step(nb)) 
+        ^^^^
+69 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+        ws = workspace.C.Workspace() 
+        ^^
+70 | 8 10 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Total
+        total = ops.Const(0) 
+        ^^^^^
+104 | 8 13 | total | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Total_large
+        total_large = ops.Const(0) 
+        ^^^^^^^^^^^
+105 | 8 19 | total_large | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Total_small
+        total_small = ops.Const(0) 
+        ^^^^^^^^^^^
+106 | 8 19 | total_small | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Total_tiny
+        total_tiny = ops.Const(0) 
+        ^^^^^^^^^^
+107 | 8 18 | total_tiny | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outer
+            outer = ops.Mul([loop.iter(), ops.Const(10)])...
+            ^^^^^
+109 | 12 17 | outer | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Val
+                val = ops.Add([outer, inner.iter()]) 
+                ^^^
+111 | 16 19 | val | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+                with ops.If(ops.GE([val, ops.Const(80)])) as...
+                ^^^^
+112 | 16 20 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+                    ops.Add([total_large, val], [total_large]) ...
+                    ^^^
+113 | 20 23 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+                with c.Elif(ops.GE([val, ops.Const(50)])) as...
+                ^^^^
+114 | 16 20 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+                    ops.Add([total_small, val], [total_small]) ...
+                    ^^^
+115 | 20 23 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+                with c.Else(): 
+                ^^^^
+116 | 16 20 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+                    ops.Add([total_tiny, val], [total_tiny]) 
+                    ^^^
+117 | 20 23 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+                ops.Add([total, val], total) 
+                ^^^
+118 | 16 19 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+            for e, a in zip(expected, actual): 
+                   ^
+128 | 19 20 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: One
+                one = ops.Const(1) 
+                ^^^
+134 | 16 19 | one | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Two
+            two = ops.Add([one, one]) 
+            ^^^
+135 | 12 15 | two | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Three
+                three = ops.Const(3) 
+                ^^^^^
+137 | 16 21 | three | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Accum
+            accum = ops.Add([two, three]) 
+            ^^^^^
+138 | 12 17 | accum | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Seven_1
+                seven_1 = ops.Add([accum, one]) 
+                ^^^^^^^
+142 | 16 23 | seven_1 | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Six
+            six = ops.Add([accum, one]) 
+            ^^^
+143 | 12 15 | six | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+            ops.Add([accum, one], [accum]) 
+            ^^^
+144 | 12 15 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Seven_2
+            seven_2 = ops.Add([accum, one]) 
+            ^^^^^^^
+145 | 12 19 | seven_2 | This sentence does not start with an uppercase letter
+

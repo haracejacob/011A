@@ -1,0 +1,49 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (X.IsType<float>()) { 
+  ^^
+146 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (X.IsType<float>()) { 
+  ^^
+194 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gradient
+    gradient pass. This op is deterministic. 
+    ^^^^^^^^
+230 | 4 12 | gradient | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Depend
+        "depend on whether the NCHW or NHWC operators a...
+         ^^^^^^
+236 | 9 15 | depend | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Height
+        "height and the width of the data. The correspo...
+         ^^^^^^
+239 | 9 15 | height | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dimensions
+        "dimensions is used in the latter case. ") 
+         ^^^^^^^^^^
+240 | 9 19 | dimensions | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+        "tensor. Dimensions will vary based on various ...
+         ^^^^^^
+245 | 9 15 | tensor | This sentence does not start with an uppercase letter
+

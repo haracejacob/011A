@@ -1,0 +1,182 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.cursor = init_net.CreateTreeCursor( 
+            ^^^^
+35 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope(read_net.NextName(self.n...
+        ^^^^
+43 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fields
+            fields = read_net.ReadNextBatch( 
+            ^^^^^^
+44 | 12 18 | fields | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+            if type(fields) is core.BlobReference: 
+            ^^
+48 | 12 14 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return (read_net.IsEmpty([fields[0]]), fields)...
+            ^^^^^^
+50 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.ResetCursor([self.cursor], []) 
+        ^^^
+53 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.cursor = init_net.CreateTreeCursor( 
+            ^^^^
+68 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.ResetCursor([self.cursor], []) 
+        ^^^
+74 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Offsets
+        offsets = net.ComputeOffset( 
+        ^^^^^^^
+78 | 8 15 | offsets | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = net.SortAndShuffle( 
+        ^^^^^^^
+94 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope(read_net.NextName(self.n...
+        ^^^^
+103 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fields
+            fields = read_net.ReadRandomBatch( 
+            ^^^^^^
+104 | 12 18 | fields | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return (read_net.IsEmpty([fields[0]]), fields)...
+            ^^^^^^
+109 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.mutex = init_net.CreateMutex([]) 
+            ^^^^
+120 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+        of the dataset. An additional operator wil...
+        ^^
+125 | 8 10 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Writer_net
+        writer_net.CheckDatasetConsistency( 
+        ^^^^^^^^^^
+136 | 8 18 | writer_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Writer_net
+        writer_net.AtomicAppend( 
+        ^^^^^^^^^^
+138 | 8 18 | writer_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: In
+    in the current workspace. The name is auto...
+    ^^
+151 | 4 6 | in | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert isinstance(net, core.Net), 'net must be...
+    ^^^^^^
+154 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    blob = net.AddExternalInput(net.NextName(pre...
+    ^^^^
+156 | 4 8 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.FeedBlob(str(blob), value) 
+    ^^^^^^^^^
+157 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Report_net
+    report_net = core.Net('report_net') 
+    ^^^^^^^^^^
+163 | 4 14 | report_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Report_net
+    report_net.Print([rows_read], []) 
+    ^^^^^^^^^^
+164 | 4 14 | report_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fields
+            fields: either a schema.Struct or a list of fi...
+            ^^^^^^
+191 | 12 18 | fields | This sentence does not start with an uppercase letter
+
+Line 1, column 55, Rule ID: A_PLURAL[1]
+Message: Don't use indefinite articles with plural words. Did you mean 'a panda' or simply 'Pandas'?
+Suggestion: a panda; Pandas
+...tialize the blobs for this dataset from a Pandas dataframe. 
+                                           ^^^^^^^^
+215 | 54 62 | a Pandas | Don't use indefinite articles with plural words. Did you mean 'a panda' or simply 'Pandas'?
+
+Line 1, column 57, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'threaded'.
+Suggestion: threaded
+...rrently implementation of writer is not thread safe. 
+                                           ^^^^^^
+305 | 56 62 | thread | Consider using a past participle here: 'threaded'.
+

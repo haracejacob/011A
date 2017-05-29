@@ -1,0 +1,7 @@
+Line 1, column 31, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Bias) must be used with a third-person verb: 'terms'.
+Suggestion: terms
+    .Arg("forget_bias", "Bias term to add in while calculating forget gate...
+                              ^^^^
+161 | 30 34 | term | The proper name in singular (Bias) must be used with a third-person verb: 'terms'.
+

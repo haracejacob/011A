@@ -1,0 +1,42 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(input_record, schema.Scalar)...
+        ^^^^^^
+21 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Scalar( 
+        ^^^^
+29 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.NextScopedBlob(name + '_output') 
+            ^^^^^
+31 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.b = model.net.NextScopedBlob(name + "_b...
+        ^^^^
+38 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                initializer=core.CreateOperator(bias_init[0], 
+                ^^^^^^^^^^^^^^^^
+43 | 16 32 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Add(self.input_record.field_blobs() + [...
+        ^^^
+52 | 8 11 | net | This sentence does not start with an uppercase letter
+

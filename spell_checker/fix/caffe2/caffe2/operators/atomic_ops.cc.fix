@@ -1,0 +1,63 @@
+Line 1, column 11, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    auto& a = Input(1); 
+          ^
+27 | 10 11 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 58, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...tes an unlocked mutex and returns it in a unique_ptr blob.") 
+                                           ^
+94 | 57 58 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Argument
+argument. Returns the updated integer and the va...
+^^^^^^^^
+103 | 0 8 | argument | This sentence does not start with an uppercase letter
+
+Line 1, column 48, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...put(0, "mutex_ptr", "Blob containing to a unique_ptr<mutex>") 
+                                           ^
+105 | 47 48 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 48, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...tDoc("Create an unique_ptr blob to hold a atomic<bool>") 
+                                           ^
+115 | 47 48 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 48, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...tput(0, "atomic_bool", "Blob containing a unique_ptr<atomic<bool>>"); 
+                                           ^
+116 | 47 48 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 47, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...nput(0, "atomic_bool", "Blob containing a unique_ptr<atomic<bool>>") 
+                                           ^
+124 | 46 47 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 32, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    .SetDoc("Copy the value of a atomic<bool> to a bool") 
+                               ^
+130 | 31 32 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 47, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...nput(0, "atomic_bool", "Blob containing a unique_ptr<atomic<bool>>") 
+                                           ^
+131 | 46 47 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

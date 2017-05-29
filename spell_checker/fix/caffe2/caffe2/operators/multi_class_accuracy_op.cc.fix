@@ -1,0 +1,7 @@
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Each
+    "each data. N is the number of instances, i.e...
+     ^^^^
+69 | 5 9 | each | This sentence does not start with an uppercase letter
+

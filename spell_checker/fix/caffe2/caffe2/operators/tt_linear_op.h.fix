@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int batch_size = X.ndim() > 1 ? X.dim32...
+    ^^^^^
+44 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(batch_size); 
+      ^^^^^^^^^^^^^^^^
+138 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+

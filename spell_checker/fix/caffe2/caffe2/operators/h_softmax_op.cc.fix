@@ -1,0 +1,189 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scale_
+    scale_.Resize(1); 
+    ^^^^^^
+27 | 4 10 | scale_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sum_multiplier_
+    sum_multiplier_.Resize(dim_out); 
+    ^^^^^^^^^^^^^^^
+30 | 4 19 | sum_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int M = X.ndim() > 1 ? X.dim32(0) : 1; 
+  ^^^
+78 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+    bias_multiplier_.Resize(M); 
+    ^^^^^^^^^^^^^^^^
+99 | 4 20 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scale_
+    scale_.Resize(1); 
+    ^^^^^^
+142 | 4 10 | scale_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sum_multiplier_
+    sum_multiplier_.Resize(dim_out); 
+    ^^^^^^^^^^^^^^^
+147 | 4 19 | sum_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+  context_.Copy<float, CPUContext, CPUContext>(dim...
+  ^^^^^^^^
+153 | 2 10 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+    bias_multiplier_.Resize(1); 
+    ^^^^^^^^^^^^^^^^
+168 | 4 20 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int M = X.ndim() > 1 ? X.dim32(0) : 1; 
+  ^^^
+219 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Intermediate_data
+  intermediate_data.Resize(2 * w_length); 
+  ^^^^^^^^^^^^^^^^^
+260 | 2 19 | intermediate_data | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int M = X.ndim() > 1 ? X.dim32(0) : 1; 
+  ^^^
+346 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+    bias_multiplier_.Resize(M); 
+    ^^^^^^^^^^^^^^^^
+359 | 4 20 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Info
+        info.begin() + (top_n_ < info.size() ? top_n...
+        ^^^^
+395 | 8 12 | info | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Node
+    Node node(i, labelCounts[i]); 
+    ^^^^^^^^^
+447 | 4 13 | Node node | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Node
+    Node node(-1, node_l.second.count + node_r.second...
+    ^^^^^^^^^
+466 | 4 13 | Node node | Possible typo: you repeated a word
+
+Line 1, column 11, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Main) must be used with a third-person verb: 'loops'.
+Suggestion: loops
+  // Main loop for buttom up huffman tree construction...
+          ^^^^
+472 | 10 14 | loop | The proper name in singular (Main) must be used with a third-person verb: 'loops'.
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: TreeProto
+  TreeProto treeProto; 
+  ^^^^^^^^^^^^^^^^^^^
+528 | 2 21 | TreeProto treeProto | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: TreeProto
+  treeProto.SerializeToString(treeOutput->template ...
+  ^^^^^^^^^
+531 | 2 11 | treeProto | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Performance
+performance. In this operator, instead of calculati...
+^^^^^^^^^^^
+550 | 0 11 | performance | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+tensor (Tensor<int>) holding labels, or the in...
+^^^^^^
+556 | 0 6 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Matrices
+  "matrices. Each node in the hierarchy contributes...
+   ^^^^^^^^
+568 | 3 11 | matrices | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: It
+  "it has children nodes. Dimension is N*D, D...
+   ^^
+569 | 3 5 | it | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Well-trained
+  well-trained model and input vector. Greedy algorith...
+  ^^^^^^^^^^^^
+599 | 2 14 | well-trained | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Including
+        "including all intermidate nodes and leafs. All no...
+         ^^^^^^^^^
+605 | 9 18 | including | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Beam
+        "beam used for pruning tree. The pruning algo...
+         ^^^^
+609 | 9 13 | beam | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Will
+        "will be propagated. ") 
+         ^^^^
+611 | 9 13 | will | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+    the input labels. It returns the tree as se...
+    ^^^
+630 | 4 7 | the | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,35 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+  message(WARNING "NNPACK not supported on MSVC y...
+  ^^^^^^^
+28 | 2 9 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+  message(STATUS "Will try to build NNPACK from s...
+  ^^^^^^^
+128 | 2 9 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Will) must be used with a third-person verb: 'tries'.
+Suggestion: tries
+  message(STATUS "Will try to build NNPACK from source. If anythin...
+                       ^^^
+128 | 23 26 | try | The proper name in singular (Will) must be used with a third-person verb: 'tries'.
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: That
+                    "that are needed by it are not installed. As ...
+                     ^^^^
+157 | 21 25 | that | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+message(WARNING "Unknown platform - I don't kno...
+^^^^^^^
+168 | 0 7 | message | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,14 @@
+Line 1, column 29, Rule ID: META_DATA[1]
+Message: Did you mean 'metadata'?
+Suggestion: metadata
+  // Read the magic and the meta data 
+                            ^^^^^^^^^
+36 | 28 37 | meta data | Did you mean 'metadata'?
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Protos
+    protos.SerializeToString(&value); 
+    ^^^^^^
+101 | 4 10 | protos | This sentence does not start with an uppercase letter
+

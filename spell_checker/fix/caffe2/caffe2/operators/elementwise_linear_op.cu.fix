@@ -1,0 +1,28 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+  float g_a_sum_tot = BlockReduce(temp_storage)...
+  ^^^^^
+38 | 2 7 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+  float g_b_sum_tot = BlockReduce(temp_storage)...
+  ^^^^^
+40 | 2 7 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+  const auto& a = Input(1); 
+              ^
+54 | 14 15 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 15, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+  const auto& a = Input(2); 
+              ^
+81 | 14 15 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

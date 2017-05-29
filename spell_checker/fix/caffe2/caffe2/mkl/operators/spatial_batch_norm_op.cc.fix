@@ -1,0 +1,77 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int C = (order_ == StorageOrder::NCHW ?...
+    ^^^^^
+43 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int H = (order_ == StorageOrder::NCHW ?...
+    ^^^^^
+44 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int W = (order_ == StorageOrder::NCHW ?...
+    ^^^^^
+45 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Primitive_
+        primitive_.Reset( 
+        ^^^^^^^^^^
+57 | 8 18 | primitive_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Primitive_
+        primitive_.Reset( 
+        ^^^^^^^^^^
+64 | 8 18 | primitive_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+      buffer_.Reset(X.dims(), primitive_, dnnResource...
+      ^^^^^^^
+82 | 6 13 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scale_bias_layout_
+      scale_bias_layout_.Reset(primitive_, dnnResourceScaleShift...
+      ^^^^^^^^^^^^^^^^^^
+84 | 6 24 | scale_bias_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.ShareFrom(*Y); 
+    ^^^^^^^
+100 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Saved_mean_buf
+            saved_mean_buf[i] * (1. - momentum_); 
+            ^^^^^^^^^^^^^^
+125 | 12 26 | saved_mean_buf | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Saved_var_buf
+            saved_var_buf[i] * (1. - momentum_); 
+            ^^^^^^^^^^^^^
+127 | 12 25 | saved_var_buf | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.CopyTo(Y, primitive_, dnnResourceDst); ...
+    ^^^^^^^
+131 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+

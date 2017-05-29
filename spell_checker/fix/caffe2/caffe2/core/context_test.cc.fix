@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+  context.Copy<float, CPUContext, CPUContext>(10,...
+  ^^^^^^^
+26 | 2 9 | context | This sentence does not start with an uppercase letter
+

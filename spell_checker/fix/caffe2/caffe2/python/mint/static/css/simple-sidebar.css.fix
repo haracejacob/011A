@@ -1,0 +1,6 @@
+Line 1, column 29, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com) 
+                            ^^^^^^^^^^^^^^^^^^^^^
+1 | 28 49 | Sidebar HTML Template | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+

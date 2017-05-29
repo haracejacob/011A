@@ -1,0 +1,28 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return proto.SerializeAsString(); 
+  ^^^^^^
+45 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return proto.ShortDebugString(); 
+  ^^^^^^
+84 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+          message.ParseFromString(arg_map_.at(name)->s())...
+          ^^^^^^^
+194 | 10 17 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Messages
+          messages[i].ParseFromString(arg_map_.at(name)->s...
+          ^^^^^^^^
+208 | 10 18 | messages | This sentence does not start with an uppercase letter
+

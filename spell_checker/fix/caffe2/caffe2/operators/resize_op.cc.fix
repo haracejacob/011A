@@ -1,0 +1,7 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Interpolation
+            interpolation. The `width_scale` and `height_scale` a...
+            ^^^^^^^^^^^^^
+103 | 12 25 | interpolation | This sentence does not start with an uppercase letter
+

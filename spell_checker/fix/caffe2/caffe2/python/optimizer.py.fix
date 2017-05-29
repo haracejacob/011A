@@ -1,0 +1,301 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert isinstance(param, parameter_info.Parame...
+            ^^^^^^
+32 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param
+                param = core.BlobReference(param) 
+                ^^^^^
+36 | 16 21 | param | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param
+            param = parameter_info.ParameterInfo( 
+            ^^^^^
+37 | 12 17 | param | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if not param_init_net.BlobIsDefined(_OPTIM...
+        ^^
+49 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with core.DeviceScope(core.DeviceOption(caff...
+            ^^^^
+51 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iteration
+                iteration = param_init_net.ConstantFill( 
+                ^^^^^^^^^
+52 | 16 25 | iteration | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dtype=core
+                    dtype=core.DataType.INT64) 
+                    ^^^^^^^^^^
+55 | 20 30 | dtype=core | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iter_mutex
+                iter_mutex = param_init_net.CreateMutex([], ["iter...
+                ^^^^^^^^^^
+56 | 16 26 | iter_mutex | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.AtomicIter([iter_mutex, iteration], [it...
+                ^^^
+57 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iteration
+            iteration = param_init_net.GetBlobRef(_OPTIMIZER_...
+            ^^^^^^^^^
+59 | 12 21 | iteration | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lr
+        lr = net.LearningRate( 
+        ^^
+63 | 8 10 | lr | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert (isinstance(grad, core.GradientSlice)) ...
+        ^^^^^^
+74 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return net.DeduplicateGradientSlices( 
+            ^^^^^^
+76 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Aux_params
+            aux_params.local stores a list of blobs. Each blob...
+            ^^^^^^^^^^
+87 | 12 22 | aux_params | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auxiliary
+            auxiliary parameter. A local auxiliary parameter ...
+            ^^^^^^^^^
+88 | 12 21 | auxiliary | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Parallel
+            parallel to a learning rate parameter. Take adag...
+            ^^^^^^^^
+89 | 12 20 | parallel | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Aux_params
+            aux_params.shared also stores a list of blobs. Eac...
+            ^^^^^^^^^^
+93 | 12 22 | aux_params | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auxiliary
+            auxiliary parameter. A shared auxiliary parameter...
+            ^^^^^^^^^
+94 | 12 21 | auxiliary | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: That
+            that is shared across all the learning rate ...
+            ^^^^
+95 | 12 16 | that | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Momentum_data
+            momentum_data = param_init_net.ConstantFill( 
+            ^^^^^^^^^^^^^
+141 | 12 25 | momentum_data | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(grad, core.GradientSlice): 
+        ^^
+145 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.ScatterWeightedSum( 
+            ^^^
+147 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.MomentumSGD( 
+                ^^^
+153 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.WeightedSum( 
+            ^^^
+161 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param_squared_sum
+        param_squared_sum = param_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^^^
+197 | 8 25 | param_squared_sum | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(grad, core.GradientSlice): 
+        ^^
+204 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.SparseAdagrad( 
+            ^^^
+206 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Adagrad( 
+            ^^^
+213 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Nz
+        nz = param_init_net.ConstantFill( 
+        ^^
+243 | 8 10 | nz | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(grad, core.GradientSlice): 
+        ^^
+250 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.SparseFtrl( 
+            ^^^
+252 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Ftrl( 
+            ^^^
+262 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: M1
+        m1 = param_init_net.ConstantFill( 
+        ^^
+306 | 8 10 | m1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: M2
+        m2 = param_init_net.ConstantFill( 
+        ^^
+311 | 8 10 | m2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(grad, core.GradientSlice): 
+        ^^
+319 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.SparseAdam( 
+            ^^^
+321 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Adam( 
+            ^^^
+330 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for param_info in model.GetOptimizationPara...
+    ^^^
+343 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert core.IsOperator('Ftrl_ENGINE_SIMD') 
+        ^^^^^^
+350 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert core.IsOperator('SparseFtrl_ENGINE_SIMD...
+        ^^^^^^
+351 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for param_info in model.GetOptimizationPara...
+    ^^^
+353 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for param_info in model.GetOptimizationPara...
+    ^^^
+360 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for param_info in model.GetOptimizationPara...
+    ^^^
+367 | 4 7 | for | This sentence does not start with an uppercase letter
+

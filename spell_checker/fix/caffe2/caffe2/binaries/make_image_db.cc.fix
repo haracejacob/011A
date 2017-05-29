@@ -1,0 +1,21 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2
+          caffe2::FLAGS_color ? CV_LOAD_IMAGE_COLOR : CV...
+          ^^^^^^
+102 | 10 16 | caffe2 | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scaled_height
+          scaled_height * scaled_width * (caffe2::FLAGS_color ?...
+          ^^^^^^^^^^^^^
+123 | 10 23 | scaled_height | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Protos
+    protos.SerializeToString(&value); 
+    ^^^^^^
+127 | 4 10 | protos | This sentence does not start with an uppercase letter
+

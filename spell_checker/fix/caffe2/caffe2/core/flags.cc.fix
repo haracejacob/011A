@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!Caffe2FlagsRegistry()->Has(key)) { 
+    ^^
+108 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: long
+    static_assert(sizeof(long long) == sizeof(int64_t), ""); 
+                         ^^^^^^^^^
+163 | 25 34 | long long | Possible typo: you repeated a word
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Explicitly
+           "explicitly specify it, like --arg=True or --arg Tr...
+            ^^^^^^^^^^
+206 | 12 22 | explicitly | This sentence does not start with an uppercase letter
+

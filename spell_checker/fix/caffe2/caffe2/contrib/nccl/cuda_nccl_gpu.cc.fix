@@ -1,0 +1,7 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ctx
+            ctx.dst ? ctx.dst->raw_mutable_data() : nul...
+            ^^^
+199 | 12 15 | ctx | This sentence does not start with an uppercase letter
+

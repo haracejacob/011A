@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int K = Xt.ndim() > 1 ? Xt.dim32(0) : 1; 
+    ^^^
+86 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(shape(M)); 
+      ^^^^^^^^^^^^^^^^
+102 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+

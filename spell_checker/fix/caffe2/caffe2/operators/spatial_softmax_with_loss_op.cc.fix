@@ -1,0 +1,63 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto batch_size = logits.dims().Get(0); 
+          ^^^^
+23 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto num_classes = logits.dims().Get(1); 
+          ^^^^
+24 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cross-entropy
+cross-entropy loss is computed. This operator is nume...
+^^^^^^^^^^^^^
+40 | 0 13 | cross-entropy | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Separate
+separate Softmax and CrossEntropy ops. The input...
+^^^^^^^^
+41 | 0 8 | separate | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sum_multiplier_
+    sum_multiplier_.Resize(D); 
+    ^^^^^^^^^^^^^^^
+75 | 4 19 | sum_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const float* weights = (InputSize() > 2 ? Inp...
+  ^^^^^
+81 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+          float w = weights ? weights[label_idx] : 1.0;...
+          ^^^^^
+141 | 10 15 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const float* weights = (InputSize() > 4 ? Inp...
+  ^^^^^
+164 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+  context_.Copy<float, CPUContext, CPUContext>(P.s...
+  ^^^^^^^^
+183 | 2 10 | context_ | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cmake
+    cmake .. -DBLAS=OpenBLAS -DUSE_OPENCV=off 
+    ^^^^^
+11 | 4 9 | cmake | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+    cmake .. -DBLAS=OpenBLAS -DUSE_OPENCV=off 
+          ^^
+11 | 10 12 | .. | Two consecutive dots
+
+Line 1, column 11, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+    cmake .. 
+          ^^
+31 | 10 12 | .. | Two consecutive dots
+

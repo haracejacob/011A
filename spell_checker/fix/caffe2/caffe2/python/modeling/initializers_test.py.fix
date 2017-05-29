@@ -1,0 +1,21 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class InitializerTest(unittest.TestCase): 
+^^^^^
+13 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="test")...
+        ^^^^^
+15 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+        data = model.net.AddExternalInput("data") 
+        ^^^^
+16 | 8 12 | data | This sentence does not start with an uppercase letter
+

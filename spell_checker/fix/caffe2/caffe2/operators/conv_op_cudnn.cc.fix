@@ -1,0 +1,56 @@
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Size
+              size > 3 ? size : 4, 
+              ^^^^
+115 | 14 18 | size | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Size
+              size > 3 ? size : 4, 
+              ^^^^
+140 | 14 18 | size | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Order_
+        order_ == StorageOrder::NCHW ? dims[1] /= grou...
+        ^^^^^^
+310 | 8 14 | order_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (Input(0).IsType<float>()) { 
+  ^^
+515 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Order_
+        order_ == StorageOrder::NCHW ? dims[1] /= grou...
+        ^^^^^^
+633 | 8 14 | order_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+        auto* dX = Output(no_bias_ ? BIAS_OR_INPUT_GR...
+        ^^^^^
+907 | 8 13 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (Input(0).IsType<float>()) { 
+  ^^
+932 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Else
+  else if (Input(0).IsType<float16>()) { 
+  ^^^^
+942 | 2 6 | else | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,90 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net = core.Net(predictor_export_meta.predic...
+    ^^^
+15 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net.Proto().op.extend(predictor_export_meta...
+    ^^^
+16 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net.Proto().external_input.extend( 
+    ^^^
+17 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net.Proto().external_output.extend(predicto...
+    ^^^
+19 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Proto().type = predictor_export_meta.ne...
+        ^^^
+21 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return net.Proto() 
+    ^^^^^^
+22 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+    output blobs, using the shapes from the provid...
+    ^^^^^^
+28 | 4 10 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 30, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+    necessary as there is no shape inference functionality in Caffe2. 
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+29 | 29 58 | shape inference functionality | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net = core.Net("predict-init") 
+    ^^^
+31 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.ConstantFill([], blob, shape=shape, val...
+        ^^^
+42 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net.Proto().external_input.extend(external_...
+    ^^^
+49 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.AppendNet(predictor_export_meta.extra_i...
+        ^^^
+51 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return net.Proto() 
+    ^^^^^^
+52 | 4 10 | return | This sentence does not start with an uppercase letter
+

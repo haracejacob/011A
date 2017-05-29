@@ -1,0 +1,147 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operators
+    operators when possible. This yields significant ...
+    ^^^^^^^^^
+35 | 4 13 | operators | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Netproto
+    netproto = copy.deepcopy(net.Proto()) 
+    ^^^^^^^^
+60 | 4 12 | netproto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: External_output
+    external_output = set(net.Proto().external_output) 
+    ^^^^^^^^^^^^^^^
+62 | 4 19 | external_output | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for op in net.Proto().op: 
+    ^^^
+65 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Netproto
+    netproto = copy.deepcopy(net.Proto()) 
+    ^^^^^^^^
+87 | 4 12 | netproto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: External_input
+    external_input = set(net.Proto().external_input) 
+    ^^^^^^^^^^^^^^
+88 | 4 18 | external_input | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: External_output
+    external_output = set(net.Proto().external_output) 
+    ^^^^^^^^^^^^^^^
+89 | 4 19 | external_output | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+    ops = list(net.Proto().op) 
+    ^^^
+95 | 4 7 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: G
+    g = nx.DiGraph() 
+    ^
+365 | 4 5 | g | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Topological
+        topological sorting result. We would like to arrang...
+        ^^^^^^^^^^^
+420 | 8 19 | topological | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun if seems to be countable, so consider using: '0 ifs'.
+Suggestion: 0 ifs
+    ret = 0 if ret is None else ret 
+          ^^^^
+503 | 10 14 | 0 if | Possible agreement error. The noun if seems to be countable, so consider using: '0 ifs'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B1
+        b1[0:-1] should be incompatible with with ...
+        ^^
+563 | 8 10 | b1 | This sentence does not start with an uppercase letter
+
+Line 1, column 41, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: with
+...        b1[0:-1] should be incompatible with with b1[-1]. f(b, len(b), []) gives 
+                                           ^^^^^^^^^
+563 | 40 49 | with with | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: G
+    g = nx.DiGraph() 
+    ^
+743 | 4 5 | g | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    step_args = [a for a in op.arg if a.name.endswith("step_net"...
+                       ^
+781 | 23 24 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step_proto
+        step_proto = caffe2_pb2.NetDef() 
+        ^^^^^^^^^^
+783 | 8 18 | step_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Protobuftx
+        protobuftx.Merge(step_arg.s, step_proto) 
+        ^^^^^^^^^^
+784 | 8 18 | protobuftx | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+            a = caffe2_pb2.Argument() 
+            ^
+793 | 12 13 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class AssignmentAlgorithm(enum.Enum): 
+^^^^^
+799 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return workspace.FetchBlob(blob).nbytes 
+        ^^^^^^
+857 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return workspace.FetchBlob(blob).nbytes 
+        ^^^^^^
+873 | 8 14 | return | This sentence does not start with an uppercase letter
+

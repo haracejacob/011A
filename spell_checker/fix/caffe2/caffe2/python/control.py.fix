@@ -1,0 +1,378 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return all(isinstance(n, core.Net) for n in ne...
+        ^^^^^^
+59 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return isinstance(nets_or_steps, core.Net) 
+        ^^^^^^
+61 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert len(condition_net.Proto().external_outp...
+    ^^^^^^
+87 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_net
+        condition_net.Proto.name) 
+        ^^^^^^^^^^^^^
+89 | 8 21 | condition_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return core.BlobReference(condition_net.Proto(...
+    ^^^^^^
+93 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Need
+    need to access reader_done blobs before read...
+    ^^^^
+99 | 4 8 | need | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blobs_with_bool_value
+    blobs_with_bool_value: one or more (blob, bool_value) pairs. ...
+    ^^^^^^^^^^^^^^^^^^^^^
+103 | 4 25 | blobs_with_bool_value | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool_net
+    bool_net = core.Net('bool_net') 
+    ^^^^^^^^
+115 | 4 12 | bool_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out_blob
+        out_blob = bool_net.ConstantFill( 
+        ^^^^^^^^
+117 | 8 16 | out_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dtype=core
+            dtype=core.DataType.BOOL) 
+            ^^^^^^^^^^
+122 | 12 22 | dtype=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool_net
+        bool_net.AddExternalOutput(out_blob) 
+        ^^^^^^^^
+123 | 8 16 | bool_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_blob_or_net
+    condition_blob_or_net can be either blob or net. If condition...
+    ^^^^^^^^^^^^^^^^^^^^^
+132 | 4 25 | condition_blob_or_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+140 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Not_net
+    not_net = core.Net('not_net') 
+    ^^^^^^^
+145 | 4 11 | not_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out_blob
+    out_blob = not_net.Not(condition_blob) 
+    ^^^^^^^^
+146 | 4 12 | out_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Not_net
+    not_net.AddExternalOutput(out_blob) 
+    ^^^^^^^
+147 | 4 11 | not_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_net
+    condition_net = core.Net('copy_condition_blob_net') 
+    ^^^^^^^^^^^^^
+162 | 4 17 | condition_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out_blob
+    out_blob = condition_net.Copy(condition_blob) 
+    ^^^^^^^^
+163 | 4 12 | out_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_net
+    condition_net.AddExternalOutput(out_blob) 
+    ^^^^^^^^^^^^^
+164 | 4 17 | condition_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_nets
+        condition_nets: a list of condition nets. The last ext...
+        ^^^^^^^^^^^^^^
+175 | 8 22 | condition_nets | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Merged_net
+    merged_net = core.Net(name) 
+    ^^^^^^^^^^
+188 | 4 14 | merged_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_proto
+        net_proto = condition_nets[i].Proto() 
+        ^^^^^^^^^
+190 | 8 17 | net_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert net_proto.device_option == merged_net.P...
+        ^^^^^^
+191 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert net_proto.type == merged_net.Proto().ty...
+        ^^^^^^
+192 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Merged_net
+        merged_net.Proto().op.extend(net_proto.op) 
+        ^^^^^^^^^^
+193 | 8 18 | merged_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Merged_net
+        merged_net.Proto().external_input.extend(net_proto...
+        ^^^^^^^^^^
+194 | 8 18 | merged_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Merged_net
+    merged_net.AddExternalOutput(last_cond) 
+    ^^^^^^^^^^
+205 | 4 14 | merged_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition
+    condition. When we want to check whether all read...
+    ^^^^^^^^^
+217 | 4 13 | condition | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_nets
+        condition_nets: a list of condition nets. The last ext...
+        ^^^^^^^^^^^^^^
+222 | 8 22 | condition_nets | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Combined_net
+    combined_net = core.Net(name) 
+    ^^^^^^^^^^^^
+240 | 4 16 | combined_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Combined_net
+    combined_net.AddExternalOutput(last_cond) 
+    ^^^^^^^^^^^^
+249 | 4 16 | combined_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Nets_or_steps
+            nets_or_steps[0], core.ExecutionStep)): 
+            ^^^^^^^^^^^^^
+266 | 12 25 | nets_or_steps | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Nets_or_steps
+            nets_or_steps[0], core.ExecutionStep)): 
+            ^^^^^^^^^^^^^
+285 | 12 25 | nets_or_steps | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: That
+    that must be a single bool. And this net wil...
+    ^^^^
+299 | 4 8 | that | This sentence does not start with an uppercase letter
+
+Line 1, column 19, Rule ID: SO_AS_TO[1]
+Message: Use simply 'to'
+Suggestion: to
+    nets_or_steps so as to get the condition. 
+                  ^^^^^^^^
+300 | 18 26 | so as to | Use simply 'to'
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+303 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+330 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+    init_net = core.Net('init-net') 
+    ^^^^^^^^
+357 | 4 12 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iter_cnt
+    iter_cnt = init_net.CreateCounter([], init_count...
+    ^^^^^^^^
+358 | 4 12 | iter_cnt | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iter_net
+    iter_net = core.Net('For-iter') 
+    ^^^^^^^^
+359 | 4 12 | iter_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iter_done
+    iter_done = iter_net.CountDown([iter_cnt]) 
+    ^^^^^^^^^
+360 | 4 13 | iter_done | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+385 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+416 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stop_blob
+        stop_blob = core.BlobReference(str(condition_blob...
+        ^^^^^^^^^
+420 | 8 17 | stop_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+443 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_blob_or_net
+    condition_blob_or_net returns false. It will execute 
+    ^^^^^^^^^^^^^^^^^^^^^
+464 | 4 25 | condition_blob_or_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loop
+    loop is exited. So you need to be careful ab...
+    ^^^^
+469 | 4 8 | loop | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if not isinstance(condition_blob_or_net, c...
+    ^^
+472 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stop_blob
+        stop_blob = core.BlobReference(condition_blob_or_...
+        ^^^^^^^^^
+473 | 8 17 | stop_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition_blob_or_net
+    condition_blob_or_net is first evaluated or executed. If the ...
+    ^^^^^^^^^^^^^^^^^^^^^
+528 | 4 25 | condition_blob_or_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: That
+    that must be a single bool. And this Net wil...
+    ^^^^
+533 | 4 8 | that | This sentence does not start with an uppercase letter
+
+Line 1, column 30, Rule ID: SO_AS_TO[1]
+Message: Use simply 'to'
+Suggestion: to
+    true/false_nets_or_steps so as to get the condition. 
+                             ^^^^^^^^
+534 | 29 37 | so as to | Use simply 'to'
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+540 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(condition_blob_or_net, core....
+    ^^
+563 | 4 6 | if | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool
+  bool IsType() const { return meta_.Match<T>(...
+  ^^^^
+55 | 2 6 | bool | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Wrong
+        "wrong type for the Blob instance. Blob contai...
+         ^^^^^
+74 | 9 14 | wrong | This sentence does not start with an uppercase letter
+
+Line 1, column 64, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: and
+...wise, create the object yourself first, and and use 
+                                           ^^^^^^^
+91 | 63 70 | and and | Possible typo: you repeated a word
+

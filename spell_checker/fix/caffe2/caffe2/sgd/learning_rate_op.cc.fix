@@ -1,0 +1,28 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Improvements
+improvements will be linear. With high learning rate...
+^^^^^^^^^^^^
+11 | 0 12 | improvements | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: More
+more exponential. Learning rate is controled...
+^^^^
+12 | 0 4 | more | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+train_net.LearningRate(*iterations*, "*label*", b...
+^^^^^^^^^
+30 | 0 9 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+train_net.LearningRate(200, "LR", base_lr=-0.1, 
+^^^^^^^^^
+33 | 0 9 | train_net | This sentence does not start with an uppercase letter
+

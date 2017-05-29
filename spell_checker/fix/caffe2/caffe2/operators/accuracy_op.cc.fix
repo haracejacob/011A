@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Accuracy
+accuracy value for the batch. Predictions are ex...
+^^^^^^^^
+106 | 0 8 | accuracy | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Form
+ form of 1-D tensor containing true label ind...
+ ^^^^
+108 | 1 5 | form | This sentence does not start with an uppercase letter
+

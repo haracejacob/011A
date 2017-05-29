@@ -1,0 +1,35 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+      int batch_size = helper.GetSingleArgument<i...
+      ^^^
+14 | 6 9 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+      int crop = helper.GetSingleArgument<int>("c...
+      ^^^
+15 | 6 9 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+      int length = helper.GetSingleArgument<int>(...
+      ^^^
+16 | 6 9 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+      int multiple_label = helper.GetSingleArgume...
+      ^^^
+17 | 6 9 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+        int num_of_labels = helper.GetSingleArgumen...
+        ^^^
+25 | 8 11 | int | This sentence does not start with an uppercase letter
+

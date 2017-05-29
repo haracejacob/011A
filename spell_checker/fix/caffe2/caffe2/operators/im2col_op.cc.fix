@@ -1,0 +1,98 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto pad = helper.GetSingleArgument<int>("pa...
+          ^^^^
+14 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto kernel_h = helper.GetSingleArgument<int...
+          ^^^^
+15 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Kernel_h
+              "kernel_h", helper.GetSingleArgument<int>("kernel...
+               ^^^^^^^^
+16 | 15 23 | kernel_h | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto kernel_w = helper.GetSingleArgument<int...
+          ^^^^
+17 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Kernel_w
+              "kernel_w", helper.GetSingleArgument<int>("kernel...
+               ^^^^^^^^
+18 | 15 23 | kernel_w | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto dilation_h = helper.GetSingleArgument<i...
+          ^^^^
+19 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dilation_h
+              "dilation_h", helper.GetSingleArgument<int>("dilati...
+               ^^^^^^^^^^
+20 | 15 25 | dilation_h | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto dilation_w = helper.GetSingleArgument<i...
+          ^^^^
+21 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dilation_w
+              "dilation_w", helper.GetSingleArgument<int>("dilati...
+               ^^^^^^^^^^
+22 | 15 25 | dilation_w | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto stride_h = helper.GetSingleArgument<int...
+          ^^^^
+23 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stride_h
+              "stride_h", helper.GetSingleArgument<int>("stride...
+               ^^^^^^^^
+24 | 15 23 | stride_h | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto stride_w = helper.GetSingleArgument<int...
+          ^^^^
+25 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stride_w
+              "stride_w", helper.GetSingleArgument<int>("stride...
+               ^^^^^^^^
+26 | 15 23 | stride_w | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+              helper.GetSingleArgument<string>("order", "NCH...
+              ^^^^^^
+28 | 14 20 | helper | This sentence does not start with an uppercase letter
+

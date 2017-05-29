@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto output_batch_size = output_initialized ...
+    ^^^^
+49 | 4 8 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input
+input rows and keeping the last N rows seen a...
+^^^^^
+127 | 0 5 | input | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'threaded'.
+Suggestion: threaded
+This is not thread safe. 
+            ^^^^^^
+136 | 12 18 | thread | Consider using a past participle here: 'threaded'.
+

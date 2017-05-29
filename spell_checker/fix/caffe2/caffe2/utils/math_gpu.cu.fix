@@ -1,0 +1,77 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int lda = (TransA == CblasNoTrans) ? K : M;...
+  ^^^
+89 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int ldb = (TransB == CblasNoTrans) ? N : K;...
+  ^^^
+90 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int lda = (TransA == CblasNoTrans) ? K : M;...
+  ^^^
+128 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int ldb = (TransB == CblasNoTrans) ? N : K;...
+  ^^^
+129 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int m = (cuTransA == CUBLAS_OP_N) ? N : M; ...
+  ^^^
+305 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int k = (cuTransA == CUBLAS_OP_N) ? M : N; ...
+  ^^^
+306 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int LDA = (cuTransA == CUBLAS_OP_N) ? m : k...
+  ^^^
+307 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int w_col_start = (w < dpatch_w) ? 0 : (w -...
+    ^^^
+890 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int h_col_start = (h < dpatch_h) ? 0 : (h -...
+    ^^^
+892 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int w_col_start = (w < dpatch_w) ? 0 : (w -...
+    ^^^
+933 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int h_col_start = (h < dpatch_h) ? 0 : (h -...
+    ^^^
+935 | 4 7 | int | This sentence does not start with an uppercase letter
+

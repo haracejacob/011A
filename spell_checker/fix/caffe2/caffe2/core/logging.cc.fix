@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!CommandLineFlagsHasBeenParsed()) { 
+  ^^
+174 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 19, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+                 "of this." << std::endl; 
+                  ^^
+177 | 18 20 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 40, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+      ANDROID_LOG_VERBOSE,  // VLOG(2) .. VLOG(N) 
+                                       ^^
+236 | 39 41 | .. | Two consecutive dots
+

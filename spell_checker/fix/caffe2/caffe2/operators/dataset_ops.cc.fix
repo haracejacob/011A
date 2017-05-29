@@ -1,0 +1,161 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+        context_.CopyItems<CPUContext, CPUContext>( 
+        ^^^^^^^^
+507 | 8 16 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+      auto& a = Input(cursor->it.lengthField(i).id + ...
+            ^
+580 | 12 13 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 13, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+      auto& a = Input(cursor->it.lengthField(i).id + ...
+            ^
+647 | 12 13 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 11, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    auto& a = Input(0); 
+          ^
+849 | 10 11 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 13, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+      auto& a = Input(1 + i); 
+            ^
+889 | 12 13 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 13, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+      auto& a = Input(1 + i); 
+            ^
+908 | 12 13 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+      auto& gen = context_.RandGenerator(); 
+      ^^^^^
+1026 | 6 11 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensors
+tensors contains the lengths in a nested schema...
+^^^^^^^
+1099 | 0 7 | tensors | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the parent domain. In the example, "b:lengt...
+^^^
+1153 | 0 3 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: On
+on each of the domains defined by `fields`...
+^^
+1159 | 0 2 | on | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Finally
+finally we shuffle between batches. If sort_by_...
+^^^^^^^
+1218 | 0 7 | finally | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the schema specified by the `fields` argume...
+^^^
+1269 | 0 3 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Are
+are not consistent. If data is consistent, ...
+^^^
+1270 | 0 3 | are | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Collcted
+collcted. The first half of the inputs are tenso...
+^^^^^^^^
+1330 | 0 8 | collcted | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outputs
+outputs. The second half of the inputs are the ...
+^^^^^^^
+1331 | 0 7 | outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+vector (in the same order). The input tensors ...
+^^^^^^
+1332 | 0 6 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Manner
+manner. If they are collected, they will be pl...
+^^^^^^
+1333 | 0 6 | manner | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Describing
+describing the datasets schema returns the origina...
+^^^^^^^^^^
+1363 | 0 10 | describing | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: POSSESIVE_APOSTROPHE[1]
+Message: Possible typo: apostrophe is missing. Did you mean 'datasets'' or 'dataset's'?
+Suggestion: datasets'; dataset's
+describing the datasets schema returns the original dataset for...
+               ^^^^^^^^
+1363 | 15 23 | datasets | Possible typo: apostrophe is missing. Did you mean 'datasets'' or 'dataset's'?
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prototype
+prototype tensors to give the expected shapes of ...
+^^^^^^^^^
+1367 | 0 9 | prototype | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ser
+      ser.Serialize( 
+      ^^^
+1420 | 6 9 | ser | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+    acceptor(name, blob_proto.SerializeAsString()); ...
+    ^^^^^^^^
+1433 | 4 12 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Deser
+    deser.Deserialize(proto, &offset_blob); 
+    ^^^^^
+1443 | 4 9 | deser | This sentence does not start with an uppercase letter
+

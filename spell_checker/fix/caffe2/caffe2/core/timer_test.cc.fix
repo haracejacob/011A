@@ -1,0 +1,91 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+  Timer timer; 
+  ^^^^^^^^^^^
+11 | 2 13 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+  timer.Start(); 
+  ^^^^^
+15 | 2 7 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+  float ns = timer.NanoSeconds(); 
+  ^^^^^
+17 | 2 7 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+  float us = timer.MicroSeconds(); 
+  ^^^^^
+18 | 2 7 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+  float ms = timer.MilliSeconds(); 
+  ^^^^^
+19 | 2 7 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+  timer.Start(); 
+  ^^^^^
+25 | 2 7 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+  Timer timer; 
+  ^^^^^^^^^^^
+32 | 2 13 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+    timer.Start(); 
+    ^^^^^
+34 | 4 9 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Latency
+    latency += timer.NanoSeconds(); 
+    ^^^^^^^
+35 | 4 11 | latency | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+    timer.Start(); 
+    ^^^^^
+40 | 4 9 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Latency
+    latency += timer.MicroSeconds(); 
+    ^^^^^^^
+41 | 4 11 | latency | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+    timer.Start(); 
+    ^^^^^
+46 | 4 9 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Latency
+    latency += timer.MilliSeconds(); 
+    ^^^^^^^
+47 | 4 11 | latency | This sentence does not start with an uppercase letter
+

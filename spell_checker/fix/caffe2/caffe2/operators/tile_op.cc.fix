@@ -1,0 +1,28 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto tiles = helper.GetSingleArgument<int32_...
+          ^^^^
+17 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto axis = helper.GetSingleArgument<int32_t...
+          ^^^^
+18 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Canonical_axis
+                canonical_axis, out[0].dims().Get(canonical_axis) * ti...
+                ^^^^^^^^^^^^^^
+27 | 16 30 | canonical_axis | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Times
+times along dimension 'axis'. The output tens...
+^^^^^
+35 | 0 5 | times | This sentence does not start with an uppercase letter
+

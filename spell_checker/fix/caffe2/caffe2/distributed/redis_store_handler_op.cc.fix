@@ -1,0 +1,7 @@
+Line 1, column 9, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+Creates a unique_ptr<StoreHandler> that uses a Re...
+        ^
+12 | 8 9 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

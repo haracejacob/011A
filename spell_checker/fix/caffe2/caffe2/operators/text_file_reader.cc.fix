@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: FileReader
+  FileReader fileReader; 
+  ^^^^^^^^^^^^^^^^^^^^^
+25 | 2 23 | FileReader fileReader | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Token
+      Token token; 
+      ^^^^^^^^^^^
+119 | 6 17 | Token token | Possible typo: you repeated a word
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        "for each row. When end of file is reached, ...
+         ^^^
+183 | 9 12 | for | This sentence does not start with an uppercase letter
+

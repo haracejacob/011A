@@ -1,0 +1,77 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+  Timer timer; 
+  ^^^^^^^^^^^
+88 | 2 13 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+  timer.Start(); 
+  ^^^^^
+89 | 2 7 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return timer.MicroSeconds(); 
+  ^^^^^^
+93 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.RunNetOnce(init_net); 
+  ^^
+107 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.CreateNet(predict_net); 
+  ^^
+110 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+  Timer timer; 
+  ^^^^^^^^^^^
+113 | 2 13 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+  timer.Start(); 
+  ^^^^^
+114 | 2 7 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+    ws.RunNet("SqueezeNet"); 
+    ^^
+116 | 4 6 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+  float us = timer.MicroSeconds(); 
+  ^^^^^
+118 | 2 7 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2
+  caffe2::Blob* caffe2_out_blob = ws.GetBlob("ca...
+  ^^^^^^
+143 | 2 8 | caffe2 | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2
+  caffe2::Blob* snpe_out_blob = ws.GetBlob("snpe...
+  ^^^^^^
+145 | 2 8 | caffe2 | This sentence does not start with an uppercase letter
+

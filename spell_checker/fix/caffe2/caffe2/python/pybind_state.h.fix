@@ -1,0 +1,49 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return FetchTensor(blob.Get<Tensor<Context>>()...
+    ^^^^^^
+83 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Context
+      Context context; 
+      ^^^^^^^^^^^^^^^
+138 | 6 21 | Context context | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+      context.FinishDeviceComputation(); 
+      ^^^^^^^
+141 | 6 13 | context | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Context
+    Context context(option); 
+    ^^^^^^^^^^^^^^^
+164 | 4 19 | Context context | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+    context.SwitchToDevice(); 
+    ^^^^^^^
+165 | 4 11 | context | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Support
+            "support unicode yet. Please ensure that you are...
+             ^^^^^^^
+208 | 13 20 | support | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+    context.FinishDeviceComputation(); 
+    ^^^^^^^
+217 | 4 11 | context | This sentence does not start with an uppercase letter
+

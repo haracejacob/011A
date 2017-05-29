@@ -1,0 +1,35 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return (!IsDense() && !IsSparse()); 
+    ^^^^^^
+27 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: G_output_
+        g_output_.at(i).IsDense(), 
+        ^^^^^^^^^
+133 | 8 17 | g_output_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: G_output_
+        g_output_.at(i).IsSparse(), 
+        ^^^^^^^^^
+141 | 8 17 | g_output_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: G_output_
+        g_output_.at(i).IsSparse(), 
+        ^^^^^^^^^
+149 | 8 17 | g_output_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <class... Args> 
+  ^^^^^^^^
+182 | 2 10 | template | This sentence does not start with an uppercase letter
+

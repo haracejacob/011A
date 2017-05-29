@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+    the bias blob, and computes the output. Not...
+    ^^^
+13 | 4 7 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+    output is computed. As a side note on the impl...
+    ^^^^^^
+20 | 4 10 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Transposed
+        "transposed convolution. The output dimensions are ...
+         ^^^^^^^^^^
+46 | 9 19 | transposed | This sentence does not start with an uppercase letter
+

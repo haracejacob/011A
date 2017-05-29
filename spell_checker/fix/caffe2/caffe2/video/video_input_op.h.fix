@@ -1,0 +1,61 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_clip_
+  prefetched_clip_.Resize(data_shape); 
+  ^^^^^^^^^^^^^^^^
+161 | 2 18 | prefetched_clip_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_label_
+    prefetched_label_.Resize(label_shape); 
+    ^^^^^^^^^^^^^^^^^
+168 | 4 21 | prefetched_label_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_label_
+    prefetched_label_.Resize(vector<TIndex>(1, batch_size_));...
+    ^^^^^^^^^^^^^^^^^
+170 | 4 21 | prefetched_label_ | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Temporal_jitter_
+          temporal_jitter_ ? -1 : protos.protos(2).int32_data(0), ...
+          ^^^^^^^^^^^^^^^^
+212 | 10 26 | temporal_jitter_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Temporal_jitter_
+        temporal_jitter_ ? -1 : protos.protos(2).int32_data(0), ...
+        ^^^^^^^^^^^^^^^^
+261 | 8 24 | temporal_jitter_ | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+    // get the label data pointer for the item_id -th example 
+               ^^^^^^^^^^^^^^^^^^
+331 | 15 33 | label data pointer | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 16, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+    // get the clip data pointer for the item_id -th example 
+               ^^^^^^^^^^^^^^^^^
+335 | 15 32 | clip data pointer | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_clip_on_device_
+    prefetched_clip_on_device_.CopyFrom(prefetched_clip_, &context_); ...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+361 | 4 30 | prefetched_clip_on_device_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetched_label_on_device_
+    prefetched_label_on_device_.CopyFrom(prefetched_label_, &context_);...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+362 | 4 31 | prefetched_label_on_device_ | This sentence does not start with an uppercase letter
+

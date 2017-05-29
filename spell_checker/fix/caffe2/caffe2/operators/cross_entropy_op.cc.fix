@@ -1,0 +1,98 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return tgt - 1. / (1. + exp(-lgt)); 
+  ^^^^^^
+11 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto inner_size = logits.ndim() > 0 ? l...
+  ^^^^^
+53 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto inner_size = logits.ndim() > 0 ? l...
+  ^^^^^
+86 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Between
+      "between 0 and 1.0. You may be using the wrong c...
+       ^^^^^^^
+205 | 7 14 | between | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+ operator and before the AveragedLoss operator. N...
+ ^^^^^^^^
+266 | 1 9 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+ a 2D array of size N x 1 (batch size). Ea...
+ ^
+268 | 1 2 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inclusive
+ inclusive, where D is the total number of classes...
+ ^^^^^^^^^
+270 | 1 10 | inclusive | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+ and i is the batch size. Each log has a low...
+ ^^^
+275 | 1 4 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: NON3PRS_VERB[1]
+Message: The pronoun 'i' must be used with a non-third-person form of a verb: 'be'
+Suggestion: be
+ and i is the batch size. Each log has a lower li...
+       ^^
+275 | 7 9 | is | The pronoun 'i' must be used with a non-third-person form of a verb: 'be'
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Matrix
+ matrix with complimentary probabilities for bi...
+ ^^^^^^
+324 | 1 7 | matrix | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+ operator and before the AveragedLoss operator. N...
+ ^^^^^^^^
+393 | 1 9 | operator | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Probability
+ probability of the class being selected. As such, e...
+ ^^^^^^^^^^^
+397 | 1 12 | probability | This sentence does not start with an uppercase letter
+
+Line 1, column 2, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+ and i is the batch size. Each log has a low...
+ ^^^
+403 | 1 4 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: NON3PRS_VERB[1]
+Message: The pronoun 'i' must be used with a non-third-person form of a verb: 'be'
+Suggestion: be
+ and i is the batch size. Each log has a lower li...
+       ^^
+403 | 7 9 | is | The pronoun 'i' must be used with a non-third-person form of a verb: 'be'
+

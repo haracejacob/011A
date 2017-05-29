@@ -1,0 +1,42 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Node
+    node = hsm_pb2.NodeProto() 
+    ^^^^
+17 | 4 8 | node | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Node
+    node = hsm_pb2.NodeProto() 
+    ^^^^
+25 | 4 8 | node | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_child_node
+        new_child_node.MergeFrom(child_node) 
+        ^^^^^^^^^^^^^^
+29 | 8 22 | new_child_node | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Path_proto
+        path_proto = hsm_pb2.PathProto() 
+        ^^^^^^^^^^
+37 | 8 18 | path_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_path_entry
+            new_path_entry.MergeFrom(path_entry) 
+            ^^^^^^^^^^^^^^
+61 | 12 26 | new_path_entry | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Hierarchy_proto
+    hierarchy_proto = hsm_pb2.HierarchyProto() 
+    ^^^^^^^^^^^^^^^
+66 | 4 19 | hierarchy_proto | This sentence does not start with an uppercase letter
+

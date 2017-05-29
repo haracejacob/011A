@@ -1,0 +1,14 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int min_res = BlockReduce(temp_storage).Red...
+  ^^^
+24 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+    out[needle_idx] = min_res == (-1) ? missing...
+    ^^^
+26 | 4 7 | out | This sentence does not start with an uppercase letter
+

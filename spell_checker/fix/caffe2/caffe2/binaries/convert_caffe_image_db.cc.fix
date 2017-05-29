@@ -1,0 +1,14 @@
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Datum
+    caffe::Datum datum; 
+           ^^^^^^^^^^^
+29 | 11 22 | Datum datum | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Transaction-
+    transaction->Put(cursor->key(), protos.SerializeAsSt...
+    ^^^^^^^^^^^^
+64 | 4 16 | transaction- | This sentence does not start with an uppercase letter
+

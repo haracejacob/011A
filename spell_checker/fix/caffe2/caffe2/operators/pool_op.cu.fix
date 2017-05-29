@@ -1,0 +1,168 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+281 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+322 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+324 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+376 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+378 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pdstart = (d < kernel_d) ? 0 : (d -...
+    ^^^^^
+380 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+427 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+467 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+469 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+522 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+524 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pdstart = (d < kernel_d) ? 0 : (d -...
+    ^^^^^
+526 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+1155 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+1194 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+1196 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+1243 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+1245 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pdstart = (d < kernel_d) ? 0 : (d -...
+    ^^^^^
+1247 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+1286 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+1325 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+1327 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int phstart = (h < kernel_h) ? 0 : (h -...
+    ^^^^^
+1375 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pwstart = (w < kernel_w) ? 0 : (w -...
+    ^^^^^
+1377 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int pdstart = (d < kernel_d) ? 0 : (d -...
+    ^^^^^
+1379 | 4 9 | const | This sentence does not start with an uppercase letter
+

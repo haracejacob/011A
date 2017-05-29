@@ -1,0 +1,33 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+    acceptor(name, blob_proto.SerializeAsString()); ...
+    ^^^^^^^^
+43 | 4 12 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+// The blob serialization member function implementation. 
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+58 | 7 32 | blob serialization member | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 8, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+// The blob serialization member function implementation. 
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+68 | 7 32 | blob serialization member | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_proto
+      blob_proto.ParseFromString(content), 
+      ^^^^^^^^^^
+96 | 6 16 | blob_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: NOW[1]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+        "No registered deserializer for type ", 
+         ^^
+116 | 9 11 | No | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+

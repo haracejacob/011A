@@ -1,0 +1,216 @@
+Line 1, column 6, Rule ID: THIS_NNS[1]
+Message: Did you mean 'these'?
+Suggestion: These
+    "This sometimes gets a bit tricky if we are i...
+     ^^^^
+12 | 5 9 | This | Did you mean 'these'?
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+    "core.GlobalInit(['caffe2', '--caffe2_log_lev...
+     ^^^^
+29 | 5 9 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 149, Rule ID: LETS_LET[2]
+Message: Did you mean 'Lets' or 'Let'?
+Suggestion: Lets; Let
+...ly, and nothing gets actually executed. Let's re-confirm that." 
+                                           ^^^^^
+38 | 148 153 | Let's | Did you mean 'Lets' or 'Let'?
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.ResetWorkspace()\n", 
+     ^^^^^^^^^
+49 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+    "op = core.CreateOperator(\"GaussianFill\",...
+     ^^
+51 | 5 7 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunOperatorOnce(op)\n", 
+     ^^^^^^^^^
+55 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.StartImmediate()" 
+     ^^^^^^^^^
+81 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+    "op = core.CreateOperator(\"GaussianFill\",...
+     ^^
+100 | 5 7 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print('Before execution, does workspace conta...
+     ^^^^^
+101 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 46, Rule ID: DOES_X_HAS[1]
+Message: Did you mean the base form of 'contains'? As 'do' is already inflected, the verb cannot also be inflected.
+...print('Before execution, does workspace contains X? {}'\n", 
+                                           ^^^^^^^^
+101 | 45 53 | contains | Did you mean the base form of 'contains'? As 'do' is already inflected, the verb cannot also be inflected.
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(workspace.ImmediateBlobs())\n", 
+     ^^^^^
+105 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(workspace.FetchImmediate('X'))" 
+     ^^^^^
+107 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.StopImmediate()" 
+     ^^^^^^^^^
+119 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.StartImmediate(i_know=True)\n", 
+     ^^^^^^^^^
+139 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+    "op = core.CreateOperator(\"Relu\", \"X\", ...
+     ^^
+140 | 5 7 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.FeedImmediate(\"X\", X)\n", 
+     ^^^^^^^^^
+161 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+    "op = core.CreateOperator(\"Relu\", \"X\", ...
+     ^^
+163 | 5 7 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(\"Example input is:\\n{}\".format(works...
+     ^^^^^
+164 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(\"Example output is:\\n{}\".format(work...
+     ^^^^^
+165 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.StopImmediate()" 
+     ^^^^^^^^^
+176 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 138, Rule ID: THERE_RE_MANY[5]
+Message: Possible agreement error. Did you mean 'there are multiple convolutions'?
+Suggestion: there are multiple convolutions
+...mediate results, such as in a CNN where there are multiple convolution and pooling layers. Let's say that you ...
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+185 | 137 167 | there are multiple convolution | Possible agreement error. Did you mean 'there are multiple convolutions'?
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    "model = model_helper.ModelHelper(name=\"mnist...
+     ^^^^^
+196 | 5 10 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.StartImmediate(i_know=True)\n", 
+     ^^^^^^^^^
+198 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data_uint8
+    "data_uint8, label = model.TensorProtosDBInput(\n",...
+     ^^^^^^^^^^
+201 | 5 15 | data_uint8 | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "data = model.net.Cast(data_uint8, \"data\", ...
+     ^^^^
+205 | 5 9 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "data = model.net.Scale(data, data, scale=flo...
+     ^^^^
+206 | 5 9 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "data = model.net.StopGradient(data, data)\n"...
+     ^^^^
+207 | 5 9 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_dimensions
+    "feature_dimensions = workspace.FetchImmediate(\"pool2\").s...
+     ^^^^^^^^^^^^^^^^^^
+214 | 5 23 | feature_dimensions | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    "          blob, workspace.FetchImmediate(blob).shape))...
+               ^^^^
+225 | 15 19 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Visualize
+    "visualize.NCHW.ShowMultiple(workspace.FetchImmedi...
+     ^^^^^^^^^
+228 | 5 14 | visualize | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.StopImmediate()" 
+     ^^^^^^^^^
+229 | 5 14 | workspace | This sentence does not start with an uppercase letter
+

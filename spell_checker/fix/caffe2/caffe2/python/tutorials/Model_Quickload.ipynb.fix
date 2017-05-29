@@ -1,0 +1,28 @@
+Line 1, column 215, Rule ID: RATHER_THEN[2]
+Message: Did you mean 'different 'from''? 'Different than' is often considered colloquial style.
+Suggestion: from
+...ell the model detects samples different than provided here, take a look at the codes...
+                                           ^^^^
+23 | 214 218 | than | Did you mean 'different 'from''? 'Different than' is often considered colloquial style.
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(init_net)\n", 
+     ^^^^^^^^^
+57 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(predict_net)\n", 
+     ^^^^^^^^^
+58 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: P
+    "p = workspace.Predictor(init_net.Serializ...
+     ^
+59 | 5 6 | p | This sentence does not start with an uppercase letter
+

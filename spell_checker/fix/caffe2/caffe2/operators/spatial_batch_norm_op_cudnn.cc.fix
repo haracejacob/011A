@@ -1,0 +1,49 @@
+Line 1, column 41, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: BNParamType
+...  typedef typename cudnnTypeWrapper<T>::BNParamType BNParamType; 
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+89 | 40 63 | BNParamType BNParamType | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int H = (order_ == StorageOrder::NCHW ?...
+  ^^^^^
+100 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Double
+    double this_factor = 1. - momentum_; 
+    ^^^^^^
+173 | 4 10 | double | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (Input(0).IsType<float>()) { 
+  ^^
+231 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 41, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: BNParamType
+...  typedef typename cudnnTypeWrapper<T>::BNParamType BNParamType; 
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+244 | 40 63 | BNParamType BNParamType | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int H = (order_ == StorageOrder::NCHW ?...
+  ^^^^^
+255 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (Input(0).IsType<float>()) { 
+  ^^
+325 | 2 4 | if | This sentence does not start with an uppercase letter
+

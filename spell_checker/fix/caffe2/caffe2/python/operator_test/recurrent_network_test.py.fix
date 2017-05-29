@@ -1,0 +1,259 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class RecurrentNetworkTest(hu.HypothesisTestC...
+^^^^^
+13 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_blob
+        input_blob, initial_input_blob = model.net.AddExte...
+        ^^^^^^^^^^
+20 | 8 18 | input_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_t
+        input_t, output_t_prev = step.net.AddExternalIn...
+        ^^^^^^^
+24 | 8 15 | input_t | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_t_internal
+        output_t_internal = step.net.Sum([input_t, output_t_prev]...
+        ^^^^^^^^^^^^^^^^^
+26 | 8 25 | output_t_internal | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_t
+        output_t = step.net.Mul([input_t, output_t_inter...
+        ^^^^^^^^
+27 | 8 16 | output_t | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.net.AddExternalOutput(output_t) 
+        ^^^^
+28 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_blob
+        input_blob, initial_input_blob = model.net.AddExte...
+        ^^^^^^^^^^
+39 | 8 18 | input_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_t
+        input_t, output_t_prev = step.net.AddExternalIn...
+        ^^^^^^^
+43 | 8 15 | input_t | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_t
+        output_t = step.net.Mul([input_t, output_t_prev]...
+        ^^^^^^^^
+45 | 8 16 | output_t | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step
+        step.net.AddExternalOutput(output_t) 
+        ^^^^
+46 | 8 12 | step | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_ws_name
+            global_ws_name = workspace.CurrentWorkspace() 
+            ^^^^^^^^^^^^^^
+75 | 12 26 | global_ws_name | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.SwitchWorkspace("ref", create_if_missin...
+            ^^^^^^^^^
+78 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.RunNetOnce(step.net) 
+                ^^^^^^^^^
+85 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.SwitchWorkspace(global_ws_name) 
+            ^^^^^^^^^
+90 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inputs_transposed
+        inputs_transposed = model.net.Transpose( 
+        ^^^^^^^^^^^^^^^^^
+132 | 8 25 | inputs_transposed | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inputs_transposed_4d
+        inputs_transposed_4d = model.net.ExpandDims( 
+        ^^^^^^^^^^^^^^^^^^^^
+138 | 8 28 | inputs_transposed_4d | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_transposed_4d
+        output_transposed_4d = model.net.Conv( 
+        ^^^^^^^^^^^^^^^^^^^^
+144 | 8 28 | output_transposed_4d | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_transposed
+        output_transposed = model.net.Squeeze( 
+        ^^^^^^^^^^^^^^^^^
+156 | 8 25 | output_transposed | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+        output = model.net.Transpose( 
+        ^^^^^^
+162 | 8 14 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for each element separately. This situation...
+        ^^^
+186 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_state
+        input_state sequence. It is last conv_window elemen...
+        ^^^^^^^^^^^
+202 | 8 19 | input_state | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+        the current one - input_state_t. We specify...
+        ^^^
+203 | 8 11 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Argument
+        argument of RecurrentNetwork. We need that many ...
+        ^^^^^^^^
+204 | 8 16 | argument | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Compute
+        compute a single convolution step. Also, note t...
+        ^^^^^^^
+205 | 8 15 | compute | This sentence does not start with an uppercase letter
+
+Line 1, column 23, Rule ID: MANY_NN[1]
+Message: Possible agreement error. The noun element seems to be countable; consider using: 'many elements'.
+Suggestion: many elements
+        specifies how many element to link starting at 
+                      ^^^^^^^^^^^^
+206 | 22 34 | many element | Possible agreement error. The noun element seems to be countable; consider using: 'many elements'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fake_inputs
+        fake_inputs = model.param_init_net.UniformFill( 
+        ^^^^^^^^^^^
+222 | 8 19 | fake_inputs | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initial_input_state
+        initial_input_state = model.param_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^^^^^
+229 | 8 27 | initial_input_state | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initial_output_state
+        initial_output_state = model.param_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^^^^^^
+235 | 8 28 | initial_output_state | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv_filter
+        conv_filter = step_model.param_init_net.XavierFill(...
+        ^^^^^^^^^^^
+251 | 8 19 | conv_filter | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv_bias
+        conv_bias = step_model.param_init_net.ConstantFil...
+        ^^^^^^^^^
+256 | 8 17 | conv_bias | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_state_t
+        input_state_t = step_model.net.UniformFill( 
+        ^^^^^^^^^^^^^
+263 | 8 21 | input_state_t | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_state_all
+        input_state_all, output_state_all, _ = model.net.Recurr...
+        ^^^^^^^^^^^^^^^
+285 | 8 23 | input_state_all | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step_net=str
+            step_net=str(step_model.net.Proto()), 
+            ^^^^^^^^^^^^
+307 | 12 24 | step_net=str | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(model.param_init_net) 
+        ^^^^^^^^^
+323 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(model.net) 
+        ^^^^^^^^^
+324 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob(output_state_all), 
+            ^^^^^^^^^
+327 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FetchBlob(output_states_2), 
+            ^^^^^^^^^
+328 | 12 21 | workspace | This sentence does not start with an uppercase letter
+

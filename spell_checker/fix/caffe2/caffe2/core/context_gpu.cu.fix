@@ -1,0 +1,48 @@
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: We
+              "we will set the memory pool on. If not set...
+               ^^
+33 | 15 17 | we | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Up
+              "up the memory pool on all available GPUs. ...
+               ^^
+34 | 15 17 | up | This sentence does not start with an uppercase letter
+
+Line 1, column 51, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+..., a memory pool should already have the device id information, as 
+                                           ^^^^^^^^^^^^^^^^^^^^^
+84 | 50 71 | device id information | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) { 
+  ^^
+113 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: CudaMallocHost
+                  "cudaMallocHost. As a result, caffe2 will not enable pi...
+                   ^^^^^^^^^^^^^^
+288 | 19 33 | cudaMallocHost | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Memory
+                  "memory allocation in asan mode. If you are exp...
+                   ^^^^^^
+289 | 19 25 | memory | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) { 
+  ^^
+293 | 2 4 | if | This sentence does not start with an uppercase letter
+

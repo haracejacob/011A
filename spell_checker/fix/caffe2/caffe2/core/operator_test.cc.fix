@@ -1,0 +1,35 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+  vector<int> i = op.GetRepeatedArgument<int>("a...
+  ^^^^^^
+174 | 2 8 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+  auto default1 = op.GetRepeatedArgument<int>(...
+  ^^^^
+179 | 2 6 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+  auto default2 = op.GetRepeatedArgument<int>(...
+  ^^^^
+183 | 2 6 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+  auto args = op.GetRepeatedArgument<float>("a...
+  ^^^^
+212 | 2 6 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+      op.GetSingleArgument<float>("arg-nonexisti...
+      ^^
+225 | 6 8 | op | This sentence does not start with an uppercase letter
+

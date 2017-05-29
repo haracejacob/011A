@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.Copy<long, CPUContext, CUDAContext>( 
+    ^^^^^^^^
+21 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.Copy<long, CPUContext, CUDAContext>( 
+    ^^^^^^^^
+23 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: In
+      in output blob with shape (2, num_gpus). F...
+      ^^
+35 | 6 8 | in | This sentence does not start with an uppercase letter
+

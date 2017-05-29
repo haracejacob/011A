@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+    output[i] = Y[i] == 1 ? (1. - S[i]) : max(0.f,...
+    ^^^^^^
+11 | 4 10 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: DS
+    dS[i] = dOutput[i] * (Y[i] == 1 ? -1 : sta...
+    ^^
+19 | 4 6 | dS | This sentence does not start with an uppercase letter
+

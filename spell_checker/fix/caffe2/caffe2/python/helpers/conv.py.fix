@@ -1,0 +1,98 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_out
+    blob_out = blob_out or model.net.NextName() 
+    ^^^^^^^^
+47 | 4 12 | blob_out | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+        weight = core.ScopedBlobReference( 
+        ^^^^^^
+71 | 8 14 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+            bias = core.ScopedBlobReference( 
+            ^^^^
+74 | 12 16 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return model.net.Conv( 
+        ^^^^^^
+102 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return model.net.Conv( 
+        ^^^^^^
+109 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_out
+    blob_out = blob_out or model.net.NextName() 
+    ^^^^^^^^
+177 | 4 12 | blob_out | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+        weight = core.ScopedBlobReference( 
+        ^^^^^^
+196 | 8 14 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+        bias = core.ScopedBlobReference( 
+        ^^^^
+198 | 8 12 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return model.net.ConvTranspose( 
+    ^^^^^^
+208 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Splitted_blobs
+    splitted_blobs = model.net.DepthSplit( 
+    ^^^^^^^^^^^^^^
+272 | 4 18 | splitted_blobs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+            weight = core.ScopedBlobReference( 
+            ^^^^^^
+303 | 12 18 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+                bias = core.ScopedBlobReference( 
+                ^^^^
+306 | 16 20 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Splitted_blobs
+            splitted_blobs[i].Conv( 
+            ^^^^^^^^^^^^^^
+322 | 12 26 | splitted_blobs | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Concat
+    concat, concat_dims = model.net.Concat( 
+    ^^^^^^
+330 | 4 10 | concat | This sentence does not start with an uppercase letter
+

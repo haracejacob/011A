@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: SENT_START_THEM[1]
+Message: Did you mean 'Then'?
+Suggestion: Then
+them in an output tensor of rank r. 
+^^^^
+13 | 0 4 | them | Did you mean 'Then'?
+

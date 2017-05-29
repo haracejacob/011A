@@ -1,0 +1,42 @@
+Line 1, column 50, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Absolute) must be used with a third-person verb: 'values'.
+Suggestion: values
+...2_t anc = t - 1 - t % ad;   // Absolute value of nc. 
+                                           ^^^^^
+68 | 49 54 | value | The proper name in singular (Absolute) must be used with a third-person verb: 'values'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Uint32_t
+    uint32_t p = 31;                 // Init. p. 
+    ^^^^^^^^
+69 | 4 12 | uint32_t | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Uint32_t
+    uint32_t q1 = two31 / anc;       // Init. q1 = 2...
+    ^^^^^^^^
+70 | 4 12 | uint32_t | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Uint32_t
+    uint32_t r1 = two31 - q1 * anc;  // Init. r1 = r...
+    ^^^^^^^^
+71 | 4 12 | uint32_t | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Uint32_t
+    uint32_t q2 = two31 / ad;        // Init. q2 = 2...
+    ^^^^^^^^
+72 | 4 12 | uint32_t | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Uint32_t
+    uint32_t r2 = two31 - q2 * ad;   // Init. r2 = r...
+    ^^^^^^^^
+73 | 4 12 | uint32_t | This sentence does not start with an uppercase letter
+

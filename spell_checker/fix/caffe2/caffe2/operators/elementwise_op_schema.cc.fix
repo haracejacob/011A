@@ -1,0 +1,196 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Shape
+shape of left-hand-side argument. When broadc...
+^^^^^
+8 | 0 5 | shape | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: MASS_AGREEMENT[1]
+Message: Consider using third-person verb forms for singular and mass nouns: 'cans'.
+Suggestion: cans
+tensor can either be of size 1 (a scalar value), o...
+       ^^^
+9 | 7 10 | can | Consider using third-person verb forms for singular and mass nouns: 'cans'.
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Contiguous
+contiguous subset of the first tensor's shape. The...
+^^^^^^^^^^
+10 | 0 10 | contiguous | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Matching
+matching is assumed. 1-dim expansion doesn't wor...
+^^^^^^^^
+12 | 0 8 | matching | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Shape
+  shape(A) = (2, 3, 4, 5), shape(B) = (,), i.e....
+  ^^^^^
+16 | 2 7 | shape | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.SetDoc(doc); 
+    ^^^^^^
+32 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg("broadcast", "Pass 1 to enable broa...
+    ^^^^^^
+33 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg( 
+    ^^^^^^
+34 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+37 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+41 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output(0, "C", "Result, has same dimens...
+    ^^^^^^
+46 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Shape
+  shape(A) = (2, 3, 4, 5), shape(B) = (,), i.e....
+  ^^^^^
+89 | 2 7 | shape | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Provided
+        "provided. It defines the reduction dimensions on...
+         ^^^^^^^^
+100 | 9 17 | provided | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!HasArgument(Def(), "broadcast")) { 
+    ^^
+117 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!HasArgument(Def(), "broadcast")) { 
+    ^^
+138 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!HasArgument(Def(), "broadcast")) { 
+    ^^
+192 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.SetDoc(doc); 
+    ^^^^^^
+277 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg("broadcast", "Pass 1 to enable broa...
+    ^^^^^^
+278 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg( 
+    ^^^^^^
+279 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+282 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+286 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output(0, "C", "Result, has same dimens...
+    ^^^^^^
+291 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.SetDoc(doc); 
+    ^^^^^^
+314 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg("broadcast", "Pass 1 to enable broa...
+    ^^^^^^
+315 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Arg( 
+    ^^^^^^
+316 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input(0, "A", "First operand."); 
+    ^^^^^^
+319 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Input( 
+    ^^^^^^
+320 | 4 10 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+    schema.Output(0, "C", "Result, has same dimens...
+    ^^^^^^
+325 | 4 10 | schema | This sentence does not start with an uppercase letter
+

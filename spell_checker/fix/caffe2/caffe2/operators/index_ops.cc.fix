@@ -1,0 +1,105 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Values
+      values[i] = it != dict_.end() ? it->second : 0...
+      ^^^^^^
+110 | 6 12 | values | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: From
+from 1 to max_elements. Zero is reserved for...
+^^^^
+248 | 0 4 | from | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Max) must be used with a third-person verb: 'numbers', 'numbs'.
+Suggestion: numbers; numbs
+  .Arg("max_elements", "Max number of elements, including the zero entry."...
+                            ^^^^^^
+250 | 28 34 | number | The proper name in singular (Max) must be used with a third-person verb: 'numbers', 'numbs'.
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: From
+from 1 to max_elements. Zero is reserved for...
+^^^^
+258 | 0 4 | from | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Max) must be used with a third-person verb: 'numbers', 'numbs'.
+Suggestion: numbers; numbs
+  .Arg("max_elements", "Max number of elements, including the zero entry."...
+                            ^^^^^^
+260 | 28 34 | number | The proper name in singular (Max) must be used with a third-person verb: 'numbers', 'numbs'.
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: From
+from 1 to max_elements. Zero is reserved for...
+^^^^
+268 | 0 4 | from | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Max) must be used with a third-person verb: 'numbers', 'numbs'.
+Suggestion: numbers; numbs
+  .Arg("max_elements", "Max number of elements, including the zero entry."...
+                            ^^^^^^
+270 | 28 34 | number | The proper name in singular (Max) must be used with a third-person verb: 'numbers', 'numbs'.
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Containing
+containing the indices for each of the keys. If th...
+^^^^^^^^^^
+278 | 0 10 | containing | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Entries
+entries are given index 0. Otherwise, new entri...
+^^^^^^^
+279 | 0 7 | entries | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Consecutive
+consecutive indexes starting at 1. Fails if tensor ...
+^^^^^^^^^^^
+302 | 0 11 | consecutive | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (base->Type().Match<std::string>()) { 
+    ^^
+355 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ser
+    ser.Serialize( 
+    ^^^
+370 | 4 7 | ser | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+    acceptor(name, blob_proto.SerializeAsString()); ...
+    ^^^^^^^^
+379 | 4 12 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Deser
+    deser.Deserialize(proto, &tensor_blob); 
+    ^^^^^
+398 | 4 9 | deser | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (tensor_in.IsType<std::string>()) { 
+    ^^
+408 | 4 6 | if | This sentence does not start with an uppercase letter
+

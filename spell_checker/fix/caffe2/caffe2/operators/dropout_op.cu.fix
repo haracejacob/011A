@@ -1,0 +1,28 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const float scale = 1. / (1. - ratio); 
+  ^^^^^
+9 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.Copy<float, CUDAContext, CUDAContext>( ...
+      ^^^^^^^^
+26 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.Copy<float, CUDAContext, CUDAContext>( ...
+      ^^^^^^^^
+63 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const float scale = 1. / (1. - ratio_); 
+    ^^^^^
+68 | 4 9 | const | This sentence does not start with an uppercase letter
+

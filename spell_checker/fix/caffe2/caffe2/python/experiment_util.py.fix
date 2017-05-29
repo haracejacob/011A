@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+and loss over time for different runs. Runt...
+^^^
+18 | 0 3 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 42, Rule ID: EN_A_VS_AN
+Message: Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+Suggestion: a
+...ptionally, ModelTrainerLog calls out to an logger to log to 
+                                           ^^
+21 | 41 43 | an | Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+

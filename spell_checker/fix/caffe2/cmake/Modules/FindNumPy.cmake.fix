@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+  message(STATUS "NumPy ver. ${NUMPY_VERSION} fou...
+  ^^^^^^^
+53 | 2 9 | message | This sentence does not start with an uppercase letter
+

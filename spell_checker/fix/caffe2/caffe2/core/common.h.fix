@@ -1,0 +1,21 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template<typename T, typename... Args> 
+^^^^^^^^
+135 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template<typename T, typename... Args> 
+^^^^^^^^
+149 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <int First, int Second, int... Rest> 
+  ^^^^^^^^
+189 | 2 10 | template | This sentence does not start with an uppercase letter
+

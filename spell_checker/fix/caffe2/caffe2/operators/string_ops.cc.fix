@@ -1,0 +1,28 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int rowSize = (input.ndim() == 2) ? input.d...
+  ^^^
+18 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Provided
+provided delimieter. Output is a 1-D tensor of s...
+^^^^^^^^
+156 | 0 8 | provided | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of the input. Each element in the output t...
+^^
+157 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elements
+elements corresponding to each row in the input ...
+^^^^^^^^
+158 | 0 8 | elements | This sentence does not start with an uppercase letter
+

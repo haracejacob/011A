@@ -1,0 +1,7 @@
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: You
+            "you will need to manually specify a PROTOBU...
+             ^^^
+22 | 13 16 | you | This sentence does not start with an uppercase letter
+

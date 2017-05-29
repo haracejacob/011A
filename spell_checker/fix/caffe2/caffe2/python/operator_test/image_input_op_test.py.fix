@@ -1,0 +1,119 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    print("Creating a temporary lmdb database of ...
+    ^^^^^
+114 | 4 9 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Img_str
+            img_str = StringIO.StringIO() 
+            ^^^^^^^
+129 | 12 19 | img_str | This sentence does not start with an uppercase letter
+
+Line 1, column 67, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...ng_box[0:2] = [np.random.randint(a) for a in 
+                                           ^
+142 | 66 67 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 77, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...] = [np.random.randint(a) + minsize for a in 
+                                           ^
+144 | 76 77 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor_protos
+            tensor_protos = caffe2_pb2.TensorProtos() 
+            ^^^^^^^^^^^^^
+166 | 12 25 | tensor_protos | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor_protos
+                tensor_protos.SerializeToString() 
+                ^^^^^^^^^^^^^
+183 | 16 29 | tensor_protos | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestImport(hu.HypothesisTestCase): 
+^^^^^
+191 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader_net
+                reader_net = core.Net('reader') 
+                ^^^^^^^^^^
+228 | 16 26 | reader_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader_net
+                reader_net.CreateDB( 
+                ^^^^^^^^^^
+229 | 16 26 | reader_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.RunNetOnce(reader_net) 
+                ^^^^^^^^^
+235 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Imageop
+                imageop = core.CreateOperator( 
+                ^^^^^^^
+236 | 16 23 | imageop | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Imageop
+                imageop.device_option.CopyFrom(device_option) 
+                ^^^^^^^
+254 | 16 23 | imageop | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Main_net
+                main_net = core.Net('main') 
+                ^^^^^^^^
+255 | 16 24 | main_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Main_net
+                main_net.Proto().op.extend([imageop]) 
+                ^^^^^^^^
+256 | 16 24 | main_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.RunNetOnce(main_net) 
+                ^^^^^^^^^
+257 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: L
+                l = workspace.FetchBlob('label') 
+                ^
+258 | 16 17 | l | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Result
+                result = workspace.FetchBlob('data').astype(np...
+                ^^^^^^
+259 | 16 22 | result | This sentence does not start with an uppercase letter
+

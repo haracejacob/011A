@@ -1,0 +1,301 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_copy
+        net_copy = net.Clone(net.Name() + "_copy") 
+        ^^^^^^^^
+20 | 8 16 | net_copy | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_map
+        grad_map = net_copy.AddGradientOperators(outputs...
+        ^^^^^^^^
+22 | 8 16 | grad_map | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunNetOnce(net_copy) 
+            ^^^^^^^^^
+32 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(net_copy) 
+        ^^^^^^^^^
+43 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+            if isinstance(grad_blob, core.BlobReferenc...
+            ^^
+47 | 12 14 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert isinstance(grad_blob, core.GradientSlic...
+            ^^^^^^
+53 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sparse_to_dense_op
+            sparse_to_dense_op = core.CreateOperator( 
+            ^^^^^^^^^^^^^^^^^^
+55 | 12 30 | sparse_to_dense_op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(sparse_to_dense_op) 
+            ^^^^^^^^^
+60 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Name()) 
+            ^^^
+72 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Err_msg
+            err_msg += ": {}".format(net.Proto()) 
+            ^^^^^^^
+74 | 12 19 | err_msg | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Interface
+    interface will involve a lot of copy back and for...
+    ^^^^^^^^^
+90 | 4 13 | interface | This sentence does not start with an uppercase letter
+
+Line 1, column 28, Rule ID: A_LOT_OF_NN[1]
+Message: Possible agreement error. The noun copy seems to be countable; consider using: 'a lot of copies'.
+Suggestion: a lot of copies
+    interface will involve a lot of copy back and forth operations. Use at your ...
+                           ^^^^^^^^^^^^^
+90 | 27 40 | a lot of copy | Possible agreement error. The noun copy seems to be countable; consider using: 'a lot of copies'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=caffe2_pb2
+        device_option=caffe2_pb2.DeviceOption(), 
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+98 | 8 32 | device_option=caffe2_pb2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob(input_name, x, self._device_op...
+        ^^^^^^^^^
+111 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorOnce(op) 
+        ^^^^^^^^^
+113 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Arr
+            arr = workspace.FetchBlob(name) 
+            ^^^
+118 | 12 15 | arr | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob(name + '_grad', arr, self._dev...
+            ^^^^^^^^^
+120 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorsOnce(grad_ops) 
+        ^^^^^^^^^
+123 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(grad_name, core.GradientSlic...
+        ^^
+125 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob('zeros', np.zeros_like(x, dtyp...
+            ^^^^^^^^^
+126 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob('ones', np.ones(1, dtype=np.fl...
+            ^^^^^^^^^
+127 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gv_cpu_op
+            gv_cpu_op = core.CreateOperator( 
+            ^^^^^^^^^
+128 | 12 21 | gv_cpu_op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gi_cpu_op
+            gi_cpu_op = core.CreateOperator( 
+            ^^^^^^^^^
+132 | 12 21 | gi_cpu_op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sparse_to_dense_op
+            sparse_to_dense_op = core.CreateOperator( 
+            ^^^^^^^^^^^^^^^^^^
+136 | 12 30 | sparse_to_dense_op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(gv_cpu_op) 
+            ^^^^^^^^^
+144 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(gi_cpu_op) 
+            ^^^^^^^^^
+145 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(sparse_to_dense_op) 
+            ^^^^^^^^^
+146 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad
+            grad = workspace.FetchBlob('zeros') 
+            ^^^^
+147 | 12 16 | grad | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad
+            grad = workspace.FetchBlob(grad_name) 
+            ^^^^
+149 | 12 16 | grad | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Need
+              need to check gradients with. For these outp...
+              ^^^^
+170 | 14 18 | need | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_operator
+          grad_operator: the gradient operator. If not given, w...
+          ^^^^^^^^^^^^^
+172 | 10 23 | grad_operator | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Old_ws_name
+        old_ws_name = workspace.CurrentWorkspace() 
+        ^^^^^^^^^^^
+182 | 8 19 | old_ws_name | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.SwitchWorkspace(self._workspace_name, T...
+            ^^^^^^^^^
+184 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op.device_option.CopyFrom(self._device_opt...
+        ^^
+186 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_ops
+            grad_ops, g_input = core.GradientRegistry.GetGra...
+            ^^^^^^^^
+190 | 12 20 | grad_ops | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob( 
+            ^^^^^^^^^
+196 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss, grad = self.GetLossAndGrad( 
+        ^^^^
+204 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pos_loss
+            pos_loss, _ = self.GetLossAndGrad( 
+            ^^^^^^^^
+217 | 12 20 | pos_loss | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Neg_loss
+            neg_loss, _ = self.GetLossAndGrad( 
+            ^^^^^^^^
+223 | 12 20 | neg_loss | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+            print('Failed. [idx, grad, grad_estimate] are...
+            ^^^^^
+236 | 12 17 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+            print(np.vstack([idx, grad.flat[idx], grad_es...
+            ^^^^^
+237 | 12 17 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.ResetWorkspace() 
+            ^^^^^^^^^
+246 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.SwitchWorkspace(old_ws_name) 
+            ^^^^^^^^^
+247 | 12 21 | workspace | This sentence does not start with an uppercase letter
+

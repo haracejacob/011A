@@ -1,0 +1,28 @@
+Line 1, column 23, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+SET CAFFE2_ROOT=%~dp0%.. 
+                      ^^
+9 | 22 24 | .. | Two consecutive dots
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cmake
+cmake .. ^ 
+^^^^^
+42 | 0 5 | cmake | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+cmake .. ^ 
+      ^^
+42 | 6 8 | .. | Two consecutive dots
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cmake
+cmake --build . --config %CMAKE_BUILD_TYPE% |...
+^^^^^
+53 | 0 5 | cmake | This sentence does not start with an uppercase letter
+

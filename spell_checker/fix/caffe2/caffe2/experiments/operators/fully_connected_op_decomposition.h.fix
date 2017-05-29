@@ -1,0 +1,70 @@
+Line 1, column 44, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun matrix seems to be countable, so consider using: '2 matrices', '2 matrixes'.
+Suggestion: 2 matrices; 2 matrixes
+...TODO(wyiming): decompose the layer into 2 matrix 
+                                           ^^^^^^^^
+12 | 43 51 | 2 matrix | Possible agreement error. The noun matrix seems to be countable, so consider using: '2 matrices', '2 matrixes'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int M = X.ndim() > 1 ? X.dim32(0) : 1; 
+    ^^^
+42 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Multi_buffer_
+      multi_buffer_.Resize(M, middle); 
+      ^^^^^^^^^^^^^
+52 | 6 19 | multi_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Multi_buffer_
+      multi_buffer_.Resize(middle); 
+      ^^^^^^^^^^^^^
+55 | 6 19 | multi_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(M); 
+      ^^^^^^^^^^^^^^^^
+73 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int M = X.ndim() > 1 ? X.dim32(0) : 1; 
+    ^^^
+108 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Du_buffer_
+    du_buffer_.Resize(N, middle); 
+    ^^^^^^^^^^
+131 | 4 14 | du_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dv_buffer_
+    dv_buffer_.Resize(M, middle); 
+    ^^^^^^^^^^
+145 | 4 14 | dv_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(M); 
+      ^^^^^^^^^^^^^^^^
+159 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dx_buffer_
+      dx_buffer_.Resize(M, middle); 
+      ^^^^^^^^^^
+175 | 6 16 | dx_buffer_ | This sentence does not start with an uppercase letter
+

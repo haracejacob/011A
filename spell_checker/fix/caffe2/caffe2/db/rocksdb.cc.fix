@@ -1,0 +1,49 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string key() override { return iter_->key().To...
+  ^^^^^^
+23 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string value() override { return iter_->value(...
+  ^^^^^^
+24 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Status
+    rocksdb::Status status = db_->Write(rocksdb::WriteOptions(), b...
+             ^^^^^^^^^^^^^
+42 | 13 26 | Status status | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Status
+        status.ok(), "Failed to write batch to rocksdb...
+        ^^^^^^
+45 | 8 14 | status | This sentence does not start with an uppercase letter
+
+Line 1, column 33, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  RocksDB(const string& source, Mode mode) : DB(source, mode) { 
+                                ^^^^^^^^^
+57 | 32 41 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Status
+    rocksdb::Status status = rocksdb::DB::Open( 
+             ^^^^^^^^^^^^^
+67 | 13 26 | Status status | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Status
+        status.ToString()); 
+        ^^^^^^
+74 | 8 14 | status | This sentence does not start with an uppercase letter
+

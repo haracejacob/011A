@@ -1,0 +1,28 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int N = X.ndim() > 0 ? X.dim32(0) : 1; 
+    ^^^
+35 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int D = N > 0 ? X.size() / N : 0; 
+    ^^^
+36 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int N = X.ndim() > 0 ? X.dim32(0) : 1; 
+    ^^^
+172 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: THIS_NNS[2]
+Message: Did you mean 'this result' or 'these results'?
+Suggestion: this result; these results
+      // TODO: cache these result from the forward pass 
+                     ^^^^^^^^^^^^
+193 | 21 33 | these result | Did you mean 'this result' or 'these results'?
+

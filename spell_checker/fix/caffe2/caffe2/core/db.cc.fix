@@ -1,0 +1,35 @@
+Line 1, column 32, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  MiniDB(const string& source, Mode mode) : DB(source, mode), file_(nullptr) { 
+                               ^^^^^^^^^
+126 | 31 40 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+  auto& reader = blob.Get<DBReader>(); 
+  ^^^^^
+176 | 2 7 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_proto
+  blob_proto.set_content(proto.SerializeAsString());...
+  ^^^^^^^^^^
+187 | 2 12 | blob_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+  acceptor(name, blob_proto.SerializeAsString()); ...
+  ^^^^^^^^
+188 | 2 10 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader_proto
+      reader_proto.ParseFromString(proto.content()), 
+      ^^^^^^^^^^^^
+194 | 6 18 | reader_proto | This sentence does not start with an uppercase letter
+

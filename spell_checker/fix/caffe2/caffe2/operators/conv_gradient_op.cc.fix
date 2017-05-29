@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto compute_dX = !argsHelper.GetSingleArgum...
+    ^^^^
+16 | 4 8 | auto | This sentence does not start with an uppercase letter
+

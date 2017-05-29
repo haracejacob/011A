@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const auto* alpha_data = adaptive_ ? Input(4)...
+    ^^^^^
+69 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const auto* alpha_data = adaptive_ ? Input(5)...
+    ^^^^^
+168 | 4 9 | const | This sentence does not start with an uppercase letter
+

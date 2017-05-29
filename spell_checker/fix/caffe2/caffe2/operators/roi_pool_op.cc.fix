@@ -1,0 +1,56 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+  auto* A = is_test_ ? nullptr : Output(1); // ...
+  ^^^^^
+14 | 2 7 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+  auto* A = is_test_ ? nullptr : Output(1); // ar...
+        ^
+14 | 8 9 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int*
+  int* argmax_data = is_test_ ? nullptr : A->m...
+  ^^^^
+34 | 2 6 | int* | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+            helper.GetSingleArgument<string>("order", "NCH...
+            ^^^^^^
+130 | 12 18 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+        const int pooled_height = helper.GetSingleArg...
+        ^^^^^
+136 | 8 13 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+        const int pooled_width = helper.GetSingleArgu...
+        ^^^^^
+137 | 8 13 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool
+        bool is_test = helper.GetSingleArgument<int>...
+        ^^^^
+142 | 8 12 | bool | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gradient
+        "gradient computation). Only one output tensor is...
+         ^^^^^^^^
+161 | 9 17 | gradient | This sentence does not start with an uppercase letter
+

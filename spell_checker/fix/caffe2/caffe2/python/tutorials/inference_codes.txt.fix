@@ -1,0 +1,98 @@
+Line 1, column 13, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Tinca
+ 0: 'tench, Tinca tinca', 
+            ^^^^^^^^^^^
+1 | 12 23 | Tinca tinca | Possible typo: you repeated a word
+
+Line 1, column 18, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Carduelis
+ 11: 'goldfinch, Carduelis carduelis', 
+                 ^^^^^^^^^^^^^^^^^^^
+12 | 17 36 | Carduelis carduelis | Possible typo: you repeated a word
+
+Line 1, column 33, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Salamandra
+ 25: 'European fire salamander, Salamandra salamandra', 
+                                ^^^^^^^^^^^^^^^^^^^^^
+26 | 32 53 | Salamandra salamandra | Possible typo: you repeated a word
+
+Line 1, column 38, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Caretta
+ 33: 'loggerhead, loggerhead turtle, Caretta caretta', 
+                                     ^^^^^^^^^^^^^^^
+34 | 37 52 | Caretta caretta | Possible typo: you repeated a word
+
+Line 1, column 30, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Iguana
+ 39: 'common iguana, iguana, Iguana iguana', 
+                             ^^^^^^^^^^^^^
+40 | 29 42 | Iguana iguana | Possible typo: you repeated a word
+
+Line 1, column 24, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Constrictor
+ 61: 'boa constrictor, Constrictor constrictor', 
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+62 | 23 46 | Constrictor constrictor | Possible typo: you repeated a word
+
+Line 1, column 21, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Naja
+ 63: 'Indian cobra, Naja naja', 
+                    ^^^^^^^^^
+64 | 20 29 | Naja naja | Possible typo: you repeated a word
+
+Line 1, column 21, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Ciconia
+ 127: 'white stork, Ciconia ciconia', 
+                    ^^^^^^^^^^^^^^^
+128 | 20 35 | Ciconia ciconia | Possible typo: you repeated a word
+
+Line 1, column 28, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Porphyrio
+ 136: 'European gallinule, Porphyrio porphyrio', 
+                           ^^^^^^^^^^^^^^^^^^^
+137 | 27 46 | Porphyrio porphyrio | Possible typo: you repeated a word
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: chow
+ 260: 'chow, chow chow', 
+             ^^^^^^^^^
+261 | 13 22 | chow chow | Possible typo: you repeated a word
+
+Line 1, column 17, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Vulpes
+ 277: 'red fox, Vulpes vulpes', 
+                ^^^^^^^^^^^^^
+278 | 16 29 | Vulpes vulpes | Possible typo: you repeated a word
+
+Line 1, column 17, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Gorilla
+ 366: 'gorilla, Gorilla gorilla', 
+                ^^^^^^^^^^^^^^^
+367 | 16 31 | Gorilla gorilla | Possible typo: you repeated a word
+
+Line 1, column 23, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Indri
+ 384: 'indri, indris, Indri indri, Indri brevicaudatus', 
+                      ^^^^^^^^^^^
+385 | 22 33 | Indri indri | Possible typo: you repeated a word
+
+Line 1, column 8, Rule ID: WEB_SITE[1]
+Message: Did you mean 'website'?
+Suggestion: website
+ 916: 'web site, website, internet site, site', 
+       ^^^^^^^^
+917 | 7 15 | web site | Did you mean 'website'?
+

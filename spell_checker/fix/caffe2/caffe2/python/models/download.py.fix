@@ -1,0 +1,42 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+        raise Exception("Could not download model. [H...
+        ^^^^^
+71 | 8 13 | raise | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+        raise Exception("Could not download model. [U...
+        ^^^^^
+74 | 8 13 | raise | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+            print("Overwriting existing file! ({filename}...
+            ^^^^^
+99 | 12 17 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Query
+            query = "Model already exists, continue? [y/N...
+            ^^^^^
+105 | 12 17 | query | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+        print("Overwriting existing folder! ({filenam...
+        ^^^^^
+113 | 8 13 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Parser
+    parser = argparse.ArgumentParser( 
+    ^^^^^^
+144 | 4 10 | parser | This sentence does not start with an uppercase letter
+

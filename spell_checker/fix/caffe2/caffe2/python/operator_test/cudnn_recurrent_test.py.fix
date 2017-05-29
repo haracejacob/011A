@@ -1,0 +1,252 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestLSTMs(unittest.TestCase): 
+^^^^^
+14 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.DeviceScope(core.DeviceOption(caff...
+        ^^^^
+17 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob( 
+            ^^^^^^^^^
+23 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("target", np.zeros( 
+            ^^^^^^^^^
+27 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("hidden_init", np.zeros( 
+            ^^^^^^^^^
+30 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("cell_init", np.zeros( 
+            ^^^^^^^^^
+33 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_model
+            own_model = model_helper.ModelHelper(name="own_ls...
+            ^^^^^^^^^
+37 | 12 21 | own_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_model
+            cudnn_model = model_helper.ModelHelper(name="cudnn_...
+            ^^^^^^^^^^^
+40 | 12 23 | cudnn_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_blob
+            input_blob = cudnn_model.param_init_net.UniformFil...
+            ^^^^^^^^^^
+41 | 12 22 | input_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("CUDNN/hidden_init_cudnn", np....
+            ^^^^^^^^^
+43 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob("CUDNN/cell_init_cudnn", np.ze...
+            ^^^^^^^^^
+46 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_loss
+            cudnn_loss = cudnn_model.AveragedLoss( 
+            ^^^^^^^^^^
+59 | 12 22 | cudnn_loss | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_model
+                cudnn_model.SquaredL2Distance( 
+                ^^^^^^^^^^^
+60 | 16 27 | cudnn_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_loss
+            own_loss = own_model.AveragedLoss( 
+            ^^^^^^^^
+75 | 12 20 | own_loss | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_model
+                own_model.SquaredL2Distance([own_output, "target"...
+                ^^^^^^^^^
+76 | 16 25 | own_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_model
+            cudnn_model.AddGradientOperators([cudnn_loss]) 
+            ^^^^^^^^^^^
+81 | 12 23 | cudnn_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_model
+            own_model.AddGradientOperators([own_loss]) 
+            ^^^^^^^^^
+82 | 12 21 | own_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+            for param in cudnn_model.GetParams(): 
+            ^^^
+91 | 12 15 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_model
+                cudnn_model.WeightedSum( 
+                ^^^^^^^^^^^
+92 | 16 27 | cudnn_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+            for param in own_model.GetParams(): 
+            ^^^
+95 | 12 15 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_model
+                own_model.WeightedSum( 
+                ^^^^^^^^^
+96 | 16 25 | own_model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunNetOnce(cudnn_model.param_init_net) ...
+            ^^^^^^^^^
+100 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.CreateNet(cudnn_model.net) 
+            ^^^^^^^^^
+101 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunNetOnce(param_extract_net) 
+            ^^^^^^^^^
+109 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_lstm_params
+                    cudnn_lstm_params[input_type][k] = workspace.FetchBlob(v[...
+                    ^^^^^^^^^^^^^^^^^
+114 | 20 37 | cudnn_lstm_params | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunNet(cudnn_model.net.Proto().name, 3)...
+            ^^^^^^^^^
+117 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunNetOnce(own_model.param_init_net) 
+            ^^^^^^^^^
+123 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Rnn_cell
+            rnn_cell.InitFromLSTMParams(own_params, cudnn_ls...
+            ^^^^^^^^
+124 | 12 20 | rnn_cell | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.CreateNet(own_model.net) 
+            ^^^^^^^^^
+127 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunNet(own_model.net.Proto().name, 3) 
+            ^^^^^^^^^
+128 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_output_data
+            own_output_data = workspace.FetchBlob(own_output) 
+            ^^^^^^^^^^^^^^^
+134 | 12 27 | own_output_data | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_last_hidden
+            own_last_hidden = workspace.FetchBlob(own_last_hidden) ...
+            ^^^^^^^^^^^^^^^
+135 | 12 27 | own_last_hidden | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Own_loss
+            own_loss = workspace.FetchBlob(own_loss) 
+            ^^^^^^^^
+136 | 12 20 | own_loss | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_output_data
+            cudnn_output_data = workspace.FetchBlob(cudnn_output) 
+            ^^^^^^^^^^^^^^^^^
+138 | 12 29 | cudnn_output_data | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_last_hidden
+            cudnn_last_hidden = workspace.FetchBlob(cudnn_last_hidden...
+            ^^^^^^^^^^^^^^^^^
+139 | 12 29 | cudnn_last_hidden | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cudnn_loss
+            cudnn_loss = workspace.FetchBlob(cudnn_loss) 
+            ^^^^^^^^^^
+140 | 12 22 | cudnn_loss | This sentence does not start with an uppercase letter
+

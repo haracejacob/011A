@@ -1,0 +1,7 @@
+Line 1, column 40, Rule ID: EN_A_VS_AN
+Message: Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+Suggestion: a
+# Note(jiayq): if you are going to add an warning flag, check if this is 
+                                       ^^
+55 | 39 41 | an | Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+

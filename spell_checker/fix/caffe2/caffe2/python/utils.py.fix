@@ -1,0 +1,168 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if tensor.data_type == caffe2_pb2.TensorPr...
+    ^^
+24 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif tensor.data_type == caffe2_pb2.TensorPr...
+    ^^^^
+27 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif tensor.data_type == caffe2_pb2.TensorPr...
+    ^^^^
+30 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+    tensor = caffe2_pb2.TensorProto() 
+    ^^^^^^
+40 | 4 10 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+        tensor.data_type = caffe2_pb2.TensorProto.FLOA...
+        ^^^^^^
+45 | 8 14 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+        tensor.data_type = caffe2_pb2.TensorProto.DOUB...
+        ^^^^^^
+48 | 8 14 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+        tensor.data_type = caffe2_pb2.TensorProto.INT3...
+        ^^^^^^
+51 | 8 14 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Argument
+    argument = caffe2_pb2.Argument() 
+    ^^^^^^^^
+62 | 4 12 | argument | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iterable
+    iterable = isinstance(value, collections.Iterabl...
+    ^^^^^^^^
+64 | 4 12 | iterable | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Argument
+        argument.s = value.SerializeToString() 
+        ^^^^^^^^
+82 | 8 16 | argument | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Argument
+        argument.strings.extend([v.SerializeToString() f...
+        ^^^^^^^^
+91 | 8 16 | argument | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Google
+      google.protobuf.message.DecodeError: if we can...
+      ^^^^^^
+111 | 6 12 | google | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Text_format
+        text_format.Parse(s, obj) 
+        ^^^^^^^^^^^
+115 | 8 19 | text_format | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Except
+    except text_format.ParseError: 
+    ^^^^^^
+117 | 4 10 | except | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Obj
+        obj.ParseFromString(s) 
+        ^^^
+118 | 8 11 | obj | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fid
+        fid.write(proto.SerializeToString()) 
+        ^^^
+145 | 8 11 | fid | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunOperatorOnce( 
+    ^^^^^^^^^
+152 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+        core.CreateOperator( 
+        ^^^^
+153 | 8 12 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=core
+            device_option=core.DeviceOption(caffe2_pb2.CUDA, 0), 
+            ^^^^^^^^^^^^^^^^^^
+157 | 12 30 | device_option=core | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B
+    b = workspace.FetchBlob("____mem____") 
+    ^
+160 | 4 5 | b | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunOperatorOnce( 
+    ^^^^^^^^^
+171 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+        core.CreateOperator( 
+        ^^^^
+172 | 8 12 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=core
+            device_option=core.DeviceOption(caffe2_pb2.CPU), 
+            ^^^^^^^^^^^^^^^^^^
+176 | 12 30 | device_option=core | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+                'the full stacktrace. Type "help" to see com...
+                 ^^^
+208 | 17 20 | the | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,70 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffenet
+    caffenet = caffe_pb2.NetParameter() 
+    ^^^^^^^^
+19 | 4 12 | caffenet | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffenet_pretrained
+    caffenet_pretrained = caffe_pb2.NetParameter() 
+    ^^^^^^^^^^^^^^^^^^^
+20 | 4 23 | caffenet_pretrained | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Text_format
+    text_format.Merge( 
+    ^^^^^^^^^^^
+21 | 4 15 | text_format | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffenet_pretrained
+    caffenet_pretrained.ParseFromString( 
+    ^^^^^^^^^^^^^^^^^^^
+24 | 4 23 | caffenet_pretrained | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net, pretrained_params = caffe_translator.T...
+    ^^^
+29 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob(param.name, utils.Caffe2Tensor...
+        ^^^^^^^^^
+37 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.FeedBlob('data', data) 
+    ^^^^^^^^^
+41 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunNetOnce(net.SerializeToString()) 
+    ^^^^^^^^^
+43 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestNumericalEquivalence(test_util.Test...
+^^^^^
+46 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2_result
+            caffe2_result = workspace.FetchBlob(name) 
+            ^^^^^^^^^^^^^
+54 | 12 25 | caffe2_result | This sentence does not start with an uppercase letter
+

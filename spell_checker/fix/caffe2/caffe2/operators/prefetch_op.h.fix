@@ -1,0 +1,42 @@
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Thread
+        "thread is joined. "; 
+         ^^^^^^
+38 | 9 15 | thread | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.SwitchToDevice(0); 
+    ^^^^^^^^
+68 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!CopyPrefetched()) { 
+    ^^
+76 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool
+    bool success = context_.FinishDeviceComputat...
+    ^^^^
+81 | 4 8 | bool | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.SwitchToDevice(); 
+    ^^^^^^^^
+87 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefetch_success_
+      prefetch_success_ = Prefetch() && context_.FinishDeviceCo...
+      ^^^^^^^^^^^^^^^^^
+95 | 6 23 | prefetch_success_ | This sentence does not start with an uppercase letter
+

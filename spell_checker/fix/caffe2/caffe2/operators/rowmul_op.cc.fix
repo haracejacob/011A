@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of A and element i of w, e.g. C[i][j] = A[...
+^^
+22 | 0 2 | of | This sentence does not start with an uppercase letter
+

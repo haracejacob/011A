@@ -1,0 +1,7 @@
+Line 1, column 41, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...CAFFE2_ROOT="$( cd "$(dirname -- "$0")"/.. ; pwd -P)" 
+                                           ^^
+13 | 40 42 | .. | Two consecutive dots
+

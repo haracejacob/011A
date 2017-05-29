@@ -1,0 +1,6 @@
+Line 1, column 8, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+// the weight parameter matrix offset). 
+       ^^^^^^^^^^^^^^^^^^^^^^^
+18 | 7 30 | weight parameter matrix | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+

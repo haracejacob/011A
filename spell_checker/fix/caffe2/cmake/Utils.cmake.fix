@@ -1,0 +1,42 @@
+Line 1, column 61, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...er(<file> <define1> <define2> <define3> ..) 
+                                           ^^
+88 | 60 62 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(FATAL_ERROR "Lists are not equal. ${__l...
+    ^^^^^^^
+215 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: CURRENCY[2]
+Message: The currency mark is usually put at the beginning of the number: '$1'.
+Suggestion: $1
+  foreach(__i RANGE 1 ${__len1}) 
+                    ^^^
+218 | 20 23 | 1 $ | The currency mark is usually put at the beginning of the number: '$1'.
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+      message(FATAL_ERROR "Lists are not equal. Diffe...
+      ^^^^^^^
+223 | 6 13 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 83, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...FLAGS[_CONFIGURATION]> -Wshadow /wd4996 ..,) 
+                                           ^^
+231 | 82 84 | .. | Two consecutive dots
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+      message(FATAL_ERROR "Logic error. Need to updat...
+      ^^^^^^^
+356 | 6 13 | message | This sentence does not start with an uppercase letter
+

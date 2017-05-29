@@ -1,0 +1,42 @@
+Line 1, column 17, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+    const auto& A = Input(0); 
+                ^
+20 | 16 17 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_a_
+        trans_a_ ? "trans(A): " : "A: ", 
+        ^^^^^^^^
+50 | 8 16 | trans_a_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_b_
+        trans_b_ ? ", trans(B): " : ", B: ", 
+        ^^^^^^^^
+54 | 8 16 | trans_b_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!A.dim(0)) { 
+    ^^
+61 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_a_
+          trans_a_ ? CblasTrans : CblasNoTrans, 
+          ^^^^^^^^
+72 | 10 18 | trans_a_ | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_b_
+          trans_b_ ? CblasTrans : CblasNoTrans, 
+          ^^^^^^^^
+73 | 10 18 | trans_b_ | This sentence does not start with an uppercase letter
+

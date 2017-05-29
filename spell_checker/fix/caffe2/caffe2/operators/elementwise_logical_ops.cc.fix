@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Produces
+produces one output data (Tensor<T>) where z = c...
+^^^^^^^^
+15 | 0 8 | produces | This sentence does not start with an uppercase letter
+

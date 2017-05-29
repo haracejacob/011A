@@ -1,0 +1,28 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!OperatorBase::HasArgument("dtype") &&...
+    ^^
+214 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+      helper.GetSingleArgument<int>("dtype", TensorP...
+      ^^^^^^
+412 | 6 12 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.GetSingleArgument<bool>("input_as_shape...
+        ^^^^^^
+417 | 8 14 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto shape = helper.GetRepeatedArgument<int>...
+    ^^^^
+426 | 4 8 | auto | This sentence does not start with an uppercase letter
+

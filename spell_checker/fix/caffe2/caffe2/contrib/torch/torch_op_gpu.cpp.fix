@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+const char* TyTraits<CUDAContext>::tensorTy =...
+^^^^^
+21 | 0 5 | const | This sentence does not start with an uppercase letter
+

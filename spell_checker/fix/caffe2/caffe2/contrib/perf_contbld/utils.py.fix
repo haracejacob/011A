@@ -1,0 +1,35 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.op_stats = prof_dag_pb2.ProfDAGProtos()...
+        ^^^^
+24 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.op_stats.ParseFromString(stats_proto) 
+        ^^^^
+25 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Query
+        query = rfe.QueryCommon( 
+        ^^^^^
+37 | 8 13 | query | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op_runs
+        op_runs = self.ReadOpRuns(model, num_days) or d...
+        ^^^^^^^
+90 | 8 15 | op_runs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.WriteOpRuns(model) 
+            ^^^^
+116 | 12 16 | self | This sentence does not start with an uppercase letter
+

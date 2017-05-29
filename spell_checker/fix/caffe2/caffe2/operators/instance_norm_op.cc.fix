@@ -1,0 +1,49 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+  auto* mean = OutputSize() > 1 ? Output(MEAN) ...
+  ^^^^^
+14 | 2 7 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+  auto* inv_stdev = OutputSize() > 1 ? Output(I...
+  ^^^^^
+15 | 2 7 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mean_arr
+    mean_arr *= 1. / (H * W); 
+    ^^^^^^^^
+41 | 4 12 | mean_arr | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+  auto* mean = OutputSize() > 1 ? Output(MEAN) ...
+  ^^^^^
+61 | 2 7 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+  auto* inv_stdev = OutputSize() > 1 ? Output(I...
+  ^^^^^
+62 | 2 7 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Computation
+        "computation. Should not be used for testing.") 
+         ^^^^^^^^^^^
+139 | 9 20 | computation | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gradient
+        "gradient computation. Should not be used for tes...
+         ^^^^^^^^
+144 | 9 17 | gradient | This sentence does not start with an uppercase letter
+

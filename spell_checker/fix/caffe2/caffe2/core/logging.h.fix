@@ -1,0 +1,42 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <typename T, typename... Args> 
+^^^^^^^^
+60 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <typename... Args> 
+^^^^^^^^
+67 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+    s << (*i) << (cnt ? delimiter : ""); 
+    ^
+88 | 4 5 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <class... Args> 
+  ^^^^^^^^
+195 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Like
+        "like `Equals`. Use CAFFE_ENFORCE for simple ...
+         ^^^^
+202 | 9 13 | like | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: R
+      r = ::caffe2::MakeString(std::move(*msg_)...
+      ^
+216 | 6 7 | r | This sentence does not start with an uppercase letter
+

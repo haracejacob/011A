@@ -1,0 +1,133 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestToyRegression(test_util.TestCase): ...
+^^^^^
+6 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Truth
+        truth outputs in the net as well. It uses a s...
+        ^^^^^
+13 | 8 13 | truth | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.ResetWorkspace() 
+        ^^^^^^^^^
+16 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+        init_net = core.Net("init") 
+        ^^^^^^^^
+17 | 8 16 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dtype=core
+                                     dtype=core.DataType.INT32) 
+                                     ^^^^^^^^^^
+26 | 37 47 | dtype=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+        train_net = core.Net("train") 
+        ^^^^^^^^^
+28 | 8 17 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dist
+        dist = train_net.SquaredL2Distance([Y_gt, Y_...
+        ^^^^
+32 | 8 12 | dist | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = dist.AveragedLoss([], ["loss"]) 
+        ^^^^
+33 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_to_grad
+        input_to_grad = train_net.AddGradientOperators([loss]...
+        ^^^^^^^^^^^^^
+39 | 8 21 | input_to_grad | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+        train_net.Iter(ITER, ITER) 
+        ^^^^^^^^^
+41 | 8 17 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+        train_net.LearningRate(ITER, "LR", base_lr=-0.1, ...
+        ^^^^^^^^^
+42 | 8 17 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+        train_net.WeightedSum([W, ONE, input_to_grad[str(...
+        ^^^^^^^^^
+44 | 8 17 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+        train_net.WeightedSum([B, ONE, input_to_grad[str(...
+        ^^^^^^^^^
+45 | 8 17 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_net
+            train_net.Print(blob, []) 
+            ^^^^^^^^^
+47 | 12 21 | train_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan = core.Plan("toy_regression") 
+        ^^^^
+50 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(core.ExecutionStep("init", init...
+        ^^^^
+51 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(core.ExecutionStep("train", tra...
+        ^^^^
+52 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunPlan(plan) 
+        ^^^^^^^^^
+54 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.ResetWorkspace() 
+        ^^^^^^^^^
+59 | 8 17 | workspace | This sentence does not start with an uppercase letter
+

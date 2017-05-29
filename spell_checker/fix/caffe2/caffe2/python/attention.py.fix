@@ -1,0 +1,70 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Attention_weighted_encoder_context
+    attention_weighted_encoder_context = model.net.BatchMatMul( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+29 | 4 38 | attention_weighted_encoder_context | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Attention_weighted_encoder_context
+    attention_weighted_encoder_context, _ = model.net.Reshape( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+34 | 4 38 | attention_weighted_encoder_context | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Decoder_hidden_encoder_outputs_sum
+    decoder_hidden_encoder_outputs_sum = model.net.Tanh( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+72 | 4 38 | decoder_hidden_encoder_outputs_sum | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Attention_v
+    attention_v = model.param_init_net.XavierFill( 
+    ^^^^^^^^^^^
+77 | 4 15 | attention_v | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Attention_zeros
+    attention_zeros = model.param_init_net.ConstantFill( 
+    ^^^^^^^^^^^^^^^
+84 | 4 19 | attention_zeros | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Attention_logits_transposed
+    attention_logits_transposed = model.Transpose( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+98 | 4 31 | attention_logits_transposed | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+    output = model.net.Squeeze( 
+    ^^^^^^
+123 | 4 10 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Decoder_hidden_encoder_outputs_sum_tmp
+    decoder_hidden_encoder_outputs_sum_tmp = model.net.Add( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+160 | 4 42 | decoder_hidden_encoder_outputs_sum_tmp | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Decoder_hidden_encoder_outputs_sum
+    decoder_hidden_encoder_outputs_sum = model.net.Add( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+168 | 4 38 | decoder_hidden_encoder_outputs_sum | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Decoder_hidden_encoder_outputs_sum
+    decoder_hidden_encoder_outputs_sum = model.net.Add( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+222 | 4 38 | decoder_hidden_encoder_outputs_sum | This sentence does not start with an uppercase letter
+

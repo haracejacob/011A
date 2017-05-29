@@ -1,0 +1,119 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+26 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Scalar( 
+        ^^^^
+34 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.NextScopedBlob(name + '_output')) 
+            ^^^^^
+36 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class_probabilities
+        class_probabilities = net.MakeTwoClass( 
+        ^^^^^^^^^^^^^^^^^^^
+40 | 8 27 | class_probabilities | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.NextScopedBlob('two_class_predictions')...
+            ^^^
+42 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Label
+            label = [net.Cast( 
+            ^^^^^
+46 | 12 17 | label | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.NextScopedBlob('int32_label'), 
+                ^^^
+48 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To=core
+                to=core.DataType.INT32)] 
+                ^^^^^^^
+49 | 16 23 | to=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent
+        xent = net.LabelCrossEntropy( 
+        ^^^^
+52 | 8 12 | xent | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.NextScopedBlob('cross_entropy'), 
+            ^^^
+54 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight_blob
+                weight_blob = net.Cast( 
+                ^^^^^^^^^^^
+59 | 16 27 | weight_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To=core
+                    to=core.DataType.FLOAT 
+                    ^^^^^^^
+62 | 20 27 | to=core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight_blob
+            weight_blob = net.StopGradient( 
+            ^^^^^^^^^^^
+64 | 12 23 | weight_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent
+            xent = net.Mul( 
+            ^^^^
+68 | 12 16 | xent | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.NextScopedBlob('weighted_cross_entropy'...
+                ^^^
+70 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.AveragedLoss(xent, self.output_schema.f...
+            ^^^
+74 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.ReduceFrontSum(xent, self.output_schema...
+            ^^^
+76 | 12 15 | net | This sentence does not start with an uppercase letter
+

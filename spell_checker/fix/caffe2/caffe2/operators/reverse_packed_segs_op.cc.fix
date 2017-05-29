@@ -1,0 +1,13 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Paddings
+paddings unchanged. This operator is used to rev...
+^^^^^^^^
+11 | 0 8 | paddings | This sentence does not start with an uppercase letter
+
+Line 1, column 63, Rule ID: DT_JJ_NO_NOUN[1]
+Message: Probably a noun is missing in this part of the sentence.
+...is operator is used to reverse input of a recurrent neural 
+                                           ^^^^^^^^^^^
+11 | 62 73 | a recurrent | Probably a noun is missing in this part of the sentence.
+

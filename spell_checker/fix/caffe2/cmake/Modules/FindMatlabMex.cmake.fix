@@ -1,0 +1,14 @@
+Line 1, column 34, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: mex
+find_program(Matlab_mex    NAMES mex    mex.bat    HINTS ${Matlab_DIR} PATH_SUFFIXE...
+                                 ^^^^^^^^^^
+39 | 33 43 | mex    mex | Possible typo: you repeated a word
+
+Line 1, column 34, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: mexext
+find_program(Matlab_mexext NAMES mexext mexext.bat HINTS ${Matlab_DIR} PATH_SUFFIXES b...
+                                 ^^^^^^^^^^^^^
+40 | 33 46 | mexext mexext | Possible typo: you repeated a word
+

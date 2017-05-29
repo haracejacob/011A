@@ -1,0 +1,70 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const int H = (order_ == StorageOrder::NCHW ?...
+  ^^^^^
+14 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Running_mean_arr
+    running_mean_arr = running_mean_arr * momentum_ + mean *...
+    ^^^^^^^^^^^^^^^^
+99 | 4 20 | running_mean_arr | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Running_var_arr
+    running_var_arr = running_var_arr * momentum_ + var * (...
+    ^^^^^^^^^^^^^^^
+100 | 4 19 | running_var_arr | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is_test_
+      is_test_ ? Input(EST_MEAN).data<float>() 
+      ^^^^^^^^
+118 | 6 14 | is_test_ | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool
+          bool is_test = helper.GetSingleArgument<int>...
+          ^^^^
+162 | 10 14 | bool | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+                helper.GetSingleArgument<string>("order", "NCH...
+                ^^^^^^
+167 | 16 22 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        "with the input mean. Should not be used for ...
+         ^^^^
+233 | 9 13 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: In-place
+        "in-place with the input var. Should not be used ...
+         ^^^^^^^^
+238 | 9 17 | in-place | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Computation
+        "computation. Should not be used for testing.") 
+         ^^^^^^^^^^^
+243 | 9 20 | computation | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gradient
+        "gradient computation. Should not be used for tes...
+         ^^^^^^^^
+248 | 9 17 | gradient | This sentence does not start with an uppercase letter
+

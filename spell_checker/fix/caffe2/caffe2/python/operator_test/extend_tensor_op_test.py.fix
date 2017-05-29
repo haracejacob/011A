@@ -1,0 +1,112 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('old_tensor', old_tensor) 
+        ^^^^^^^^^
+14 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('indices', indices) 
+        ^^^^^^^^^
+17 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Extend_tensor_op
+        extend_tensor_op = core.CreateOperator( 
+        ^^^^^^^^^^^^^^^^
+22 | 8 24 | extend_tensor_op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorOnce(extend_tensor_op) 
+        ^^^^^^^^^
+27 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_tensor_observed
+        new_tensor_observed = workspace.FetchBlob('old_tensor') 
+        ^^^^^^^^^^^^^^^^^^^
+28 | 8 27 | new_tensor_observed | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('counts', counts) 
+        ^^^^^^^^^
+35 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('indices', indices) 
+        ^^^^^^^^^
+39 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 52, Rule ID: IF_IS[1]
+Message: Did you mean 'is'?
+Suggestion: is
+...xtend the 'counts' tensor if necessary (if new words are seen) 
+                                           ^^
+41 | 51 53 | if | Did you mean 'is'?
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Extend_tensor_op
+        extend_tensor_op = core.CreateOperator( 
+        ^^^^^^^^^^^^^^^^
+42 | 8 24 | extend_tensor_op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorOnce(extend_tensor_op) 
+        ^^^^^^^^^
+46 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('ones_counts', ones_counts) 
+        ^^^^^^^^^
+52 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('ones_indices', ones_indices) ...
+        ^^^^^^^^^
+53 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('one', one) 
+        ^^^^^^^^^
+54 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator('ScatterWeightedS...
+        ^^
+57 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorOnce(op) 
+        ^^^^^^^^^
+58 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_tensor_observed
+        new_tensor_observed = workspace.FetchBlob('counts') 
+        ^^^^^^^^^^^^^^^^^^^
+62 | 8 27 | new_tensor_observed | This sentence does not start with an uppercase letter
+

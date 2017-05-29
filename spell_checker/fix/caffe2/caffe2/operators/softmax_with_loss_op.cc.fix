@@ -1,0 +1,77 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto axis = helper.GetSingleArgument<int32_t...
+          ^^^^
+17 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of the given input, after which cross-entr...
+^^
+39 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sum_multiplier_
+    sum_multiplier_.Resize(D); 
+    ^^^^^^^^^^^^^^^
+77 | 4 19 | sum_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const float* weights = (InputSize() > 2 ? Inp...
+  ^^^^^
+83 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sum_multiplier_
+    sum_multiplier_.Resize(D); 
+    ^^^^^^^^^^^^^^^
+99 | 4 19 | sum_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Rowmax_
+  rowmax_.Resize(N); 
+  ^^^^^^^
+104 | 2 9 | rowmax_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Losses_
+  losses_.Resize(N); 
+  ^^^^^^^
+105 | 2 9 | losses_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+      float weight = weights ? weights[i] : 1.0; 
+      ^^^^^
+132 | 6 11 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+      float weight = weights ? weights[i] : 1.0; 
+      ^^^^^
+148 | 6 11 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const float* weights = (InputSize() > 4 ? Inp...
+  ^^^^^
+178 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+  context_.Copy<float, CPUContext, CPUContext>(P.s...
+  ^^^^^^^^
+205 | 2 10 | context_ | This sentence does not start with an uppercase letter
+

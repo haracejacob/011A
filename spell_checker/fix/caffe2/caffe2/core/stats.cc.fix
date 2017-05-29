@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+    out.value = reset ? kv.second->reset() : kv...
+    ^^^
+35 | 4 7 | out | This sentence does not start with an uppercase letter
+

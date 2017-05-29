@@ -1,0 +1,42 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string key() override { return iter_->key().To...
+  ^^^^^^
+23 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string value() override { return iter_->value(...
+  ^^^^^^
+24 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Status
+    leveldb::Status status = db_->Write(leveldb::WriteOptions(), b...
+             ^^^^^^^^^^^^^
+42 | 13 26 | Status status | Possible typo: you repeated a word
+
+Line 1, column 33, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  LevelDB(const string& source, Mode mode) : DB(source, mode) { 
+                                ^^^^^^^^^
+58 | 32 41 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Options
+    leveldb::Options options; 
+             ^^^^^^^^^^^^^^^
+59 | 13 28 | Options options | Possible typo: you repeated a word
+
+Line 1, column 14, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Status
+    leveldb::Status status = leveldb::DB::Open(options, source, &d...
+             ^^^^^^^^^^^^^
+66 | 13 26 | Status status | Possible typo: you repeated a word
+

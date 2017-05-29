@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Functor
+  Functor functor; 
+  ^^^^^^^^^^^^^^^
+26 | 2 17 | Functor functor | Possible typo: you repeated a word
+

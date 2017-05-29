@@ -1,0 +1,371 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestDB(unittest.TestCase): 
+^^^^^
+12 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Struct( 
+        ^
+14 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertTrue(isinstance(r.field1, schema....
+            ^^^^
+20 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertTrue(isinstance(r.field2, schema....
+            ^^^^
+21 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Struct(('field1', np.int32), (...
+        ^
+25 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+28 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Tuple(np.int32, str, np.float3...
+        ^
+35 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S2
+        s2 = schema.Struct( 
+        ^^
+36 | 8 10 | s2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(s[0], schema.Scalar(dtype=...
+        ^^^^
+42 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(s[1], schema.Scalar(dtype=...
+        ^^^^
+43 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(s[2], schema.Scalar(dtype=...
+        ^^^^
+44 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+47 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.RawTuple(2) 
+        ^
+59 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+            s, schema.Struct( 
+            ^
+61 | 12 13 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(s[0], schema.Scalar()) 
+        ^^^^
+65 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(s[1], schema.Scalar()) 
+        ^^^^
+66 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Struct( 
+        ^
+69 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(s['field2'], schema.List(s...
+        ^^^^
+75 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(s['field3'], schema.Struct...
+        ^^^^
+76 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+79 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+        a = schema.List(schema.Scalar(dtype=str))...
+        ^
+86 | 8 9 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Struct( 
+        ^
+87 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+        a = schema.Map( 
+        ^
+99 | 8 9 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Scalar(dtype=np.int32), 
+            ^^^^^^
+100 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Scalar(dtype=np.float32), 
+            ^^^^^^
+101 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Struct( 
+        ^
+103 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Struct( 
+        ^
+113 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B
+                'b', schema.Scalar( 
+                 ^
+115 | 17 18 | b | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Metadata=schema
+                    metadata=schema.Metadata(categorical_limit=5) 
+                    ^^^^^^^^^^^^^^^
+117 | 20 35 | metadata=schema | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: C
+                'c', schema.List( 
+                 ^
+120 | 17 18 | c | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                    schema.Scalar( 
+                    ^^^^^^
+121 | 20 26 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Metadata=schema
+                        metadata=schema.Metadata(categorical_limit=6) 
+                        ^^^^^^^^^^^^^^^
+123 | 24 39 | metadata=schema | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+153 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+            s = schema.Struct(('a', schema.Scalar()))...
+            ^
+159 | 12 13 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S
+        s = schema.Struct( 
+        ^
+163 | 8 9 | s | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S1
+        s1 = schema.Struct( 
+        ^^
+176 | 8 10 | s1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S2
+        s2 = schema.Struct( 
+        ^^
+179 | 8 10 | s2 | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S1
+            s1 + schema.Scalar() 
+            ^^
+188 | 12 14 | s1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S1
+        s1 = schema.Struct( 
+        ^^
+191 | 8 10 | s1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S2
+        s2 = schema.Struct( 
+        ^^
+197 | 8 10 | s2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: S3
+        s3 = schema.Struct( 
+        ^^
+205 | 8 10 | s3 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: St
+        st = schema.Struct( 
+        ^^
+212 | 8 10 | st | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue(isinstance(a, schema.Scalar)...
+        ^^^^
+225 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue(isinstance(bcd, schema.Scala...
+        ^^^^
+229 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: F_a
+        f_a = schema.Scalar(blob=core.BlobReference...
+        ^^^
+232 | 8 11 | f_a | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: F_b
+        f_b = schema.Struct( 
+        ^^^
+233 | 8 11 | f_b | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: F_x
+        f_x = schema.Struct( 
+        ^^^
+238 | 8 11 | f_x | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: St
+            st = schema.Struct( 
+            ^^
+243 | 12 14 | st | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: St
+            st = schema.Struct( 
+            ^^
+249 | 12 14 | st | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: St
+        st = schema.Struct( 
+        ^^
+255 | 8 10 | st | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: St
+        st = schema.Struct( 
+        ^^
+263 | 8 10 | st | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: St
+        st = schema.Struct( 
+        ^^
+271 | 8 10 | st | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: St
+        st = schema.Struct( 
+        ^^
+280 | 8 10 | st | This sentence does not start with an uppercase letter
+

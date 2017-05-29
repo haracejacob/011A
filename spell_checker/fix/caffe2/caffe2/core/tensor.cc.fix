@@ -1,0 +1,21 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Limit_
+      limit_(limit ? limit : k_limit_default_), 
+      ^^^^^^
+25 | 6 12 | limit_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const auto& tensor = blob.Get<TensorCPU>(); 
+    ^^^^^
+94 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (nbytes > 0 && tensor.IsType<std::strin...
+    ^^
+96 | 4 6 | if | This sentence does not start with an uppercase letter
+

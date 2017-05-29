@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Condition
+  condition ? (void) 0 : ::caffe2::LoggerVoidify() ...
+  ^^^^^^^^^
+102 | 2 11 | condition | This sentence does not start with an uppercase letter
+
+Line 1, column 12, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Forward) must be used with a third-person verb: 'declares'.
+Suggestion: declares
+// Forward declare these two, and define them after all th...
+           ^^^^^^^
+167 | 11 18 | declare | The proper name in singular (Forward) must be used with a third-person verb: 'declares'.
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <class... Types> \ 
+^^^^^^^^
+177 | 0 8 | template | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,98 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Img_shape_device_
+    img_shape_device_.Resize(img_shape.size()); 
+    ^^^^^^^^^^^^^^^^^
+59 | 4 21 | img_shape_device_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_buffer_shape_device_
+    col_buffer_shape_device_.Resize(buffer_shape.size()); 
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+68 | 4 28 | col_buffer_shape_device_ | This sentence does not start with an uppercase letter
+
+Line 1, column 47, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'imaged'.
+Suggestion: imaged
+...// If the helper bias multiplier is not image size, reshape and fill it 
+                                           ^^^^^
+94 | 46 51 | image | Consider using a past participle here: 'imaged'.
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(vector<TIndex>(1, output_image_s...
+      ^^^^^^^^^^^^^^^^
+97 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+        bias_multiplier_.Resize(vector<TIndex>(1, N * H * W)); 
+        ^^^^^^^^^^^^^^^^
+245 | 8 24 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+        bias_multiplier_.Resize(vector<TIndex>(1, output_image_s...
+        ^^^^^^^^^^^^^^^^
+272 | 8 24 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_buffer_
+  col_buffer_.Resize(col_buffer_shape); 
+  ^^^^^^^^^^^
+388 | 2 13 | col_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Img_shape_device_
+    img_shape_device_.Resize(img_shape.size()); 
+    ^^^^^^^^^^^^^^^^^
+391 | 4 21 | img_shape_device_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_buffer_shape_device_
+    col_buffer_shape_device_.Resize(col_buffer_shape.size()); 
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+403 | 4 28 | col_buffer_shape_device_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(vector<TIndex>(1, output_image_s...
+      ^^^^^^^^^^^^^^^^
+425 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* dX = Output(no_bias_ ? BIAS_OR_INPUT_GR...
+    ^^^^^
+505 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_buffer_
+  col_buffer_.Resize(output_image_size, kernel_dim); ...
+  ^^^^^^^^^^^
+591 | 2 13 | col_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(vector<TIndex>(1, output_image_s...
+      ^^^^^^^^^^^^^^^^
+610 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* dX = Output(no_bias_ ? BIAS_OR_INPUT_GR...
+    ^^^^^
+670 | 4 9 | auto* | This sentence does not start with an uppercase letter
+

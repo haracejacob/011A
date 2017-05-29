@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Especially
+especially for layers with large weight matrices. ...
+^^^^^^^^^^
+18 | 0 10 | especially | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Layer
+layer. Given the input sizes (inp_sizes), out...
+^^^^^
+20 | 0 5 | layer | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,14 @@
+Line 1, column 20, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+#   cmake $(python ../scripts/get_python_libs.py) .. 
+                   ^^
+10 | 19 21 | .. | Two consecutive dots
+
+Line 1, column 51, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...$(python ../scripts/get_python_libs.py) .. 
+                                           ^^
+10 | 50 52 | .. | Two consecutive dots
+

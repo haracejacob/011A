@@ -1,0 +1,147 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestMuji(test_util.TestCase): 
+^^^^^
+7 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = core.Net("mujitest") 
+        ^^^
+10 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.ConstantFill( 
+            ^^^
+12 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=muji
+                device_option=muji.OnGPU(id) 
+                ^^^^^^^^^^^^^^^^^^
+17 | 16 34 | device_option=muji | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(net) 
+        ^^^^^^^^^
+23 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_blobs
+        all_blobs = workspace.Blobs() 
+        ^^^^^^^^^
+25 | 8 17 | all_blobs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+            print('{} {}'.format(blob, workspace.FetchBlo...
+            ^^^^^
+28 | 12 17 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+            blob = workspace.FetchBlob("testblob_gpu_" +...
+            ^^^^
+31 | 12 16 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.RunningAllreduceWithGPUs( 
+        ^^^^
+39 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Range
+            range(workspace.NumCudaDevices()), muji.Allre...
+            ^^^^^
+40 | 12 17 | range | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for i in range(workspace.NumCudaDevices()):...
+        ^^^
+44 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.RunningAllreduceWithGPUs([i], muji.Allr...
+            ^^^^
+45 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pattern
+        pattern = workspace.GetCudaPeerAccessPattern() ...
+        ^^^^^^^
+48 | 8 15 | pattern | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.RunningAllreduceWithGPUs([0, 1], muji.A...
+            ^^^^
+50 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+            print('Skipping allreduce with 2 gpus. Not pe...
+            ^^^^^
+52 | 12 17 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pattern
+        pattern = workspace.GetCudaPeerAccessPattern() ...
+        ^^^^^^^
+55 | 8 15 | pattern | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.RunningAllreduceWithGPUs([0, 1, 2, 3], ...
+            ^^^^
+57 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+            print('Skipping allreduce with 4 gpus. Not pe...
+            ^^^^^
+59 | 12 17 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pattern
+        pattern = workspace.GetCudaPeerAccessPattern() ...
+        ^^^^^^^
+62 | 8 15 | pattern | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.RunningAllreduceWithGPUs(range(8), muji...
+            ^^^^
+67 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+            print('Skipping allreduce with 8 gpus. Not pe...
+            ^^^^^
+69 | 12 17 | print | This sentence does not start with an uppercase letter
+
