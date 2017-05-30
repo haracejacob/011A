@@ -11,7 +11,7 @@ locale:             en_US
 url:                https://17-1-skku-oss.github.io/011A/
 
 # file dir
-source:       ./static_page/
+source:       ./static_page
 destination:  ./static_page/_site
 plugins_dir:  ./static_page/_plugins
 layouts_dir:  ./static_page/_layouts
