@@ -9,7 +9,15 @@ background:         'static_page/assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://17-1-skku-oss.github.io/011A/
-source:             .static_page/
+
+# file dir
+source:       ./static_page/
+destination:  ./static_page/_site
+plugins_dir:  ./static_page/_plugins
+layouts_dir:  ./static_page/_layouts
+data_dir:     ./static_page/_data
+includes_dir: ./static_page/_includes
+collections:  null
 
 # Jekyll
 permalink:          /:title/
