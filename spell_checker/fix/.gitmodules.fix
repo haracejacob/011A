@@ -1,0 +1,890 @@
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/pybind11"] 
+ ^^^^^^^^^
+0 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/pybind11"] 
+           ^
+0 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/pybind11"] 
+            ^^^^^^^^^^^
+0 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 33, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/pybind11"] 
+                                ^
+0 | 32 33 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/pybind11 
+        ^^^^^^^^^^^
+1 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/pybind/pybind11.gi...
+ ^^^
+2 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/nccl"] 
+ ^^^^^^^^^
+3 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/nccl"] 
+           ^
+3 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/nccl"] 
+            ^^^^^^^^^^^
+3 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: eccl
+[submodule "third_party/nccl"] 
+                        ^^^^
+3 | 24 28 | nccl | Possible spelling mistake found
+
+Line 1, column 29, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/nccl"] 
+                            ^
+3 | 28 29 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/nccl 
+        ^^^^^^^^^^^
+4 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: eccl
+ path = third_party/nccl 
+                    ^^^^
+4 | 20 24 | nccl | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/nvidia/nccl.git 
+ ^^^
+5 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/cnmem"] 
+ ^^^^^^^^^
+6 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/cnmem"] 
+           ^
+6 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/cnmem"] 
+            ^^^^^^^^^^^
+6 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/cnmem"] 
+                        ^^^^^
+6 | 24 29 | cnmem | Possible spelling mistake found
+
+Line 1, column 30, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/cnmem"] 
+                             ^
+6 | 29 30 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/cnmem 
+        ^^^^^^^^^^^
+7 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/cnmem 
+                    ^^^^^
+7 | 20 25 | cnmem | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/nvidia/cnmem.git 
+ ^^^
+8 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/cub"] 
+ ^^^^^^^^^
+9 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/cub"] 
+           ^
+9 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/cub"] 
+            ^^^^^^^^^^^
+9 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 28, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/cub"] 
+                           ^
+9 | 27 28 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/cub 
+        ^^^^^^^^^^^
+10 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/NVlabs/cub.git 
+ ^^^
+11 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/eigen"] 
+ ^^^^^^^^^
+12 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/eigen"] 
+           ^
+12 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/eigen"] 
+            ^^^^^^^^^^^
+12 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/eigen"] 
+                        ^^^^^
+12 | 24 29 | eigen | Possible spelling mistake found
+
+Line 1, column 30, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/eigen"] 
+                             ^
+12 | 29 30 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/eigen 
+        ^^^^^^^^^^^
+13 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/eigen 
+                    ^^^^^
+13 | 20 25 | eigen | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/RLovelett/eigen.gi...
+ ^^^
+14 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/googletest"] 
+ ^^^^^^^^^
+15 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/googletest"] 
+           ^
+15 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/googletest"] 
+            ^^^^^^^^^^^
+15 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/googletest"] 
+                        ^^^^^^^^^^
+15 | 24 34 | googletest | Possible spelling mistake found
+
+Line 1, column 35, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/googletest"] 
+                                  ^
+15 | 34 35 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/googletest 
+        ^^^^^^^^^^^
+16 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/googletest 
+                    ^^^^^^^^^^
+16 | 20 30 | googletest | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/google/googletest....
+ ^^^
+17 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/nervanagpu"] 
+ ^^^^^^^^^
+18 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/nervanagpu"] 
+           ^
+18 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/nervanagpu"] 
+            ^^^^^^^^^^^
+18 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/nervanagpu"] 
+                        ^^^^^^^^^^
+18 | 24 34 | nervanagpu | Possible spelling mistake found
+
+Line 1, column 35, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/nervanagpu"] 
+                                  ^
+18 | 34 35 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/nervanagpu 
+        ^^^^^^^^^^^
+19 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/nervanagpu 
+                    ^^^^^^^^^^
+19 | 20 30 | nervanagpu | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/NervanaSystems/ner...
+ ^^^
+20 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/benchmark"] 
+ ^^^^^^^^^
+21 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/benchmark"] 
+           ^
+21 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/benchmark"] 
+            ^^^^^^^^^^^
+21 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 34, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/benchmark"] 
+                                 ^
+21 | 33 34 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/benchmark 
+        ^^^^^^^^^^^
+22 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/google/benchmark.g...
+ ^^^
+23 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/protobuf"] 
+ ^^^^^^^^^
+24 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/protobuf"] 
+           ^
+24 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/protobuf"] 
+            ^^^^^^^^^^^
+24 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/protobuf"] 
+                        ^^^^^^^^
+24 | 24 32 | protobuf | Possible spelling mistake found
+
+Line 1, column 33, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/protobuf"] 
+                                ^
+24 | 32 33 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/protobuf 
+        ^^^^^^^^^^^
+25 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/protobuf 
+                    ^^^^^^^^
+25 | 20 28 | protobuf | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/google/protobuf.gi...
+ ^^^
+26 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/android-cmake"] 
+ ^^^^^^^^^
+27 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/android-cmake"] 
+           ^
+27 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/android-cmake"] 
+            ^^^^^^^^^^^
+27 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/android-cmake"] 
+                        ^^^^^^^^^^^^^
+27 | 24 37 | android-cmake | Possible spelling mistake found
+
+Line 1, column 38, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/android-cmake"] 
+                                     ^
+27 | 37 38 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/android-cmake 
+        ^^^^^^^^^^^
+28 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/android-cmake 
+                    ^^^^^^^^^^^^^
+28 | 20 33 | android-cmake | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/taka-no-me/android...
+ ^^^
+29 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/ios-cmake"] 
+ ^^^^^^^^^
+30 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/ios-cmake"] 
+           ^
+30 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/ios-cmake"] 
+            ^^^^^^^^^^^
+30 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/ios-cmake"] 
+                        ^^^^^^^^^
+30 | 24 33 | ios-cmake | Possible spelling mistake found
+
+Line 1, column 34, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/ios-cmake"] 
+                                 ^
+30 | 33 34 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/ios-cmake 
+        ^^^^^^^^^^^
+31 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/ios-cmake 
+                    ^^^^^^^^^
+31 | 20 29 | ios-cmake | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/Yangqing/ios-cmake...
+ ^^^
+32 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/NNPACK"] 
+ ^^^^^^^^^
+33 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/NNPACK"] 
+           ^
+33 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK"] 
+            ^^^^^^^^^^^
+33 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: unpack
+[submodule "third_party/NNPACK"] 
+                        ^^^^^^
+33 | 24 30 | NNPACK | Possible spelling mistake found
+
+Line 1, column 31, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/NNPACK"] 
+                              ^
+33 | 30 31 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK 
+        ^^^^^^^^^^^
+34 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: unpack
+ path = third_party/NNPACK 
+                    ^^^^^^
+34 | 20 26 | NNPACK | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/Maratyszcza/NNPACK...
+ ^^^
+35 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/gloo"] 
+ ^^^^^^^^^
+36 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/gloo"] 
+           ^
+36 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/gloo"] 
+            ^^^^^^^^^^^
+36 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: glob; gloom; glop; glow; goo; igloo; loo
+[submodule "third_party/gloo"] 
+                        ^^^^
+36 | 24 28 | gloo | Possible spelling mistake found
+
+Line 1, column 29, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+[submodule "third_party/gloo"] 
+                            ^
+36 | 28 29 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/gloo 
+        ^^^^^^^^^^^
+37 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: glob; gloom; glop; glow; goo; igloo; loo
+ path = third_party/gloo 
+                    ^^^^
+37 | 20 24 | gloo | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/facebookincubator/...
+ ^^^
+38 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/NNPACK_deps/pthreadpool"] ...
+ ^^^^^^^^^
+39 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/NNPACK_deps/pthreadpool"] 
+           ^
+39 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/pthreadpool"] 
+            ^^^^^^^^^^^
+39 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/pthreadpool"] 
+                        ^^^^^^^^^^^
+39 | 24 35 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 37, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/pthreadpool"] 
+                                    ^^^^^^^^^^^
+39 | 36 47 | pthreadpool | Possible spelling mistake found
+
+Line 1, column 48, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+...ule "third_party/NNPACK_deps/pthreadpool"] 
+                                           ^
+39 | 47 48 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/pthreadpool 
+        ^^^^^^^^^^^
+40 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/pthreadpool 
+                    ^^^^^^^^^^^
+40 | 20 31 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 33, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/pthreadpool 
+                                ^^^^^^^^^^^
+40 | 32 43 | pthreadpool | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/Maratyszcza/pthrea...
+ ^^^
+41 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/NNPACK_deps/FXdiv"] 
+ ^^^^^^^^^
+42 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/NNPACK_deps/FXdiv"] 
+           ^
+42 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/FXdiv"] 
+            ^^^^^^^^^^^
+42 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/FXdiv"] 
+                        ^^^^^^^^^^^
+42 | 24 35 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 37, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/FXdiv"] 
+                                    ^^^^^
+42 | 36 41 | FXdiv | Possible spelling mistake found
+
+Line 1, column 42, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+...submodule "third_party/NNPACK_deps/FXdiv"] 
+                                           ^
+42 | 41 42 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/FXdiv 
+        ^^^^^^^^^^^
+43 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/FXdiv 
+                    ^^^^^^^^^^^
+43 | 20 31 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 33, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/FXdiv 
+                                ^^^^^
+43 | 32 37 | FXdiv | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/Maratyszcza/FXdiv....
+ ^^^
+44 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/NNPACK_deps/FP16"] 
+ ^^^^^^^^^
+45 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/NNPACK_deps/FP16"] 
+           ^
+45 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/FP16"] 
+            ^^^^^^^^^^^
+45 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/FP16"] 
+                        ^^^^^^^^^^^
+45 | 24 35 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 41, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+...[submodule "third_party/NNPACK_deps/FP16"] 
+                                           ^
+45 | 40 41 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/FP16 
+        ^^^^^^^^^^^
+46 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/FP16 
+                    ^^^^^^^^^^^
+46 | 20 31 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/Maratyszcza/FP16.g...
+ ^^^
+47 | 1 4 | url | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: sub module
+[submodule "third_party/NNPACK_deps/psimd"] 
+ ^^^^^^^^^
+48 | 1 10 | submodule | Possible spelling mistake found
+
+Line 1, column 12, Rule ID: EN_QUOTES[1]
+Message: Use a smart opening quote here: '“'.
+Suggestion: “
+[submodule "third_party/NNPACK_deps/psimd"] 
+           ^
+48 | 11 12 | " | Use a smart opening quote here: '“'.
+
+Line 1, column 13, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/psimd"] 
+            ^^^^^^^^^^^
+48 | 12 23 | third_party | Possible spelling mistake found
+
+Line 1, column 25, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/psimd"] 
+                        ^^^^^^^^^^^
+48 | 24 35 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 37, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+[submodule "third_party/NNPACK_deps/psimd"] 
+                                    ^^^^^
+48 | 36 41 | psimd | Possible spelling mistake found
+
+Line 1, column 42, Rule ID: EN_QUOTES[2]
+Message: Use a smart closing quote here: '”'.
+Suggestion: ”
+...submodule "third_party/NNPACK_deps/psimd"] 
+                                           ^
+48 | 41 42 | " | Use a smart closing quote here: '”'.
+
+Line 1, column 9, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/psimd 
+        ^^^^^^^^^^^
+49 | 8 19 | third_party | Possible spelling mistake found
+
+Line 1, column 21, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/psimd 
+                    ^^^^^^^^^^^
+49 | 20 31 | NNPACK_deps | Possible spelling mistake found
+
+Line 1, column 33, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+ path = third_party/NNPACK_deps/psimd 
+                                ^^^^^
+49 | 32 37 | psimd | Possible spelling mistake found
+
+Line 1, column 2, Rule ID: MORFOLOGIK_RULE_EN_US
+Message: Possible spelling mistake found
+Suggestion: Burl; burl; curl; furl; hurl; purl; urn
+ url = https://github.com/Maratyszcza/psimd....
+ ^^^
+50 | 1 4 | url | Possible spelling mistake found
+
