@@ -1,0 +1,56 @@
+Line 1, column 6, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+  sh ../scripts/build_android.sh 
+     ^^
+14 | 5 7 | .. | Two consecutive dots
+
+Line 1, column 6, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+  sh ../scripts/build_ios.sh -DCMAKE_OSX_ARCHIT...
+     ^^
+22 | 5 7 | .. | Two consecutive dots
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cmake
+  cmake .. \ 
+  ^^^^^
+27 | 2 7 | cmake | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+  cmake .. \ 
+        ^^
+27 | 8 10 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cmake
+    cmake .. \ 
+    ^^^^^
+36 | 4 9 | cmake | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+    cmake .. \ 
+          ^^
+36 | 10 12 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cmake
+    cmake .. \ 
+    ^^^^^
+42 | 4 9 | cmake | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+    cmake .. \ 
+          ^^
+42 | 10 12 | .. | Two consecutive dots
+
