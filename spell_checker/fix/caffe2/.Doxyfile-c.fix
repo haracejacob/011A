@@ -1,0 +1,158 @@
+Line 1, column 46, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+...umentation (similar to Javadoc). Set to NO to disable this. 
+                                           ^^
+97 | 45 47 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 46, Rule ID: THE_SENT_END[1]
+Message: Did you forget something after 'the'?
+...cifies, contains, represents, a, an and the. 
+                                           ^^^^
+118 | 45 49 | the. | Did you forget something after 'the'?
+
+Line 1, column 73, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+...list and in the header files. If set to NO the 
+                                           ^^
+148 | 72 74 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 61, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+...he Public Functions section). Set it to NO to prevent 
+                                           ^^
+373 | 60 62 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 7, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+# is 0..9, the default is 0, corresponding to a ...
+      ^^
+418 | 6 8 | .. | Two consecutive dots
+
+Line 1, column 70, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+... documented classes or files. If set to NO these 
+                                           ^^
+483 | 69 71 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 44, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: case-sensitive
+...n case and if your file system supports case sensitive file names. Windows 
+                                           ^^^^^^^^^^^^^^
+522 | 43 57 | case sensitive | This word is normally spelled with hyphen.
+
+Line 1, column 43, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+...destructors are listed first. If set to NO the constructors will appear in the 
+                                           ^^
+584 | 42 44 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 38, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+# Note: If SORT_BRIEF_DOCS is set to NO this option is ignored for sorting brie...
+                                     ^^
+586 | 37 39 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 39, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+# Note: If SORT_MEMBER_DOCS is set to NO this option is ignored for sorting 
+                                      ^^
+588 | 38 40 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 53, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+...ames into alphabetical order. If set to NO the group names will 
+                                           ^^
+595 | 52 54 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 34, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+# Set the SHOW_USED_FILES tag to NO to disable the list of files generated ...
+                                 ^^
+663 | 33 35 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 29, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+# Set the SHOW_FILES tag to NO to disable the generation of the Files ...
+                            ^^
+670 | 28 30 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 34, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+# Set the SHOW_NAMESPACES tag to NO to disable the generation of the Namesp...
+                                 ^^
+677 | 33 35 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 16, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: command
+# popen()) the command command input-file, where command is the value ...
+               ^^^^^^^^^^^^^^^
+687 | 15 30 | command command | Possible typo: you repeated a word
+
+Line 1, column 21, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+# specified. Set to NO to disable this. 
+                    ^^
+1061 | 20 22 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 52, Rule ID: WILL_IN_THE_FUTURE[1]
+Message: Use simply 'will'.
+Suggestion: will
+...e robust and this tag (HTML_STYLESHEET) will in the future become 
+                                           ^^^^^^^^^^^^^^^^^^
+1153 | 51 69 | will in the future | Use simply 'will'.
+
+Line 1, column 59, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun make seems to be countable, so consider using: '100 makes'.
+Suggestion: 100 makes
+...he output lighter, whereas values above 100 make the output 
+                                           ^^^^^^^^
+1203 | 58 66 | 100 make | Possible agreement error. The noun make seems to be countable, so consider using: '100 makes'.
+
+Line 1, column 29, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+# MATHJAX_RELPATH should be ../mathjax. The default value points to th...
+                            ^^
+1538 | 28 30 | .. | Two consecutive dots
+
+Line 1, column 6, Rule ID: NOW[2]
+Message: Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+Suggestion: Now
+# to NO can help when comparing the output of m...
+     ^^
+1811 | 5 7 | NO | Did you mean 'now' (=at this moment) instead of 'no' (negation)?
+
+Line 1, column 36, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+# INCLUDE_PATH will be searched if a #include is found. 
+                                   ^
+2059 | 35 36 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 32, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+# http://www.graphviz.org/), a graph visualization toolkit from AT&T and Lucent 
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2198 | 31 58 | graph visualization toolkit | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 43, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+...DOT_GRAPH_MAX_NODES. Using a depth of 0 means no depth restriction. 
+                                           ^^^^^^^^^^^^^^
+2438 | 42 56 | means no depth | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
