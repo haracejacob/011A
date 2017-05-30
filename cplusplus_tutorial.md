@@ -1,5 +1,5 @@
 # A Basic Console Program by C++ using Caffe2
-There are only few documents which explain how to apply Caffe2 using C++. So in this document, I'll introduce the way to make a simplest console program which includes some of headers of Caffe2 sources. You can approach other tutorials from sample programs which will be introduced in this this document.
+There are only few documents which explain how to apply Caffe2 using C++. So in this document, I'll introduce the way to prepare to make a caffe2 program: how to set the properties of the program for Caffe2 using C++, especially VC++ in windows. You can approach other tutorials from sample programs which will be introduced in this this document.
 
 ----
 ## 1. Things you need to prepare
