@@ -1,0 +1,49 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with core.DeviceScope(core.DeviceOption(caff...
+    ^^^^
+13 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: T_own
+                    t_own = lstm_benchmark.Benchmark(args) 
+                    ^^^^^
+24 | 20 25 | t_own | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                    workspace.ResetWorkspace() 
+                    ^^^^^^^^^
+25 | 20 29 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: T_cudnn
+                    t_cudnn = lstm_benchmark.Benchmark(args) 
+                    ^^^^^^^
+27 | 20 27 | t_cudnn | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                    workspace.ResetWorkspace() 
+                    ^^^^^^^^^
+28 | 20 29 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Args
+    args = lstm_benchmark.GetArgumentParser().pa...
+    ^^^^
+50 | 4 8 | args | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.GlobalInit([ 
+    ^^^^^^^^^
+52 | 4 13 | workspace | This sentence does not start with an uppercase letter
+

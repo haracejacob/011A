@@ -1,0 +1,62 @@
+Line 1, column 8, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+// The Blob serialization registry and serializer creator functions. 
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+24 | 7 34 | Blob serialization registry | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_proto
+        blob_proto.SerializeAsString()); 
+        ^^^^^^^^^^
+214 | 8 18 | blob_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+    while (chunkQueue.Pop(&chunkStart)) { 
+    ^^^^^
+223 | 4 9 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: ChunkQueue
+      chunkQueue.Push(chunkBegin); 
+      ^^^^^^^^^^
+243 | 6 16 | chunkQueue | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: ChunkQueue
+  chunkQueue.NoMoreJobs(); 
+  ^^^^^^^^^^
+255 | 2 12 | chunkQueue | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mutable_data
+      "mutable_data() calls. This means that it makes no se...
+       ^^^^^^^^^^^^
+280 | 7 19 | mutable_data | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Context
+  Context context(proto.device_detail()); 
+  ^^^^^^^^^^^^^^^
+402 | 2 17 | Context context | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+  context.SwitchToDevice(0); 
+  ^^^^^^^
+403 | 2 9 | context | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+  context.FinishDeviceComputation(); 
+  ^^^^^^^
+521 | 2 9 | context | This sentence does not start with an uppercase letter
+

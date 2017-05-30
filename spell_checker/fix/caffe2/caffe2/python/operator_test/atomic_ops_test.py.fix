@@ -1,0 +1,119 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+        the checksum to the value fetched. If opera...
+        ^^^
+13 | 8 11 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 57, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+... must contain the exact value of sum[i=0..20000](i). 
+                                           ^^
+16 | 56 58 | .. | Two consecutive dots
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+        init_net = core.Net('init') 
+        ^^^^^^^^
+18 | 8 16 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mutex_countdown
+        mutex_countdown = init_net.CreateMutex([]) 
+        ^^^^^^^^^^^^^^^
+19 | 8 23 | mutex_countdown | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mutex_checksum
+        mutex_checksum = init_net.CreateMutex([]) 
+        ^^^^^^^^^^^^^^
+20 | 8 22 | mutex_checksum | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Countdown
+        countdown = init_net.ConstantFill([], shape=[], v...
+        ^^^^^^^^^
+21 | 8 17 | countdown | This sentence does not start with an uppercase letter
+
+Line 1, column 43, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dtype=core
+...                                        dtype=core.DataType.INT32) 
+                                           ^^^^^^^^^^
+22 | 42 52 | dtype=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Checksum
+        checksum = init_net.ConstantFill( 
+        ^^^^^^^^
+23 | 8 16 | checksum | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Minus_one
+        minus_one = init_net.ConstantFill( 
+        ^^^^^^^^^
+25 | 8 17 | minus_one | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net = core.Net('net:%d' % i) 
+            ^^^
+29 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.AtomicFetchAdd( 
+            ^^^
+33 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan = core.Plan('plan') 
+        ^^^^
+40 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(core.execution_step('init', ini...
+        ^^^^
+41 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan
+        plan.AddStep(super_step) 
+        ^^^^
+42 | 8 12 | plan | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunPlan(plan) 
+        ^^^^^^^^^
+43 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+        # checksum = sum[i=1..20000](i) = 20000 * 20001 / 2 = 20001000...
+                            ^^
+44 | 28 30 | .. | Two consecutive dots
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(workspace.FetchBlob(checks...
+        ^^^^
+45 | 8 12 | self | This sentence does not start with an uppercase letter
+

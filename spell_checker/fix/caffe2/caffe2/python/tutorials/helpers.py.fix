@@ -1,0 +1,21 @@
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Answer
+                answer = "The image contains a %s with a %s pe...
+                ^^^^^^
+79 | 16 22 | answer | This sentence does not start with an uppercase letter
+
+Line 1, column 46, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...           answer = "The image contains a %s with a %s percent probability." % \ ...
+                                           ^
+79 | 45 46 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 56, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+... answer = "The image contains a %s with a %s percent probability." % \ 
+                                           ^
+79 | 55 56 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

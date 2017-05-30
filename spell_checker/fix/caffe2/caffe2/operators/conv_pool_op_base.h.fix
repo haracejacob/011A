@@ -1,0 +1,230 @@
+Line 1, column 73, Rule ID: PRP_RB_NO_VB[1]
+Message: Are you missing a verb?
+...age, are also using this base class. We really 
+                                           ^^^^^^^
+148 | 72 0 |  | Are you missing a verb?
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+    vector<int> pads = helper.GetRepeatedArgument<...
+    ^^^^^^
+368 | 4 10 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+    vector<int> kernel = helper.GetRepeatedArgumen...
+    ^^^^^^
+369 | 4 10 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+    vector<int> strides = helper.GetRepeatedArgume...
+    ^^^^^^
+370 | 4 10 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+    vector<int> dilations = helper.GetRepeatedArgu...
+    ^^^^^^
+371 | 4 10 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (helper.HasArgument("pad")) { 
+    ^^
+373 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pads
+      pads.resize(4, helper.GetSingleArgument<int>...
+      ^^^^
+374 | 6 10 | pads | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.HasArgument("pad_t") && helper.HasArgum...
+        ^^^^^^
+376 | 8 14 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.HasArgument("pad_b") && helper.HasArgum...
+        ^^^^^^
+377 | 8 14 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pads
+      pads.push_back(helper.GetSingleArgument<int>...
+      ^^^^
+378 | 6 10 | pads | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pads
+      pads.push_back(helper.GetSingleArgument<int>...
+      ^^^^
+379 | 6 10 | pads | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pads
+      pads.push_back(helper.GetSingleArgument<int>...
+      ^^^^
+380 | 6 10 | pads | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pads
+      pads.push_back(helper.GetSingleArgument<int>...
+      ^^^^
+381 | 6 10 | pads | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (helper.HasArgument("kernel")) { 
+    ^^
+384 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Kernel
+      kernel.resize(2, helper.GetSingleArgument<int>...
+      ^^^^^^
+385 | 6 12 | kernel | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.HasArgument("kernel_h") && helper.HasAr...
+        ^^^^^^
+387 | 8 14 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Kernel
+      kernel.push_back(helper.GetSingleArgument<int>...
+      ^^^^^^
+388 | 6 12 | kernel | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Kernel
+      kernel.push_back(helper.GetSingleArgument<int>...
+      ^^^^^^
+389 | 6 12 | kernel | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (helper.HasArgument("stride")) { 
+    ^^
+392 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides.resize(2, helper.GetSingleArgument<int>...
+      ^^^^^^^
+393 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.HasArgument("stride_h") && helper.HasAr...
+        ^^^^^^
+395 | 8 14 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides.push_back(helper.GetSingleArgument<int>...
+      ^^^^^^^
+396 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides.push_back(helper.GetSingleArgument<int>...
+      ^^^^^^^
+397 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (helper.HasArgument("dilation")) { 
+    ^^
+400 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides.resize(2, helper.GetSingleArgument<int>...
+      ^^^^^^^
+401 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.HasArgument("dilation_h") && helper.Has...
+        ^^^^^^
+403 | 8 14 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides.push_back(helper.GetSingleArgument<int>...
+      ^^^^^^^
+404 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Strides
+      strides.push_back(helper.GetSingleArgument<int>...
+      ^^^^^^^
+405 | 6 13 | strides | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.GetSingleArgument<int>("global_pooling"...
+        ^^^^^^
+425 | 8 14 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+            helper.GetSingleArgument<int>("legacy_pad", Le...
+            ^^^^^^
+427 | 12 18 | helper | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+                "is hit. This leads to inefficient and some...
+                 ^^
+555 | 17 19 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Results
+                "results. We are keeping this behavior for backw...
+                 ^^^^^^^
+556 | 17 24 | results | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+      tensor.Resize(vec.size()); 
+      ^^^^^^
+608 | 6 12 | tensor | This sentence does not start with an uppercase letter
+

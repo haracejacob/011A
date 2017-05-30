@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Queue_
+    queue_.NoMoreJobs(); 
+    ^^^^^^
+64 | 4 10 | queue_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Queue_
+    queue_.Push(task); 
+    ^^^^^^
+69 | 4 10 | queue_ | This sentence does not start with an uppercase letter
+

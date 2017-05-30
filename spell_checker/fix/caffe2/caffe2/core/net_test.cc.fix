@@ -1,0 +1,49 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.CreateBlob("in"); 
+  ^^
+73 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.CreateBlob("in"); 
+  ^^
+81 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.CreateBlob("in"); 
+  ^^
+89 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.CreateBlob("in"); 
+  ^^
+97 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.CreateBlob("in"); 
+  ^^
+106 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+  ws.CreateBlob("in"); 
+  ^^
+126 | 2 4 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+    ws.CreateBlob(inp); 
+    ^^
+153 | 4 6 | ws | This sentence does not start with an uppercase letter
+

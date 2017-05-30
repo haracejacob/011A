@@ -1,0 +1,125 @@
+Line 1, column 12, Rule ID: POSSESIVE_APOSTROPHE[2]
+Message: Possible typo: apostrophe is missing. Did you mean 'bytes'' or 'byte's'?
+Suggestion: bytes'; byte's
+  optional bytes data = 4; 
+           ^^^^^
+34 | 11 16 | bytes | Possible typo: apostrophe is missing. Did you mean 'bytes'' or 'byte's'?
+
+Line 1, column 13, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+  // in the solver parameter protocol buffer, and iter is the current iterati...
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+170 | 12 37 | solver parameter protocol | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Phase
+  optional Phase phase = 1 [default = TEST]; 
+           ^^^^^^^^^^^
+257 | 11 22 | Phase phase | Possible typo: you repeated a word
+
+Line 1, column 10, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Set) must be used with a third-person verb: 'phases'.
+Suggestion: phases
+  // Set phase to require the NetState have a particul...
+         ^^^^^
+263 | 9 14 | phase | The proper name in singular (Set) must be used with a third-person verb: 'phases'.
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Phase
+  optional Phase phase = 1; 
+           ^^^^^^^^^^^
+265 | 11 22 | Phase phase | Possible typo: you repeated a word
+
+Line 1, column 24, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: All the
+  // The net must have ALL of the specified stages and NONE of the specif...
+                       ^^^^^^^^^^
+273 | 23 33 | ALL of the | Simply use 'all the'.
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Phase
+  optional Phase phase = 10; 
+           ^^^^^^^^^^^
+316 | 11 22 | Phase phase | Possible typo: you repeated a word
+
+Line 1, column 10, Rule ID: MUCH_COUNTABLE[1]
+Message: Use 'many' with countable nouns.
+Suggestion: many
+  // How much does the moving average decay each iter...
+         ^^^^
+504 | 9 13 | much | Use 'many' with countable nouns.
+
+Line 1, column 12, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Small) must be used with a third-person verb: 'values'.
+Suggestion: values
+  // Small value to add to the variance estimate so that...
+           ^^^^^
+506 | 11 16 | value | The proper name in singular (Small) must be used with a third-person verb: 'values'.
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 15 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+587 | 11 24 | Engine engine | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Norm
+  optional Norm norm = 1 [default = L1]; 
+           ^^^^^^^^^
+766 | 11 20 | Norm norm | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 6 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+856 | 11 24 | Engine engine | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 11 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+904 | 11 24 | Engine engine | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 2 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+992 | 11 24 | Engine engine | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 1 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+1102 | 11 24 | Engine engine | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 1 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+1123 | 11 24 | Engine engine | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 1 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+1137 | 11 24 | Engine engine | Possible typo: you repeated a word
+
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Engine
+  optional Engine engine = 6 [default = DEFAULT]; 
+           ^^^^^^^^^^^^^
+1200 | 11 24 | Engine engine | Possible typo: you repeated a word
+

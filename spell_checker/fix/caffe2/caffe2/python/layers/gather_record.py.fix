@@ -1,0 +1,112 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blobs
+    blobs in `record`. If a blob is a values blob...
+    ^^^^^
+14 | 4 9 | blobs | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Included
+    included by the list's lengths blob are gathered...
+    ^^^^^^^^
+15 | 4 12 | included | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.NewRecord( 
+        ^^^^
+37 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Gather([record(), self._indices], outpu...
+            ^^^
+44 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.LengthsGather([record(), lengths_blob, ...
+            ^^^
+46 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lengths_float
+            lengths_float = net.Cast( 
+            ^^^^^^^^^^^^^
+61 | 12 25 | lengths_float | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.NextScopedBlob(str(record.lengths()) + ...
+                ^^^
+63 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To=core
+                to=core.DataType.FLOAT, 
+                ^^^^^^^
+64 | 16 23 | to=core | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lengths_blob_float
+            lengths_blob_float = net.LengthsSum( 
+            ^^^^^^^^^^^^^^^^^^
+66 | 12 30 | lengths_blob_float | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.NextScopedBlob(str(record.lengths()) + ...
+                ^^^
+68 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lengths_blob
+            lengths_blob = net.Cast( 
+            ^^^^^^^^^^^^
+70 | 12 24 | lengths_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.NextScopedBlob(str(record.lengths()) + ...
+                ^^^
+72 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To=core
+                to=core.DataType.INT32, 
+                ^^^^^^^
+73 | 16 23 | to=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if isinstance(record, schema.Scalar): 
+        ^^
+78 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+        elif isinstance(record, schema.Struct): 
+        ^^^^
+80 | 8 12 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+        elif isinstance(record, schema.List): 
+        ^^^^
+82 | 8 12 | elif | This sentence does not start with an uppercase letter
+

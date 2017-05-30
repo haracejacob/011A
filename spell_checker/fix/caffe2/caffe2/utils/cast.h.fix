@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (helper.HasSingleArgumentOfType<string>...
+  ^^
+10 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+    string s = helper.GetSingleArgument<string>(ar...
+    ^^^^^^
+12 | 4 10 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Helper
+        helper.GetSingleArgument<int>(arg, TensorProto...
+        ^^^^^^
+20 | 8 14 | helper | This sentence does not start with an uppercase letter
+

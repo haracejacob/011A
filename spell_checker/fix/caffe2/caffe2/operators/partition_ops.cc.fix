@@ -1,0 +1,56 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Values
+values modulo the number of partitions. It req...
+^^^^^^
+16 | 0 6 | values | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Integral
+integral type. The number of partitions is deriv...
+^^^^^^^^
+17 | 0 8 | integral | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input
+input, optionally with extra trailing dimensi...
+^^^^^
+20 | 0 5 | input | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Second
+second tensor. The first dimension is expected...
+^^^^^^
+51 | 0 6 | second | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Values
+values modulo the number of partitions. It req...
+^^^^^^
+55 | 0 6 | values | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+a 1D-tensor of the integral type. The fir...
+^
+56 | 0 1 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: That
+that would represent the lengths of the elem...
+^^^^
+57 | 0 4 | that | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input
+input, optionally with extra trailing dimensi...
+^^^^^
+61 | 0 5 | input | This sentence does not start with an uppercase letter
+

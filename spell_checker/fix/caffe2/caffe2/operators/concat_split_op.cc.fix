@@ -1,0 +1,28 @@
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Axis
+    'axis'. The lengths of the split can be speci...
+     ^^^^
+15 | 5 9 | axis | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Optional
+    optional second input blob to the operator. Othe...
+    ^^^^^^^^
+16 | 4 12 | optional | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+      if (!GradOut(i).IsEmpty()) { 
+      ^^
+45 | 6 8 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (GradOut(0).IsEmpty()) { 
+    ^^
+63 | 4 6 | if | This sentence does not start with an uppercase letter
+

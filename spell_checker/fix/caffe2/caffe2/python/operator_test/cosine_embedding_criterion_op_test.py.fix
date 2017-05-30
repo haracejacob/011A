@@ -1,0 +1,21 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestCosineEmbeddingCriterion(hu.Hypothe...
+^^^^^
+13 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+22 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 62, Rule ID: LITTLE_BIT[1]
+Message: Reduce redundancy by using 'little' or 'bit'.
+Suggestion: little; bit
+...ove the S vector away from the margin a little bit. This 
+                                           ^^^^^^^^^^
+38 | 61 71 | little bit | Reduce redundancy by using 'little' or 'bit'.
+

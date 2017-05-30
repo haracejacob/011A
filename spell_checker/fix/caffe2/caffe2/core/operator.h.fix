@@ -1,0 +1,154 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return arg_helper_.HasArgument(name); 
+    ^^^^^^
+31 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Enf
+      enf.AppendMessage(".\nOffending Blob name: ...
+      ^^^
+58 | 6 9 | enf | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Enf
+      enf.AppendMessage(operator_def_.input(idx))...
+      ^^^
+59 | 6 9 | enf | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Enf
+      enf.AppendMessage(".\n"); 
+      ^^^
+60 | 6 9 | enf | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.SwitchToDevice(0); 
+    ^^^^^^^^
+178 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.SwitchToDevice(stream_id); 
+      ^^^^^^^^
+193 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bool
+      bool finished = context_.FinishDeviceComputa...
+      ^^^^
+195 | 6 10 | bool | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Err
+      err.AppendMessage("Error from operator: \n"...
+      ^^^
+205 | 6 9 | err | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.SwitchToDevice(stream_id); 
+      ^^^^^^^^
+213 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Err
+      err.AppendMessage("Error from operator: \n"...
+      ^^^
+216 | 6 9 | err | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename FirstArg, typename... ExtraAr...
+  ^^^^^^^^
+282 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <int... Values> 
+^^^^^^^^
+285 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <typename... Types> 
+^^^^^^^^
+288 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <typename... Types> 
+^^^^^^^^
+298 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <typename Sizes, typename... ExtraArgs>...
+^^^^^^^^
+301 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <int FirstVal, int... Values, typename....
+^^^^^^^^
+304 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <typename... ExtraArgs> 
+^^^^^^^^
+316 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename FirstType, typename... Types,...
+  ^^^^^^^^
+326 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+      if (meta.Match<FirstType>()) {            ...
+      ^^
+333 | 6 8 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename... ExtraArgs>                ...
+  ^^^^^^^^
+345 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename... ExtraArgs>                ...
+  ^^^^^^^^
+357 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To
+        "to be linked with whole-static library opt...
+         ^^
+471 | 9 11 | to | This sentence does not start with an uppercase letter
+

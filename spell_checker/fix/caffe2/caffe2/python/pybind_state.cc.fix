@@ -1,0 +1,77 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return py::bytes(blob.Get<string>()); 
+    ^^^^^^
+47 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return it == numpy_type_map.end() ? -1 : it->s...
+  ^^^^^^
+72 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 8, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sizeof
+       sizeof(long) == sizeof(int) ? TypeMeta::Make<i...
+       ^^^^^^
+86 | 7 13 | sizeof | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return it == caffe_type_map.end() ? unknown_ty...
+  ^^^^^^
+98 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+      " is not available. If you use distributed t...
+        ^^
+141 | 8 10 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Coded_stream
+  coded_stream.SetTotalBytesLimit(1024LL << 20, 512LL ...
+  ^^^^^^^^^^^^
+289 | 2 14 | coded_stream | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return blob.Serialize(name); 
+            ^^^^^^
+303 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+            auto res = TensorFetcher<CPUContext>().Fetch...
+            ^^^^
+367 | 12 16 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+            if (!PyArray_Check(obj.ptr())) { 
+            ^^
+375 | 12 14 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+            auto res = TensorFetcher<CPUContext>().Fetch...
+            ^^^^
+386 | 12 16 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Grad_ops
+          grad_ops.push_back(op.SerializeAsString()); 
+          ^^^^^^^^
+510 | 10 18 | grad_ops | This sentence does not start with an uppercase letter
+

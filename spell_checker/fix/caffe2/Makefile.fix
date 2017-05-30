@@ -1,0 +1,14 @@
+Line 1, column 39, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+ @mkdir -p build && cd build && cmake .. $(shell python ./scripts/get_python_cma...
+                                      ^^
+3 | 38 40 | .. | Two consecutive dots
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Echo
+  echo "Cloc is not available on the machine. ...
+  ^^^^
+19 | 2 6 | echo | This sentence does not start with an uppercase letter
+

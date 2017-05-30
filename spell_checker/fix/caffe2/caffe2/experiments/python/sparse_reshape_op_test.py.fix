@@ -1,0 +1,105 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+    op = core.CreateOperator('SparseMatrixResh...
+    ^^
+21 | 4 6 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.FeedBlob(blob_in0, old_col.astype(np.in...
+    ^^^^^^^^^
+32 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.FeedBlob(blob_in1, old_row.astype(np.in...
+    ^^^^^^^^^
+33 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunOperatorOnce(op) 
+    ^^^^^^^^^
+35 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_out
+    col_out = workspace.FetchBlob(blob_out0) 
+    ^^^^^^^
+40 | 4 11 | col_out | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Row_out
+    row_out = workspace.FetchBlob(blob_out1) 
+    ^^^^^^^
+41 | 4 11 | row_out | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+        idx0, idx1, a = A_coo.row, A_coo.col, A_coo.data 
+                    ^
+63 | 20 21 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('col', idx1.astype(np.int64)) ...
+        ^^^^^^^^^
+66 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('row', idx0.astype(np.int32)) ...
+        ^^^^^^^^^
+67 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('B', B) 
+        ^^^^^^^^^
+68 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob('a', a) 
+        ^^^^^^^^^
+69 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reshape_op
+        reshape_op = core.CreateOperator( 
+        ^^^^^^^^^^
+71 | 8 18 | reshape_op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mm_op
+        mm_op = core.CreateOperator( 
+        ^^^^^
+78 | 8 13 | mm_op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorOnce(reshape_op) 
+        ^^^^^^^^^
+83 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunOperatorOnce(mm_op) 
+        ^^^^^^^^^
+84 | 8 17 | workspace | This sentence does not start with an uppercase letter
+

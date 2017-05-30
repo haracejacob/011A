@@ -1,0 +1,105 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with NNPACK. Sup...
+    ^^^^^^^
+56 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with glog. Suppr...
+    ^^^^^^^
+69 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with gflags. Sup...
+    ^^^^^^^
+82 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with LMDB. Suppr...
+    ^^^^^^^
+109 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with LevelDB. Su...
+    ^^^^^^^
+125 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with RocksDB. Su...
+    ^^^^^^^
+137 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with ZMQ. Suppre...
+    ^^^^^^^
+149 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with Redis. Supp...
+    ^^^^^^^
+161 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with OpenCV. Sup...
+    ^^^^^^^
+180 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message("Not compiling with FFmpeg. Suppress th...
+    ^^^^^^^
+193 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Python dependencies not met. N...
+    ^^^^^^^
+217 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 34, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+      HINTS ${MPI_CXX_LIBRARIES}/../bin) 
+                                 ^^
+244 | 33 35 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with MPI. Suppre...
+    ^^^^^^^
+256 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with OpenMP. Sup...
+    ^^^^^^^
+270 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(WARNING "Not compiling with CUDA. Suppr...
+    ^^^^^^^
+304 | 4 11 | message | This sentence does not start with an uppercase letter
+

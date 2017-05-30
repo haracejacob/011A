@@ -1,0 +1,189 @@
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                    schema.Scalar( 
+                    ^^^^^^
+36 | 20 26 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 25, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                        model.net.NextScopedBlob(name + '_' + field +...
+                        ^^^^^
+38 | 24 29 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                    schema.Struct( 
+                    ^^^^^^
+44 | 20 26 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                            schema.Scalar( 
+                            ^^^^^^
+46 | 28 34 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 33, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                                model.net.NextScopedBlob( 
+                                ^^^^^
+51 | 32 37 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                         schema.Scalar(np.int64, 
+                         ^^^^^^
+56 | 25 31 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 40, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                                       model.net.NextScopedBlob( 
+                                       ^^^^^
+57 | 39 44 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                    schema.Struct( 
+                    ^^^^^^
+66 | 20 26 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                            schema.Scalar( 
+                            ^^^^^^
+68 | 28 34 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 33, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                                model.net.NextScopedBlob( 
+                                ^^^^^
+73 | 32 37 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                         schema.Scalar(np.int64, 
+                         ^^^^^^
+78 | 25 31 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 40, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                                       model.net.NextScopedBlob( 
+                                       ^^^^^
+79 | 39 44 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                         schema.Scalar(np.float32, 
+                         ^^^^^^
+84 | 25 31 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 40, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                                       model.net.NextScopedBlob( 
+                                       ^^^^^
+85 | 39 44 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 27, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: it
+        # something using it it should support ranges as well. It might...
+                          ^^^^^
+97 | 26 31 | it it | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Struct( 
+        ^^^^
+100 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+                schema.Metadata( 
+                ^^^^^^
+112 | 16 22 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.SparseToDenseMask( 
+                ^^^
+123 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Id_list_ranges
+                id_list_ranges = net.LengthsToRanges( 
+                ^^^^^^^^^^^^^^
+136 | 16 30 | id_list_ranges | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                    net.NextScopedBlob('id_list_ranges') 
+                    ^^^
+138 | 20 23 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.SparseToDenseMask( 
+                ^^^
+140 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.Alias(record[field].values.items(), 
+                ^^^
+153 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Id_list_ranges
+                id_list_ranges = net.LengthsToRanges( 
+                ^^^^^^^^^^^^^^
+157 | 16 30 | id_list_ranges | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                    net.NextScopedBlob('id_score_list_ranges') ...
+                    ^^^
+159 | 20 23 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.SparseToDenseMask( 
+                ^^^
+161 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.Alias(record[field].values.keys(), 
+                ^^^
+174 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.Alias(record[field].values.values(), 
+                ^^^
+176 | 16 19 | net | This sentence does not start with an uppercase letter
+

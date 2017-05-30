@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mkl_do
+mkl_do = caffe2_pb2.DeviceOption(device_type=c...
+^^^^^^
+21 | 0 6 | mkl_do | This sentence does not start with an uppercase letter
+

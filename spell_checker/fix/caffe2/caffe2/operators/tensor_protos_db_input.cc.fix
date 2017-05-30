@@ -1,0 +1,34 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Object
+object as value. These TensorProtos objects sh...
+^^^^^^
+12 | 0 6 | object | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Will
+will be grouped into batches of the given si...
+^^^^
+13 | 0 4 | will | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: By
+         "by calling CreateDB operator with a db_nam...
+          ^^
+23 | 10 12 | by | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+         "resulting output blob is a DB Reader tensor") 
+                                     ^^^^^^^^^^^^^^^^
+24 | 37 53 | DB Reader tensor | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 12, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Returned
+          "returned. The number of output tensors is equal ...
+           ^^^^^^^^
+26 | 11 19 | returned | This sentence does not start with an uppercase letter
+

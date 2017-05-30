@@ -1,0 +1,42 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!CreateAndFill(db_type, name)) { 
+  ^^
+66 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader_blob
+  reader_blob.Reset(reader.release()); 
+  ^^^^^^^^^^^
+112 | 2 13 | reader_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std
+  std::string str = reader_blob.Serialize("sa...
+  ^^^
+113 | 2 5 | std | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader_blob
+  reader_blob.Reset(); 
+  ^^^^^^^^^^^
+115 | 2 13 | reader_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const DBReader& new_reader = reader_blob.Get<...
+  ^^^^^
+128 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: New_reader
+          new_reader.Read(key, value); 
+          ^^^^^^^^^^
+139 | 10 20 | new_reader | This sentence does not start with an uppercase letter
+

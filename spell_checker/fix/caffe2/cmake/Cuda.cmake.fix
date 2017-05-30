@@ -1,0 +1,49 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(STATUS "Automatic GPU detection failed....
+    ^^^^^^^
+41 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string(REGEX REPLACE "\\." "" __cuda_arch_bin ...
+  ^^^^^^
+95 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+  string(REGEX REPLACE "\\." "" __cuda_arch_ptx ...
+  ^^^^^^
+96 | 2 8 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Short) must be used with a third-person verb: 'commands'.
+Suggestion: commands
+# Short command for cuda compilation 
+        ^^^^^^^
+129 | 8 15 | command | The proper name in singular (Short) must be used with a third-person verb: 'commands'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(FATAL_ERROR "Cannot find libcuda.so. Pl...
+    ^^^^^^^
+214 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Message
+    message(FATAL_ERROR "Cannot find libnvrtc.so. P...
+    ^^^^^^^
+220 | 4 11 | message | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+            "and Debug mode. Either set USE_CUDA=OFF or ...
+             ^^^
+246 | 13 16 | and | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,35 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestDB(unittest.TestCase): 
+^^^^^
+12 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Db
+        db = workspace.C.create_db( 
+        ^^
+25 | 8 10 | db | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Minidb
+            "minidb", self.file_name, workspace.C.Mode.writ...
+             ^^^^^^
+26 | 13 19 | minidb | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Db
+        db = workspace.C.create_db( 
+        ^^
+35 | 8 10 | db | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Minidb
+            "minidb", self.file_name, workspace.C.Mode.read...
+             ^^^^^^
+36 | 13 19 | minidb | This sentence does not start with an uppercase letter
+

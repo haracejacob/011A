@@ -1,0 +1,35 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Primitive_
+    primitive_.Reset( 
+    ^^^^^^^^^^
+48 | 4 14 | primitive_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.Reset(X.dims(), primitive_, dnnResource...
+    ^^^^^^^
+58 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace_layout_
+    workspace_layout_.Reset(primitive_, dnnResourceWorkspace)...
+    ^^^^^^^^^^^^^^^^^
+60 | 4 21 | workspace_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+  buffer_.ShareFrom(*Y); 
+  ^^^^^^^
+68 | 2 9 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+  buffer_.CopyTo(Y, primitive_, dnnResourceDst); ...
+  ^^^^^^^
+73 | 2 9 | buffer_ | This sentence does not start with an uppercase letter
+

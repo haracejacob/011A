@@ -1,0 +1,14 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert len(self._stack) > 0, 'Context %s is em...
+        ^^^^^^
+27 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert cls in self._ctxs, 'Context %s not regi...
+        ^^^^^^
+51 | 8 14 | assert | This sentence does not start with an uppercase letter
+

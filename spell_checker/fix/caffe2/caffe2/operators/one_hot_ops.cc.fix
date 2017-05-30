@@ -1,0 +1,21 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Size
+size. Expand each column of it using one hot...
+^^^^
+128 | 0 4 | size | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of one-hot encoding for each column. For e...
+^^
+130 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 47, Rule ID: POSSESIVE_APOSTROPHE[2]
+Message: Possible typo: apostrophe is missing. Did you mean 'lengths'' or 'length's'?
+Suggestion: lengths'; length's
+...a sequence of indices, segmented by the lengths tensor, returns a matrix 
+                                           ^^^^^^^
+162 | 46 53 | lengths | Possible typo: apostrophe is missing. Did you mean 'lengths'' or 'length's'?
+

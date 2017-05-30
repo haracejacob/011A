@@ -1,0 +1,21 @@
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Not
+                   "not happen. Do you have duplicated CAFFE_KN...
+                    ^^^
+48 | 20 23 | not | This sentence does not start with an uppercase letter
+
+Line 1, column 57, Rule ID: KIND_OF_A[1]
+Message: Don't include 'a' after a classification term. Use simply 'type of'.
+Suggestion: type of
+... thin class that allows us to store the type of a container such 
+                                           ^^^^^^^^^
+60 | 56 65 | type of a | Don't include 'a' after a classification term. Use simply 'type of'.
+
+Line 1, column 27, Rule ID: KIND_OF_A[1]
+Message: Don't include 'a' after a classification term. Use simply 'type of'.
+Suggestion: type of
+ * as a blob, or the data type of a tensor, with a unique run-time id. It a...
+                          ^^^^^^^^^
+61 | 26 35 | type of a | Don't include 'a' after a classification term. Use simply 'type of'.
+

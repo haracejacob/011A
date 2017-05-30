@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int lda = (TransA == CblasNoTrans) ? K : M;...
+  ^^^
+285 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int ldb = (TransB == CblasNoTrans) ? N : K;...
+  ^^^
+286 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+        n, b - a - m + 1, "Cannot satisfy the unique req...
+               ^
+698 | 15 16 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

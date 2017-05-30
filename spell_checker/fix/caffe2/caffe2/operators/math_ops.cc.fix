@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float exponent = arg_helper.GetSingleArgument...
+    ^^^^^
+70 | 4 9 | float | This sentence does not start with an uppercase letter
+

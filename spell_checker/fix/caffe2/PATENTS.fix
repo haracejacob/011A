@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Transfer
+transfer the Software. For avoidance of doubt, n...
+^^^^^^^^
+8 | 0 8 | transfer | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To
+to the Software. Notwithstanding the foreg...
+^^
+20 | 0 2 | to | This sentence does not start with an uppercase letter
+

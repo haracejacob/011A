@@ -1,0 +1,70 @@
+Line 1, column 22, Rule ID: IF_IS[1]
+Message: Did you mean 'is'?
+Suggestion: is
+    // Check if this if is even needed. 
+                     ^^
+258 | 21 23 | if | Did you mean 'is'?
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int num_workers = net_def.has_num_workers()...
+  ^^^
+387 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (arg_helper.HasArgument("first_iter_onl...
+  ^^
+402 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (arg_helper.GetSingleArgument<int64_t>(...
+    ^^
+403 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Job_queue_
+  job_queue_.NoMoreJobs(); 
+  ^^^^^^^^^^
+417 | 2 12 | job_queue_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Job_queue_
+    job_queue_.Push(value); 
+    ^^^^^^^^^^
+439 | 4 14 | job_queue_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!job_queue_.Pop(&idx)) { 
+    ^^
+473 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Job_queue_
+          job_queue_.Push(child); 
+          ^^^^^^^^^^
+510 | 10 20 | job_queue_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+  Timer timer; 
+  ^^^^^^^^^^^
+552 | 2 13 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+  auto millis = timer.MilliSeconds(); 
+  ^^^^
+556 | 2 6 | auto | This sentence does not start with an uppercase letter
+

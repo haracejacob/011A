@@ -1,0 +1,42 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+blob and computes the output. Note that othe...
+^^^^
+15 | 0 4 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Because
+because they are provided by the ConvPoolOpBase...
+^^^^^^^
+17 | 0 7 | because | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: This
+this operator. As is expected, the filter is...
+^^^^
+19 | 0 4 | this | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+output is computed. As a side note on the impl...
+^^^^^^
+21 | 0 6 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (kW) must be used with a third-person verb: 'is'.
+Suggestion: is
+  "kW are the height and width of the kernel.") 
+      ^^^
+31 | 6 9 | are | The proper name in singular (kW) must be used with a third-person verb: 'is'.
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Convolution
+  "convolution. The output dimensions are functions of...
+   ^^^^^^^^^^^
+35 | 3 14 | convolution | This sentence does not start with an uppercase letter
+

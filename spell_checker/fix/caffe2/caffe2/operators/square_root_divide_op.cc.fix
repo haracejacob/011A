@@ -1,0 +1,21 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Produces
+produces an output tensor with same dimensions a...
+^^^^^^^^
+13 | 0 8 | produces | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Slices
+slices. i-th slice is divided by sqrt(SCALE[i]...
+^^^^^^
+14 | 0 6 | slices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: I-th
+slices. i-th slice is divided by sqrt(SCALE[i]) elem...
+        ^^^^
+14 | 8 12 | i-th | This sentence does not start with an uppercase letter
+

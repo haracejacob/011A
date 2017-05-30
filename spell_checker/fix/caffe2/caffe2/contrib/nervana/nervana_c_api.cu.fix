@@ -1,0 +1,49 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Threads
+        threads = (sizeA == 128 && sizeB == 128) ? 256 ...
+        ^^^^^^^
+196 | 8 15 | threads | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans
+    trans += a_t ? 't' : 'n'; 
+    ^^^^^
+239 | 4 9 | trans | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans
+    trans += b_t ? 't' : 'n'; 
+    ^^^^^
+240 | 4 9 | trans | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int k_vec = (sizeA == 32 || sizeB == 32) ? ...
+    ^^^
+248 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans
+    trans += a_t ? 't' : 'n'; 
+    ^^^^^
+329 | 4 9 | trans | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans
+    trans += b_t ? 't' : 'n'; 
+    ^^^^^
+330 | 4 9 | trans | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int k_vec = (sizeA == 32 || sizeB == 32) ? ...
+    ^^^
+338 | 4 7 | int | This sentence does not start with an uppercase letter
+

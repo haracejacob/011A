@@ -1,0 +1,34 @@
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Result
+     result.M2   = 0; 
+     ^^^^^^
+42 | 5 11 | result | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Result
+    result.M2  = x.M2 + y.M2; 
+    ^^^^^^
+66 | 4 10 | result | This sentence does not start with an uppercase letter
+
+Line 1, column 27, Rule ID: ENGLISH_WORD_REPEAT_BEGINNING_RULE
+Message: Three successive sentences begin with the same word. Reword the sentence or use a thesaurus to find a synonym.
+    result.M2  = x.M2 + y.M2; 
+                          ^^
+66 | 26 28 | M2 | Three successive sentences begin with the same word. Reword the sentence or use a thesaurus to find a synonym.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Result
+    result.M2 += delta2 * x.n * y.n / n; 
+    ^^^^^^
+67 | 4 10 | result | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.Copy<float, CPUContext, CUDAContext>( 
+    ^^^^^^^^
+102 | 4 12 | context_ | This sentence does not start with an uppercase letter
+

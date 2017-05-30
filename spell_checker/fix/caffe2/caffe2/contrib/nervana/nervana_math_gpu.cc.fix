@@ -1,0 +1,14 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int lda = (TransA == CblasNoTrans) ? K : M;...
+  ^^^
+27 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int ldb = (TransB == CblasNoTrans) ? N : K;...
+  ^^^
+28 | 2 5 | int | This sentence does not start with an uppercase letter
+

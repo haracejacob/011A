@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: History
+history. Concretely, given inputs (param, grad,...
+^^^^^^^
+13 | 0 7 | history | This sentence does not start with an uppercase letter
+

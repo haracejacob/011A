@@ -1,0 +1,21 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.Copy<float, CPUContext, CPUContext>( 
+      ^^^^^^^^
+43 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const float cache_ratio = 2. * alpha_ * beta_...
+  ^^^^^
+143 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const float cache_ratio = 2. * alpha_ * beta_...
+  ^^^^^
+201 | 2 7 | const | This sentence does not start with an uppercase letter
+

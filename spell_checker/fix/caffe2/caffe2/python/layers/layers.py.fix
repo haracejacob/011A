@@ -1,0 +1,77 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_specs
+            feature_specs = schema.FeatureSpec( 
+            ^^^^^^^^^^^^^
+34 | 12 25 | feature_specs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_specs
+            feature_specs = schema.FeatureSpec( 
+            ^^^^^^^^^^^^^
+40 | 12 25 | feature_specs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_specs
+            feature_specs = schema.FeatureSpec( 
+            ^^^^^^^^^^^^^
+46 | 12 25 | feature_specs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Metadata( 
+            ^^^^^^
+59 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 44, Rule ID: DID_BASEFORM[1]
+Message: The verb 'will' requires base form of the verb: 'accumulate'.
+Suggestion: accumulate
+... # The layers support this context will accumulates predictions, labels, 
+                                           ^^^^^^^^^^^
+71 | 43 54 | accumulates | The verb 'will' requires base form of the verb: 'accumulate'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(parameter, core.BlobReferenc...
+        ^^^^^^
+108 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Evaluation
+        evaluation and prediction, that are instantiated l...
+        ^^^^^^^^^^
+133 | 8 18 | evaluation | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_schema
+        output_schema. If Layer needs to have only a subset o...
+        ^^^^^^^^^^^^^
+140 | 8 21 | output_schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Current
+        current context and arguments. It's possible to...
+        ^^^^^^^
+146 | 8 15 | current | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with scope.NameScope(self.name): 
+        ^^^^
+231 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 47, Rule ID: RETURN_BACK[1]
+Message: Use simply 'return'.
+Suggestion: return
+...              # TODO(amalevich): Either return back to lambdas, that add 
+                                           ^^^^^^^^^^^
+239 | 46 57 | return back | Use simply 'return'.
+

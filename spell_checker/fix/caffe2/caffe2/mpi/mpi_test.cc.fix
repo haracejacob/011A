@@ -1,0 +1,49 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+    auto& X = ws.GetBlob("X")->Get<TensorCPU>(); ...
+    ^^^^^
+62 | 4 9 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+      auto& X = ws.GetBlob("X_reduced")->Get<Tensor...
+      ^^^^^
+125 | 6 11 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+  auto& X = ws.GetBlob("X")->Get<TensorCPU>(); ...
+  ^^^^^
+180 | 2 7 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+  auto& X_gathered = ws.GetBlob("X_gathered")->...
+  ^^^^^
+185 | 2 7 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+  auto& X = ws.GetBlob("X")->Get<TensorCPU>(); ...
+  ^^^^^
+238 | 2 7 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+  auto& X_reduced = ws.GetBlob("X_reduced")->Ge...
+  ^^^^^
+243 | 2 7 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+  auto& X_reduced = ws.GetBlob("X")->Get<Tensor...
+  ^^^^^
+294 | 2 7 | auto& | This sentence does not start with an uppercase letter
+

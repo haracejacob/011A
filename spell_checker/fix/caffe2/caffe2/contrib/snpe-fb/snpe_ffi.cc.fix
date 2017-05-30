@@ -1,0 +1,42 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: InputTensor_
+    inputTensor_ = zdl::SNPE::SNPEFactory::GetTensorFact...
+    ^^^^^^^^^^^^
+30 | 4 16 | inputTensor_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for (auto name : outputTensors_.GetTensorNa...
+    ^^^
+40 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+      const auto& outputTensor = outputTensors_.Get...
+      ^^^^^
+41 | 6 11 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+      auto dims = outputTensor->GetShape().GetDime...
+      ^^^^
+42 | 6 10 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: OutputDims_
+      outputDims_.push_back(std::vector<size_t>(dims, dim...
+      ^^^^^^^^^^^
+43 | 6 17 | outputDims_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const auto& outputTensor = outputTensors_.Get...
+    ^^^^^
+49 | 4 9 | const | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,28 @@
+Line 1, column 17, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+    const auto& A = Input(0); 
+                ^
+155 | 16 17 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+      const int axis = (axis_ == -1 ? A.ndim() - B....
+      ^^^^^
+180 | 6 11 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Functor_
+        functor_.RunWithBroadcast(Adata, Bdata, Cdata, p...
+        ^^^^^^^^
+198 | 8 16 | functor_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Functor_
+        functor_.RunWithBroadcast2( 
+        ^^^^^^^^
+200 | 8 16 | functor_ | This sentence does not start with an uppercase letter
+

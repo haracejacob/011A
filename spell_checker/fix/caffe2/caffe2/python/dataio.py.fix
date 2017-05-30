@@ -1,0 +1,245 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+of data. Each operation reads or writes a ...
+^^
+6 | 0 2 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Read_net
+        read_net = core.Net('reader_body') 
+        ^^^^^^^^
+49 | 8 16 | read_net | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    Reader is a abstract class to be implemented in ord...
+              ^
+61 | 14 15 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Adds
+    adds operations to a net that read the next ...
+    ^^^^
+65 | 4 8 | adds | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Consume_net
+            consume_net = core.Net('consume') 
+            ^^^^^^^^^^^
+117 | 12 23 | consume_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Consume_net
+            consume_net.Print(fields[0], []) 
+            ^^^^^^^^^^^
+118 | 12 23 | consume_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: P
+            p = core.Plan('reader') 
+            ^
+119 | 12 13 | p | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+            core.RunPlan(p) 
+            ^^^^
+121 | 12 16 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 30, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Created
+                             created. The execution step will 
+                             ^^^^^^^
+126 | 29 36 | created | This sentence does not start with an uppercase letter
+
+Line 1, column 28, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Read
+                           read operations. The step will have `stop_bl...
+                           ^^^^
+133 | 27 31 | read | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader_net
+        reader_net = core.Net(reader_net_name or 'reader')...
+        ^^^^^^^^^^
+138 | 8 18 | reader_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Should_stop
+            should_stop = reader_net.Or([external_should_stop, ...
+            ^^^^^^^^^^^
+141 | 12 23 | should_stop | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    Writer is a abstract class to be implemented in ord...
+              ^
+151 | 14 15 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Write_net
+        write_net = core.Net('write_net') 
+        ^^^^^^^^^
+189 | 8 17 | write_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stop_blob
+            stop_blob = local_init_net.NextName("dequeue_stat...
+            ^^^^^^^^^
+200 | 12 21 | stop_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+    the function. This way, it is possible to a...
+    ^^^
+233 | 4 7 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.counter = global_init_net.CreateCounter...
+            ^^^^
+308 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.should_stop = global_init_net.ConstantF...
+            ^^^^
+309 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Count_net
+        count_net = core.Net('limited_reader_counter') 
+        ^^^^^^^^^
+313 | 8 17 | count_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Value
+        value = count_net.CountUp([self.counter], 1) ...
+        ^^^^^
+314 | 8 13 | value | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = core.Net('reader_with_limit') 
+        ^^^
+330 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._data_finished = net.AddExternalInput( ...
+        ^^^^
+331 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.NextName('data_finished')) 
+            ^^^
+332 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.counter = net.AddExternalInput(net.Next...
+            ^^^^
+334 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_init_net
+            global_init_net.CreateCounter( 
+            ^^^^^^^^^^^^^^^
+338 | 12 27 | global_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_init_net
+        global_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^
+341 | 8 23 | global_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Shape=
+            shape=[], value=False, dtype=core.DataType.BOO...
+            ^^^^^^
+343 | 12 18 | shape= | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Count_net
+        count_net = core.Net('limited_reader_counter') 
+        ^^^^^^^^^
+348 | 8 17 | count_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Should_stop
+            should_stop = count_net.CountDown([self.counter], 1...
+            ^^^^^^^^^^^
+350 | 12 23 | should_stop | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Should_stop
+            should_stop = count_net.ConstantFill( 
+            ^^^^^^^^^^^
+352 | 12 23 | should_stop | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Shape=
+                shape=[], value=False, dtype=core.DataType.BOO...
+                ^^^^^^
+354 | 16 22 | shape= | This sentence does not start with an uppercase letter
+
+Line 1, column 16, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Check
+        """ 3. check if original reader is done. """ 
+               ^^^^^
+361 | 15 20 | check | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Check_done_net
+        check_done_net = core.Net('limited_reader_post') 
+        ^^^^^^^^^^^^^^
+362 | 8 22 | check_done_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Check_done_net
+        check_done_net.Copy(local_data_finished, should_stop) ...
+        ^^^^^^^^^^^^^^
+365 | 8 22 | check_done_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Check_done_net
+        check_done_net.Or([self._data_finished, local_data_fin...
+        ^^^^^^^^^^^^^^
+367 | 8 22 | check_done_net | This sentence does not start with an uppercase letter
+

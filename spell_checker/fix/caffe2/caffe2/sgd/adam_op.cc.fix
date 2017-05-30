@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input
+input gradient and momentum parameters. Concr...
+^^^^^
+13 | 0 5 | input | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: on
+Adam on on (param, moment1[indices], momemnt2[indi...
+     ^^^^^
+50 | 5 10 | on on | Possible typo: you repeated a word
+

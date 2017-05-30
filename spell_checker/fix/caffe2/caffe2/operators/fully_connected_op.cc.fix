@@ -1,0 +1,21 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto axis = helper.GetSingleArgument<int32_t...
+          ^^^^
+16 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B
+b has size (N), and Y has size (M x N), w...
+^
+30 | 0 1 | b | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Batch
+batch. These dimensions must be matched corre...
+^^^^^
+32 | 0 5 | batch | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,614 @@
+Line 1, column 292, Rule ID: ENGLISH_WORD_REPEAT_BEGINNING_RULE
+Message: Three successive sentences begin with the same word. Reword the sentence or use a thesaurus to find a synonym.
+...s, fungi, people, objects, you name it. It's the focus of yearly competitions and ...
+                                           ^^
+14 | 291 293 | It | Three successive sentences begin with the same word. Reword the sentence or use a thesaurus to find a synonym.
+
+Line 1, column 151, Rule ID: YOUR_NN[1]
+Message: Did you mean 'your'?
+Suggestion: your
+...8 GPUs on the latest NVIDIA V100's then you're super awesome and you can replicate our...
+                                           ^^^^^^
+22 | 150 156 | you're | Did you mean 'your'?
+
+Line 1, column 386, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: all the
+...ain ImageNet in a minute!** Think about all of the things you could accomplish... a model ...
+                                           ^^^^^^^^^^
+22 | 385 395 | all of the | Simply use 'all the'.
+
+Line 1, column 278, Rule ID: ENGLISH_WORD_REPEAT_BEGINNING_RULE
+Message: Three successive sentences begin with the same word. Reword the sentence or use a thesaurus to find a synonym.
+...ars and 640 boats for our training set. We have 48 cars and 48 boats for our test ...
+                                           ^^
+24 | 277 279 | We | Three successive sentences begin with the same word. Reword the sentence or use a thesaurus to find a synonym.
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.GlobalInit(['caffe2', '--caffe2_log_lev...
+     ^^^^^^^^^
+71 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Z
+    "    z = zipfile.ZipFile(StringIO.StringIO(r.c...
+         ^
+92 | 9 10 | z | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Taco_model
+    "taco_model = model_helper.ModelHelper(name=\"tacos...
+     ^^^^^^^^^^
+166 | 5 15 | taco_model | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.ResetWorkspace()\n", 
+     ^^^^^^^^^
+172 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader
+    "reader = taco_model.CreateDB(name, db, db_type...
+     ^^^^^^
+180 | 5 11 | reader | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.ResetWorkspace()\n", 
+     ^^^^^^^^^
+201 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "    data, label = model.ImageInput(\n", 
+         ^^^^
+233 | 9 13 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "    data = model.StopGradient(data, data)\n", 
+         ^^^^
+249 | 9 13 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefix
+    "    prefix = model.net.Proto().name\n", 
+         ^^^^^^
+318 | 9 15 | prefix | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+    "    loss = model.Scale(loss, prefix + \"_loss\",...
+         ^^^^
+319 | 9 13 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    "    model.Accuracy([softmax, \"label\"], prefix +...
+         ^^^^^
+320 | 9 14 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    "    model.AddWeightDecay(weight_decay)\n", 
+         ^^^^^
+362 | 9 14 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Iter
+    "    iter = model.Iter(\"iter\")\n", 
+         ^^^^
+363 | 9 13 | iter | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lr
+    "    lr = model.net.LearningRate(\n", 
+         ^^
+364 | 9 11 | lr | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    "    for param in model.GetParams():\n", 
+         ^^^
+373 | 9 12 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param_momentum
+    "        param_momentum = model.param_init_net.ConstantFill(\n"...
+             ^^^^^^^^^^^^^^
+375 | 13 27 | param_momentum | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    "        model.net.MomentumSGDUpdate(\n", 
+             ^^^^^
+380 | 13 18 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_opt
+    "device_opt = core.DeviceOption(caffe2_pb2.CUDA, gp...
+     ^^^^^^^^^^
+461 | 5 15 | device_opt | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    "with core.NameScope(\"imonaboat\"):\n", 
+     ^^^^
+463 | 5 9 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    "    with core.DeviceScope(device_opt):\n", 
+         ^^^^
+465 | 9 13 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blobs_to_gradients
+    "        blobs_to_gradients = train_model.AddGradientOperators(loss...
+             ^^^^^^^^^^^^^^^^^^
+471 | 13 31 | blobs_to_gradients | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(train_model.param_init_net)\...
+     ^^^^^^^^^
+478 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: all the
+    "# Load all of the initial weights; overwrite lets you run...
+            ^^^^^^^^^^
+479 | 12 22 | all of the | Simply use 'all the'.
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(train_model.net, overwrite=Tr...
+     ^^^^^^^^^
+480 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_opt
+    "device_opt = core.DeviceOption(caffe2_pb2.CUDA, gp...
+     ^^^^^^^^^^
+498 | 5 15 | device_opt | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    "with core.NameScope(\"imonaboat\"):\n", 
+     ^^^^
+499 | 5 9 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    "    with core.DeviceScope(device_opt):\n", 
+         ^^^^
+500 | 9 13 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blobs_to_gradients
+    "        blobs_to_gradients = train_model.AddGradientOperators(loss...
+             ^^^^^^^^^^^^^^^^^^
+503 | 13 31 | blobs_to_gradients | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(train_model.param_init_net)\...
+     ^^^^^^^^^
+508 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(train_model.net, overwrite=Tr...
+     ^^^^^^^^^
+509 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "        workspace.RunNet(train_model.net.Proto().name)\n"...
+             ^^^^^^^^^
+536 | 13 22 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 140, Rule ID: CAN_SETUP[1]
+Message: Did you mean 'to set up'?
+Suggestion: to set up
+... help us accomplish this task. The task to setup the parallel model, not to say it fast....
+                                           ^^^^^^^^
+556 | 139 147 | to setup | Did you mean 'to set up'?
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Devices=range
+    "    devices=range(0, workspace.NumCudaDevices()), \n", 
+         ^^^^^^^^^^^^^
+564 | 9 22 | devices=range | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dpm
+    "dpm.Parallelize_GPU(\n", 
+     ^^^
+586 | 5 8 | dpm | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.ResetWorkspace()\n", 
+     ^^^^^^^^^
+638 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(train_model.param_init_net)\...
+     ^^^^^^^^^
+668 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(train_model.net, overwrite=Tr...
+     ^^^^^^^^^
+669 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(test_model.param_init_net)\n...
+     ^^^^^^^^^
+712 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(test_model.net, overwrite=Tru...
+     ^^^^^^^^^
+713 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "    data = workspace.FetchBlob(\"gpu_0/data\")\n...
+         ^^^^
+740 | 9 13 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Label
+    "    label = workspace.FetchBlob(\"gpu_0/label\")\...
+         ^^^^^
+741 | 9 14 | label | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Softmax
+    "    softmax = workspace.FetchBlob(\"gpu_0/softmax\"...
+         ^^^^^^^
+742 | 9 16 | softmax | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefix
+    "    prefix = model.net.Proto().name\n", 
+         ^^^^^^
+768 | 9 15 | prefix | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Np
+    "            np.asscalar(workspace.FetchBlob(\"gpu_{}/{...
+                 ^^
+771 | 17 19 | np | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "        workspace.RunNet(train_model.net.Proto().name)\n"...
+             ^^^^^^^^^
+808 | 13 22 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "        workspace.RunNet(test_model.net.Proto().name)\n",...
+             ^^^^^^^^^
+826 | 13 22 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(str(train_model.param_init_net.Proto())...
+     ^^^^^
+866 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.GlobalInit(['caffe2', '--caffe2_log_lev...
+     ^^^^^^^^^
+897 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Z
+    "    z = zipfile.ZipFile(StringIO.StringIO(r.c...
+         ^
+918 | 9 10 | z | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.ResetWorkspace()\n", 
+     ^^^^^^^^^
+986 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_model
+    "train_model = model_helper.ModelHelper(\n", 
+     ^^^^^^^^^^^
+988 | 5 16 | train_model | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader
+    "reader = train_model.CreateDB(\n", 
+     ^^^^^^
+999 | 5 11 | reader | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "    data = model.net.StopGradient(data, data)\n"...
+         ^^^^
+1035 | 9 13 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefix
+    "    prefix = model.net.Proto().name\n", 
+         ^^^^^^
+1057 | 9 15 | prefix | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+    "    loss = model.net.Scale(loss, prefix + \"_los...
+         ^^^^
+1058 | 9 13 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Lr
+    "    lr = model.net.LearningRate(\n", 
+         ^^
+1076 | 9 11 | lr | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    "    for param in model.GetParams():\n", 
+         ^^^
+1084 | 9 12 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param_momentum
+    "        param_momentum = model.param_init_net.ConstantFill(\n"...
+             ^^^^^^^^^^^^^^
+1086 | 13 27 | param_momentum | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    "        model.net.MomentumSGDUpdate(\n", 
+             ^^^^^
+1091 | 13 18 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_opt
+    "device_opt = core.DeviceOption(caffe2_pb2.CUDA, gp...
+     ^^^^^^^^^^
+1133 | 5 15 | device_opt | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    "with core.NameScope(\"imonaboat\"):\n", 
+     ^^^^
+1134 | 5 9 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    "    with core.DeviceScope(device_opt):\n", 
+         ^^^^
+1135 | 9 13 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blobs_to_gradients
+    "        blobs_to_gradients = train_model.AddGradientOperators(loss...
+             ^^^^^^^^^^^^^^^^^^
+1138 | 13 31 | blobs_to_gradients | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(train_model.param_init_net)\...
+     ^^^^^^^^^
+1143 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(train_model.net, overwrite=Tr...
+     ^^^^^^^^^
+1144 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "        workspace.RunNet(train_model.net.Proto().name)\n"...
+             ^^^^^^^^^
+1164 | 13 22 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.ResetWorkspace()\n", 
+     ^^^^^^^^^
+1206 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_model
+    "train_model = model_helper.ModelHelper(\n", 
+     ^^^^^^^^^^^
+1209 | 5 16 | train_model | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader
+    "reader = train_model.CreateDB(\n", 
+     ^^^^^^
+1219 | 5 11 | reader | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dpm
+    "dpm.Parallelize_GPU(\n", 
+     ^^^
+1236 | 5 8 | dpm | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(train_model.param_init_net)\...
+     ^^^^^^^^^
+1245 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(train_model.net)" 
+     ^^^^^^^^^
+1246 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Test_model
+    "test_model = model_helper.ModelHelper(\n", 
+     ^^^^^^^^^^
+1258 | 5 15 | test_model | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader
+    "reader = test_model.CreateDB(\n", 
+     ^^^^^^
+1262 | 5 11 | reader | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dpm
+    "dpm.Parallelize_GPU(\n", 
+     ^^^
+1269 | 5 8 | dpm | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNetOnce(test_model.param_init_net)\n...
+     ^^^^^^^^^
+1277 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(test_model.net)" 
+     ^^^^^^^^^
+1278 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    "    data = workspace.FetchBlob(\"gpu_0/data\")\n...
+         ^^^^
+1298 | 9 13 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Label
+    "    label = workspace.FetchBlob(\"gpu_0/label\")\...
+         ^^^^^
+1299 | 9 14 | label | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Softmax
+    "    softmax = workspace.FetchBlob(\"gpu_0/softmax\"...
+         ^^^^^^^
+1300 | 9 16 | softmax | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Prefix
+    "    prefix = model.net.Proto().name\n", 
+         ^^^^^^
+1326 | 9 15 | prefix | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Np
+    "            np.asscalar(workspace.FetchBlob(\"gpu_{}/{...
+                 ^^
+1329 | 17 19 | np | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "        workspace.RunNet(train_model.net.Proto().name)\n"...
+             ^^^^^^^^^
+1354 | 13 22 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "        workspace.RunNet(test_model.net.Proto().name)\n",...
+             ^^^^^^^^^
+1372 | 13 22 | workspace | This sentence does not start with an uppercase letter
+

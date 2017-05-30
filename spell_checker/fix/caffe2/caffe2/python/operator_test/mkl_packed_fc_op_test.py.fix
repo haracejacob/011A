@@ -1,0 +1,42 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class PackedFCTest(hu.HypothesisTestCase): 
+^^^^^
+15 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 58, Rule ID: ONES[1]
+Message: Did you mean 'one's'?
+Suggestion: one's
+...are debugging, the following hard-coded ones might help. 
+                                           ^^^^
+30 | 57 61 | ones | Did you mean 'one's'?
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return (np.dot(X, W.T) + b,) 
+            ^^^^^^
+36 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator( 
+            ^^
+39 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+60 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Np
+                np.dot(X.reshape(int(X.size / K), K), W.T)...
+                ^^
+69 | 16 18 | np | This sentence does not start with an uppercase letter
+

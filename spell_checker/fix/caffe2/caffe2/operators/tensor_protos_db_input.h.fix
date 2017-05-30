@@ -1,0 +1,28 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader
+    reader.Read(&key_, &value_); 
+    ^^^^^^
+49 | 4 10 | reader | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Deserializer
+      deserializer.Deserialize( 
+      ^^^^^^^^^^^^
+57 | 6 18 | deserializer | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reader
+      reader.Read(&key_, &value_); 
+      ^^^^^^
+64 | 6 12 | reader | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Deserializer
+        deserializer.Deserialize(protos.protos(i), &src); 
+        ^^^^^^^^^^^^
+83 | 8 20 | deserializer | This sentence does not start with an uppercase letter
+

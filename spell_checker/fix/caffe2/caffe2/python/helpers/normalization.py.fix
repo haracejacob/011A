@@ -1,0 +1,105 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Else
+        else scope.CurrentDeviceScope() 
+        ^^^^
+14 | 8 12 | else | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return model.net.Softmax(blob_in, blob_out, **...
+        ^^^^^^
+39 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return model.net.Softmax(blob_in, **kwargs) 
+        ^^^^^^
+41 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_out
+    blob_out = blob_out or model.net.NextName() 
+    ^^^^^^^^
+45 | 4 12 | blob_out | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return model.param_init_net.ConstantFill( 
+        ^^^^^^
+52 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_outputs
+        blob_outputs = model.net.InstanceNorm( 
+        ^^^^^^^^^^^^
+61 | 8 20 | blob_outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_outputs
+        blob_outputs = model.net.InstanceNorm( 
+        ^^^^^^^^^^^^
+66 | 8 20 | blob_outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_out
+    blob_out = blob_out or model.net.NextName() 
+    ^^^^^^^^
+74 | 4 12 | blob_out | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return model.param_init_net.ConstantFill( 
+        ^^^^^^
+84 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scale
+        scale = core.ScopedBlobReference( 
+        ^^^^^
+92 | 8 13 | scale | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+        bias = core.ScopedBlobReference( 
+        ^^^^
+94 | 8 12 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Running_mean
+        running_mean = core.ScopedBlobReference( 
+        ^^^^^^^^^^^^
+96 | 8 20 | running_mean | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Running_inv_var
+        running_inv_var = core.ScopedBlobReference( 
+        ^^^^^^^^^^^^^^^
+98 | 8 23 | running_inv_var | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_outputs
+        blob_outputs = model.net.SpatialBN( 
+        ^^^^^^^^^^^^
+108 | 8 20 | blob_outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_outputs
+        blob_outputs = model.net.SpatialBN( 
+        ^^^^^^^^^^^^
+113 | 8 20 | blob_outputs | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const auto& blobs = include_shared_ ? ws_->Bl...
+    ^^^^^
+15 | 4 9 | const | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,7 @@
+Line 1, column 10, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: mutex
+    std::mutex mutex; 
+         ^^^^^^^^^^^
+461 | 9 20 | mutex mutex | Possible typo: you repeated a word
+

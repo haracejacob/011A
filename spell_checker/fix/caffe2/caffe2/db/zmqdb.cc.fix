@@ -1,0 +1,35 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Socket_
+    socket_.Connect(source_); 
+    ^^^^^^^
+17 | 4 11 | socket_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Socket_
+    socket_.Disconnect(source_); 
+    ^^^^^^^
+31 | 4 11 | socket_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Socket_
+      socket_.RecvTillSuccess(&msg); 
+      ^^^^^^^
+61 | 6 13 | socket_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Socket_
+      socket_.RecvTillSuccess(&msg); 
+      ^^^^^^^
+63 | 6 13 | socket_ | This sentence does not start with an uppercase letter
+
+Line 1, column 31, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  ZmqDB(const string& source, Mode mode) 
+                              ^^^^^^^^^
+87 | 30 39 | Mode mode | Possible typo: you repeated a word
+

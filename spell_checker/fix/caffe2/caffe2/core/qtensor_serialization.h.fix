@@ -1,0 +1,14 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+  acceptor(name, blob_proto.SerializeAsString()); ...
+  ^^^^^^^^
+54 | 2 10 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Context
+  Context context{}; 
+  ^^^^^^^^^^^^^^^
+68 | 2 17 | Context context | Possible typo: you repeated a word
+

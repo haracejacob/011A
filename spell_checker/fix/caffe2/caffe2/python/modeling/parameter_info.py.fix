@@ -1,0 +1,14 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(param, core.BlobReference) 
+        ^^^^^^
+18 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+            init_net, outputs = self.blob.Net().ClonePartial...
+            ^^^^^^^^
+39 | 12 20 | init_net | This sentence does not start with an uppercase letter
+

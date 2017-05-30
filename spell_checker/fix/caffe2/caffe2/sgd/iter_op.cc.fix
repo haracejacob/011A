@@ -1,0 +1,14 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+  acceptor(name, blob_proto.SerializeAsString()); ...
+  ^^^^^^^^
+13 | 2 10 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Updates
+updates are carried out atomically. This can be...
+^^^^^^^
+45 | 0 7 | updates | This sentence does not start with an uppercase letter
+

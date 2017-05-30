@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (op->Input<TensorCUDA>(i).IsType<T>()) ...
+    ^^
+37 | 4 6 | if | This sentence does not start with an uppercase letter
+

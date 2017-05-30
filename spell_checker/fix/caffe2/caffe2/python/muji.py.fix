@@ -1,0 +1,154 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Side
+side code. Everything is defined on the comp...
+^^^^
+3 | 0 4 | side | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+    device_option = caffe2_pb2.DeviceOption() 
+    ^^^^^^^^^^^^^
+20 | 4 17 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+    device_option = caffe2_pb2.DeviceOption() 
+    ^^^^^^^^^^^^^
+27 | 4 17 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A_reduced
+    a_reduced = net.Add([a, b], a + reduced_affix, de...
+    ^^^^^^^^^
+59 | 4 13 | a_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B_reduced
+    b_reduced = a_reduced.Copy( 
+    ^^^^^^^^^
+60 | 4 13 | b_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A_reduced
+    a_reduced = net.Add( 
+    ^^^^^^^^^
+80 | 4 13 | a_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: C_reduced
+    c_reduced = net.Add( 
+    ^^^^^^^^^
+85 | 4 13 | c_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A_reduced
+    a_reduced = a_reduced.Add(c_reduced, a_reduced, d...
+    ^^^^^^^^^
+91 | 4 13 | a_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: C_reduced
+    c_reduced = a_reduced.Copy([], c_reduced, device_...
+    ^^^^^^^^^
+93 | 4 13 | c_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B_reduced
+    b_reduced = a_reduced.Copy( 
+    ^^^^^^^^^
+95 | 4 13 | b_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: D_reduced
+    d_reduced = c_reduced.Copy( 
+    ^^^^^^^^^
+100 | 4 13 | d_reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+        reduced[i] = net.Add( 
+        ^^^^^^^
+122 | 8 15 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+        reduced[i] = net.Add( 
+        ^^^^^^^
+129 | 8 15 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced_4_copy
+    reduced_4_copy = reduced[4].Copy( 
+    ^^^^^^^^^^^^^^
+135 | 4 18 | reduced_4_copy | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+    reduced[0] = reduced[0].Add( 
+    ^^^^^^^
+140 | 4 11 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+    reduced[4] = reduced[0].Copy( 
+    ^^^^^^^
+146 | 4 11 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+        reduced[i] = reduced[i - 2].Copy( 
+        ^^^^^^^
+153 | 8 15 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+        reduced[i] = reduced[i - 1].Copy( 
+        ^^^^^^^
+160 | 8 15 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+    reduced[0] = net.Copy( 
+    ^^^^^^^
+178 | 4 11 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Temp
+        temp = net.Copy( 
+        ^^^^
+186 | 8 12 | temp | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+        reduced[0] = reduced[0].Add( 
+        ^^^^^^^
+191 | 8 15 | reduced | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reduced
+        reduced[i] = net.Copy( 
+        ^^^^^^^
+198 | 8 15 | reduced | This sentence does not start with an uppercase letter
+

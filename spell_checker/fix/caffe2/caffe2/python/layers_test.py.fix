@@ -1,0 +1,707 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Scalar((np.float32, (output_dims, ))), ...
+            ^^^^^^
+41 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = self.new_record(schema.Scalar((np.int...
+        ^^^^^^^
+71 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sampling_prob
+        sampling_prob = self.new_record(schema.Scalar((np.flo...
+        ^^^^^^^^^^^^^
+72 | 8 21 | sampling_prob | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sampled_fc
+        sampled_fc = self.model.SamplingTrain( 
+        ^^^^^^^^^^
+74 | 8 18 | sampled_fc | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+75 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Scalar((np.float32, (output_dims, ))), ...
+            ^^^^^^
+89 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Struct( 
+        ^^^^^^^^^^^^
+162 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = self.model.BatchLRLoss(input_record) ...
+        ^^^^
+167 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(schema.Scalar((np.float32, ...
+        ^^^^
+168 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Struct( 
+        ^^^^^^^^^^^^
+171 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = self.model.BatchMSELoss(input_record)...
+        ^^^^
+175 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(schema.Scalar((np.float32, ...
+        ^^^^
+176 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Struct( 
+        ^^^^^^^^^^^^
+179 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = self.model.BatchSigmoidCrossEntropyLo...
+        ^^^^
+183 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(schema.Scalar((np.float32, ...
+        ^^^^
+184 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Struct( 
+        ^^^^^^^^^^^^
+187 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = self.model.BatchSoftmaxLoss(input_rec...
+        ^^^^
+191 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(schema.Struct( 
+        ^^^^
+192 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Scalar((np.flo...
+        ^^^^^^^^^^^^
+201 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord(input_record, [X]) 
+        ^^^^^^
+202 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bn_output
+        bn_output = self.model.BatchNormalization(input_r...
+        ^^^^^^^^^
+203 | 8 17 | bn_output | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(schema.Scalar((np.float32, ...
+        ^^^^
+204 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.model.output_schema = schema.Struct() 
+        ^^^^
+205 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_init_net) 
+        ^^^^^^^^^
+269 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_net) 
+        ^^^^^^^^^
+270 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord(input_record, [X]) 
+        ^^^^^^
+272 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(eval_net) 
+        ^^^^^^^^^
+273 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord(input_record, [X]) 
+        ^^^^^^
+275 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(predict_net) 
+        ^^^^^^^^^
+276 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Scalar(np.floa...
+        ^^^^^^^^^^^^
+283 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord(input_record, [X]) 
+        ^^^^^^
+284 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Last_n
+        last_n = self.model.LastNWindowCollector(input...
+        ^^^^^^
+285 | 8 14 | last_n | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_record
+        output_record = schema.FetchRecord(last_n) 
+        ^^^^^^^^^^^^^
+287 | 8 21 | output_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Scalar(np.int3...
+        ^^^^^^^^^^^^
+292 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord(input_record, [input_array])...
+        ^^^^^^
+294 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Uniform_sampling_output
+        uniform_sampling_output = self.model.UniformSampling( 
+        ^^^^^^^^^^^^^^^^^^^^^^^
+297 | 8 31 | uniform_sampling_output | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Samples
+        samples = workspace.FetchBlob(uniform_sampling_...
+        ^^^^^^^
+301 | 8 15 | samples | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sampling_prob
+        sampling_prob = workspace.FetchBlob( 
+        ^^^^^^^^^^^^^
+302 | 8 21 | sampling_prob | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Record
+        record = self.new_record(schema.Struct( 
+        ^^^^^^
+319 | 8 14 | record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices_record
+        indices_record = self.new_record(schema.Scalar(np.int3...
+        ^^^^^^^^^^^^^^
+327 | 8 22 | indices_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = schema.Struct( 
+        ^^^^^^^^^^^^
+328 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord( 
+        ^^^^^^
+332 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gathered_record
+        gathered_record = self.model.GatherRecord(input_record)...
+        ^^^^^^^^^^^^^^^
+336 | 8 23 | gathered_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gathered_dense
+        gathered_dense = workspace.FetchBlob(gathered_record.d...
+        ^^^^^^^^^^^^^^
+340 | 8 22 | gathered_dense | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gathered_lengths
+        gathered_lengths = workspace.FetchBlob( 
+        ^^^^^^^^^^^^^^^^
+343 | 8 24 | gathered_lengths | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gathered_items
+        gathered_items = workspace.FetchBlob( 
+        ^^^^^^^^^^^^^^
+348 | 8 22 | gathered_items | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gathered_items_lengths
+        gathered_items_lengths = workspace.FetchBlob( 
+        ^^^^^^^^^^^^^^^^^^^^^^
+357 | 8 30 | gathered_items_lengths | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gathered_items_items
+        gathered_items_items = workspace.FetchBlob( 
+        ^^^^^^^^^^^^^^^^^^^^
+380 | 8 28 | gathered_items_items | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Scalar(np.int3...
+        ^^^^^^^^^^^^
+392 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Map_to_range_output
+        map_to_range_output = self.model.MapToRange(input_record, 
+        ^^^^^^^^^^^^^^^^^^^
+393 | 8 27 | map_to_range_output | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.model.output_schema = schema.Struct() 
+        ^^^^
+395 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord( 
+        ^^^^^^
+399 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_init_net) 
+        ^^^^^^^^^
+403 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_net) 
+        ^^^^^^^^^
+404 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = workspace.FetchBlob(map_to_range_outp...
+        ^^^^^^^
+405 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord( 
+        ^^^^^^
+411 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_net) 
+        ^^^^^^^^^
+415 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = workspace.FetchBlob(map_to_range_outp...
+        ^^^^^^^
+416 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord( 
+        ^^^^^^
+424 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(eval_net) 
+        ^^^^^^^^^
+428 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = workspace.FetchBlob(map_to_range_outp...
+        ^^^^^^^
+429 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord( 
+        ^^^^^^
+435 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(eval_net) 
+        ^^^^^^^^^
+439 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = workspace.FetchBlob(map_to_range_outp...
+        ^^^^^^^
+440 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord( 
+        ^^^^^^
+448 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(predict_net) 
+        ^^^^^^^^^
+452 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Indices
+        indices = workspace.FetchBlob(map_to_range_outp...
+        ^^^^^^^
+453 | 8 15 | indices | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+        schema.FeedRecord(float_features, [float_array...
+        ^^^^^^
+464 | 8 14 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Log_float_features
+            log_float_features, = self.model.Log(float_features, 1) 
+            ^^^^^^^^^^^^^^^^^^
+467 | 12 30 | log_float_features | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Joined
+        joined = self.model.SelectRecordByContext( 
+        ^^^^^^
+468 | 8 14 | joined | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+469 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.model.output_schema = schema.Struct(( 
+        ^^^^
+478 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(predict_net) 
+        ^^^^^^^^^
+482 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_output
+        predict_output = schema.FetchRecord(predict_net.output...
+        ^^^^^^^^^^^^^^
+483 | 8 22 | predict_output | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(eval_net) 
+        ^^^^^^^^^
+487 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Eval_output
+        eval_output = schema.FetchRecord(eval_net.output_re...
+        ^^^^^^^^^^^
+488 | 8 19 | eval_output | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(train_net) 
+        ^^^^^^^^^
+496 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_output
+        train_output = schema.FetchRecord(train_net.output_r...
+        ^^^^^^^^^^^^
+497 | 8 20 | train_output | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mean
+            mean = net.ReduceFrontMean(in_record(), 1) 
+            ^^^^
+503 | 12 16 | mean | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Sub( 
+            ^^^
+504 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Normalized
+        normalized = self.model.Functional( 
+        ^^^^^^^^^^
+508 | 8 18 | normalized | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops = predict_net.Proto().op 
+        ^^^
+518 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mean
+        mean = self.model.ReduceFrontMean( 
+        ^^^^
+530 | 8 12 | mean | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Normalized
+        normalized = self.model.Sub( 
+        ^^^^^^^^^^
+532 | 8 18 | normalized | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Tuple( 
+            ^^^^^^
+533 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops = predict_net.Proto().op 
+        ^^^
+542 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Softsign
+        softsign = self.model.Softsign( 
+        ^^^^^^^^
+554 | 8 16 | softsign | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Tuple(self.model.input_feature_schema.f...
+            ^^^^^^
+555 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+        ops = predict_net.Proto().op 
+        ^^^
+564 | 8 11 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = self.model.AveragedLoss(self.model.in...
+        ^^^^
+575 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Two
+        two = self.model.Add([one, one], 1) 
+        ^^^
+582 | 8 11 | two | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+        data = workspace.FetchBlob(two.field_blobs()...
+        ^^^^
+585 | 8 12 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Topk
+        topk = self.model.TopK( 
+        ^^^^
+590 | 8 12 | topk | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = self.model.AveragedLoss( 
+        ^^^^
+603 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = self.new_record(schema.Struct( 
+        ^^^^^^^^^^^^
+614 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Concat_output
+        concat_output = self.model.Concat(input_record) 
+        ^^^^^^^^^^^^^
+621 | 8 21 | concat_output | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record2
+        input_record2 = self.new_record(schema.Struct( 
+        ^^^^^^^^^^^^^
+625 | 8 21 | input_record2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Concat_output2
+        concat_output2 = self.model.Concat(input_record2) 
+        ^^^^^^^^^^^^^^
+629 | 8 22 | concat_output2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_record
+        input_record = schema.Scalar(np.int64) 
+        ^^^^^^^^^^^^
+633 | 8 20 | input_record | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Metadata( 
+            ^^^^^^
+636 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_specs=schema
+                feature_specs=schema.FeatureSpec( 
+                ^^^^^^^^^^^^^^^^^^^^
+639 | 16 36 | feature_specs=schema | This sentence does not start with an uppercase letter
+

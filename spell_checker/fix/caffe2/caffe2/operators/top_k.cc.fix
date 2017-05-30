@@ -1,0 +1,14 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+          auto k = helper.GetSingleArgument("k", -1); ...
+          ^^^^
+16 | 10 14 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ension
+ension as a tiebreaker. That is, the element w...
+^^^^^^
+32 | 0 6 | ension | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,7 @@
+Line 1, column 11, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+  // e.g. a escape char that was the last character...
+          ^
+39 | 10 11 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

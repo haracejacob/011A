@@ -1,0 +1,21 @@
+Line 1, column 28, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  DB(const string& source, Mode mode) : mode_(mode) {} 
+                           ^^^^^^^^^
+81 | 27 36 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 50, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+... string& db_type, const string& source, Mode mode) { 
+                                           ^^^^^^^^^
+117 | 49 58 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 20, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Thread
+                  "thread safe. Consider refactoring your code.";...
+                   ^^^^^^
+234 | 19 25 | thread | This sentence does not start with an uppercase letter
+

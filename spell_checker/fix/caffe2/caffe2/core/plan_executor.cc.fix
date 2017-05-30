@@ -1,0 +1,56 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int64_t
+    int64_t iterations = step.has_num_iter() ? step...
+    ^^^^^^^
+73 | 4 11 | int64_t | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: ShouldContinue
+  ShouldContinue shouldContinue; 
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+160 | 2 31 | ShouldContinue shouldContinue | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if (!ExecuteStepRecursive(*compiledSubstep...
+        ^^
+197 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+          if (!ExecuteStepRecursive(*compiledSubstep...
+          ^^
+212 | 10 12 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+              if (!ExecuteStepRecursive( 
+              ^^
+232 | 14 16 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+          if (!step.substep().Get(i).has_run_every_m...
+          ^^
+256 | 10 12 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: ShouldContinue
+    ShouldContinue shouldContinue) { 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+298 | 4 33 | ShouldContinue shouldContinue | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!ExecuteStepRecursive(compiledStep)) {...
+    ^^
+330 | 4 6 | if | This sentence does not start with an uppercase letter
+

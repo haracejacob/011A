@@ -1,0 +1,6 @@
+Line 1, column 35, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+      LOG(ERROR) << "Caught store handler timeout exception: " << te.what(); 
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+68 | 34 59 | handler timeout exception | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+

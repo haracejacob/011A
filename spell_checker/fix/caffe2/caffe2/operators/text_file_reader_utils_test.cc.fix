@@ -1,0 +1,28 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Tokenizer
+  Tokenizer tokenizer(seps, '\\'); 
+  ^^^^^^^^^^^^^^^^^^^
+22 | 2 21 | Tokenizer tokenizer | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: ChunkProvider
+    ChunkProvider chunkProvider(ch); 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+85 | 4 31 | ChunkProvider chunkProvider | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Token
+    Token token; 
+    ^^^^^^^^^^^
+87 | 4 15 | Token token | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Token
+    Token token; 
+    ^^^^^^^^^^^
+107 | 4 15 | Token token | Possible typo: you repeated a word
+

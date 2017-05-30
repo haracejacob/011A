@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+    self.output_schema = schema.NewRecord(self.m...
+    ^^^^
+17 | 4 8 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert isinstance(input_record, schema.Struct)...
+    ^^^^^^
+23 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+    self.output_schema = schema.NewRecord(self.m...
+    ^^^^
+27 | 4 8 | self | This sentence does not start with an uppercase letter
+

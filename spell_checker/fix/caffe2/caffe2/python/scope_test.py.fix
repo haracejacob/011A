@@ -1,0 +1,266 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+    testobj.assertEquals(scope.CurrentNameScope(), ...
+    ^^^^^^^
+17 | 4 11 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+    testobj.assertEquals(scope.CurrentDeviceScope()...
+    ^^^^^^^
+18 | 4 11 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dsc
+    dsc = core.DeviceOption(caffe2_pb2.CUDA, id...
+    ^^^
+20 | 4 7 | dsc | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with scope.DeviceScope(dsc): 
+    ^^^^
+21 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with scope.NameScope(namescope): 
+        ^^^^
+22 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+            testobj.assertEquals(scope.CurrentNameScope(), ...
+            ^^^^^^^
+23 | 12 19 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+            testobj.assertEquals(scope.CurrentDeviceScope()...
+            ^^^^^^^
+24 | 12 19 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+            testobj.assertEquals(scope.CurrentNameScope(), ...
+            ^^^^^^^
+27 | 12 19 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+            testobj.assertEquals(scope.CurrentDeviceScope()...
+            ^^^^^^^
+28 | 12 19 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+    testobj.assertEquals(scope.CurrentNameScope(), ...
+    ^^^^^^^
+30 | 4 11 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Testobj
+    testobj.assertEquals(scope.CurrentDeviceScope()...
+    ^^^^^^^
+31 | 4 11 | testobj | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestScope(unittest.TestCase): 
+^^^^^
+35 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentNameScope(), ...
+        ^^^^
+38 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with scope.NameScope("test_scope"): 
+        ^^^^
+40 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEquals(scope.CurrentNameScope(), ...
+            ^^^^
+41 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentNameScope(), ...
+        ^^^^
+43 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentNameScope(), ...
+        ^^^^
+46 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with scope.NameScope("test_scope"): 
+            ^^^^
+49 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.assertEquals(scope.CurrentNameScope(), ...
+                ^^^^
+50 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentNameScope(), ...
+        ^^^^
+55 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentDeviceScope()...
+        ^^^^
+58 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dsc
+        dsc = core.DeviceOption(caffe2_pb2.CUDA, 9)...
+        ^^^
+60 | 8 11 | dsc | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with scope.DeviceScope(dsc): 
+        ^^^^
+61 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEquals(scope.CurrentDeviceScope()...
+            ^^^^
+62 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentDeviceScope()...
+        ^^^^
+64 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentDeviceScope()...
+        ^^^^
+67 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dsc
+        dsc = core.DeviceOption(caffe2_pb2.CUDA, 9)...
+        ^^^
+69 | 8 11 | dsc | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with scope.DeviceScope(dsc): 
+            ^^^^
+72 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.assertEquals(scope.CurrentDeviceScope()...
+                ^^^^
+73 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentDeviceScope()...
+        ^^^^
+78 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentNameScope(), ...
+        ^^^^
+86 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEquals(scope.CurrentDeviceScope()...
+        ^^^^
+87 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Threads
+            threads.append(threading.Thread( 
+            ^^^^^^^
+91 | 12 19 | threads | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with scope.NameScope("master"): 
+        ^^^^
+98 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEquals(scope.CurrentDeviceScope()...
+            ^^^^
+99 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEquals(scope.CurrentNameScope(), ...
+            ^^^^
+100 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEquals(scope.CurrentNameScope(), ...
+            ^^^^
+104 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEquals(scope.CurrentDeviceScope()...
+            ^^^^
+105 | 12 16 | self | This sentence does not start with an uppercase letter
+

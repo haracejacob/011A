@@ -1,0 +1,125 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class LayerModelHelper(model_helper.ModelHelp...
+^^^^^
+15 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 34, Rule ID: ITS_RULE[2]
+Message: Did you mean 'of its own'?
+Suggestion: of its own
+    is responsible for ownership of it's own parameters and can easily be 
+                                 ^^^^^^^^^^^
+20 | 33 44 | of it's own | Did you mean 'of its own'?
+
+Line 1, column 37, Rule ID: IT_IS[3]
+Message: Did you mean 'its' (possessive pronoun) instead of 'it's' (=it is)?
+Suggestion: its
+    is responsible for ownership of it's own parameters and can easily be 
+                                    ^^^^
+20 | 36 40 | it's | Did you mean 'its' (possessive pronoun) instead of 'it's' (=it is)?
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._input_feature_schema = schema.NewRecor...
+        ^^^^
+43 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._trainer_extra_schema = schema.NewRecor...
+        ^^^^
+47 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._metrics_schema = schema.Struct() 
+        ^^^^
+51 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._metrics_schema = self._metrics_schema ...
+        ^^^^
+59 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.global_constants[name] = self.net.NextB...
+        ^^^^
+68 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+                return core.CreateOperator(op_name, 
+                ^^^^^^
+92 | 16 22 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+        init_net = core.Net(name) 
+        ^^^^^^^^
+118 | 8 16 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Base_name
+        base_name = core.ScopedName(prefix) 
+        ^^^^^^^^^
+123 | 8 17 | base_name | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+            assert isinstance(param.parameter, core.BlobRe...
+            ^^^^^^
+136 | 12 18 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: OTHER_THEN[1]
+Message: Did you mean 'other than'?
+Suggestion: Other than
+        # immediately. Other then this - create_x_net should be called. 
+                       ^^^^^^^^^^
+142 | 23 33 | Other then | Did you mean 'other than'?
+
+Line 1, column 30, Rule ID: RATHER_THEN[1]
+Message: Did you mean 'than'? 'than' is used for comparisons, 'then' is an expression of time.
+Suggestion: than
+        # immediately. Other then this - create_x_net should be called. 
+                             ^^^^
+142 | 29 33 | then | Did you mean 'than'? 'than' is used for comparisons, 'then' is an expression of time.
+
+Line 1, column 28, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Add
+        # TODO(amalevich): Add add support for ifbpy inline documentation ...
+                           ^^^^^^^
+205 | 27 34 | Add add | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+        elif core.IsOperator(layer): 
+        ^^^^
+211 | 8 12 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 33, Rule ID: DOES_X_HAS[1]
+Message: Did you mean the base form of 'exists'? As 'do' is already inflected, the verb cannot also be inflected.
+            # gradient does not exists 
+                                ^^^^^^
+240 | 32 38 | exists | Did you mean the base form of 'exists'? As 'do' is already inflected, the verb cannot also be inflected.
+
+Line 1, column 33, Rule ID: DID_BASEFORM[2]
+Message: The verb 'does' requires base form of the verb: 'exist'.
+Suggestion: exist
+            # gradient does not exists 
+                                ^^^^^^
+240 | 32 38 | exists | The verb 'does' requires base form of the verb: 'exist'.
+

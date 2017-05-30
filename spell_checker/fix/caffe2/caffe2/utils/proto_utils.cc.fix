@@ -1,0 +1,34 @@
+Line 1, column 72, Rule ID: DT_JJ_NO_NOUN[1]
+Message: Probably a noun is missing in this part of the sentence.
+...ly updated the caffe2.proto file to add a new " 
+                                           ^^^^^
+32 | 71 76 | a new | Probably a noun is missing in this part of the sentence.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Stream
+  stream.SetOwnsCopyingStream(true); 
+  ^^^^^^
+97 | 2 8 | stream | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Coded_stream
+  coded_stream.SetTotalBytesLimit(1024LL << 20, 512LL ...
+  ^^^^^^^^^^^^
+101 | 2 14 | coded_stream | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+      if (arg.SerializeAsString() != 
+      ^^
+175 | 6 8 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Arg
+  arg.set_s(value.SerializeAsString()); 
+  ^^^
+325 | 2 5 | arg | This sentence does not start with an uppercase letter
+

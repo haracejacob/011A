@@ -1,0 +1,49 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Neural
+neural networks with Tensor-Train layers intro...
+^^^^^^
+14 | 0 6 | neural | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: In
+in their paper (http://arxiv.org/abs/1509....
+^^
+15 | 0 2 | in | This sentence does not start with an uppercase letter
+
+Line 1, column 53, Rule ID: DID_BASEFORM[1]
+Message: The verb 'will' requires base form of the verb: 'train'.
+Suggestion: train
+...hod should be used when a TT-layer will trained from scratch. The 
+                                           ^^^^^^^
+24 | 52 59 | trained | The verb 'will' requires base form of the verb: 'train'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+    the respective tt_ranks will dictate the ra...
+    ^^^
+26 | 4 7 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Result
+    result in more accurate approximations. The si...
+    ^^^^^^
+28 | 4 10 | result | This sentence does not start with an uppercase letter
+
+Line 1, column 30, Rule ID: DT_DT[1]
+Message: Maybe you need to remove one determiner so that only 'an' or 'a' is left.
+Suggestion: an; a
+    This method will consume an a 2D weight matrix such as those used in ...
+                             ^^^^
+103 | 29 33 | an a | Maybe you need to remove one determiner so that only 'an' or 'a' is left.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Into
+    into a TT-layer for increased speed and decr...
+    ^^^^
+107 | 4 8 | into | This sentence does not start with an uppercase letter
+

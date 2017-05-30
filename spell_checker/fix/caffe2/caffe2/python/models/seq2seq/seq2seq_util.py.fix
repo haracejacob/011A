@@ -1,0 +1,140 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Embeddings
+    embeddings = model.param_init_net.GaussianFill( 
+    ^^^^^^^^^^
+63 | 4 14 | embeddings | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reversed_embedded_inputs
+    reversed_embedded_inputs = model.net.ReversePackedSegs( 
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+131 | 4 28 | reversed_embedded_inputs | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outputs_bw
+    outputs_bw = model.net.ReversePackedSegs( 
+    ^^^^^^^^^^
+152 | 4 14 | outputs_bw | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Outputs
+    outputs, _ = model.net.Concat( 
+    ^^^^^^^
+158 | 4 11 | outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Final_hidden_state
+    final_hidden_state, _ = model.net.Concat( 
+    ^^^^^^^^^^^^^^^^^^
+164 | 4 22 | final_hidden_state | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Final_cell_state
+    final_cell_state, _ = model.net.Concat( 
+    ^^^^^^^^^^^^^^^^
+170 | 4 20 | final_cell_state | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with core.NameScope(scope or ''): 
+    ^^^^
+190 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Embedded_encoder_inputs
+            embedded_encoder_inputs = model.net.Gather( 
+            ^^^^^^^^^^^^^^^^^^^^^^^
+192 | 12 35 | embedded_encoder_inputs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with core.DeviceScope(core.DeviceOption(caff...
+            ^^^^
+197 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Embedded_encoder_inputs_cpu
+                embedded_encoder_inputs_cpu = model.net.Gather( 
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+198 | 16 43 | embedded_encoder_inputs_cpu | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Embedded_encoder_inputs
+            embedded_encoder_inputs = model.CopyCPUToGPU( 
+            ^^^^^^^^^^^^^^^^^^^^^^^
+202 | 12 35 | embedded_encoder_inputs | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with core.NameScope(scope or ''): 
+    ^^^^
+211 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Encoder_initial_cell_state
+        encoder_initial_cell_state = model.param_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+212 | 8 34 | encoder_initial_cell_state | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Encoder_initial_hidden_state
+        encoder_initial_hidden_state = model.param_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+218 | 8 36 | encoder_initial_hidden_state | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: AFFORD_VBG[1]
+Message: This verb is used with infinitive: 'to correspond'.
+Suggestion: to correspond
+        # Choose corresponding rnn encoder function 
+                 ^^^^^^^^^^^^^
+224 | 17 30 | corresponding | This verb is used with infinitive: 'to correspond'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Decoder_initial_hidden_state
+        decoder_initial_hidden_state = model.param_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+267 | 8 36 | decoder_initial_hidden_state | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Decoder_initial_cell_state
+        decoder_initial_cell_state = model.param_init_net.ConstantFill( 
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+273 | 8 34 | decoder_initial_cell_state | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.param_init_net.ConstantFill( 
+            ^^^^^
+280 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_projection_w
+    output_projection_w = model.param_init_net.XavierFill( 
+    ^^^^^^^^^^^^^^^^^^^
+329 | 4 23 | output_projection_w | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_projection_b
+    output_projection_b = model.param_init_net.XavierFill( 
+    ^^^^^^^^^^^^^^^^^^^
+335 | 4 23 | output_projection_b | This sentence does not start with an uppercase letter
+

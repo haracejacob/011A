@@ -1,0 +1,259 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+    and parameter storages. You can add an Oper...
+    ^^^
+60 | 4 7 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="train_...
+        ^^^^^
+62 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: W
+        w = model.param_init_net.XavierFill(...) ...
+        ^
+64 | 8 9 | w | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B
+        b = model.param_init_net.ConstantFill(......
+        ^
+65 | 8 9 | b | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model = model_helper.ModelHelper(name="train_...
+        ^^^^^
+71 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.net = core.Net(self.name) 
+        ^^^^
+79 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.param_init_net = core.Net(name + '_init...
+            ^^^^
+87 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for op in self.param_init_net.Proto().op: 
+        ^^^
+119 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+            if not isinstance(param, core.BlobReferenc...
+            ^^
+129 | 12 14 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+                raise ValueError("Param %s must be a BlobRefe...
+                ^^^^^
+130 | 16 21 | raise | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self._param_info_deprecated.append(parameter...
+            ^^^^
+131 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(param, core.BlobReference) 
+        ^^^^^^
+148 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if not isinstance(param, core.BlobReferenc...
+        ^^
+161 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+            raise ValueError("Param %s must be a BlobRefe...
+            ^^^^^
+162 | 12 17 | raise | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self._param_info_deprecated.append(parameter...
+        ^^^^
+163 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Namescope
+            namescope = scope.CurrentNameScope() 
+            ^^^^^^^^^
+193 | 12 21 | namescope | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+                if p.GetNameScope().startswith(namescope) ...
+                ^^
+203 | 16 18 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.net.Proto() 
+        ^^^^^^
+210 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.param_init_net.Proto() 
+        ^^^^^^
+213 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.param_init_net.RunAllOnGPU(*args, **kwa...
+        ^^^^
+216 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.net.RunAllOnGPU(*args, **kwargs) 
+        ^^^^
+217 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dbreader
+        dbreader = self.param_init_net.CreateDB( 
+        ^^^^^^^^
+220 | 8 16 | dbreader | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.grad_map = self.net.AddGradientOperator...
+        ^^^^
+228 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self._parameters_info[param] = parameter_inf...
+                ^^^^
+238 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Not
+                not isinstance(grad, core.GradientSlice) 
+                ^^^
+278 | 16 19 | not | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Namescope
+            namescope = scope.CurrentNameScope() 
+            ^^^^^^^^^
+291 | 12 21 | namescope | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+                    if p.GetNameScope() == namescope] 
+                    ^^
+300 | 20 22 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.GetParams(namescope) + self.GetCom...
+        ^^^^^^
+303 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dbreader
+        dbreader = self.param_init_net.CreateDB( 
+        ^^^^^^^^
+310 | 8 16 | dbreader | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.net.TensorProtosDBInput( 
+        ^^^^^^
+313 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if not core.IsOperator(op_type): 
+        ^^
+326 | 8 10 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Used
+    used for prediction. For example, all gradie...
+    ^^^^
+358 | 4 8 | used | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_net
+    predict_net = core.Net(net_proto.name + "_predict")...
+    ^^^^^^^^^^^
+368 | 4 15 | predict_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predict_proto
+    predict_proto = predict_net.Proto() 
+    ^^^^^^^^^^^^^
+369 | 4 17 | predict_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 53, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun set seems to be countable, so consider using: '0 sets'.
+Suggestion: 0 sets
+...eck that the op does not have is_test = 0 set. This is a common 
+                                           ^^^^^
+406 | 52 57 | 0 set | Possible agreement error. The noun set seems to be countable, so consider using: '0 sets'.
+
+Line 1, column 22, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+                    "A operator had is_test=0, did you try to ...
+                     ^
+411 | 21 22 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Predictor
+                    "predictor from a train model (instead of test mod...
+                     ^^^^^^^^^
+412 | 21 30 | predictor | This sentence does not start with an uppercase letter
+

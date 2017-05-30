@@ -1,0 +1,28 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestConvnetBenchmarks(test_util.TestCas...
+^^^^^
+6 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for model in [cb.AlexNet, cb.OverFeat, cb.V...
+        ^^^
+14 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Args
+                args = cb.GetArgumentParser().parse_args(arg...
+                ^^^^
+16 | 16 20 | args | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cb
+                cb.Benchmark(model, args) 
+                ^^
+17 | 16 18 | cb | This sentence does not start with an uppercase letter
+

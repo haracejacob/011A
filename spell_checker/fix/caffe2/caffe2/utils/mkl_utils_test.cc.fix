@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B_wrapper
+  b_wrapper.CopyFrom(b); 
+  ^^^^^^^^^
+68 | 2 11 | b_wrapper | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,91 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!OperatorBase::InputIsType<Tensor<Cont...
+    ^^
+75 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor_printer_
+      tensor_printer_.PrintMeta(Input(0)); 
+      ^^^^^^^^^^^^^^^
+83 | 6 21 | tensor_printer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor_copy_if_needed
+      tensor_copy_if_needed.CopyFrom(Input(0), &context_); 
+      ^^^^^^^^^^^^^^^^^^^^^
+116 | 6 27 | tensor_copy_if_needed | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.FinishDeviceComputation(); 
+      ^^^^^^^^
+118 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor_printer_
+    tensor_printer_.Print<T>(*tensor); 
+    ^^^^^^^^^^^^^^^
+121 | 4 19 | tensor_printer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 47, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+...  DCHECK(0 <= idx && idx < N) << "Index out of bounds: " << idx 
+                                           ^^^^^^^^^^^^^
+443 | 46 59 | out of bounds | This word is normally spelled with hyphen.
+
+Line 1, column 47, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+...  DCHECK(0 <= idx && idx < N) << "Index out of bounds: " << idx 
+                                           ^^^^^^^^^^^^^
+463 | 46 59 | out of bounds | This word is normally spelled with hyphen.
+
+Line 1, column 45, Rule ID: EN_COMPOUNDS
+Message: This word is normally spelled with hyphen.
+Suggestion: out-of-bounds
+...  DCHECK(0 <= idx && idx < N) << "Index out of bounds: " << idx 
+                                           ^^^^^^^^^^^^^
+593 | 44 57 | out of bounds | This word is normally spelled with hyphen.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto num_segments = input_size ? input_data[...
+    ^^^^
+708 | 4 8 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 59, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...0 <= num_segments, "Indices must be in 0..K-1 range"); 
+                                           ^^
+718 | 58 60 | .. | Two consecutive dots
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto num_segments = input_size ? input_data[...
+    ^^^^
+759 | 4 8 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 59, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...0 <= num_segments, "Indices must be in 0..K-1 range"); 
+                                           ^^
+769 | 58 60 | .. | Two consecutive dots
+
+Line 1, column 42, Rule ID: TO_VB_ITS_NN[1]
+Message: Did you mean 'to free its data'?
+Suggestion: to free its data
+...     // Note: this could cause Input(i) to free it's data if 
+                                           ^^^^^^^^^^^^^^^^^
+1457 | 41 58 | to free it's data | Did you mean 'to free its data'?
+

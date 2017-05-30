@@ -1,0 +1,13 @@
+Line 1, column 7, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+Batch Matrix multiplication Yi = Ai * Bi, where A has size (C x M x K)...
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+11 | 6 30 | Matrix multiplication Yi | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 50, Rule ID: NON3PRS_VERB[1]
+Message: The pronoun 'i' must be used with a non-third-person form of a verb: 'range'
+Suggestion: range
+... K x N) where C is the batch size and i ranges from 0 to C-1. 
+                                           ^^^^^^
+12 | 49 55 | ranges | The pronoun 'i' must be used with a non-third-person form of a verb: 'range'
+

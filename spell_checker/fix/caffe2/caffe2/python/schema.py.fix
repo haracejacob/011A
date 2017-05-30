@@ -1,0 +1,287 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensors
+tensors. In terms of capacity of representation...
+^^^^^^^
+8 | 0 7 | tensors | This sentence does not start with an uppercase letter
+
+Line 1, column 55, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...n operator_test/dataset_ops_test.py for a example and 
+                                           ^
+11 | 54 55 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Non-negative
+    non-negative it specifies the maximum possible value...
+    ^^^^^^^^^^^^
+70 | 4 16 | non-negative | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Field
+    field. For example if field have more then 1 ...
+    ^^^^^
+77 | 4 9 | field | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: COMPARISONS_THEN[1]
+Message: Did you mean 'more than'?
+Suggestion: more than
+    field. For example if field have more then 1 feature it can have list of 
+                                     ^^^^^^^^^
+77 | 37 46 | more then | Did you mean 'more than'?
+
+Line 1, column 43, Rule ID: COMP_THAN[2]
+Message: Comparison requires 'than', not 'then' nor 'as'.
+Suggestion: than
+...  field. For example if field have more then 1 feature it can have list of 
+                                           ^^^^
+77 | 42 46 | then | Comparison requires 'than', not 'then' nor 'as'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: This
+        this field. This slice can be used to index ...
+        ^^^^
+140 | 8 12 | this | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun if seems to be countable, so consider using: '0 ifs'.
+Suggestion: 0 ifs
+        pos = 0 if child_index is None else self._field_of...
+              ^^^^
+162 | 14 18 | 0 if | Possible agreement error. The noun if seems to be countable, so consider using: '0 ifs'.
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+            raise AttributeError('Field not found in list...
+            ^^^^^
+237 | 12 17 | raise | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+            raise KeyError('Field not found in list: %s.'...
+            ^^^^^
+247 | 12 17 | raise | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+        a string of nested name, e.g., `a`, `a:b`...
+        ^
+256 | 8 9 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+        int or string. String item is a nested fiel...
+        ^^^
+390 | 8 11 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+        "a:b:c". Int item is the index of a field ...
+         ^
+391 | 9 10 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 35, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun schema seems to be countable, so consider using: 'two schemas', 'two schemata'.
+Suggestion: two schemas; two schemata
+        Allows to merge fields of two schema.Struct using '+' operator. 
+                                  ^^^^^^^^^^
+430 | 34 44 | two schema | Possible agreement error. The noun schema seems to be countable, so consider using: 'two schemas', 'two schemata'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Recursively
+        recursively. Here are examples: 
+        ^^^^^^^^^^^
+432 | 8 19 | recursively | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Representing
+    representing a series of values in its domain. It is...
+    ^^^^^^^^^^^^
+477 | 4 16 | representing | This sentence does not start with an uppercase letter
+
+Line 1, column 53, Rule ID: THIS_NNS[1]
+Message: Did you mean 'these'?
+Suggestion: these
+...the size of the vector is determined by this fields' domain. 
+                                           ^^^^
+487 | 52 56 | this | Did you mean 'these'?
+
+Line 1, column 38, Rule ID: THIS_NNS[1]
+Message: Did you mean 'these'?
+Suggestion: these
+            where L is determined by this fields' domain. 
+                                     ^^^^
+493 | 37 41 | this | Did you mean 'these'?
+
+Line 1, column 38, Rule ID: THIS_NNS[1]
+Message: Did you mean 'these'?
+Suggestion: these
+            where L is determined by this fields' domain. 
+                                     ^^^^
+499 | 37 41 | this | Did you mean 'these'?
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: More
+    more than one field. Instead, use from_dtype...
+    ^^^^
+505 | 4 8 | more | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    blob living in a caffe2 Workspace. If blob o...
+    ^^^^
+511 | 4 8 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dtype
+            dtype: can be any numpy type. If not provided...
+            ^^^^^
+589 | 12 17 | dtype | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Provided
+                   provided, it will be inferred. If no argument is...
+                   ^^^^^^^^
+590 | 19 27 | provided | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Numpy
+                   numpy.ndarray. If a value of different type i...
+                   ^^^^^
+593 | 19 24 | numpy | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+                   a conversion to numpy.ndarray is attempte...
+                   ^
+594 | 19 20 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 20, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Accepted
+                   accepted, since they can be ambiguous. If you wa...
+                   ^^^^^^^^
+595 | 19 27 | accepted | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: On
+                "on newly created Scalar with unsafe=True. ...
+                 ^^
+603 | 17 19 | on | This sentence does not start with an uppercase letter
+
+Line 1, column 66, Rule ID: EN_A_VS_AN
+Message: Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+Suggestion: a
+...nsor data, so we will try to cast it to an numpy array. 
+                                           ^^
+617 | 65 67 | an | Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All
+    all the shapes are fixed. This function bre...
+    ^^^
+714 | 4 7 | all | This sentence does not start with an uppercase letter
+
+Line 1, column 56, Rule ID: NEW_XX[1]
+Message: Use simply 'record'.
+Suggestion: record
+...ord containing BlobReferences, return a new record with same 
+                                           ^^^^^^^^^^
+899 | 55 65 | new record | Use simply 'record'.
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return workspace.FetchBlob(str(v)) 
+            ^^^^^^
+905 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.FeedBlob(str(b), v) 
+            ^^^^^^^^^
+925 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Returning
+    returning a record containing BlobReferences. The...
+    ^^^^^^^^^
+946 | 4 13 | returning | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+    net. Use NameScope explicitly to avoid name...
+    ^^^
+948 | 4 7 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob=net
+            blob=net.NextScopedBlob('unnamed_scalar'), 
+            ^^^^^^^^
+954 | 12 20 | blob=net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+    assert isinstance(schema, Field), 'Record must...
+    ^^^^^^
+959 | 4 10 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.NextScopedBlob(prefix=name) 
+        ^^^
+961 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initialized
+    initialized with net.Const. 
+    ^^^^^^^^^^^
+970 | 4 15 | initialized | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.Const(array, blob) 
+        ^^^
+976 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.ConstantFill([], blob, shape=shape, dty...
+            ^^^
+990 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.ConstantFill([], blob, shape=[0]) 
+            ^^^
+1002 | 12 15 | net | This sentence does not start with an uppercase letter
+

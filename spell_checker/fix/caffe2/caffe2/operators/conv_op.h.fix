@@ -1,0 +1,6 @@
+Line 1, column 26, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+    // Since this is the default convolution implementation, we will 
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+15 | 25 59 | default convolution implementation | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+

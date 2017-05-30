@@ -1,0 +1,14 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pack_first_input_
+          pack_first_input_ ? ((data[p] - shard) / partitions) : da...
+          ^^^^^^^^^^^^^^^^^
+89 | 10 27 | pack_first_input_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+      output.Resize(elements); 
+      ^^^^^^
+175 | 6 12 | output | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,70 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Better
+better just the kill the process automatically...
+^^^^^^
+17 | 0 6 | better | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Maximum
+maximum timespan for a python call, such as Run...
+^^^^^^^
+18 | 0 7 | maximum | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with timeout_guard.CompleteInTimeOrDie(10.0)...
+    ^^^^
+22 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+        core.RunNet(...) 
+        ^^^^
+23 | 8 12 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class WatcherThread(threading.Thread): 
+^^^^^
+27 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Threading
+        threading.Thread.__init__(self) 
+        ^^^^^^^^^
+30 | 8 17 | threading | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.condition = threading.Condition() 
+        ^^^^
+33 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Log
+            log.error("Call did not finish in time. Tim...
+            ^^^
+45 | 12 15 | log | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Log
+                log.info("Prepared output, dumping threads....
+                ^^^
+53 | 16 19 | log | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Forcet
+            forcet = threading.Thread(target=forcequit, ar...
+            ^^^^^^
+71 | 12 18 | forcet | This sentence does not start with an uppercase letter
+

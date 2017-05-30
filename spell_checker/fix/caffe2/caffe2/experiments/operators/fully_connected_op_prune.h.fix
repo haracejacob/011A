@@ -1,0 +1,49 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mat
+            mat[offset] = mask[offset]? mat[offset] : 0...
+            ^^^
+58 | 12 15 | mat | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+          int M = X.ndim() > 1 ? X.dim32(0) : 1; 
+          ^^^
+130 | 10 13 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+            bias_multiplier_.Resize(M); 
+            ^^^^^^^^^^^^^^^^
+151 | 12 28 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+          int M = X.ndim() > 1 ? X.dim32(0) : 1; 
+          ^^^
+211 | 10 13 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Comp_r_buf_
+          comp_r_buf_.Resize(vector<TIndex>()); 
+          ^^^^^^^^^^^
+245 | 10 21 | comp_r_buf_ | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sum_buffer_
+              sum_buffer_.ResizeLike(W); 
+              ^^^^^^^^^^^
+264 | 14 25 | sum_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+            bias_multiplier_.Resize(M); 
+            ^^^^^^^^^^^^^^^^
+302 | 12 28 | bias_multiplier_ | This sentence does not start with an uppercase letter
+

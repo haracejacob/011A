@@ -1,0 +1,7 @@
+Line 1, column 10, Rule ID: NON3PRS_VERB[1]
+Message: The pronoun 'i' must be used with a non-third-person form of a verb: 'be'
+Suggestion: be
+    // i is the index of unique elements, j is the ...
+         ^^
+32 | 9 11 | is | The pronoun 'i' must be used with a non-third-person form of a verb: 'be'
+

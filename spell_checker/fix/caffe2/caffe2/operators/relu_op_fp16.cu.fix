@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: DX
+    dX[i] = __hgt(Y[i], kZero) ? dY[i] : kZero...
+    ^^
+37 | 4 6 | dX | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: DX
+    dX[i] = (__half2float(Y[i]) > 0) ? dY[i] :...
+    ^^
+39 | 4 6 | dX | This sentence does not start with an uppercase letter
+

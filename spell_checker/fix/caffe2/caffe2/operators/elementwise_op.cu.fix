@@ -1,0 +1,56 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+    out[i] = op(a[i], b[b_is_scalar ? 0 : i]); ...
+    ^^^
+15 | 4 7 | out | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_size
+  buffer_size += temp_storage_bytes % sizeof(T) != 0 ...
+  ^^^^^^^^^^^
+169 | 2 13 | buffer_size | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+  const auto& A = Input(0); 
+              ^
+208 | 14 15 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const int axis = (axis_ == -1 ? A.ndim() - B....
+    ^^^^^
+224 | 4 9 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Convert
+        convert::To<T, M>(is_scaler ? b[0] : b[idx])); ...
+        ^^^^^^^
+278 | 8 15 | convert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Convert
+        convert::To<T, M>(no_post ? b[idx % n] : b[(idx...
+        ^^^^^^^
+293 | 8 15 | convert | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+      const int axis = (axis_ == -1 ? X0.ndim() - X...
+      ^^^^^
+372 | 6 11 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (Input(0).IsType<float>()) { 
+    ^^
+408 | 4 6 | if | This sentence does not start with an uppercase letter
+

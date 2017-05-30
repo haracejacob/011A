@@ -1,0 +1,21 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Batch
+batch. More specifically, this op outputs a c...
+^^^^^
+12 | 0 5 | batch | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Batch
+batch dimension. After the zero-padding, both...
+^^^^^
+14 | 0 5 | batch | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Followed
+followed by cropping. This is the reverse transf...
+^^^^^^^^
+25 | 0 8 | followed | This sentence does not start with an uppercase letter
+

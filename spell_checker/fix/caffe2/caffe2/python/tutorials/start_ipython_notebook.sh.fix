@@ -1,0 +1,42 @@
+Line 1, column 42, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+... GLOG_logtostderr=1 GLOG_v=1 PYTHONPATH=../../../gen:$PYTHONPATH ipython notebook ...
+                                           ^^
+5 | 41 43 | .. | Two consecutive dots
+
+Line 1, column 45, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...OG_logtostderr=1 GLOG_v=1 PYTHONPATH=../../../gen:$PYTHONPATH ipython notebook --i...
+                                           ^^
+5 | 44 46 | .. | Two consecutive dots
+
+Line 1, column 48, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+...logtostderr=1 GLOG_v=1 PYTHONPATH=../../../gen:$PYTHONPATH ipython notebook --ip='...
+                                           ^^
+5 | 47 49 | .. | Two consecutive dots
+
+Line 1, column 12, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+PYTHONPATH=../../../gen:$PYTHONPATH ipython notebook ...
+           ^^
+8 | 11 13 | .. | Two consecutive dots
+
+Line 1, column 15, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+PYTHONPATH=../../../gen:$PYTHONPATH ipython notebook --i...
+              ^^
+8 | 14 16 | .. | Two consecutive dots
+
+Line 1, column 18, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+PYTHONPATH=../../../gen:$PYTHONPATH ipython notebook --ip='...
+                 ^^
+8 | 17 19 | .. | Two consecutive dots
+

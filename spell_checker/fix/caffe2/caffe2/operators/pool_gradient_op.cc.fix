@@ -1,0 +1,84 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int width = kernel_.size() > 1 ? X.dim32(3)...
+  ^^^
+82 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int depth = kernel_.size() > 2 ? X.dim32(4)...
+  ^^^
+83 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_width = kernel_.size() > 1 ? dY....
+  ^^^
+87 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_depth = kernel_.size() > 2 ? dY....
+  ^^^
+88 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+            float scale = 1. / (hend - hstart); 
+            ^^^^^
+98 | 12 17 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+              float scale = 1. / (hend - hstart) / (wend - ...
+              ^^^^^
+123 | 14 19 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int width = kernel_.size() > 1 ? X.dim32(2)...
+  ^^^
+217 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int depth = kernel_.size() > 2 ? X.dim32(3)...
+  ^^^
+218 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_width = kernel_.size() > 1 ? dY....
+  ^^^
+222 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_depth = kernel_.size() > 2 ? dY....
+  ^^^
+223 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+          const float scale = 1. / (hend - hstart); 
+          ^^^^^
+237 | 10 15 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+            const float scale = 1. / (hend - hstart) / (w...
+            ^^^^^
+257 | 12 17 | const | This sentence does not start with an uppercase letter
+

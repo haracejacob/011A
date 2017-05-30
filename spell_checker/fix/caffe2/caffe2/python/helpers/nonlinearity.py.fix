@@ -1,0 +1,14 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Slope
+        slope = core.ScopedBlobReference( 
+        ^^^^^
+23 | 8 13 | slope | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return model.net.Relu(blob_in, blob_out, order...
+    ^^^^^^
+35 | 4 10 | return | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,820 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestScopes(test_util.TestCase): 
+^^^^^
+7 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_v
+        blob_v = core.BlobReference("v") 
+        ^^^^^^
+9 | 8 14 | blob_v | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope("foo"): 
+        ^^^^
+10 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_w
+            blob_w = core.BlobReference("w") 
+            ^^^^^^
+11 | 12 18 | blob_w | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with core.NameScope("bar"): 
+            ^^^^
+12 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_x
+                blob_x = core.BlobReference("x") 
+                ^^^^^^
+13 | 16 22 | blob_x | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_x
+        global_x = core.BlobReference("x") 
+        ^^^^^^^^
+19 | 8 16 | global_x | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_y
+        global_y = core.BlobReference("y") 
+        ^^^^^^^^
+20 | 8 16 | global_y | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope("foo"): 
+        ^^^^
+21 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator("Relu", "x", "y")...
+            ^^
+23 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator("Relu", global_x,...
+            ^^
+29 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope("foo"): 
+        ^^^^
+36 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator("Relu", "x", "y")...
+            ^^
+38 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with core.NameScope("bar"): 
+            ^^^^
+43 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                op = core.CreateOperator("Relu", "x", "y")...
+                ^^
+45 | 16 18 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator("Relu", "x", "y")...
+            ^^
+51 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with core.NameScope("bar", reset=True): 
+            ^^^^
+56 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                op = core.CreateOperator("Relu", "x", "y")...
+                ^^
+58 | 16 18 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator("Relu", "x", "y")...
+            ^^
+64 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("Relu", "x", "y")...
+        ^^
+72 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertFalse(op.HasField('device_option'...
+        ^^^^
+73 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+75 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("Relu", "x", "y",...
+        ^^
+78 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue(op.HasField('device_option')...
+        ^^^^
+79 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.DeviceScope(device_option): 
+        ^^^^
+82 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator("Relu", "x", "y")...
+            ^^
+84 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertTrue(op.HasField('device_option')...
+            ^^^^
+85 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Override_device
+            override_device = caffe2_pb2.DeviceOption() 
+            ^^^^^^^^^^^^^^^
+89 | 12 27 | override_device | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op = core.CreateOperator( 
+            ^^
+91 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertTrue(op.HasField('device_option')...
+            ^^^^
+93 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator("Relu", "x", "y")...
+        ^^
+96 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertFalse(op.HasField('device_option'...
+        ^^^^
+97 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+98 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+101 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.DeviceScope(device_option): 
+        ^^^^
+104 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with core.NameScope("foo"): 
+            ^^^^
+105 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                op = core.CreateOperator("Relu", "x", "y")...
+                ^^
+106 | 16 18 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+                self.assertTrue(op.HasField('device_option')...
+                ^^^^
+107 | 16 20 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestCloneNet(test_util.TestCase): 
+^^^^^
+116 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Params
+        params = core.Net('params') 
+        ^^^^^^
+118 | 8 14 | params | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: P1
+        p1 = params.ConstantFill([], ['p1']) 
+        ^^
+119 | 8 10 | p1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.CreateNet(params) 
+        ^^^^^^^^^
+120 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNetOnce(params) 
+        ^^^^^^^^^
+121 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N
+        n = core.Net('original') 
+        ^
+123 | 8 9 | n | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A1
+        a1 = n.AddExternalInput('a1') 
+        ^^
+124 | 8 10 | a1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A2
+        a2 = n.AddExternalInput('a2') 
+        ^^
+125 | 8 10 | a2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B1
+        b1, b2 = n.Concat([a1, a2], ['b1', 'b2'], ...
+        ^^
+126 | 8 10 | b1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: C1
+        c1 = n.Sum([b1, p1], ['c1']) 
+        ^^
+127 | 8 10 | c1 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: C2
+        c2 = n.Sum([b2], ['c2']) 
+        ^^
+128 | 8 10 | c2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: D
+        d = n.Sum([c1, c2], ['d']) 
+        ^
+129 | 8 9 | d | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: K
+        k = n.Sum([p1], ['k']) 
+        ^
+135 | 8 9 | k | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: E
+        e = n.Sum([d], ['e']) 
+        ^
+136 | 8 9 | e | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: E
+        e = n.Sum([e, k], [e]) 
+        ^
+137 | 8 9 | e | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: E
+        e = n.Sum([e], [e]) 
+        ^
+138 | 8 9 | e | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: F
+        f = n.Sum(e, ['f']) 
+        ^
+139 | 8 9 | f | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEqual(len(net.Proto().op), num_op...
+            ^^^^
+142 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEqual(set(net.Proto().external_in...
+            ^^^^
+143 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+            self.assertEqual(set(net.Proto().external_ou...
+            ^^^^
+144 | 12 16 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_blobs
+            all_blobs = set(net.Proto().external_input) 
+            ^^^^^^^^^
+145 | 12 21 | all_blobs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_blobs
+            all_blobs |= set(net.Proto().external_output) 
+            ^^^^^^^^^
+146 | 12 21 | all_blobs | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+            for op in net.Proto().op: 
+            ^^^
+147 | 12 15 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.FeedBlob(input, np.array([])) 
+                ^^^^^^^^^
+152 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.CreateNet(net) 
+            ^^^^^^^^^
+153 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N2
+        n2, (d22, ) = n.ClonePartial('f1', {a1: 'a...
+        ^^
+155 | 8 10 | n2 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue(isinstance(d22, core.BlobRef...
+        ^^^^
+159 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(d22.Net(), n2) 
+        ^^^^
+160 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N3
+        n3, (d22, ) = n.ClonePartial('f2', [b1, b2...
+        ^^
+163 | 8 10 | n3 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N4
+        n4, (c22, ) = n.ClonePartial('f3', [b1], [...
+        ^^
+168 | 8 10 | n4 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N5
+        n5, (c11, c22) = n.ClonePartial('f4', [b1,...
+        ^^
+172 | 8 10 | n5 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N6
+        n6, (e22, ) = n.ClonePartial('f5', [d], [e...
+        ^^
+180 | 8 10 | n6 | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: N8
+        n8, (e22, f22) = n.ClonePartial('f7', [d],...
+        ^^
+184 | 8 10 | n8 | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestCreateOperator(test_util.TestCase):...
+^^^^^
+193 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+195 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+198 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertTrue(op.HasField('device_option')...
+        ^^^^
+211 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+            core.CreateOperator("Ludicrous", "x", "y", a...
+            ^^^^
+224 | 12 16 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestAutoNaming(test_util.TestCase): 
+^^^^^
+227 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net = core.Net('net') 
+            ^^^
+234 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+            with core.NameScope('foo'): 
+            ^^^^
+235 | 12 16 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.Add(['a', 'b'], net.NextScopedBlob('ab'...
+                ^^^
+236 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Add(['c', 'd'], net.NextBlob('cd')) 
+            ^^^
+238 | 12 15 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(net_a.Proto().op, net_b.Pro...
+        ^^^^
+244 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(net_a.Proto().op[0].output[...
+        ^^^^
+245 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertEqual(net_a.Proto().op[1].output[...
+        ^^^^
+246 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_c
+        net_c = core.Net('net') 
+        ^^^^^
+248 | 8 13 | net_c | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertNotEqual(str(net_c.NextBlob('b'))...
+        ^^^^
+250 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A
+        a = core.Net('net') 
+        ^
+253 | 8 9 | a | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B
+        b = core.Net('net') 
+        ^
+254 | 8 9 | b | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.assertNotEqual(a.Proto().name, b.Proto(...
+        ^^^^
+255 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: THE_SENT_END[1]
+Message: Did you forget something after 'a'?
+        self.assertNotEqual(a.Proto().name, b.Proto().name) 
+                            ^^
+255 | 28 30 | a. | Did you forget something after 'a'?
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: A_in1
+        a_in1 = a.AddExternalInput('a') 
+        ^^^^^
+256 | 8 13 | a_in1 | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: THE_SENT_END[1]
+Message: Did you forget something after 'a'?
+        a_in1 = a.AddExternalInput('a') 
+                ^^
+256 | 16 18 | a. | Did you forget something after 'a'?
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: B_in1
+        b_in1 = b.AddExternalInput('b') 
+        ^^^^^
+257 | 8 13 | b_in1 | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_single
+            all_outputs_single.append(a.Sum([a_in1, a_in1])) 
+            ^^^^^^^^^^^^^^^^^^
+262 | 12 30 | all_outputs_single | This sentence does not start with an uppercase letter
+
+Line 1, column 39, Rule ID: THE_SENT_END[1]
+Message: Did you forget something after 'a'?
+            all_outputs_single.append(a.Sum([a_in1, a_in1])) 
+                                      ^^
+262 | 38 40 | a. | Did you forget something after 'a'?
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_single
+            all_outputs_single.append(a.Sum([a_in1, a_in1])) 
+            ^^^^^^^^^^^^^^^^^^
+263 | 12 30 | all_outputs_single | This sentence does not start with an uppercase letter
+
+Line 1, column 39, Rule ID: THE_SENT_END[1]
+Message: Did you forget something after 'a'?
+            all_outputs_single.append(a.Sum([a_in1, a_in1])) 
+                                      ^^
+263 | 38 40 | a. | Did you forget something after 'a'?
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_single
+            all_outputs_single.append(b.Sum([b_in1, b_in1])) 
+            ^^^^^^^^^^^^^^^^^^
+264 | 12 30 | all_outputs_single | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_single
+            all_outputs_single.append(b.Sum([b_in1, b_in1])) 
+            ^^^^^^^^^^^^^^^^^^
+265 | 12 30 | all_outputs_single | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_list
+            all_outputs_list.append(a.Sum([a_in1, a_in1], outputs=2)...
+            ^^^^^^^^^^^^^^^^
+266 | 12 28 | all_outputs_list | This sentence does not start with an uppercase letter
+
+Line 1, column 37, Rule ID: THE_SENT_END[1]
+Message: Did you forget something after 'a'?
+            all_outputs_list.append(a.Sum([a_in1, a_in1], outputs=2)) 
+                                    ^^
+266 | 36 38 | a. | Did you forget something after 'a'?
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_list
+            all_outputs_list.append(a.Sum([a_in1, a_in1], outputs=2)...
+            ^^^^^^^^^^^^^^^^
+267 | 12 28 | all_outputs_list | This sentence does not start with an uppercase letter
+
+Line 1, column 37, Rule ID: THE_SENT_END[1]
+Message: Did you forget something after 'a'?
+            all_outputs_list.append(a.Sum([a_in1, a_in1], outputs=2)) 
+                                    ^^
+267 | 36 38 | a. | Did you forget something after 'a'?
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_list
+            all_outputs_list.append(b.Sum([b_in1, b_in1], outputs=2)...
+            ^^^^^^^^^^^^^^^^
+268 | 12 28 | all_outputs_list | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All_outputs_list
+            all_outputs_list.append(b.Sum([b_in1, b_in1], outputs=2)...
+            ^^^^^^^^^^^^^^^^
+269 | 12 28 | all_outputs_list | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope('n1'): 
+        ^^^^
+272 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope('n2'): 
+        ^^^^
+278 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestAppendNet(test_util.TestCase): 
+^^^^^
+297 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetA
+        netA = core.Net("A") 
+        ^^^^
+300 | 8 12 | netA | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetA
+        netA.Sum(["in1", "in2"], ["sum1"]) 
+        ^^^^
+301 | 8 12 | netA | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetB
+        netB = core.Net("B") 
+        ^^^^
+304 | 8 12 | netB | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetB
+        netB.Sum(["in3", "in4"], ["in1"]) 
+        ^^^^
+305 | 8 12 | netB | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetB
+        netB.AppendNet(netA) 
+        ^^^^
+306 | 8 12 | netB | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetA
+        netA = core.Net("A") 
+        ^^^^
+310 | 8 12 | netA | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetA
+        netA.Sum(["in1", "in2"], ["sum1"]) 
+        ^^^^
+311 | 8 12 | netA | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetB
+        netB = core.Net("B") 
+        ^^^^
+314 | 8 12 | netB | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetB
+        netB.Sum(["in3", "in4"], ["in1"]) 
+        ^^^^
+315 | 8 12 | netB | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: NetA
+        netA.AppendNet(netB)  # note different order...
+        ^^^^
+316 | 8 12 | netA | This sentence does not start with an uppercase letter
+

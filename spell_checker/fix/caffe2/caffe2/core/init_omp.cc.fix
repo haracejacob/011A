@@ -1,0 +1,7 @@
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: This
+    "this overrides the caffe2_omp_num_threads fl...
+     ^^^^
+20 | 5 9 | this | This sentence does not start with an uppercase letter
+

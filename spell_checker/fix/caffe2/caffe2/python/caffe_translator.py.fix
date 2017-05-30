@@ -1,0 +1,406 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if rule.HasField('phase') and rule.phase !...
+    ^^
+21 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if rule.HasField('min_level') and state.le...
+    ^^
+23 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if rule.HasField('max_level') and state.le...
+    ^^
+25 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Raise
+            raise KeyError('No translator registered for ...
+            ^^^^^
+68 | 12 17 | raise | This sentence does not start with an uppercase letter
+
+Line 1, column 35, Rule ID: BEEN_PART_AGREEMENT[2]
+Message: Consider using a past participle here: 'listed'.
+Suggestion: listed
+        if type(caffe_ops) is not list: 
+                                  ^^^^
+72 | 34 38 | list | Consider using a past participle here: 'listed'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_state
+        net_state = caffe_pb2.NetState() if net_state is ...
+        ^^^^^^^^^
+84 | 8 17 | net_state | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = caffe2_pb2.NetDef() 
+        ^^^
+85 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_params
+        net_params = caffe2_pb2.TensorProtos() 
+        ^^^^^^^^^^
+87 | 8 18 | net_params | This sentence does not start with an uppercase letter
+
+Line 1, column 22, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Huh
+                    'huh? more than one pretrained layer of one ...
+                     ^^^
+109 | 21 24 | huh | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+                    utils.CaffeBlobToNumpyArray(blob) 
+                    ^^^^^
+112 | 20 25 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operators
+            operators, params = cls.TranslateLayer( 
+            ^^^^^^^^^
+120 | 12 21 | operators | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return TranslatorRegistry.TranslateModel(*args...
+    ^^^^^^
+128 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+    init_net = caffe2_pb2.NetDef() 
+    ^^^^^^^^
+140 | 4 12 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+        op = core.CreateOperator( 
+        ^^
+145 | 8 10 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+                utils.MakeArgument("shape", list(tensor.dims)...
+                ^^^^^
+148 | 16 21 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+                utils.MakeArgument("values", tensor.float_dat...
+                ^^^^^
+149 | 16 21 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+    init_net.op.extend([core.CreateOperator("Constan...
+    ^^^^^^^^
+151 | 4 12 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2_op
+    caffe2_op = caffe2_pb2.OperatorDef() 
+    ^^^^^^^^^
+157 | 4 13 | caffe2_op | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+    op.arg.extend([utils.MakeArgument(key, val...
+    ^^
+166 | 4 6 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.HasField("stride_h") or param.Has...
+    ^^
+208 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.HasField("pad_h") or param.HasFie...
+    ^^
+214 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.HasField("kernel_h") or param.Has...
+    ^^
+225 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+        utils.NumpyArrayToCaffe2Tensor(pretrained_blo...
+        ^^^^^
+257 | 8 13 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+            utils.NumpyArrayToCaffe2Tensor( 
+            ^^^^^
+262 | 12 17 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+        utils.NumpyArrayToCaffe2Tensor(pretrained_blo...
+        ^^^^^
+276 | 8 13 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+            utils.NumpyArrayToCaffe2Tensor( 
+            ^^^^^
+281 | 12 17 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+    weight = utils.NumpyArrayToCaffe2Tensor(pretra...
+    ^^^^^^
+309 | 4 10 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+    bias = utils.NumpyArrayToCaffe2Tensor( 
+    ^^^^
+310 | 4 8 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.pool == caffe_pb2.PoolingParamete...
+    ^^
+324 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif param.pool == caffe_pb2.PoolingParamete...
+    ^^^^
+326 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.pool == caffe_pb2.Pooling3DParame...
+    ^^
+353 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif param.pool == caffe_pb2.Pooling3DParame...
+    ^^^^
+356 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cases
+                "cases yet so we are disabling it for now. If ...
+                 ^^^^^
+401 | 17 22 | cases | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+    weight = utils.NumpyArrayToCaffe2Tensor( 
+    ^^^^^^
+420 | 4 10 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+    bias = utils.NumpyArrayToCaffe2Tensor( 
+    ^^^^
+424 | 4 8 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Softmax_op
+    softmax_op = core.CreateOperator( 
+    ^^^^^^^^^^
+449 | 4 14 | softmax_op | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent_op
+    xent_op = core.CreateOperator( 
+    ^^^^^^^
+452 | 4 11 | xent_op | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss_op
+    loss_op = core.CreateOperator( 
+    ^^^^^^^
+456 | 4 11 | loss_op | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+    weight = utils.NumpyArrayToCaffe2Tensor( 
+    ^^^^^^
+489 | 4 10 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+    bias = utils.NumpyArrayToCaffe2Tensor( 
+    ^^^^
+491 | 4 8 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mean
+        mean = utils.NumpyArrayToCaffe2Tensor( 
+        ^^^^
+521 | 8 12 | mean | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Var
+        var = utils.NumpyArrayToCaffe2Tensor( 
+        ^^^
+524 | 8 11 | var | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scale
+    scale = utils.NumpyArrayToCaffe2Tensor( 
+    ^^^^^
+531 | 4 9 | scale | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+    bias = utils.NumpyArrayToCaffe2Tensor( 
+    ^^^^
+534 | 4 8 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weights
+        weights.append(utils.NumpyArrayToCaffe2Tensor( ...
+        ^^^^^^^
+567 | 8 15 | weights | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weights
+            weights.append(utils.NumpyArrayToCaffe2Tensor( ...
+            ^^^^^^^
+587 | 12 19 | weights | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.HasField('pooled_h'): 
+    ^^
+649 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.HasField('pooled_w'): 
+    ^^
+651 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.HasField('spatial_scale'): 
+    ^^
+653 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Slope
+    slope = utils.NumpyArrayToCaffe2Tensor(pretra...
+    ^^^^^
+664 | 4 9 | slope | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if param.operation == caffe_pb2.ReductionP...
+    ^^
+672 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Elif
+    elif param.operation == caffe_pb2.ReductionP...
+    ^^^^
+674 | 4 8 | elif | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Parser
+    parser = argparse.ArgumentParser( 
+    ^^^^^^
+690 | 4 10 | parser | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffenet
+    caffenet = caffe_pb2.NetParameter() 
+    ^^^^^^^^
+698 | 4 12 | caffenet | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffenet_pretrained
+    caffenet_pretrained = caffe_pb2.NetParameter() 
+    ^^^^^^^^^^^^^^^^^^^
+699 | 4 23 | caffenet_pretrained | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Text_format
+    text_format.Merge( 
+    ^^^^^^^^^^^
+705 | 4 15 | text_format | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffenet_pretrained
+    caffenet_pretrained.ParseFromString( 
+    ^^^^^^^^^^^^^^^^^^^
+708 | 4 23 | caffenet_pretrained | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob(param.name, utils.Caffe2Tensor...
+        ^^^^^^^^^
+725 | 8 17 | workspace | This sentence does not start with an uppercase letter
+

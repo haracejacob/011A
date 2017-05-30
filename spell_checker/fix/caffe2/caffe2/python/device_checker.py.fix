@@ -1,0 +1,133 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Will
+    will involve a lot of copy back and forth op...
+    ^^^^
+11 | 4 8 | will | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: A_LOT_OF_NN[1]
+Message: Possible agreement error. The noun copy seems to be countable; consider using: 'a lot of copies'.
+Suggestion: a lot of copies
+    will involve a lot of copy back and forth operations. Use at your ...
+                 ^^^^^^^^^^^^^
+11 | 17 30 | a lot of copy | Possible agreement error. The noun copy seems to be countable; consider using: 'a lot of copies'.
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Old_ws_name
+        old_ws_name = workspace.CurrentWorkspace() 
+        ^^^^^^^^^^^
+34 | 8 19 | old_ws_name | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.SwitchWorkspace("_device_check_", True)...
+        ^^^^^^^^^
+36 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.FeedBlob( 
+                ^^^^^^^^^
+39 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+            op.device_option.CopyFrom(device_option) 
+            ^^
+42 | 12 14 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunOperatorOnce(op) 
+            ^^^^^^^^^
+43 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.ResetWorkspace() 
+            ^^^^^^^^^
+48 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+                          ' and output {}. The outputs are:' 
+                            ^^^
+58 | 28 31 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 59, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: %s
+...    print ('Passed device pair (0, %d), %s %s' % 
+                                           ^^^^^
+65 | 58 63 | %s %s | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.SwitchWorkspace(old_ws_name) 
+        ^^^^^^^^^
+67 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Old_ws_name
+        old_ws_name = workspace.CurrentWorkspace() 
+        ^^^^^^^^^^^
+74 | 8 19 | old_ws_name | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.SwitchWorkspace("_device_check_", True)...
+        ^^^^^^^^^
+79 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.FeedBlob(name, arr, device_option) 
+                ^^^^^^^^^
+83 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op
+                op.device_option.CopyFrom(device_option) 
+                ^^
+85 | 16 18 | op | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+            workspace.RunNetOnce(net) 
+            ^^^^^^^^^
+86 | 12 21 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 29, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+                          ' and output {}. The outputs are:' 
+                            ^^^
+99 | 28 31 | and | This sentence does not start with an uppercase letter
+
+Line 1, column 60, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: %s
+...   print ('Passed device pair (%d, %d), %s %s: %s' % 
+                                           ^^^^^
+106 | 59 64 | %s %s | Possible typo: you repeated a word
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.SwitchWorkspace(old_ws_name) 
+        ^^^^^^^^^
+109 | 8 17 | workspace | This sentence does not start with an uppercase letter
+

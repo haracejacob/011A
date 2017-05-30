@@ -1,0 +1,35 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sometimes
+sometimes it is rather tricky. Specifically, we w...
+^^^^^^^^^
+5 | 0 9 | sometimes | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Consistent
+consistent version between C++ and python simultan...
+^^^^^^^^^^
+6 | 0 10 | consistent | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Protobuf
+protobuf source files. Depending on the platform...
+^^^^^^^^
+68 | 0 8 | protobuf | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Version
+version {native_ver}. This will cause the insta...
+^^^^^^^
+78 | 0 7 | version | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Protobuf
+protobuf files. This is bad in general - conside...
+^^^^^^^^
+79 | 0 8 | protobuf | This sentence does not start with an uppercase letter
+

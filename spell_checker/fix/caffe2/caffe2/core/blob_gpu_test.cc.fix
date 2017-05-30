@@ -1,0 +1,154 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(dims); 
+  ^^^^^^
+25 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) return; 
+  ^^
+35 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(dims); 
+  ^^^^^^
+51 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) return; 
+  ^^
+62 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Other_tensor
+  other_tensor.ShareData(tensor); 
+  ^^^^^^^^^^^^
+70 | 2 14 | other_tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) return; 
+  ^^
+77 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Other_tensor
+  other_tensor.ShareData(tensor); 
+  ^^^^^^^^^^^^
+87 | 2 14 | other_tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) return; 
+  ^^
+96 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Other_tensor
+  other_tensor.ShareData(tensor); 
+  ^^^^^^^^^^^^
+104 | 2 14 | other_tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(dims); 
+  ^^^^^^
+109 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!HasCudaGPU()) return; 
+  ^^
+115 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!HasCudaGPU()) {                      ...
+    ^^
+124 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+    Blob blob;                                       ...
+    ^^^^^^^^^
+127 | 4 13 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cpu_tensor
+    cpu_tensor.Resize(2, 3);                          ...
+    ^^^^^^^^^^
+129 | 4 14 | cpu_tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    blob.GetMutable<TensorCUDA>()->CopyFrom(cpu_...
+    ^^^^
+133 | 4 8 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+    string serialized = blob.Serialize("test");   ...
+    ^^^^^^
+134 | 4 10 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Blob
+  Blob blob; 
+  ^^^^^^^^^
+173 | 2 11 | Blob blob | Possible typo: you repeated a word
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  tensor.Resize(2, 3); 
+  ^^^^^^
+175 | 2 8 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    blob.Reset(new TensorCUDA(tensor, &context))...
+    ^^^^
+182 | 4 8 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: String
+    string serialized = blob.Serialize("test"); 
+    ^^^^^^
+183 | 4 10 | string | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    blob.Reset(); 
+    ^^^^
+198 | 4 8 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+    blob.Reset(); 
+    ^^^^
+205 | 4 8 | blob | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(M); 
+      ^^^^^^^^^^^^^^^^
+88 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 36, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: run
+  // a vector object every time we run Run(). 
+                                   ^^^^^^^
+122 | 35 42 | run Run | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(M); 
+      ^^^^^^^^^^^^^^^^
+179 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+

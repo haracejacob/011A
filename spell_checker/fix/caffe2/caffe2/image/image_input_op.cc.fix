@@ -1,0 +1,56 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+          int batch_size = helper.GetSingleArgument<i...
+          ^^^
+13 | 10 13 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+          int crop = helper.GetSingleArgument<int>("c...
+          ^^^
+14 | 10 13 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+          int color = helper.GetSingleArgument<int>("...
+          ^^^
+15 | 10 13 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Vector
+              vector<int>{batch_size, crop, crop, color ? 3 ...
+              ^^^^^^
+18 | 14 20 | vector | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Batch_size
+batch_size images will be processed. GPUs can opti...
+^^^^^^^^^^
+26 | 0 10 | batch_size | This sentence does not start with an uppercase letter
+
+Line 1, column 12, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: This
+         " this. Scale and minsize are mutually exclusi...
+           ^^^^
+45 | 11 15 | this | This sentence does not start with an uppercase letter
+
+Line 1, column 12, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: This
+         " this only if the size is initially smaller. ...
+           ^^^^
+48 | 11 15 | this | This sentence does not start with an uppercase letter
+
+Line 1, column 12, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mutually
+         " mutually exclusive. Must be larger than crop.") ...
+           ^^^^^^^^
+49 | 11 19 | mutually | This sentence does not start with an uppercase letter
+

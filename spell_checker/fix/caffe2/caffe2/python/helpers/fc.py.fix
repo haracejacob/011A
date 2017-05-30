@@ -1,0 +1,112 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_out
+    blob_out = blob_out or model.net.NextName() 
+    ^^^^^^^^
+23 | 4 12 | blob_out | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+        weight = core.ScopedBlobReference( 
+        ^^^^^^
+36 | 8 14 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+        bias = core.ScopedBlobReference( 
+        ^^^^
+38 | 8 12 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return _FC_or_packed_FC(model, model.net.Packe...
+    ^^^^^^
+56 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_out
+    blob_out = blob_out or model.net.NextName() 
+    ^^^^^^^^
+69 | 4 12 | blob_out | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob_out
+    blob_out = blob_out or model.net.NextName() 
+    ^^^^^^^^
+105 | 4 12 | blob_out | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Compress_lb
+        compress_lb = model.param_init_net.ConstantFill( 
+        ^^^^^^^^^^^
+108 | 8 19 | compress_lb | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mask
+        mask = model.param_init_net.ConstantFill( 
+        ^^^^
+120 | 8 12 | mask | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Thres
+        thres = model.param_init_net.ConstantFill( 
+        ^^^^^
+144 | 8 13 | thres | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Compress_lb
+        compress_lb = core.ScopedBlobReference( 
+        ^^^^^^^^^^^
+151 | 8 19 | compress_lb | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+        weight = core.ScopedBlobReference( 
+        ^^^^^^
+153 | 8 14 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias
+        bias = core.ScopedBlobReference( 
+        ^^^^
+155 | 8 12 | bias | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mask
+        mask = core.ScopedBlobReference( 
+        ^^^^
+157 | 8 12 | mask | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ag_dw
+        ag_dw = core.ScopedBlobReference( 
+        ^^^^^
+159 | 8 13 | ag_dw | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mask_seq
+        mask_seq = core.ScopedBlobReference( 
+        ^^^^^^^^
+161 | 8 16 | mask_seq | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Thres
+        thres = core.ScopedBlobReference( 
+        ^^^^^
+163 | 8 13 | thres | This sentence does not start with an uppercase letter
+

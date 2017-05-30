@@ -1,0 +1,70 @@
+Line 1, column 26, Rule ID: EN_A_VS_AN
+Message: Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+Suggestion: a
+Simple example to create an lmdb database of random image data and ...
+                         ^^
+15 | 25 27 | an | Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor_protos
+            tensor_protos = caffe2_pb2.TensorProtos() 
+            ^^^^^^^^^^^^^
+40 | 12 25 | tensor_protos | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor_protos
+                tensor_protos.SerializeToString() 
+                ^^^^^^^^^^^^^
+53 | 16 29 | tensor_protos | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data
+    data, label = model.TensorProtosDBInput( 
+    ^^^^
+69 | 4 8 | data | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunNetOnce(model.param_init_net) 
+    ^^^^^^^^^
+75 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.CreateNet(model.net) 
+    ^^^^^^^^^
+76 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.RunNet(model.net.Proto().name) 
+        ^^^^^^^^^
+79 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Img_datas
+        img_datas = workspace.FetchBlob("data") 
+        ^^^^^^^^^
+81 | 8 17 | img_datas | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Labels
+        labels = workspace.FetchBlob("label") 
+        ^^^^^^
+82 | 8 14 | labels | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Parser
+    parser = argparse.ArgumentParser( 
+    ^^^^^^
+92 | 4 10 | parser | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the outermost dimension of the tensor. Indi...
+^^^
+13 | 0 3 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Unique
+unique but with the range [0, blocks_size). In...
+^^^^^^
+14 | 0 6 | unique | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,63 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+58 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+78 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+104 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+124 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+149 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+169 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+  auto* blob = ws.GetBlob("Y"); 
+  ^^^^^
+194 | 2 7 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+216 | 4 9 | auto* | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto*
+    auto* blob = ws.GetBlob("Z"); 
+    ^^^^^
+235 | 4 9 | auto* | This sentence does not start with an uppercase letter
+

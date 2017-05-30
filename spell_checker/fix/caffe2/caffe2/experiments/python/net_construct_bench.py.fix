@@ -1,0 +1,63 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Params
+    params = train_model.GetParams() 
+    ^^^^^^
+31 | 4 10 | params | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Param_momentum
+        param_momentum = train_model.param_init_net.ConstantFi...
+        ^^^^^^^^^^^^^^
+42 | 8 22 | param_momentum | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_model
+        train_model.net.MomentumSGD( 
+        ^^^^^^^^^^^
+47 | 8 19 | train_model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Train_model
+        train_model.WeightedSum( 
+        ^^^^^^^^^^^
+55 | 8 19 | train_model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.Accuracy([softmax, "label"], "accuracy"...
+        ^^^^^
+82 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.AddWeightDecay(1e-4) 
+        ^^^^^
+87 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data_parallel_model
+    data_parallel_model.Parallelize_GPU( 
+    ^^^^^^^^^^^^^^^^^^^
+106 | 4 23 | data_parallel_model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Parser
+    parser = argparse.ArgumentParser( 
+    ^^^^^^
+122 | 4 10 | parser | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.GlobalInit(['caffe2', '--caffe2_log_lev...
+    ^^^^^^^^^
+133 | 4 13 | workspace | This sentence does not start with an uppercase letter
+

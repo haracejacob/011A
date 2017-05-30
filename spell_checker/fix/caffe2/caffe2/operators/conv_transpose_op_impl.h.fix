@@ -1,0 +1,49 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+    bias_multiplier_.Resize(vector<TIndex>(1, output_image_s...
+    ^^^^^^^^^^^^^^^^
+47 | 4 20 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+    bias_multiplier_.Resize(vector<TIndex>(1, output_image_s...
+    ^^^^^^^^^^^^^^^^
+160 | 4 20 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_buffer_
+    col_buffer_.Resize(vector<TIndex>{H, W, kernel_h_, ...
+    ^^^^^^^^^^^
+171 | 4 15 | col_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_buffer_
+  col_buffer_.Resize(vector<TIndex>{C, kernel_h_, ker...
+  ^^^^^^^^^^^
+256 | 2 13 | col_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+    bias_multiplier_.Resize(1, output_image_size); 
+    ^^^^^^^^^^^^^^^^
+258 | 4 20 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Col_buffer_
+  col_buffer_.Resize(vector<TIndex>{H, W, kernel_h_, ...
+  ^^^^^^^^^^^
+396 | 2 13 | col_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+    bias_multiplier_.Resize(1, output_image_size); 
+    ^^^^^^^^^^^^^^^^
+398 | 4 20 | bias_multiplier_ | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,140 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class _QueueReader(dataio.Reader): 
+^^^^^
+11 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dataio
+        dataio.Reader.__init__(self, wrapper.schema())...
+        ^^^^^^
+15 | 8 14 | dataio | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Exit_net
+        exit_net.CloseBlobsQueue([self._wrapper.queue()]...
+        ^^^^^^^^
+19 | 8 16 | exit_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dequeue_net
+        dequeue_net = core.Net('dequeue') 
+        ^^^^^^^^^^^
+23 | 8 19 | dequeue_net | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class _QueueWriter(dataio.Writer): 
+^^^^^
+32 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Exit_net
+        exit_net.CloseBlobsQueue([self._wrapper.queue()]...
+        ^^^^^^^^
+37 | 8 16 | exit_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Enqueue_net
+        enqueue_net = core.Net('enqueue') 
+        ^^^^^^^^^^^
+41 | 8 19 | enqueue_net | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class QueueWrapper(dataio.Pipe): 
+^^^^^
+46 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dataio
+        dataio.Pipe.__init__(self, schema, TaskGroup.L...
+        ^^^^^^
+48 | 8 14 | dataio | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = core.Net(name) 
+        ^^^
+64 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Queue_blob
+        queue_blob = net.AddExternalInput(net.NextName('ha...
+        ^^^^^^^^^^
+65 | 8 18 | queue_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Global_init_net
+        global_init_net.CreateBlobsQueue( 
+        ^^^^^^^^^^^^^^^
+73 | 8 23 | global_init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Status
+        status = net.NextName('status') 
+        ^^^^^^
+83 | 8 14 | status | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Results
+    results = net.SafeEnqueueBlobs([queue] + data_b...
+    ^^^^^^^
+84 | 4 11 | results | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data_names
+        data_names = [net.NextName(name) for name in field...
+        ^^^^^^^^^^
+91 | 8 18 | data_names | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Data_names
+        data_names = [net.NextName('data', i) for i in ran...
+        ^^^^^^^^^^
+93 | 8 18 | data_names | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Status
+        status = net.NextName('status') 
+        ^^^^^^
+95 | 8 14 | status | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Results
+    results = net.SafeDequeueBlobs(queue, data_name...
+    ^^^^^^^
+96 | 4 11 | results | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Close_net
+    close_net = core.Net("close_queue_net") 
+    ^^^^^^^^^
+103 | 4 13 | close_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Close_net
+        close_net.CloseBlobsQueue([queue], 0) 
+        ^^^^^^^^^
+105 | 8 17 | close_net | This sentence does not start with an uppercase letter
+

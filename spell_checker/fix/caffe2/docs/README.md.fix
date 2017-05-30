@@ -1,0 +1,7 @@
+Line 1, column 142, Rule ID: THIS_NNS[2]
+Message: Did you mean 'this file' or 'These files'?
+Suggestion: This file; These files
+... the /docs folder and this was removed. These file show up in the top navigation under “Re...
+                                           ^^^^^^^^^^
+15 | 141 151 | These file | Did you mean 'this file' or 'These files'?
+

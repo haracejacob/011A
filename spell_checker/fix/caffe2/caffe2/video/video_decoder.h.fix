@@ -1,0 +1,14 @@
+Line 1, column 10, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Max) must be used with a third-person verb: 'dimensions'.
+Suggestion: dimensions
+   * Max dimension of either width or height, if any is bi...
+         ^^^^^^^^^
+139 | 9 18 | dimension | The proper name in singular (Max) must be used with a third-person verb: 'dimensions'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int r = buf_size < reminder ? buf_size : re...
+    ^^^
+287 | 4 7 | int | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Htrace_tracer_
+          htrace_tracer_, htrace_root_scope_.GetSpanId(), stream...
+          ^^^^^^^^^^^^^^
+19 | 10 24 | htrace_tracer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Htrace_root_scope_
+        htrace_root_scope_.GetSpanId(), 
+        ^^^^^^^^^^^^^^^^^^
+26 | 8 26 | htrace_root_scope_ | This sentence does not start with an uppercase letter
+
+Line 1, column 32, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Def
+          (def.name().size() ? def.name() : (def.output_size() ? def.outpu...
+                               ^^^
+52 | 31 34 | def | This sentence does not start with an uppercase letter
+

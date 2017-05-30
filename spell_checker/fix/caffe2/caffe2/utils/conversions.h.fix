@@ -1,0 +1,28 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mantissa
+    mantissa = (mantissa ? (sign = 0, 0x7fffff) : 0)...
+    ^^^^^^^^
+86 | 4 12 | mantissa | This sentence does not start with an uppercase letter
+
+Line 1, column 31, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: IN
+CONVERSIONS_DECL OUT To(const IN in) { 
+                              ^^^^^
+112 | 30 35 | IN in | Possible typo: you repeated a word
+
+Line 1, column 35, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (const) must be used with a third-person verb: 'floats'.
+Suggestion: floats
+CONVERSIONS_DECL float16 To(const float in) { 
+                                  ^^^^^
+132 | 34 39 | float | The proper name in singular (const) must be used with a third-person verb: 'floats'.
+
+Line 1, column 33, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (const) must be used with a third-person verb: 'floats'.
+Suggestion: floats
+CONVERSIONS_DECL float To(const float in) { 
+                                ^^^^^
+162 | 32 37 | float | The proper name in singular (const) must be used with a third-person verb: 'floats'.
+

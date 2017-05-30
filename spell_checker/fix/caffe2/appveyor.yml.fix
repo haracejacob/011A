@@ -1,0 +1,7 @@
+Line 1, column 52, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+...ntly, CUDA + Debug does not work due to a error of using 
+                                           ^
+28 | 51 52 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

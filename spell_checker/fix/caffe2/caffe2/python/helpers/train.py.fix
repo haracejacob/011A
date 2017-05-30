@@ -1,0 +1,98 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Namescope
+        namescope = scope.CurrentNameScope() 
+        ^^^^^^^^^
+13 | 8 17 | namescope | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return [w for w in model.weights if w.GetNameS...
+        ^^^^^^
+18 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    model.param_init_net.ConstantFill( 
+    ^^^^^
+24 | 4 9 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dtype=core
+        dtype=core.DataType.INT64, 
+        ^^^^^^^^^^
+29 | 8 18 | dtype=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=core
+        device_option=core.DeviceOption(caffe2_pb2.CPU, 0), 
+        ^^^^^^^^^^^^^^^^^^
+30 | 8 26 | device_option=core | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return model.net.Iter(blob_out, blob_out, **kw...
+    ^^^^^^
+33 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Else
+        else scope.CurrentDeviceScope() 
+        ^^^^
+38 | 8 12 | else | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pred_host
+        pred_host = model.net.CopyGPUToCPU(blob_in[0], bl...
+        ^^^^^^^^^
+43 | 8 17 | pred_host | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Label_host
+        label_host = model.net.CopyGPUToCPU(blob_in[1], bl...
+        ^^^^^^^^^^
+44 | 8 18 | label_host | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.net.Accuracy( 
+        ^^^^^
+47 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option=core
+            device_option=core.DeviceOption(caffe2_pb2.CPU, 0), 
+            ^^^^^^^^^^^^^^^^^^
+50 | 12 30 | device_option=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.net.Accuracy(blob_in, blob_out) 
+        ^^^^^
+54 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Wd
+    wd = model.param_init_net.ConstantFill( 
+    ^^
+67 | 4 6 | wd | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.net.WeightedSum( 
+        ^^^^^
+74 | 8 13 | model | This sentence does not start with an uppercase letter
+

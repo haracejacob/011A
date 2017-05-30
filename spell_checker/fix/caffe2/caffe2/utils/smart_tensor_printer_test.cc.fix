@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: CPUContext
+  CPUContext cpuContext; 
+  ^^^^^^^^^^^^^^^^^^^^^
+30 | 2 23 | CPUContext cpuContext | Possible typo: you repeated a word
+

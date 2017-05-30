@@ -1,0 +1,56 @@
+Line 1, column 41, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Color
+...  ProfiledRange(const OperatorDef& def, Color color) { 
+                                           ^^^^^^^^^^^
+35 | 40 51 | Color color | Possible typo: you repeated a word
+
+Line 1, column 41, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Color
+...  ProfiledRange(const OperatorDef& def, Color color) {} 
+                                           ^^^^^^^^^^^
+66 | 40 51 | Color color | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gpu_id_
+      gpu_id_ = device_option.has_cuda_gpu_id() ? dev...
+      ^^^^^^^
+81 | 6 13 | gpu_id_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Gpu_id_
+    gpu_id_ = device_option.has_cuda_gpu_id() ? dev...
+    ^^^^^^^
+116 | 4 11 | gpu_id_ | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Stream
+  internal::Stream stream{ 
+            ^^^^^^^^^^^^^
+172 | 12 25 | Stream stream | Possible typo: you repeated a word
+
+Line 1, column 13, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Stream
+  internal::Stream stream{device_option}; 
+            ^^^^^^^^^^^^^
+221 | 12 25 | Stream stream | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (!queue_.Pop(&task)) { 
+    ^^
+292 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+        if (!queue_.Pop(&task)) { 
+        ^^
+318 | 8 10 | if | This sentence does not start with an uppercase letter
+

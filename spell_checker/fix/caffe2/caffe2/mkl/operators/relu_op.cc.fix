@@ -1,0 +1,56 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Primitive_
+      primitive_.Reset(dnnReLUCreateForward<T>, nullptr,...
+      ^^^^^^^^^^
+23 | 6 16 | primitive_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+      buffer_.Reset(X.dims(), primitive_, dnnResource...
+      ^^^^^^^
+25 | 6 13 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.ShareFrom(*Y); 
+    ^^^^^^^
+30 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.CopyTo(Y, primitive_, dnnResourceDst); ...
+    ^^^^^^^
+34 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Primitive_
+      primitive_.Reset( 
+      ^^^^^^^^^^
+53 | 6 16 | primitive_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+      buffer_.Reset(Y.dims(), primitive_, dnnResource...
+      ^^^^^^^
+56 | 6 13 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.ShareFrom(*dX); 
+    ^^^^^^^
+60 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.CopyTo(dX); 
+    ^^^^^^^
+66 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+

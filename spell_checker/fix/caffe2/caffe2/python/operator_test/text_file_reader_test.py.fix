@@ -1,0 +1,42 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Txt_file
+        txt_file = tempfile.NamedTemporaryFile(delete=Fa...
+        ^^^^^^^^
+26 | 8 16 | txt_file | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+                init_net = core.Net('init_net') 
+                ^^^^^^^^
+33 | 16 24 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                workspace.RunNetOnce(init_net) 
+                ^^^^^^^^^
+40 | 16 25 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net = core.Net('read_net') 
+                ^^^
+42 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+                    workspace.RunNetOnce(net) 
+                    ^^^^^^^^^
+47 | 20 29 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+                    if workspace.FetchBlob(should_stop): 
+                    ^^
+51 | 20 22 | if | This sentence does not start with an uppercase letter
+

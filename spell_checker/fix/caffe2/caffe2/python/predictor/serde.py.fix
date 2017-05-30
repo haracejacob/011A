@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return protobuf_struct.SerializeToString() 
+    ^^^^^^
+9 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Deser
+    deser.ParseFromString(serialized_protobuf) 
+    ^^^^^
+14 | 4 9 | deser | This sentence does not start with an uppercase letter
+

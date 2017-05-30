@@ -1,0 +1,14 @@
+Line 1, column 11, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: the
+     * So the the output gradient should be the matrix mu...
+          ^^^^^^^
+206 | 10 17 | the the | Possible typo: you repeated a word
+
+Line 1, column 11, Rule ID: DT_DT[1]
+Message: Maybe you need to remove one determiner so that only 'the' or 'the' is left.
+Suggestion: the; the
+     * So the the output gradient should be the matrix mu...
+          ^^^^^^^
+206 | 10 17 | the the | Maybe you need to remove one determiner so that only 'the' or 'the' is left.
+

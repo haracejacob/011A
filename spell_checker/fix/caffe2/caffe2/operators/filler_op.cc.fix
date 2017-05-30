@@ -1,0 +1,49 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Argument
+argument. In that case the 'shape' argument shou...
+^^^^^^^^
+44 | 0 8 | argument | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Given
+given by input blobs, you also need to give t...
+^^^^^
+83 | 0 5 | given | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+is given as arguments, this operator enfor...
+^^
+84 | 0 2 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Given
+given as inputs, the constraint is not enforc...
+^^^^^
+85 | 0 5 | given | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dimension
+dimension of the output is set to 0. This behavio...
+^^^^^^^^^
+86 | 0 9 | dimension | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sampling
+sampling. Using the second input will require yo...
+^^^^^^^^
+119 | 0 8 | sampling | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: By
+        "by the input blob. " 
+         ^^
+136 | 9 11 | by | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+          return givenName.empty() ? def().output().Get(...
+          ^^^^^^
+116 | 10 16 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 38, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Def
+          return givenName.empty() ? def().output().Get(0) : givenName; 
+                                     ^^^
+116 | 37 40 | def | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Keyed
+keyed by name. A StatRegistry is used to gath...
+^^^^^
+151 | 0 5 | keyed | This sentence does not start with an uppercase letter
+

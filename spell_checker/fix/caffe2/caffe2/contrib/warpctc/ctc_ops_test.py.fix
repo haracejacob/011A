@@ -1,0 +1,42 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dyndep
+dyndep.InitOpsLibrary('@/caffe2/caffe2/contrib...
+^^^^^^
+10 | 0 6 | dyndep | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+workspace.GlobalInit(["python"]) 
+^^^^^^^^^
+11 | 0 9 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class CTCOpsTest(test_util.TestCase): 
+^^^^^
+21 | 0 5 | class | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net = core.Net("test-net") 
+        ^^^
+38 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2_pb2
+            caffe2_pb2.DeviceOption(device_type=caffe2_pb2.CPU...
+            ^^^^^^^^^^
+57 | 12 22 | caffe2_pb2 | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Caffe2_pb2
+            caffe2_pb2.DeviceOption(device_type=caffe2_pb2.CUD...
+            ^^^^^^^^^^
+61 | 12 22 | caffe2_pb2 | This sentence does not start with an uppercase letter
+

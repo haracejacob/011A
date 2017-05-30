@@ -1,0 +1,56 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Total
+            total = ops.Const([100]) 
+            ^^^^^
+28 | 12 17 | total | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ops
+            ops.Add([total, rec.val()], [total]) 
+            ^^^
+31 | 12 15 | ops | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_fetcher
+        output_fetcher = Task(step=core.Net('empty'), outputs=...
+        ^^^^^^^^^^^^^^
+46 | 8 22 | output_fetcher | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with tempfile.NamedTemporaryFile() as tmp: 
+        ^^^^
+71 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+                ws = workspace.C.Workspace() 
+                ^^
+74 | 16 18 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+                ws = workspace.C.Workspace() 
+                ^^
+86 | 16 18 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+                ws = workspace.C.Workspace() 
+                ^^
+100 | 16 18 | ws | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ws
+            ws = workspace.C.Workspace() 
+            ^^
+113 | 12 14 | ws | This sentence does not start with an uppercase letter
+

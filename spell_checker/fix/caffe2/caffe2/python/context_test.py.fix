@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Class
+class TestContext(test_util.TestCase): 
+^^^^^
+14 | 0 5 | class | This sentence does not start with an uppercase letter
+

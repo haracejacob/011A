@@ -1,0 +1,42 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Absolute_path_
+        absolute_path_ ? db_name_ : (ws_->RootFolder() + "/" +...
+        ^^^^^^^^^^^^^^
+51 | 8 22 | absolute_path_ | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Absolute_path_
+          absolute_path_ ? db_name_ : (ws_->RootFolder() + "/" +...
+          ^^^^^^^^^^^^^^
+133 | 10 24 | absolute_path_ | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+          proto.ParseFromString(cursor->value()), "Coul...
+          ^^^^^
+161 | 10 15 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Absolute_path_
+        absolute_path_ ? db_name_ : (ws_->RootFolder() + "/" +...
+        ^^^^^^^^^^^^^^
+379 | 8 22 | absolute_path_ | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <typename... Ts> 
+^^^^^^^^
+411 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+      return sub_op.Run(); 
+      ^^^^^^
+466 | 6 12 | return | This sentence does not start with an uppercase letter
+

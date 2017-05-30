@@ -1,0 +1,21 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return model.net.MaxPool(blob_in, blob_out, or...
+    ^^^^^^
+14 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return model.net.AveragePool( 
+    ^^^^^^
+22 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return model.net.MaxPoolWithIndex( 
+    ^^^^^^
+32 | 4 10 | return | This sentence does not start with an uppercase letter
+

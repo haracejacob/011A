@@ -1,0 +1,28 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return tgt - 1. / (1. + exp(-lgt)); 
+  ^^^^^^
+124 | 2 8 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+  float sum = BlockReduce(temp_storage).Sum(val...
+  ^^^^^
+143 | 2 7 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto inner_size = logits.ndim() > 0 ? l...
+  ^^^^^
+170 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto inner_size = logits.ndim() > 0 ? l...
+  ^^^^^
+201 | 2 7 | const | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,868 @@
+Line 1, column 14, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+  PYTHONPATH=../gen:$PYTHONPATH python convnet_benchmar...
+             ^^
+41 | 13 15 | .. | Two consecutive dots
+
+Line 1, column 14, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+  PYTHONPATH=../gen:$PYTHONPATH python convnet_benchmar...
+             ^^
+45 | 13 15 | .. | Two consecutive dots
+
+Line 1, column 12, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+PYTHONPATH=../gen:$PYTHONPATH python convnet_benchmar...
+           ^^
+48 | 11 13 | .. | Two consecutive dots
+
+Line 1, column 12, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+PYTHONPATH=../gen:$PYTHONPATH python convnet_benchmar...
+           ^^
+50 | 11 13 | .. | Two consecutive dots
+
+Line 1, column 14, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+  PYTHONPATH=../gen:$PYTHONPATH python convnet_benchmar...
+             ^^
+54 | 13 15 | .. | Two consecutive dots
+
+Line 1, column 14, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+  PYTHONPATH=../gen:$PYTHONPATH python convnet_benchmar...
+             ^^
+56 | 13 15 | .. | Two consecutive dots
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight_init=model
+                weight_init=model.XavierInit, 
+                ^^^^^^^^^^^^^^^^^
+81 | 16 33 | weight_init=model | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_init=model
+                bias_init=model.XavierInit) 
+                ^^^^^^^^^^^^^^^
+82 | 16 31 | bias_init=model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    model.Sum(["fc_{}_{}".format(depth, j) for j ...
+    ^^^^^
+83 | 4 9 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight_init=model
+             weight_init=model.XavierInit, 
+             ^^^^^^^^^^^^^^^^^
+86 | 13 30 | weight_init=model | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_init=model
+             bias_init=model.XavierInit) 
+             ^^^^^^^^^^^^^^^
+87 | 13 28 | bias_init=model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent
+    xent = model.LabelCrossEntropy(["last", "lab...
+    ^^^^
+88 | 4 8 | xent | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.AveragedLoss(xent, "loss") 
+        ^^^^^
+90 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv1
+    conv1 = model.Conv( 
+    ^^^^^
+99 | 4 9 | conv1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu1
+    relu1 = model.Relu(conv1, "conv1") 
+    ^^^^^
+110 | 4 9 | relu1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool1
+    pool1 = model.MaxPool(relu1, "pool1", kernel=...
+    ^^^^^
+111 | 4 9 | pool1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv2
+    conv2 = model.Conv( 
+    ^^^^^
+112 | 4 9 | conv2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu2
+    relu2 = model.Relu(conv2, "conv2") 
+    ^^^^^
+122 | 4 9 | relu2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool2
+    pool2 = model.MaxPool(relu2, "pool2", kernel=...
+    ^^^^^
+123 | 4 9 | pool2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv3
+    conv3 = model.Conv( 
+    ^^^^^
+124 | 4 9 | conv3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu3
+    relu3 = model.Relu(conv3, "conv3") 
+    ^^^^^
+134 | 4 9 | relu3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv4
+    conv4 = model.Conv( 
+    ^^^^^
+135 | 4 9 | conv4 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu4
+    relu4 = model.Relu(conv4, "conv4") 
+    ^^^^^
+145 | 4 9 | relu4 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv5
+    conv5 = model.Conv( 
+    ^^^^^
+146 | 4 9 | conv5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu5
+    relu5 = model.Relu(conv5, "conv5") 
+    ^^^^^
+156 | 4 9 | relu5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool5
+    pool5 = model.MaxPool(relu5, "pool5", kernel=...
+    ^^^^^
+157 | 4 9 | pool5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu6
+    relu6 = model.Relu(fc6, "fc6") 
+    ^^^^^
+162 | 4 9 | relu6 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu7
+    relu7 = model.Relu(fc7, "fc7") 
+    ^^^^^
+166 | 4 9 | relu7 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pred
+    pred = model.Softmax(fc8, "pred") 
+    ^^^^
+170 | 4 8 | pred | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent
+    xent = model.LabelCrossEntropy([pred, "label...
+    ^^^^
+171 | 4 8 | xent | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = model.AveragedLoss(xent, "loss") 
+        ^^^^
+173 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv1
+    conv1 = model.Conv( 
+    ^^^^^
+182 | 4 9 | conv1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu1
+    relu1 = model.Relu(conv1, "conv1") 
+    ^^^^^
+192 | 4 9 | relu1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool1
+    pool1 = model.MaxPool(relu1, "pool1", kernel=...
+    ^^^^^
+193 | 4 9 | pool1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv2
+    conv2 = model.Conv( 
+    ^^^^^
+194 | 4 9 | conv2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu2
+    relu2 = model.Relu(conv2, "conv2") 
+    ^^^^^
+197 | 4 9 | relu2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool2
+    pool2 = model.MaxPool(relu2, "pool2", kernel=...
+    ^^^^^
+198 | 4 9 | pool2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv3
+    conv3 = model.Conv( 
+    ^^^^^
+199 | 4 9 | conv3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu3
+    relu3 = model.Relu(conv3, "conv3") 
+    ^^^^^
+209 | 4 9 | relu3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv4
+    conv4 = model.Conv( 
+    ^^^^^
+210 | 4 9 | conv4 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu4
+    relu4 = model.Relu(conv4, "conv4") 
+    ^^^^^
+220 | 4 9 | relu4 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv5
+    conv5 = model.Conv( 
+    ^^^^^
+221 | 4 9 | conv5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu5
+    relu5 = model.Relu(conv5, "conv5") 
+    ^^^^^
+231 | 4 9 | relu5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool5
+    pool5 = model.MaxPool(relu5, "pool5", kernel=...
+    ^^^^^
+232 | 4 9 | pool5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu6
+    relu6 = model.Relu(fc6, "fc6") 
+    ^^^^^
+237 | 4 9 | relu6 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu7
+    relu7 = model.Relu(fc7, "fc7") 
+    ^^^^^
+241 | 4 9 | relu7 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pred
+    pred = model.Softmax(fc8, "pred") 
+    ^^^^
+245 | 4 8 | pred | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent
+    xent = model.LabelCrossEntropy([pred, "label...
+    ^^^^
+246 | 4 8 | xent | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = model.AveragedLoss(xent, "loss") 
+        ^^^^
+248 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv1
+    conv1 = model.Conv( 
+    ^^^^^
+257 | 4 9 | conv1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu1
+    relu1 = model.Relu(conv1, "conv1") 
+    ^^^^^
+267 | 4 9 | relu1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool1
+    pool1 = model.MaxPool(relu1, "pool1", kernel=...
+    ^^^^^
+268 | 4 9 | pool1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv2
+    conv2 = model.Conv( 
+    ^^^^^
+269 | 4 9 | conv2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu2
+    relu2 = model.Relu(conv2, "conv2") 
+    ^^^^^
+279 | 4 9 | relu2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool2
+    pool2 = model.MaxPool(relu2, "pool2", kernel=...
+    ^^^^^
+280 | 4 9 | pool2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv3
+    conv3 = model.Conv( 
+    ^^^^^
+281 | 4 9 | conv3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu3
+    relu3 = model.Relu(conv3, "conv3") 
+    ^^^^^
+291 | 4 9 | relu3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv4
+    conv4 = model.Conv( 
+    ^^^^^
+292 | 4 9 | conv4 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu4
+    relu4 = model.Relu(conv4, "conv4") 
+    ^^^^^
+302 | 4 9 | relu4 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool4
+    pool4 = model.MaxPool(relu4, "pool4", kernel=...
+    ^^^^^
+303 | 4 9 | pool4 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv5
+    conv5 = model.Conv( 
+    ^^^^^
+304 | 4 9 | conv5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu5
+    relu5 = model.Relu(conv5, "conv5") 
+    ^^^^^
+314 | 4 9 | relu5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv6
+    conv6 = model.Conv( 
+    ^^^^^
+315 | 4 9 | conv6 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu6
+    relu6 = model.Relu(conv6, "conv6") 
+    ^^^^^
+325 | 4 9 | relu6 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool6
+    pool6 = model.MaxPool(relu6, "pool6", kernel=...
+    ^^^^^
+326 | 4 9 | pool6 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv7
+    conv7 = model.Conv( 
+    ^^^^^
+327 | 4 9 | conv7 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu7
+    relu7 = model.Relu(conv7, "conv7") 
+    ^^^^^
+337 | 4 9 | relu7 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv8
+    conv8 = model.Conv( 
+    ^^^^^
+338 | 4 9 | conv8 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu8
+    relu8 = model.Relu(conv8, "conv8") 
+    ^^^^^
+348 | 4 9 | relu8 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool8
+    pool8 = model.MaxPool(relu8, "pool8", kernel=...
+    ^^^^^
+349 | 4 9 | pool8 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Reluix
+    reluix = model.Relu(fcix, "fcix") 
+    ^^^^^^
+355 | 4 10 | reluix | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relux
+    relux = model.Relu(fcx, "fcx") 
+    ^^^^^
+359 | 4 9 | relux | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pred
+    pred = model.Softmax(fcxi, "pred") 
+    ^^^^
+363 | 4 8 | pred | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent
+    xent = model.LabelCrossEntropy([pred, "label...
+    ^^^^
+364 | 4 8 | xent | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = model.AveragedLoss(xent, "loss") 
+        ^^^^
+366 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv1
+    conv1 = model.Conv( 
+    ^^^^^
+375 | 4 9 | conv1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv1
+    conv1 = model.Relu(conv1, conv1) 
+    ^^^^^
+379 | 4 9 | conv1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv3_reduce
+    conv3_reduce = model.Conv( 
+    ^^^^^^^^^^^^
+381 | 4 16 | conv3_reduce | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv3_reduce
+    conv3_reduce = model.Relu(conv3_reduce, conv3_reduce...
+    ^^^^^^^^^^^^
+385 | 4 16 | conv3_reduce | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv3
+    conv3 = model.Conv( 
+    ^^^^^
+386 | 4 9 | conv3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv3
+    conv3 = model.Relu(conv3, conv3) 
+    ^^^^^
+396 | 4 9 | conv3 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv5_reduce
+    conv5_reduce = model.Conv( 
+    ^^^^^^^^^^^^
+398 | 4 16 | conv5_reduce | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv5_reduce
+    conv5_reduce = model.Relu(conv5_reduce, conv5_reduce...
+    ^^^^^^^^^^^^
+402 | 4 16 | conv5_reduce | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv5
+    conv5 = model.Conv( 
+    ^^^^^
+403 | 4 9 | conv5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv5
+    conv5 = model.Relu(conv5, conv5) 
+    ^^^^^
+413 | 4 9 | conv5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool
+    pool = model.MaxPool( 
+    ^^^^
+415 | 4 8 | pool | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool_proj
+    pool_proj = model.Conv( 
+    ^^^^^^^^^
+422 | 4 13 | pool_proj | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool_proj
+    pool_proj = model.Relu(pool_proj, pool_proj) 
+    ^^^^^^^^^
+426 | 4 13 | pool_proj | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+    output = model.Concat([conv1, conv3, conv5, po...
+    ^^^^^^
+427 | 4 10 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv1
+    conv1 = model.Conv( 
+    ^^^^^
+436 | 4 9 | conv1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu1
+    relu1 = model.Relu(conv1, "conv1") 
+    ^^^^^
+447 | 4 9 | relu1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool1
+    pool1 = model.MaxPool(relu1, "pool1", kernel=...
+    ^^^^^
+448 | 4 9 | pool1 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv2a
+    conv2a = model.Conv( 
+    ^^^^^^
+449 | 4 10 | conv2a | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv2a
+    conv2a = model.Relu(conv2a, conv2a) 
+    ^^^^^^
+452 | 4 10 | conv2a | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Conv2
+    conv2 = model.Conv( 
+    ^^^^^
+453 | 4 9 | conv2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Relu2
+    relu2 = model.Relu(conv2, "conv2") 
+    ^^^^^
+463 | 4 9 | relu2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool2
+    pool2 = model.MaxPool(relu2, "pool2", kernel=...
+    ^^^^^
+464 | 4 9 | pool2 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool5
+    pool5 = model.MaxPool(inc4, "pool5", kernel=3...
+    ^^^^^
+472 | 4 9 | pool5 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool9
+    pool9 = model.MaxPool(inc9, "pool9", kernel=3...
+    ^^^^^
+488 | 4 9 | pool9 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pool11
+    pool11 = model.AveragePool(inc11, "pool11", ke...
+    ^^^^^^
+495 | 4 10 | pool11 | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Pred
+    pred = model.Softmax(fc, "pred") 
+    ^^^^
+502 | 4 8 | pred | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Xent
+    xent = model.LabelCrossEntropy([pred, "label...
+    ^^^^
+503 | 4 8 | xent | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+        loss = model.AveragedLoss(xent, "loss") 
+        ^^^^
+505 | 8 12 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.WeightedSum([param, ONE, param_grad, LR...
+        ^^^^^
+517 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    model.Proto().type = arg.net_type 
+    ^^^^^
+522 | 4 9 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    model.Proto().num_workers = arg.num_workers 
+    ^^^^^
+523 | 4 9 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 73, Rule ID: LETS_LET[2]
+Message: Did you mean 'lets' or 'let'?
+Suggestion: lets; let
+... everything without feeding more stuff, let's 
+                                           ^^^^^
+525 | 72 77 | let's | Did you mean 'lets' or 'let'?
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+    model.param_init_net.GaussianFill( 
+    ^^^^^
+534 | 4 9 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.FeedBlob("label", label) 
+        ^^^^^^^^^
+544 | 8 17 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.param_init_net.UniformIntFill( 
+        ^^^^^
+546 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.AddGradientOperators(["loss"]) 
+        ^^^^^
+563 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.param_init_net.RunAllOnMKL() 
+            ^^^^^
+574 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.RunAllOnMKL() 
+            ^^^^^
+575 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.param_init_net.RunAllOnGPU() 
+            ^^^^^
+577 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.RunAllOnGPU() 
+            ^^^^^
+578 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+        for op in model.net.Proto().op: 
+        ^^^
+581 | 8 11 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fid
+            fid.write(str(model.param_init_net.Proto())...
+            ^^^
+589 | 12 15 | fid | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fid
+            fid.write(str(model.net.Proto())) 
+            ^^^
+591 | 12 15 | fid | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.RunNetOnce(model.param_init_net) 
+    ^^^^^^^^^
+593 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.CreateNet(model.net) 
+    ^^^^^^^^^
+594 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    workspace.BenchmarkNet( 
+    ^^^^^^^^^
+595 | 4 13 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+        model.net.Proto().name, arg.warmup_iterations...
+        ^^^^^
+596 | 8 13 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Parser
+    parser = argparse.ArgumentParser(description="...
+    ^^^^^^
+601 | 4 10 | parser | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+        workspace.GlobalInit( 
+        ^^^^^^^^^
+676 | 8 17 | workspace | This sentence does not start with an uppercase letter
+

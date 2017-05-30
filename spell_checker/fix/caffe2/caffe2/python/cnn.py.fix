@@ -1,0 +1,42 @@
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Object
+            "object from CNNModelHelper class which will be...
+             ^^^^^^
+25 | 13 19 | object | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.net.PadImage(blob_in, blob_out, **kwarg...
+        ^^^^
+75 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+        print("DepthConcat is deprecated. use Concat ...
+        ^^^^^
+179 | 8 13 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.Concat(*args, **kwargs) 
+        ^^^^^^
+180 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+227 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = caffe2_pb2.DeviceOption() 
+        ^^^^^^^^^^^^^
+233 | 8 21 | device_option | This sentence does not start with an uppercase letter
+

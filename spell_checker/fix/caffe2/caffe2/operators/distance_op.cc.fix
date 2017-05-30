@@ -1,0 +1,42 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int N = X.ndim() > 0 ? X.dim32(0) : 1; 
+  ^^^
+13 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int D = N > 0 ? X.size() / N : 0; 
+  ^^^
+15 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int N = X.ndim() > 0 ? X.dim32(0) : 1; 
+  ^^^
+65 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int D = N > 0 ? X.size() / N : 0; 
+  ^^^
+66 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int N = X.ndim() > 0 ? X.dim32(0) : 1; 
+  ^^^
+174 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Two
+  two kinds of strategies to achieve this. Be...
+  ^^^
+404 | 2 5 | two | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,70 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Schema
+            schema.Struct( 
+            ^^^^^^
+24 | 12 18 | schema | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Struct( 
+        ^^^^
+31 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Softmax
+                'softmax', schema.Scalar( 
+                 ^^^^^^^
+33 | 17 24 | softmax | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+                    model.net.NextScopedBlob(name + '_softmax') 
+                    ^^^^^
+35 | 20 25 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Loss
+                'loss', schema.Scalar( 
+                 ^^^^
+39 | 17 21 | loss | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Np
+                    np.float32, model.net.NextScopedBlob(name ...
+                    ^^
+40 | 20 22 | np | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                net.Cast(label, 
+                ^^^
+49 | 16 19 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+                         net.NextScopedBlob('int32_label'), 
+                         ^^^
+50 | 25 28 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 26, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: To=core
+                         to=core.DataType.INT32) 
+                         ^^^^^^^
+51 | 25 32 | to=core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.SoftmaxWithLoss( 
+        ^^^
+54 | 8 11 | net | This sentence does not start with an uppercase letter
+

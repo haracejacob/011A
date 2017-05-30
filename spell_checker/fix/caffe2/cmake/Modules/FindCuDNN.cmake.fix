@@ -1,0 +1,7 @@
+Line 1, column 24, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: include
+    PATH_SUFFIXES cuda/include include) 
+                       ^^^^^^^^^^^^^^^
+17 | 23 38 | include include | Possible typo: you repeated a word
+

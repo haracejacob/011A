@@ -1,0 +1,14 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+      if (!OperatorBase::OutputIsType<TensorCPU>...
+      ^^
+39 | 6 8 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 24, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Be
+                      "be deprecated soon. More specifically, Ite...
+                       ^^
+42 | 23 25 | be | This sentence does not start with an uppercase letter
+

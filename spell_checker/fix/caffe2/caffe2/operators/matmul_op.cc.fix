@@ -1,0 +1,14 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+          int M = in[0].dims().Get(0); 
+          ^^^
+15 | 10 13 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+          int N = in[1].dims().Get(1); 
+          ^^^
+16 | 10 13 | int | This sentence does not start with an uppercase letter
+

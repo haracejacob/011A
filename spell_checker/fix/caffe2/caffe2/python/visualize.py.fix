@@ -1,0 +1,42 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Memories
+memories. Before decaf and caffe. Why iceberk? B...
+^^^^^^^^
+5 | 0 8 | memories | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: IN_THE_PASSED[1]
+Message: Did you mean 'in the past'?
+Suggestion: In the past
+    In the passed in patches matrix, each row is a patch,...
+    ^^^^^^^^^^^^^
+54 | 4 17 | In the passed | Did you mean 'in the past'?
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.ShowMultiple(patches, *args, **kwa...
+        ^^^^^^
+101 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Patch_reordered
+        patch_reordered = np.swapaxes(patch.T, 1, 2) 
+        ^^^^^^^^^^^^^^^
+111 | 8 23 | patch_reordered | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return self.ShowMultiple(patch_reordered, cmap...
+        ^^^^^^
+112 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the visualized images. If you want to save ...
+^^^
+136 | 0 3 | the | This sentence does not start with an uppercase letter
+

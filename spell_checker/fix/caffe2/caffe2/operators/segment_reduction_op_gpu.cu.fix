@@ -1,0 +1,140 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int start_index = FIRSTDIMS ? num_reduce_di...
+    ^^^
+38 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int end_index = FIRSTDIMS ? input.dims().si...
+    ^^^
+39 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int in_dim = FIRSTDIMS ? M : N; 
+    ^^^
+47 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ones_
+      ones_.Resize(in_dim); 
+      ^^^^^
+50 | 6 11 | ones_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Shape
+    shape.CopyFrom(in_shape); 
+    ^^^^^
+126 | 4 9 | shape | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+    int in_dim = FIRSTDIMS ? M : N; 
+    ^^^
+142 | 4 7 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_size
+  buffer_size += temp_storage_bytes % sizeof(int) != ...
+  ^^^^^^^^^^^
+230 | 2 13 | buffer_size | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int start = group == 0 ? 0 : prefix_sum_len...
+  ^^^
+255 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int start = group == 0 ? 0 : prefix_sum_len...
+  ^^^
+280 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int start = group == 0 ? 0 : prefix_sum_len...
+  ^^^
+305 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inclusive_scan_length_buffer_
+    inclusive_scan_length_buffer_.ResizeLike(lengthsInput); 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+357 | 4 33 | inclusive_scan_length_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Enum
+  enum { INDICES = 1, LENGTHS = 1 + (SparseFus...
+  ^^^^
+436 | 2 6 | enum | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inclusive_scan_length_buffer_
+    inclusive_scan_length_buffer_.ResizeLike(lengthsInput); 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+462 | 4 33 | inclusive_scan_length_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_size_buffer_
+    output_size_buffer_.Resize(1); 
+    ^^^^^^^^^^^^^^^^^^^
+473 | 4 23 | output_size_buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.FinishDeviceComputation(); 
+    ^^^^^^^^
+481 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Mx
+    mx = segment_ids[j] > mx ? segment_ids[j] ...
+    ^^
+530 | 4 6 | mx | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+    out[i] = scale > 0 ? out[i] / scale : 0.0; ...
+    ^^^
+562 | 4 7 | out | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.CopyBytes<CUDAContext, CPUContext>( 
+    ^^^^^^^^
+608 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.FinishDeviceComputation(); 
+    ^^^^^^^^
+610 | 4 12 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Scaling_factors_
+      scaling_factors_.Resize(K + 1); 
+      ^^^^^^^^^^^^^^^^
+634 | 6 22 | scaling_factors_ | This sentence does not start with an uppercase letter
+

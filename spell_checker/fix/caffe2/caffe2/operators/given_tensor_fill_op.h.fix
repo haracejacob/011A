@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Values_
+    values_.Resize(source_values.size()); 
+    ^^^^^^^
+18 | 4 11 | values_ | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,70 @@
+Line 1, column 180, Rule ID: AGREEMENT_SENT_START[3]
+Message: You should probably use: 'are'.
+Suggestion: are
+...the location of a local file. The codes is a list of [AlexNet object codes](https:...
+                                           ^^
+8 | 179 181 | is | You should probably use: 'are'.
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: P
+    "        p = workspace.Predictor(init_net, predict...
+             ^
+23 | 13 14 | p | This sentence does not start with an uppercase letter
+
+Line 1, column 109, Rule ID: EN_A_VS_AN
+Message: Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+Suggestion: a
+... from AlexNet's object codes to provide an result like \"tabby cat\" or \"lemon\" ...
+                                           ^^
+116 | 108 110 | an | Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+
+Line 1, column 59, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: all the
+...r results to remove the colors found in all of the training images\n", 
+                                           ^^^^^^^^^^
+219 | 58 68 | all of the | Simply use 'all the'.
+
+Line 1, column 18, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: all the
+    "# make sure all of the files are around...\n", 
+                 ^^^^^^^^^^
+231 | 17 27 | all of the | Simply use 'all the'.
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "    print \"Found \", INIT_NET, \"...Now looking ...
+         ^^^^^
+241 | 9 14 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "        print \"All needed files found! Loading the m...
+             ^^^^^
+245 | 13 18 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: P
+    "p = workspace.Predictor(init_net, predict...
+     ^
+310 | 5 6 | p | This sentence does not start with an uppercase letter
+
+Line 1, column 23, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun result seems to be countable, so consider using: '1000 results'.
+Suggestion: 1000 results
+    "See that we have 1000 result there in the middle? If we had submitte...
+                      ^^^^^^^^^^^
+324 | 22 33 | 1000 result | Possible agreement error. The noun result seems to be countable, so consider using: '1000 results'.
+
+Line 1, column 157, Rule ID: NUMEROUS_DIFFERENT[1]
+Message: Use simply 'Several'.
+Suggestion: Several
+...s or with multiple objects or subjects. Several different objects are available in the 2nd (confi...
+                                           ^^^^^^^^^^^^^^^^^
+380 | 156 173 | Several different | Use simply 'Several'.
+

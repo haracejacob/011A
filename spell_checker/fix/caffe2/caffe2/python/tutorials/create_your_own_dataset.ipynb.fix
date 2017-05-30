@@ -1,0 +1,147 @@
+Line 1, column 76, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (Will) must be used with a third-person verb: 'runs'.
+Suggestion: runs
+...hon run does not have GPU support. Will run in CPU only mode.\n", 
+                                           ^^^
+31 | 75 78 | run | The proper name in singular (Will) must be used with a third-person verb: 'runs'.
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_and_label
+    "feature_and_label = caffe2_pb2.TensorProtos()\n", 
+     ^^^^^^^^^^^^^^^^^
+204 | 5 22 | feature_and_label | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    "    utils.NumpyArrayToCaffe2Tensor(features[0]),\...
+         ^^^^^
+206 | 9 14 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    "    utils.NumpyArrayToCaffe2Tensor(labels[0])])\n...
+         ^^^^^
+207 | 9 14 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(feature_and_label.SerializeToString())"...
+     ^^^^^
+211 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Db
+    "    db = core.C.create_db(db_type, db_name, co...
+         ^^
+225 | 9 11 | db | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_and_label
+    "        feature_and_label = caffe2_pb2.TensorProtos()\n", 
+             ^^^^^^^^^^^^^^^^^
+228 | 13 30 | feature_and_label | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    "            utils.NumpyArrayToCaffe2Tensor(features[i]),\...
+                 ^^^^^
+230 | 17 22 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Utils
+    "            utils.NumpyArrayToCaffe2Tensor(labels[i])])\n...
+                 ^^^^^
+231 | 17 22 | utils | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature_and_label
+    "            feature_and_label.SerializeToString())\n", 
+                 ^^^^^^^^^^^^^^^^^
+234 | 17 34 | feature_and_label | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_proto
+    "net_proto = core.Net(\"example_reader\")\n", 
+     ^^^^^^^^^
+292 | 5 14 | net_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dbreader
+    "dbreader = net_proto.CreateDB([], \"dbreader\", ...
+     ^^^^^^^^
+293 | 5 13 | dbreader | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_proto
+    "net_proto.TensorProtosDBInput([dbreader], [\"X\",...
+     ^^^^^^^^^
+294 | 5 14 | net_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(str(net_proto.Proto()))" 
+     ^^^^^
+297 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.CreateNet(net_proto)" 
+     ^^^^^^^^^
+319 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNet(net_proto.Proto().name)\n", 
+     ^^^^^^^^^
+376 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(workspace.FetchBlob(\"X\"))\n", 
+     ^^^^^
+378 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(workspace.FetchBlob(\"Y\"))\n", 
+     ^^^^^
+380 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Workspace
+    "workspace.RunNet(net_proto.Proto().name)\n", 
+     ^^^^^^^^^
+383 | 5 14 | workspace | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(workspace.FetchBlob(\"X\"))\n", 
+     ^^^^^
+385 | 5 10 | print | This sentence does not start with an uppercase letter
+
+Line 1, column 6, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Print
+    "print(workspace.FetchBlob(\"Y\"))" 
+     ^^^^^
+387 | 5 10 | print | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+    const auto name = def().output().Get(0); 
+    ^^^^^
+27 | 4 9 | const | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,14 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+      context.CopyItems<CPUContext, CPUContext>( 
+      ^^^^^^^
+52 | 6 13 | context | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+      context.CopyItems<CPUContext, CPUContext>( 
+      ^^^^^^^
+87 | 6 13 | context | This sentence does not start with an uppercase letter
+

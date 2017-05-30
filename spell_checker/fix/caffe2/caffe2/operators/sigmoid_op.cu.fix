@@ -1,0 +1,14 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Y
+    y[i] = 1. / (1. + exp(-x[i])); 
+    ^
+10 | 4 5 | y | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dx
+    dx[i] = dy[i] * y[i] * (1. - y[i]); 
+    ^^
+18 | 4 6 | dx | This sentence does not start with an uppercase letter
+

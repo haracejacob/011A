@@ -1,0 +1,28 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+      return (id >= dense_.size()) ? -1 : dense_[id]...
+      ^^^^^^
+145 | 6 12 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Corresponds
+corresponds to each id provided in mask argument. M...
+^^^^^^^^^^^
+191 | 0 11 | corresponds | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the value of `default_value`. After running...
+^^^
+192 | 0 3 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Provided
+        "provided the first dimension is omitted). True w...
+         ^^^^^^^^
+237 | 9 17 | provided | This sentence does not start with an uppercase letter
+

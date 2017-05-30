@@ -1,0 +1,126 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Assert
+        assert isinstance(input_record, schema.Scalar)...
+        ^^^^^^
+29 | 8 14 | assert | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.output_schema = schema.Scalar( 
+        ^^^^
+45 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Model
+            model.net.NextScopedBlob(name + '_output') 
+            ^^^^^
+47 | 12 17 | model | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.scale = model.net.NextScopedBlob(name +...
+        ^^^^
+53 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.bias = model.net.NextScopedBlob(name + ...
+        ^^^^
+54 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.rm = model.net.NextScopedBlob(name + "_...
+        ^^^^
+55 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.riv = model.net.NextScopedBlob(name + "...
+        ^^^^
+56 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                initializer=core.CreateOperator('ConstantFill', 
+                ^^^^^^^^^^^^^^^^
+61 | 16 32 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                initializer=core.CreateOperator('ConstantFill', 
+                ^^^^^^^^^^^^^^^^
+71 | 16 32 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                initializer=core.CreateOperator('ConstantFill', 
+                ^^^^^^^^^^^^^^^^
+81 | 16 32 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Optimizer=model
+                optimizer=model.NoOptim)) 
+                ^^^^^^^^^^^^^^^
+87 | 16 31 | optimizer=model | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Initializer=core
+                initializer=core.CreateOperator('ConstantFill', 
+                ^^^^^^^^^^^^^^^^
+91 | 16 32 | initializer=core | This sentence does not start with an uppercase letter
+
+Line 1, column 17, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Optimizer=model
+                optimizer=model.NoOptim)) 
+                ^^^^^^^^^^^^^^^
+97 | 16 31 | optimizer=model | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_blob
+            input_blob = net.ExpandDims(input_blob, 
+            ^^^^^^^^^^
+102 | 12 22 | input_blob | This sentence does not start with an uppercase letter
+
+Line 1, column 41, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+...                                        net.NextScopedBlob('bn_saved_mean'), 
+                                           ^^^
+111 | 40 43 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 41, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+...                                        net.NextScopedBlob('bn_saved_iv')] 
+                                           ^^^
+112 | 40 43 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+        net.SpatialBN([input_blob, self.scale, 
+        ^^^
+114 | 8 11 | net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net
+            net.Squeeze(bn_output, 
+            ^^^
+122 | 12 15 | net | This sentence does not start with an uppercase letter
+

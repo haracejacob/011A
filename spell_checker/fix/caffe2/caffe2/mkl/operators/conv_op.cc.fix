@@ -1,0 +1,70 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Primitive_
+      primitive_.Reset( 
+      ^^^^^^^^^^
+68 | 6 16 | primitive_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+      buffer_.Reset(dummy_output.dims(), primitive_, ...
+      ^^^^^^^
+80 | 6 13 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_layout_
+      input_layout_.Reset(primitive_, dnnResourceSrc); 
+      ^^^^^^^^^^^^^
+82 | 6 19 | input_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Filter_layout_
+      filter_layout_.Reset(primitive_, dnnResourceFilter); 
+      ^^^^^^^^^^^^^^
+83 | 6 20 | filter_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_layout_
+      bias_layout_.Reset(primitive_, dnnResourceBias); 
+      ^^^^^^^^^^^^
+84 | 6 18 | bias_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.ShareFrom(*Y); 
+    ^^^^^^^
+90 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std
+    std::shared_ptr<void> X_view = X.View( 
+    ^^^
+91 | 4 7 | std | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std
+    std::shared_ptr<void> filter_view = filter....
+    ^^^
+93 | 4 7 | std | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std
+    std::shared_ptr<void> bias_view = bias.View...
+    ^^^
+95 | 4 7 | std | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.CopyTo(Y, primitive_, dnnResourceDst); ...
+    ^^^^^^^
+103 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,7 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Static_cast
+      static_cast<T>(sum_grad.data<T>()[0] * (average_ ? ...
+      ^^^^^^^^^^^
+55 | 6 17 | static_cast | This sentence does not start with an uppercase letter
+

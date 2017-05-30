@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: DXdata
+    dXdata[i] = Ydata[i] > 0 ? dYdata[i] : 0; 
+    ^^^^^^
+47 | 4 10 | dXdata | This sentence does not start with an uppercase letter
+

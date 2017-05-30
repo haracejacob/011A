@@ -1,0 +1,14 @@
+Line 1, column 30, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+  LMDB(const string& source, Mode mode); 
+                             ^^^^^^^^^
+117 | 29 38 | Mode mode | Possible typo: you repeated a word
+
+Line 1, column 34, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Mode
+LMDB::LMDB(const string& source, Mode mode) : DB(source, mode) { 
+                                 ^^^^^^^^^
+136 | 33 42 | Mode mode | Possible typo: you repeated a word
+

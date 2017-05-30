@@ -1,0 +1,56 @@
+Line 1, column 15, Rule ID: EN_A_VS_AN
+Message: Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: An
+  const auto& A = Input(0); 
+              ^
+12 | 14 15 | A | Use 'An' instead of 'A' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_a_
+      trans_a_ ? "trans(A): " : "A: ", 
+      ^^^^^^^^
+42 | 6 14 | trans_a_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_b_
+      trans_b_ ? ", trans(B): " : ", B: ", 
+      ^^^^^^^^
+46 | 6 14 | trans_b_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!A.dim(0)) { 
+  ^^
+53 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_b_
+      trans_b_ ? CUBLAS_OP_T : CUBLAS_OP_N, 
+      ^^^^^^^^
+63 | 6 14 | trans_b_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_a_
+      trans_a_ ? CUBLAS_OP_T : CUBLAS_OP_N, 
+      ^^^^^^^^
+64 | 6 14 | trans_a_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_b_
+      trans_b_ ? a_dim1 : b_dim1, // ldb 
+      ^^^^^^^^
+70 | 6 14 | trans_b_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Trans_a_
+      trans_a_ ? a_dim0 : a_dim1, // lda 
+      ^^^^^^^^
+73 | 6 14 | trans_a_ | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,21 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Size
+        size > 3 ? size : 4, 
+        ^^^^
+37 | 8 12 | size | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (X.IsType<float>()) { 
+    ^^
+163 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (X.IsType<float>()) { 
+    ^^
+316 | 4 6 | if | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,28 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: XDesc_
+        xDesc_, typedesc, ndim < 4 ? 4 : ndim, dim_y_i...
+        ^^^^^^
+105 | 8 14 | xDesc_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: YDesc_
+        yDesc_, typedesc, ndim < 4 ? 4 : ndim, dim_y_i...
+        ^^^^^^
+108 | 8 14 | yDesc_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sizeof
+        sizeof(T) == sizeof(float) ? static_cast<const...
+        ^^^^^^
+112 | 8 14 | sizeof | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sizeof
+        sizeof(T) == sizeof(float) ? static_cast<const...
+        ^^^^^^
+116 | 8 14 | sizeof | This sentence does not start with an uppercase letter
+

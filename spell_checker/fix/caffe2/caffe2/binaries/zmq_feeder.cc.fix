@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sender
+  sender.Bind(caffe2::FLAGS_server); 
+  ^^^^^^
+34 | 2 8 | sender | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sender
+    sender.SendTillSuccess(cursor->key(), ZMQ_SNDM...
+    ^^^^^^
+39 | 4 10 | sender | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sender
+    sender.SendTillSuccess(cursor->value(), 0); 
+    ^^^^^^
+40 | 4 10 | sender | This sentence does not start with an uppercase letter
+

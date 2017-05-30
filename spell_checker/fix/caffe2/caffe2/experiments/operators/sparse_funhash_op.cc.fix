@@ -1,0 +1,7 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Operator
+operator. If the argument `num_segments` is spec...
+^^^^^^^^
+20 | 0 8 | operator | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,70 @@
+Line 1, column 8, Rule ID: MASS_AGREEMENT[1]
+Message: Consider using third-person verb forms for singular and mass nouns: 'voids'.
+Suggestion: voids
+kernel void affine(constant half4* scale[[buffer(0)...
+       ^^^^
+16 | 7 11 | void | Consider using third-person verb forms for singular and mass nouns: 'voids'.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Half4
+  half4 w = channel_shared ? half4(weights[0][0...
+  ^^^^^
+58 | 2 7 | half4 | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Half4
+  half4 w = channel_shared ? half4(weights[0][0...
+  ^^^^^
+76 | 2 7 | half4 | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+Suggestion: 32 reductions
+  // 256 -> 32 reduction 
+            ^^^^^^^^^^^^
+110 | 12 24 | 32 reduction | Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+
+Line 1, column 13, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+Suggestion: 32 reductions
+  // 256 -> 32 reduction 
+            ^^^^^^^^^^^^
+144 | 12 24 | 32 reduction | Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+
+Line 1, column 13, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+Suggestion: 32 reductions
+  // 256 -> 32 reduction 
+            ^^^^^^^^^^^^
+204 | 12 24 | 32 reduction | Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+
+Line 1, column 13, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+Suggestion: 32 reductions
+  // 256 -> 32 reduction 
+            ^^^^^^^^^^^^
+238 | 12 24 | 32 reduction | Possible agreement error. The noun reduction seems to be countable, so consider using: '32 reductions'.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const ushort w_col_start = (w < kernel_) ? 0 ...
+  ^^^^^
+452 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const ushort h_col_start = (h < kernel_) ? 0 ...
+  ^^^^^
+454 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: sampler
+  constexpr sampler sampler(address::clamp_to_edge, filter::linear,...
+            ^^^^^^^^^^^^^^^
+608 | 12 27 | sampler sampler | Possible typo: you repeated a word
+

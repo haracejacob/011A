@@ -1,0 +1,49 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Primitive_
+      primitive_.Reset( 
+      ^^^^^^^^^^
+49 | 6 16 | primitive_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+      buffer_.Reset(Y_shape, primitive_, dnnResourceD...
+      ^^^^^^^
+57 | 6 13 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Input_layout_
+      input_layout_.Reset(primitive_, dnnResourceSrc); 
+      ^^^^^^^^^^^^^
+59 | 6 19 | input_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Filter_layout_
+      filter_layout_.Reset(primitive_, dnnResourceFilter); 
+      ^^^^^^^^^^^^^^
+60 | 6 20 | filter_layout_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.ShareFrom(*Y); 
+    ^^^^^^^
+66 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Filter
+        filter.View(filter_layout_, primitive_, dnnRes...
+        ^^^^^^
+71 | 8 14 | filter | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Buffer_
+    buffer_.CopyTo(Y, primitive_, dnnResourceDst); ...
+    ^^^^^^^
+80 | 4 11 | buffer_ | This sentence does not start with an uppercase letter
+

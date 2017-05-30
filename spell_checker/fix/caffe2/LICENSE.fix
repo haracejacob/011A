@@ -1,0 +1,42 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Copyright
+copyright over their contributions to Caffe2. The...
+^^^^^^^^^
+22 | 0 9 | copyright | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: All
+all such contribution and copyright details...
+^^^
+23 | 0 3 | all | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Created
+created by Yangqing Jia and is now a BSD-licens...
+^^^^^^^
+53 | 0 7 | created | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Their
+their contributions to Caffe. The project ver...
+^^^^^
+68 | 0 5 | their | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Contribution
+contribution and copyright details. If a contributor...
+^^^^^^^^^^^^
+69 | 0 12 | contribution | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Zmqhpp
+zmqhpp project under the MIT license. The zmqh...
+^^^^^^
+104 | 0 6 | zmqhpp | This sentence does not start with an uppercase letter
+

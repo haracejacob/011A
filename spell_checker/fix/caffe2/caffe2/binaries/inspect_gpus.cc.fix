@@ -1,0 +1,7 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Sstream
+      sstream << (access_pattern[i][j] ? "+" : "-") <...
+      ^^^^^^^
+33 | 6 13 | sstream | This sentence does not start with an uppercase letter
+

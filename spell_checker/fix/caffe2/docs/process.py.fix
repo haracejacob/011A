@@ -1,0 +1,21 @@
+Line 1, column 11, Rule ID: DOUBLE_PUNCTUATION
+Message: Two consecutive dots
+Suggestion: .
+os.chdir("..") 
+          ^^
+20 | 10 12 | .. | Two consecutive dots
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Os
+os.system("doxygen .Doxyfile-python") 
+^^
+52 | 0 2 | os | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Os
+os.system("doxygen .Doxyfile-c") 
+^^
+53 | 0 2 | os | This sentence does not start with an uppercase letter
+

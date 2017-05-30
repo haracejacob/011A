@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+  Timer timer; 
+  ^^^^^^^^^^^
+81 | 2 13 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timer
+      timer.Start(); 
+      ^^^^^
+88 | 6 11 | timer | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+      float spent = timer.MilliSeconds(); 
+      ^^^^^
+90 | 6 11 | float | This sentence does not start with an uppercase letter
+

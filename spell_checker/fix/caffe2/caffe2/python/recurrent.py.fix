@@ -1,0 +1,251 @@
+Line 1, column 45, Rule ID: DT_JJ_NO_NOUN[1]
+Message: Probably a noun is missing in this part of the sentence.
+...cell_net: cell_net which is executed in a recurrent fasion 
+                                           ^^^^^^^^^^^
+19 | 44 55 | a recurrent | Probably a noun is missing in this part of the sentence.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inputs
+    inputs: sequences to be fed into the recurrent...
+    ^^^^^^
+21 | 4 10 | inputs | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+    is supported. It has to be in a format T x...
+    ^^
+22 | 4 6 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+    of the sequence. N is a batch size and (D1...
+    ^^
+23 | 4 6 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+    output names of moment t. Currently we assume ...
+    ^^^^^^
+30 | 4 10 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Timestep
+    timestep: name of the timestep blob to be used. ...
+    ^^^^^^^^
+33 | 4 12 | timestep | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+    for einp in cell_net.Proto().external_input...
+    ^^^
+52 | 4 7 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: MASS_AGREEMENT[1]
+Message: Consider using third-person verb forms for singular and mass nouns: 'nets'.
+Suggestion: nets
+            Cell net external inputs are not properly scoped...
+                 ^^^
+55 | 17 20 | net | Consider using third-person verb forms for singular and mass nouns: 'nets'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Op_name
+    op_name = net.NextName('recurrent') 
+    ^^^^^^^
+61 | 4 11 | op_name | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+        core.BlobReference(b) for b in cell_net.Prot...
+        ^^^^
+76 | 8 12 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inner_outputs
+    inner_outputs = list(cell_net.Proto().external_output...
+    ^^^^^^^^^^^^^
+79 | 4 17 | inner_outputs | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_ops
+        backward_ops, backward_mapping = core.GradientRegist...
+        ^^^^^^^^^^^^
+85 | 8 20 | backward_ops | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cell_net
+            cell_net.Proto().op, inner_outputs_map) 
+            ^^^^^^^^
+86 | 12 20 | cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+        backward_cell_net = core.Net("RecurrentBackwardStep") 
+        ^^^^^^^^^^^^^^^^^
+89 | 8 25 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Del
+        del backward_cell_net.Proto().op[:] 
+        ^^^
+90 | 8 11 | del | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+            for op in cell_net.Proto().op: 
+            ^^^
+99 | 12 15 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+                    backward_cell_net.Proto().op.extend([op]) 
+                    ^^^^^^^^^^^^^^^^^
+101 | 20 37 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+        backward_cell_net.Proto().op.extend(backward_ops) 
+        ^^^^^^^^^^^^^^^^^
+106 | 8 25 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+            backward_cell_net.Proto()) 
+            ^^^^^^^^^^^^^^^^^
+109 | 12 29 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Ssa
+        ssa, blob_versions = core.get_ssa(cell_net....
+        ^^^
+114 | 8 11 | ssa | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blob
+            blob not in cell_net.Proto().external_output...
+            ^^^^
+119 | 12 16 | blob | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+        backward_cell_net.Proto().external_input.extend(scratches...
+        ^^^^^^^^^^^^^^^^^
+120 | 8 25 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+        backward_cell_net.Proto().type = 'simple' 
+        ^^^^^^^^^^^^^^^^^
+121 | 8 25 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cell_net
+    cell_net.Proto().type = 'rnn' 
+    ^^^^^^^^
+129 | 4 12 | cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: IN_THE_MOMENT[1]
+Message: Did you mean 'at the moment' (=currently)?
+Suggestion: At the moment
+    # In the moment t we know that corresponding data block...
+      ^^^^^^^^^^^^^
+134 | 6 19 | In the moment | Did you mean 'at the moment' (=currently)?
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+            backward_cell_net.Proto().external_input.append( 
+            ^^^^^^^^^^^^^^^^^
+167 | 12 29 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+        backward_cell_net.Proto().external_input.extend( 
+        ^^^^^^^^^^^^^^^^^
+189 | 8 25 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cell_net
+            cell_net.Proto().external_input) 
+            ^^^^^^^^
+190 | 12 20 | cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+        backward_cell_net.Proto().external_input.extend( 
+        ^^^^^^^^^^^^^^^^^
+191 | 8 25 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cell_net
+            cell_net.Proto().external_output) 
+            ^^^^^^^^
+192 | 12 20 | cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 14, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_step_net
+            'backward_step_net': str(backward_cell_net.Proto()), 
+             ^^^^^^^^^^^^^^^^^
+222 | 13 30 | backward_step_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Proto
+        proto = backward_cell_net.Proto() 
+        ^^^^^
+235 | 8 13 | proto | This sentence does not start with an uppercase letter
+
+Line 1, column 21, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Backward_cell_net
+                    backward_cell_net.Sum( 
+                    ^^^^^^^^^^^^^^^^^
+247 | 20 37 | backward_cell_net | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Results
+    results = net.RecurrentNetwork( 
+    ^^^^^^^
+252 | 4 11 | results | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Step_net=str
+        step_net=str(cell_net.Proto()), 
+        ^^^^^^^^^^^^
+263 | 8 20 | step_net=str | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cell_net
+    cell_net.Proto().type = 'simple' 
+    ^^^^^^^^
+269 | 4 12 | cell_net | This sentence does not start with an uppercase letter
+

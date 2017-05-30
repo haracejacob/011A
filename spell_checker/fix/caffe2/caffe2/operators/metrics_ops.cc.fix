@@ -1,0 +1,21 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+  acceptor(name, blob_proto.SerializeAsString()); ...
+  ^^^^^^^^
+13 | 2 10 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: For
+for computing QPSMetric. The only output of...
+^^^
+40 | 0 3 | for | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Store
+store state that is required for computing QP...
+^^^^^
+50 | 0 5 | store | This sentence does not start with an uppercase letter
+

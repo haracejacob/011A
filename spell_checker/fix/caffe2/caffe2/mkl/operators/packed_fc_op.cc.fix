@@ -1,0 +1,35 @@
+Line 1, column 33, Rule ID: EN_A_VS_AN
+Message: Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+Suggestion: a
+        "right now, as there is an known issue with MKL 2017.0.098 " 
+                                ^^
+50 | 32 34 | an | Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+
+Line 1, column 15, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Weight
+             "weight during runtime. This is only sanity-che...
+              ^^^^^^
+81 | 14 20 | weight | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Bias_multiplier_
+      bias_multiplier_.Resize(M); 
+      ^^^^^^^^^^^^^^^^
+131 | 6 22 | bias_multiplier_ | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Layer
+layer with 2D weight matrix W and 1D bias vec...
+^^^^^
+173 | 0 5 | layer | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Efficient
+efficient inference. See the schema for the FC op...
+^^^^^^^^^
+175 | 0 9 | efficient | This sentence does not start with an uppercase letter
+

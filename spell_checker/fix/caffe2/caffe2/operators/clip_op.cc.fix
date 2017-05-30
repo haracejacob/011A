@@ -1,0 +1,14 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Specified
+specified with arguments 'min' and 'max'. They de...
+^^^^^^^^^
+46 | 0 9 | specified | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: And
+and numeric_limits::max() respectively. The...
+^^^
+47 | 0 3 | and | This sentence does not start with an uppercase letter
+

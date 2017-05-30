@@ -1,0 +1,61 @@
+Line 1, column 56, Rule ID: HE_VERB_AGR[7]
+Message: The proper name in singular (cuda) must be used with a third-person verb: 'streams'.
+Suggestion: streams
+...ach thread has its own non-default cuda stream as well as 
+                                           ^^^^^^
+32 | 55 61 | stream | The proper name in singular (cuda) must be used with a third-person verb: 'streams'.
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: CudaStreamSynchronize
+    cudaStreamSynchronize(cuda_objects_.GetStream(gpu_id_, stream...
+    ^^^^^^^^^^^^^^^^^^^^^
+120 | 4 25 | cudaStreamSynchronize | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return cuda_objects_.GetStream(gpu_id, stream_...
+    ^^^^^^
+142 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return cuda_objects_.GetHandle(gpu_id_, stream...
+    ^^^^^^
+146 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Cuda_objects_
+        cuda_objects_.GetStream(gpu_id_, stream_id_))); 
+        ^^^^^^^^^^^^^
+184 | 8 21 | cuda_objects_ | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+  context.CopyBytes<CUDAContext, CPUContext>(nbyt...
+  ^^^^^^^
+222 | 2 9 | context | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context
+  context.CopyBytes<CPUContext, CUDAContext>(nbyt...
+  ^^^^^^^
+228 | 2 9 | context | This sentence does not start with an uppercase letter
+
+Line 1, column 31, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+ * An allocator that does the CPU memory allocation with pinned memory. 
+                              ^^^^^^^^^^^^^^^^^^^^^
+232 | 30 51 | CPU memory allocation | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 8, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+ * the CPU memory allocator to allocate pinned memory. 
+       ^^^^^^^^^^^^^^^^^^^^
+238 | 7 27 | CPU memory allocator | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+

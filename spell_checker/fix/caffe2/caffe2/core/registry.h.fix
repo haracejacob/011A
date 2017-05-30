@@ -1,0 +1,49 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <class SrcType, class ObjectType, class...
+^^^^^^^^
+29 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 37, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Creator
+  void Register(const SrcType& key, Creator creator) { 
+                                    ^^^^^^^^^^^^^^^
+36 | 36 51 | Creator creator | Possible typo: you repeated a word
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std
+      std::cerr << "Key " << key << " already reg...
+      ^^^
+45 | 6 9 | std | This sentence does not start with an uppercase letter
+
+Line 1, column 37, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Creator
+  void Register(const SrcType& key, Creator creator, const string& help_msg) { 
+                                    ^^^^^^^^^^^^^^^
+51 | 36 51 | Creator creator | Possible typo: you repeated a word
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+template <class SrcType, class ObjectType, class...
+^^^^^^^^
+97 | 0 8 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 63, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Creator
+...Registry<SrcType, ObjectType, Args...>::Creator creator, 
+                                           ^^^^^^^^^^^^^^^
+102 | 62 77 | Creator creator | Possible typo: you repeated a word
+
+Line 1, column 32, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+    // so we are forced to use a unique_ptr constructor here. Check if i...
+                               ^
+110 | 31 32 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+

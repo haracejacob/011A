@@ -1,0 +1,14 @@
+Line 1, column 11, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: do
+        # do do a projection for the short cut 
+          ^^^^^
+112 | 10 15 | do do | Possible typo: you repeated a word
+
+Line 1, column 38, Rule ID: SHORT_CUT[1]
+Message: Did you mean 'shortcut'?
+Suggestion: shortcut
+        # do do a projection for the short cut 
+                                     ^^^^^^^^^
+112 | 37 46 | short cut | Did you mean 'shortcut'?
+

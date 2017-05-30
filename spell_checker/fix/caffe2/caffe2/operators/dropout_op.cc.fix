@@ -1,0 +1,63 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.Copy<float, CPUContext, CPUContext>( 
+      ^^^^^^^^
+13 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float scale = 1. / (1. - ratio_); 
+    ^^^^^
+18 | 4 9 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Std
+    std::bernoulli_distribution dist(1. - ratio...
+    ^^^
+21 | 4 7 | std | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto&
+    auto& gen = context_.RandGenerator(); 
+    ^^^^^
+25 | 4 9 | auto& | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+      context_.Copy<float, CPUContext, CPUContext>( 
+      ^^^^^^^^
+43 | 6 14 | context_ | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Float
+    float scale = 1. / (1. - ratio_); 
+    ^^^^^
+51 | 4 9 | float | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output
+output (Tensor<float>) and mask (Tensor<bool>)...
+^^^^^^
+70 | 0 6 | output | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Copy
+copy of the input. Note that our implementat...
+^^^^
+72 | 0 4 | copy | This sentence does not start with an uppercase letter
+
+Line 1, column 65, Rule ID: DID_BASEFORM[1]
+Message: The verb 'does' requires base form of the verb: 'scale'.
+Suggestion: scale
+...that our implementation of Dropout does scaling in 
+                                           ^^^^^^^
+72 | 64 71 | scaling | The verb 'does' requires base form of the verb: 'scale'.
+

@@ -1,0 +1,196 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return obj.SerializeToString() 
+            ^^^^^^
+112 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+            return obj.Proto().SerializeToString() 
+            ^^^^^^
+114 | 12 18 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(plan_or_step, core.Execution...
+    ^^
+170 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Plan_or_step
+        plan_or_step = core.Plan(plan_or_step) 
+        ^^^^^^^^^^^^
+171 | 8 20 | plan_or_step | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_protos
+    net_protos = [StringifyProto(n.Proto()) for n in n...
+    ^^^^^^^^^^
+185 | 4 14 | net_protos | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blobdesc_proto
+    blobdesc_proto = caffe2_pb2.TensorShapes() 
+    ^^^^^^^^^^^^^^
+192 | 4 18 | blobdesc_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Blobdesc_proto
+    blobdesc_proto.ParseFromString(blobdesc_prototxt) 
+    ^^^^^^^^^^^^^^
+193 | 4 18 | blobdesc_proto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if type(arr) is caffe2_pb2.TensorProto: 
+    ^^
+231 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Arr
+        arr = utils.Caffe2TensorToNumpyArray(arr) 
+        ^^^
+232 | 8 11 | arr | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Device_option
+        device_option = scope.CurrentDeviceScope() 
+        ^^^^^^^^^^^^^
+238 | 8 21 | device_option | This sentence does not start with an uppercase letter
+
+Line 1, column 18, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Please
+                "please use arr.astype(np.float32) or np.int32 ...
+                 ^^^^^^
+244 | 17 23 | please | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+    return scope.CurrentNameScope() 
+    ^^^^^^
+280 | 4 10 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Feature
+    feature and may very easily go wrong. This is b...
+    ^^^^^^^
+358 | 4 11 | feature | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Not
+    not meant to run things in an interactive w...
+    ^^^
+360 | 4 7 | not | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Actually
+    actually runnable sequentially. For example, if ...
+    ^^^^^^^^
+364 | 4 12 | actually | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Normal
+    normal run. For example, if there is a leveldb...
+    ^^^^^^
+373 | 4 10 | normal | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Support
+    support double opening. Immediate mode may also...
+    ^^^^^^^
+375 | 4 11 | support | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: On
+    on GPUs. Call FinishImmediate() as soon as...
+    ^^
+376 | 4 6 | on | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Creates
+    creates a temp operator object, runs it, and de...
+    ^^^^^^^
+380 | 4 11 | creates | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Slow-speed
+    slow-speed run is by design to discourage abuse. F...
+    ^^^^^^^^^^
+381 | 4 14 | slow-speed | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: SENT_START_THEM[1]
+Message: Did you mean 'Then'?
+Suggestion: Then
+    than debugging, do NOT turn on immediate mod...
+    ^^^^
+382 | 4 8 | than | Did you mean 'Then'?
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Obj
+        obj = obj.Proto() 
+        ^^^
+437 | 8 11 | obj | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(obj, caffe2_pb2.PlanDef): 
+    ^^
+438 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return ws._run_plan(obj.SerializeToString()) 
+        ^^^^^^
+439 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(obj, caffe2_pb2.NetDef): 
+    ^^
+440 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return ws._run_net(obj.SerializeToString()) 
+        ^^^^^^
+441 | 8 14 | return | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if isinstance(obj, caffe2_pb2.OperatorDef)...
+    ^^
+442 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+        return ws._run_operator(obj.SerializeToString(...
+        ^^^^^^
+443 | 8 14 | return | This sentence does not start with an uppercase letter
+

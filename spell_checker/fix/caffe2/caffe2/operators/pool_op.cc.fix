@@ -1,0 +1,119 @@
+Line 1, column 6, Rule ID: ALL_OF_THE[1]
+Message: Simply use 'all the'.
+Suggestion: all the
+  // all of the above, but just check again) 
+     ^^^^^^^^^^
+94 | 5 15 | all of the | Simply use 'all the'.
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int width = kernel_.size() > 1 ? X.dim32(3)...
+  ^^^
+239 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int depth = kernel_.size() > 2 ? X.dim32(4)...
+  ^^^
+240 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_width = kernel_.size() > 1 ? Y->...
+  ^^^
+242 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_depth = kernel_.size() > 2 ? Y->...
+  ^^^
+243 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int width = kernel_.size() > 1 ? X.dim32(2)...
+  ^^^
+365 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int depth = kernel_.size() > 2 ? X.dim32(3)...
+  ^^^
+366 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_width = kernel_.size() > 1 ? Y->...
+  ^^^
+375 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Int
+  int pooled_depth = kernel_.size() > 2 ? Y->...
+  ^^^
+376 | 2 5 | int | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Depend
+  "depend on whether the NCHW or NHWC operators a...
+   ^^^^^^
+478 | 3 9 | depend | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+  "of the data. The corresponding permutation...
+   ^^
+481 | 3 5 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Latter
+  "latter case. ") 
+   ^^^^^^
+482 | 3 9 | latter | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  "tensor. Dimensions will vary based on various ...
+   ^^^^^^
+484 | 3 9 | tensor | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Depend
+  "depend on whether the NCHW or NHWC operators a...
+   ^^^^^^
+501 | 3 9 | depend | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Of
+  "of the data. The corresponding permutation...
+   ^^
+504 | 3 5 | of | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Latter
+  "latter case. ") 
+   ^^^^^^
+505 | 3 9 | latter | This sentence does not start with an uppercase letter
+
+Line 1, column 4, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Tensor
+  "tensor. Dimensions will vary based on various ...
+   ^^^^^^
+507 | 3 9 | tensor | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,13 @@
+Line 1, column 11, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Does
+        " does not have a default engine implementatio...
+          ^^^^
+27 | 10 14 | does | This sentence does not start with an uppercase letter
+
+Line 1, column 27, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+        " does not have a default engine implementation. Please " 
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+27 | 26 55 | default engine implementation | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+

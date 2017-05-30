@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Zero
+    zero.Resize(block_size); 
+    ^^^^
+253 | 4 8 | zero | This sentence does not start with an uppercase letter
+

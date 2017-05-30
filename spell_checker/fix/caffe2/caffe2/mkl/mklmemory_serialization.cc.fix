@@ -1,0 +1,48 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+    if (blob.IsType<MKLMemory<float>>()) { 
+    ^^
+30 | 4 6 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+      const MKLMemory<float>& src = blob.Get<MKLMem...
+      ^^^^^
+31 | 6 11 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Src
+      src.CopyTo(proto->mutable_float_data()->mut...
+      ^^^
+43 | 6 9 | src | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+      const MKLMemory<double>& src = blob.Get<MKLMe...
+      ^^^^^
+45 | 6 11 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Src
+      src.CopyTo(proto->mutable_double_data()->mu...
+      ^^^
+57 | 6 9 | src | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Acceptor
+    acceptor(name, blob_proto.SerializeAsString()); ...
+    ^^^^^^^^
+63 | 4 12 | acceptor | This sentence does not start with an uppercase letter
+
+Line 1, column 67, Rule ID: DT_JJ_NO_NOUN[1]
+Message: Probably a noun is missing in this part of the sentence.
+...ery time we do a deserializer we create a new MKL 
+                                           ^^^^^
+90 | 66 71 | a new | Probably a noun is missing in this part of the sentence.
+

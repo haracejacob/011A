@@ -1,0 +1,84 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: State
+    state.SkipWithError("No CUDA available, skipp...
+    ^^^^^
+8 | 4 9 | state | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+16 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+25 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+34 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+44 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+53 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+65 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+78 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+95 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+106 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+133 | 2 7 | while | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: While
+  while (state.KeepRunning()) { 
+  ^^^^^
+146 | 2 7 | while | This sentence does not start with an uppercase letter
+

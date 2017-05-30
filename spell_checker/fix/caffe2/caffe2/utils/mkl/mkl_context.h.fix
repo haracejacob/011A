@@ -1,0 +1,7 @@
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Option
+            option.has_random_seed() ? option.random_seed(...
+            ^^^^^^
+24 | 12 18 | option | This sentence does not start with an uppercase letter
+

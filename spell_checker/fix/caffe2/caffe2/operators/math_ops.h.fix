@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Exponent_
+    exponent_ = op.GetSingleArgument<float>("exponent...
+    ^^^^^^^^^
+15 | 4 13 | exponent_ | This sentence does not start with an uppercase letter
+

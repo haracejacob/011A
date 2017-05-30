@@ -1,0 +1,7 @@
+Line 1, column 25, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: ShouldContinue
+                        ShouldContinue shouldContinue) { 
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+225 | 24 53 | ShouldContinue shouldContinue | Possible typo: you repeated a word
+

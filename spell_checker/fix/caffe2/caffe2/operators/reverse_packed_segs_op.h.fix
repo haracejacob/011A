@@ -1,0 +1,7 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Context_
+    context_.FinishDeviceComputation(); 
+    ^^^^^^^^
+62 | 4 12 | context_ | This sentence does not start with an uppercase letter
+

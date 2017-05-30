@@ -1,0 +1,7 @@
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Output_data
+        output_data[i] = select_data[i] ? left_data[i] : ri...
+        ^^^^^^^^^^^
+69 | 8 19 | output_data | This sentence does not start with an uppercase letter
+

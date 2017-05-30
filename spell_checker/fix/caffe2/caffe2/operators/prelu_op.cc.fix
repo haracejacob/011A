@@ -1,0 +1,49 @@
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+      out[i] = v > 0 ? v : v * w; 
+      ^^^
+19 | 6 9 | out | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+    out[i] = v > 0 ? v : v * w; 
+    ^^^
+36 | 4 7 | out | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Out
+    out[i] = v > 0 ? v : v * w; 
+    ^^^
+87 | 4 7 | out | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto C = order_ == StorageOrder::NCHW ?...
+  ^^^^^
+104 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: If
+  if (!C_shared) { 
+  ^^
+107 | 2 4 | if | This sentence does not start with an uppercase letter
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+  const auto C = order_ == StorageOrder::NCHW ?...
+  ^^^^^
+181 | 2 7 | const | This sentence does not start with an uppercase letter
+
+Line 1, column 7, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Const
+      const auto div_factor = C_shared ? C : 1; 
+      ^^^^^
+195 | 6 11 | const | This sentence does not start with an uppercase letter
+

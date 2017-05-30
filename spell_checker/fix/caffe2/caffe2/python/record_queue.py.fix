@@ -1,0 +1,105 @@
+Line 1, column 19, Rule ID: EN_A_VS_AN
+Message: Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+Suggestion: a
+Implementation of an queue wrapper. 
+                  ^^
+3 | 18 20 | an | Use 'a' instead of 'an' if the following word doesn't start with a vowel sound, e.g. 'a sentence', 'a university'
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+        with core.NameScope(read_net.NextName(self.n...
+        ^^^^
+24 | 8 12 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Status
+            status = read_net.NextName() 
+            ^^^^^^
+25 | 12 18 | status | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Fields
+            fields = read_net.SafeDequeueBlobs( 
+            ^^^^^^
+26 | 12 18 | fields | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Writer_net
+        writer_net.CheckDatasetConsistency( 
+        ^^^^^^^^^^
+39 | 8 18 | writer_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Status
+        status = writer_net.NextName() 
+        ^^^^^^
+41 | 8 14 | status | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Writer_net
+        writer_net.SafeEnqueueBlobs( 
+        ^^^^^^^^^^
+42 | 8 18 | writer_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Init_net
+        init_net = core.Net(self.name + '/init_net') 
+        ^^^^^^^^
+61 | 8 16 | init_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Self
+        self.blobs_queue = init_net.CreateBlobsQueue...
+        ^^^^
+62 | 8 12 | self | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+        core.workspace.RunNetOnce(init_net) 
+        ^^^^
+67 | 8 12 | core | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Exit_net
+        exit_net = core.Net(self.name + '/exit_net') 
+        ^^^^^^^^
+73 | 8 16 | exit_net | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Exit_net
+        exit_net.CloseBlobsQueue(self.blobs_queue, 0) 
+        ^^^^^^^^
+74 | 8 16 | exit_net | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Producer_step
+            producer_step:    the step insert the data into the q...
+            ^^^^^^^^^^^^^
+88 | 12 25 | producer_step | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_reader
+            net_reader = core.Net(name) 
+            ^^^^^^^^^^
+96 | 12 22 | net_reader | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Net_prod
+            net_prod = core.Net(name) 
+            ^^^^^^^^
+101 | 12 20 | net_prod | This sentence does not start with an uppercase letter
+

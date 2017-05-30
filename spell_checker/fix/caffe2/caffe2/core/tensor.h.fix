@@ -1,0 +1,48 @@
+Line 1, column 36, Rule ID: THREE_NN[1]
+Message: You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+ * (the device is specified by the Context template argument), and deals with 
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+72 | 35 60 | Context template argument | You used three nouns after one another, and this might decrease readability. You might consider rewording the sentence.
+
+Line 1, column 30, Rule ID: THIS_NNS[1]
+Message: Did you mean 'these'?
+Suggestion: these
+   * elements, in which case this tensors' capacity is grown at a factor ...
+                             ^^^^
+182 | 29 33 | this | Did you mean 'these'?
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Template
+  template <typename... Ts> 
+  ^^^^^^^^
+267 | 2 10 | template | This sentence does not start with an uppercase letter
+
+Line 1, column 10, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Been
+        "been changed. If you find this error, most l...
+         ^^^^
+325 | 9 13 | been | This sentence does not start with an uppercase letter
+
+Line 1, column 30, Rule ID: EN_A_VS_AN
+Message: Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+Suggestion: an
+   * allows one to e.g. have a n-dimensional Tensor and a flattened ve...
+                             ^
+357 | 29 30 | a | Use 'an' instead of 'a' if the following word starts with a vowel sound, e.g. 'an article', 'an hour'
+
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Inline
+  inline bool IsType() const { return meta_.Matc...
+  ^^^^^^
+603 | 2 8 | inline | This sentence does not start with an uppercase letter
+
+Line 1, column 41, Rule ID: MUCH_COUNTABLE[1]
+Message: Use 'many' with countable nouns.
+Suggestion: many
+...  // In case of chunk load we store how much data was already loaded 
+                                           ^^^^
+646 | 40 44 | much | Use 'many' with countable nouns.
+

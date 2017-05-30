@@ -1,0 +1,28 @@
+Line 1, column 13, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+    caffe2::Timer timer; 
+            ^^^^^^^^^^^
+27 | 12 23 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Double
+    double elapsed_seconds = timer.Seconds(); 
+    ^^^^^^
+37 | 4 10 | double | This sentence does not start with an uppercase letter
+
+Line 1, column 13, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: Timer
+    caffe2::Timer timer; 
+            ^^^^^^^^^^^
+47 | 12 23 | Timer timer | Possible typo: you repeated a word
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Double
+    double elapsed_seconds = timer.Seconds(); 
+    ^^^^^^
+51 | 4 10 | double | This sentence does not start with an uppercase letter
+

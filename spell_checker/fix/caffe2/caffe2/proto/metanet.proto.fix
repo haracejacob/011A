@@ -1,0 +1,7 @@
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: ModelInfo
+  optional ModelInfo modelInfo = 3; 
+           ^^^^^^^^^^^^^^^^^^^
+41 | 11 30 | ModelInfo modelInfo | Possible typo: you repeated a word
+

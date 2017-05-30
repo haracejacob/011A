@@ -1,0 +1,35 @@
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+    the caffe2 core binary. In C++, this is usu...
+    ^^^
+18 | 4 7 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Dependency
+    dependency during compilation time, or via dynload...
+    ^^^^^^^^^^
+19 | 4 14 | dependency | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Name
+        name: a name that ends in .so, such as "my_c...
+        ^^^^
+23 | 8 12 | name | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: With
+    with extension_loader.DlopenGuard(): 
+    ^^^^
+46 | 4 8 | with | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Core
+    core.RefreshRegisteredOperators() 
+    ^^^^
+49 | 4 8 | core | This sentence does not start with an uppercase letter
+

@@ -1,0 +1,28 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Is
+is somewhat complex. It trades of generali...
+^^
+24 | 0 2 | is | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto params = argsHelper.GetRepeatedArgument...
+    ^^^^
+50 | 4 8 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: ArgsHelper
+        argsHelper.GetRepeatedArgument<int32_t>("initial_r...
+        ^^^^^^^^^^
+52 | 8 18 | argsHelper | This sentence does not start with an uppercase letter
+
+Line 1, column 9, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: ArgsHelper
+        argsHelper.GetRepeatedArgument<int32_t>("outputs_w...
+        ^^^^^^^^^^
+58 | 8 18 | argsHelper | This sentence does not start with an uppercase letter
+

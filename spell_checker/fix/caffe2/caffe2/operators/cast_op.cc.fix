@@ -1,0 +1,28 @@
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: The
+the converted type. The 'to' argument must ...
+^^^
+101 | 0 3 | the | This sentence does not start with an uppercase letter
+
+Line 1, column 1, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: In
+in the 'DataType' enum field in the Tensor...
+^^
+102 | 0 2 | in | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto to_name = argsHelper.GetSingleArgument<...
+    ^^^^
+131 | 4 8 | auto | This sentence does not start with an uppercase letter
+
+Line 1, column 5, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Auto
+    auto from_name = argsHelper.GetSingleArgumen...
+    ^^^^
+132 | 4 8 | auto | This sentence does not start with an uppercase letter
+

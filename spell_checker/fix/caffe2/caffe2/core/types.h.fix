@@ -1,0 +1,7 @@
+Line 1, column 46, Rule ID: CD_NN[1]
+Message: Possible agreement error. The noun bit seems to be countable, so consider using: '16 bites', '16 bits'.
+Suggestion: 16 bites; 16 bits
+...         "Short on this platform is not 16 bit."); 
+                                           ^^^^^^
+50 | 45 51 | 16 bit | Possible agreement error. The noun bit seems to be countable, so consider using: '16 bites', '16 bits'.
+

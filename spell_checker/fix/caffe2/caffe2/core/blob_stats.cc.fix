@@ -1,0 +1,7 @@
+Line 1, column 3, Rule ID: UPPERCASE_SENTENCE_START
+Message: This sentence does not start with an uppercase letter
+Suggestion: Return
+  return p ? p->sizeBytes(blob) : 0; 
+  ^^^^^^
+29 | 2 8 | return | This sentence does not start with an uppercase letter
+

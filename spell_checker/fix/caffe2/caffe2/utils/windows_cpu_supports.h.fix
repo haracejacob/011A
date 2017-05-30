@@ -1,0 +1,7 @@
+Line 1, column 12, Rule ID: ENGLISH_WORD_REPEAT_RULE
+Message: Possible typo: you repeated a word
+Suggestion: long
+  unsigned long long xcrFeatureMask = _xgetbv(_XCR_XFEATURE_...
+           ^^^^^^^^^
+13 | 11 20 | long long | Possible typo: you repeated a word
+
